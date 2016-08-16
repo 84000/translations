@@ -1,0 +1,305 @@
+<!--Reviewed and finalized by John, placed in TEI folder 6 Jun 2016-->
+<!--from the tei (production) folder 2016_08_15 -->
+<?xml-model href="oxygen:/Exist$84000-AWS/db/84000/schema/84000-ODD.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="bo">མི་རྟག་པ་ཉིད་ཀྱི་མདོ།</title>
+                <title type="mainTitle" xml:lang="eng">The Sūtra on Impermanence</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">Anityatāsūtra</title>
+                <title type="longTitle" xml:lang="bo"/>
+                <title type="longTitle" xml:lang="Bo-Ltn">mi rtag pa nyid kyi mdo</title>
+                <title type="longTitle" xml:lang="eng"/>
+                <title type="longTitle" xml:lang="Sa-Ltn"/>
+                <author role="translatorMain">Translated by the Sakya Pandita Translation Group
+                    (International Buddhist Academy Division)<lb/> under the patronage and
+                    supervision of 84000: Translating the Words of the Buddha</author>
+                <author role="translatorEng">Christian Bernert</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 1.0 <date>2015</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>84000: Translating the Words of the Buddha</name> is a global non-profit
+                    initiative that aims to translate all of the Buddha’s words into modern
+                    languages, and to make them available to everyone.</publisher>
+                <availability>
+                    <licence>
+                        <graphic url="http://i.creativecommons.org/l/by-nc-nd/2.0/88x31.png"/>
+                        <lb/>
+                        <p>This work is provided under the protection of a Creative Commons CC
+                            BY-NC-ND (Attribution - Non-commercial - No-derivatives) 3.0 copyright.
+                            It may be copied or printed for fair use, but only with full
+                            attribution, and not for commercial advantage or personal compensation.
+                            For full details, see the Creative Commons license.</p>
+                    </licence>
+                </availability>
+                <idno xml:id="UT22084-072-009"/>
+                <date>2013</date>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <ref>Toh 309</ref>
+                    <biblScope>Degé Kangyur, vol 72 (mdo sde, sa), folios 155a-155b</biblScope>
+                    <author role="translatorTib">Surendrabodhi</author>
+                    <author role="translatorTib">Zhang Yeshé Dé</author>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <!-- Contents
+            Summary
+            Acknowledgments
+            Introduction
+            The Translation
+            The Sūtra on Impermanence
+            Notes
+            Bibliography-->
+    <!--            IS THIS NOTE STILL VALID DUE TO ITS LINK?  <note place="end">See, for example,
+                            <title xml:lang="eng">The Questions of the Nāga King Sāgara</title> (Toh 155),
+                        http://read.84000.co/#!ReadingRoom/UT22084-058-002/0. </note>-->
+    <text>
+        <front>
+            <div type="summary">
+                <head type="summary">Summary</head>
+                <milestone unit="chunk"/>
+                <p>In this brief sūtra, the Buddha reminds his followers of one of the principal
+                    characteristics of saṃsāric existence: the reality of impermanence. The four
+                    things cherished most in this world, the Buddha says—namely good health, youth,
+                    prosperity, and life—are all impermanent. He closes his teaching with a verse,
+                    asking how beings, afflicted as they are by impermanence, can take delight in
+                    anything desirable, and indirectly urging his disciples to practice the path of
+                    liberation.</p>
+            </div>
+            <div type="acknowledgment">
+                <head type="acknowledgment">Acknowledgments</head>
+                <milestone unit="chunk"/>
+                <p>Translation by the Sakya Pandita Translation Group (International Buddhist
+                    Academy Division, Kathmandu). This sūtra was translated from the Tibetan into
+                    English by Christian Bernert and edited by Vivian Paganuzzi.</p>
+                <p>This translation has been completed under the patronage and supervision of 84000:
+                    Translating the Words of the Buddha.</p>
+            </div>
+            <div type="introduction">
+                <head type="introduction">Introduction</head>
+                <div type="section">
+                    <milestone unit="chunk"/>
+                    <p> This sūtra highlights one of the most fundamental teachings of the
+                        Buddha—recognizing the impermanence (<foreign type="term" xml:lang="Sa-Ltn">anityatā</foreign>) of conditioned phenomena. The fact that such
+                        phenomena are impermanent (<foreign type="term" xml:lang="Sa-Ltn">anitya</foreign>) is listed as the first of the three principal
+                        characteristics of existence, the other two being the suffering, or
+                        unsatisfactoriness, of phenomena (<foreign type="term" xml:lang="Sa-Ltn">duḥkha</foreign>), and their no-self, or lack of an inherent substance
+                            (<foreign type="term" xml:lang="Sa-Ltn">anātman</foreign>). It is the
+                        clear understanding of the reality of these facts of life that can bring
+                        about a profound and essential change in a person’s worldview, marking the
+                        point of entry to the path to liberation.<note place="end">See <title xml:lang="eng">The Three Basic Facts of Existence</title> (The
+                            Wheel, Publication no. 186, 187) (details in bibliography).</note>
+                        Impermanence is also one of the four seals of the Buddha’s teaching
+                        (comprising these three characteristics of existence and a fourth principle,
+                        that nirvāṇa is peace), often described as summarizing or epitomizing the
+                        Buddhadharma, and more particularly as the criteria that together enable the
+                        variety of Buddhist philosophical views to be distinguished from
+                        non-Buddhist ones.<note place="end">See, for example, <title xml:lang="eng">The Questions of the Nāga King Sāgara</title> (Toh 155). </note>
+                    </p>
+                </div>
+                <div type="section">
+                    <head type="section">Sūtras on impermanence</head>
+                    <milestone unit="chunk"/>
+                    <p>The Tibetan canon contains two sūtras with the title <title xml:lang="eng">Sūtra on Impermanence </title>(<title xml:lang="Bo-Ltn">mi rtag pa nyid
+                            kyi mdo</title>), both found in the same section of the Kangyur (mdo
+                        sde, Toh. 309 and 310). The sūtra translated here is the first, the shorter
+                        of the two. Sūtras with equivalent titles are also found in other Buddhist
+                        canons, but their contents differ substantially from the one translated
+                        here. The Chinese Tripiṭaka, for instance, contains two sūtras so entitled
+                        (Taishō Nos. 801 and 759), and in the Samyutta Nikāya of the Pāli canon, the
+                        collection of discourses grouped by themes, there are a number of different
+                        texts with the title <title xml:lang="eng">Sutta on Impermanence</title> (P.
+                            <title xml:lang="Sa-Ltn">Aniccasutta</title>).<note place="end">For
+                                instance Samyutta Nikaya 22.45 and 46, and Samyutta Nikaya 36.9.</note>
+                    </p>
+                </div>
+                <div type="section">
+                    <head type="section">Note on the translation</head>
+                    <milestone unit="chunk"/>
+                    <p>The content of this sūtra is rather straightforward and its interpretation
+                        does not pose any major difficulties. One particular term, however, did
+                        present a problem of translation: the Tibetan <foreign type="term" xml:lang="Bo-Ltn">dben pa</foreign>, which commonly translates the
+                        Sanskrit <foreign type="term" xml:lang="Sa-Ltn">viveka / vivikta
+                        </foreign>and is usually related to concepts of isolation and seclusion.
+                        Here it seems to refer more specifically to the act of picking something
+                        out, separating it from other things and thus singling it out from them as
+                        special.</p>
+                </div>
+            </div>
+        </front>
+        <body>
+            <div type="translation">
+                <head type="translation">The Translation</head>
+                <head type="titleMain">The Sūtra on Impermanence</head>
+                <div type="section">
+                    <milestone unit="chunk"/>
+                    <p>
+                        <!--<modularPassage type="homage">-->Homage to all buddhas and
+                        bodhisattvas!<!--</modularPassage>-->
+                    </p>
+                    <lb/>
+                    <milestone unit="chunk"/>
+                    <p>Thus did I hear at one time. The Bhagavān was dwelling in Anāthapiṇḍada’s
+                        park, in the Jeta Grove in Śrāvastī, along with a large monastic assembly.
+                        The Bhagavān addressed the monks as follows:</p>
+                    <lb/>
+                    <milestone unit="chunk"/>
+                    <p>“Monks, four things are appealing, singled out, considered valuable,
+                            pleasant, and highly appreciated by everyone. What are those four? </p>
+                    <milestone unit="chunk"/>
+                    <p>“Monks, good health is appealing, singled out, considered valuable,
+                            pleasant, and highly appreciated by everyone. Good health, however, ends
+                            with sickness. Monks, sickness is neither appealing, nor is it singled
+                            out, considered valuable, pleasant, or highly appreciated by anyone.</p>
+                    <milestone unit="chunk"/>
+                    <p>“Monks, youth is appealing, singled out, considered valuable, pleasant,
+                            and highly appreciated by everyone. Youth, however, ends with the aging
+                            of the body. Monks, the aging of the body is neither appealing, nor is
+                            it singled out, considered valuable, pleasant, or highly appreciated by
+                            anyone.</p>
+                    <milestone unit="chunk"/>
+                    <p>“Monks, prosperity is appealing, singled out, considered valuable,
+                            pleasant, and highly appreciated by everyone. Prosperity, however, ends
+                            with its decline. Monks, the decline of prosperity is neither appealing,
+                            nor is it singled out, nor considered valuable, pleasant, or highly
+                            appreciated by anyone. <ref cRef="F.155.b"/>
+                    </p>
+                    <milestone unit="chunk"/>
+                    <p>“Monks, life is appealing, singled out, considered valuable, pleasant,
+                            and highly appreciated by everyone. Life, however, ends in death. Monks,
+                            death is neither appealing, nor is it singled out, considered valuable,
+                            pleasant, or highly appreciated by anyone.”</p>
+                    <milestone unit="chunk"/>
+                    <lb/>
+                    <p>Thus spoke the Bhagavān, the Sugata, and having spoken the Teacher added
+                        these words:</p>
+                    <lb/>
+                    <milestone unit="chunk"/>
+                    <lg>
+                        <l>“Good health is impermanent, </l>
+                        <l>Youth does not last. </l>
+                        <l>Prosperity is impermanent, </l>
+                        <l>And life, too, does not last. </l>
+                        <l>How can beings, afflicted as they are by impermanence,</l>
+                        <l>Take delight in desirable things like these?”</l>
+                    </lg>
+                    <milestone unit="chunk"/>
+                    <p>When the Bhagavān had thus spoken, the monks rejoiced and praised his words.
+                    </p>
+                </div>
+                <div type="colophon">
+                    <milestone unit="chunk"/>
+                    <p>
+                        This completes <title xml:lang="eng">The Sūtra on Impermanence</title>.
+                    </p>
+                    <p>Translated and edited by the Indian scholar Surendrabodhi and the principal
+                        editor-translator, the monk Zhang Yeshé Dé. It was then also reviewed and
+                        finalized in accordance with current language reforms.</p>
+                </div>
+            </div>
+        </body>
+        <back>
+            <div type="notes">
+                <head type="notes">Notes</head>
+            </div>
+            <div type="listBibl">
+                <head type="listBibl">Bibliography</head>
+                <div type="section">
+                    <bibl>
+                        <title xml:lang="Bo-Ltn">mi rtag pa nyid kyi mdo</title> (<title xml:lang="Sa-Ltn">Anityatāsūtra</title>). Toh 309, Degé Kangyur vol. 72
+                        (mdo sde, sa), folios 155a.2–155b.4. </bibl>
+                    <bibl>
+                        <title xml:lang="Bo-Ltn">mi rtag pa nyid kyi mdo</title> (<title xml:lang="Sa-Ltn">Anityatāsūtra</title>). bka’ ’gyur (dpe bsdur ma)
+                        [Comparative Edition of the Kangyur], krung go’i bod rig pa zhib ’jug ste
+                        gnas kyi bka’ bstan dpe sdur khang (The Tibetan Tripitaka Collation Bureau
+                        of the China Tibetology Research Center). 108 volumes. Beijing: krung go’i
+                        bod rig pa dpe skrun khang (China Tibetology Publishing House), 2006–9, vol.
+                        72, 434-436.</bibl>
+                    <bibl>Nyanaponika Thera (transl.).<title xml:lang="eng"> Anicca Sutta:
+                            Impermanent</title> (SN 36.9), translated from the Pali. <title xml:lang="eng">Access to Insight</title>, 30 June 2010,
+                        http://www.accesstoinsight.org/tipitaka/sn/sn36/sn36.009.nypo.html .
+                        Retrieved on 10 May 2013.</bibl>
+                    <bibl>“The Three Basic Facts of Existence: I. Impermanence (Anicca), with a
+                        preface by Nyanaponika Thera,” <title xml:lang="eng">Access to
+                            Insight</title>, 2 December 2011,
+                        http://www.accesstoinsight.org/lib/authors/various/wheel186.html . Retrieved
+                        on 10 May 2013.</bibl>
+                </div>
+            </div>
+            <div type="glossary">
+                <list>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-072-009-te1">three principal characteristics of
+                                existence</term>
+                            <term xml:lang="Bo-Ltn">bkar btags gsum </term>
+                            <term xml:lang="Sa-Ltn">(Pāli tilakkhaṇa)</term>
+                            <term type="definition">Impermanence, suffering, and no-self. They are
+                                called the “three characteristics” in Pāli, a term that has no
+                                direct equivalent in the Sanskrit or Tibetan literature; in Tibetan,
+                                these three factors are usually called the “three seals of the
+                                Buddha's teaching” in parallel to the “four seals of the Buddha’s
+                                teaching,” q.v.</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-072-009-te2">impermanent</term>
+                            <term xml:lang="Bo-Ltn">mi rtag pa </term>
+                            <term xml:lang="Sa-Ltn">anitya</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-072-009-te3">impermanence</term>
+                            <term xml:lang="Bo-Ltn">mi rtag pa nyid </term>
+                            <term xml:lang="Sa-Ltn">anityatā</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-072-009-te4">suffering</term>
+                            <term xml:lang="Bo-Ltn">bdug bsngal </term>
+                            <term xml:lang="Sa-Ltn">duḥkha</term>
+                            <term type="alternative" xml:lang="eng">unsatisfactoriness</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-072-009-te5">no-self</term>
+                            <term xml:lang="Bo-Ltn">bdag med </term>
+                            <term xml:lang="Sa-Ltn">anātman</term>
+                            <term type="alternative" xml:lang="eng">lack of an inherent
+                                substance</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-072-009-te6">four seals of the Buddha’s teaching</term>
+                            <term xml:lang="Bo-Ltn">bka’ rtags kyi phyag rgya bzhi__,__bkar btags bzhi__,__chos kyi sdom bzhi </term>
+                            <term xml:lang="Sa-Ltn">caturdharmoddāna</term>
+                            <term type="definition">All conditioned phenomena are impermanent; all
+                                defilements are suffering; all phenomena are without self; nirvāṇa
+                                is peace.</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-072-009-te7">singled out</term>
+                            <term xml:lang="Bo-Ltn">dben pa </term>
+                            <term xml:lang="Sa-Ltn">viveka, vivikta</term>
+                        </gloss>
+                    </item>
+                </list>
+            </div>
+        </back>
+    </text>
+</TEI>

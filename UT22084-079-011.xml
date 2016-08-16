@@ -1,0 +1,2783 @@
+<!-- Reviewed and edited by John, placed in TEI folder 22 July 2016 -->
+<!--from tei (production) folder 2016_08_15 -->
+<?xml-model href="oxygen:/Exist$84000-AWS/db/84000/schema/84000-ODD.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="bo">དཔལ་གསང་བ་ཐམས་ཅད་གཅོད་པའི་རྒྱུད་ཀྱི་རྒྱལ་པོ།</title>
+                <title type="mainTitle" xml:lang="eng">The Glorious King of Tantras That Resolves
+                    All Secrets</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">Śrīguhyasarvacchindatantrarāja</title>
+                <title type="longTitle" xml:lang="bo">གསང་བ་ཐམས་ཅད་གཅོད་པའི་རྒྱུད།</title>
+                <title type="longTitle" xml:lang="Bo-Ltn">gsang ba thams cad gcod pa’i rgyud</title>
+                <title type="longTitle" xml:lang="eng">The Tantra That Resolves All Secrets</title>
+                <title type="longTitle" xml:lang="Sa-Ltn">Guhyasarvacchindatantra</title>
+                <author role="translatorMain">Translated by the Dharmachakra Translation
+                    Committee<lb/> under the patronage and supervision of 84000: Translating the
+                    Words of the Buddha</author>
+                <author role="translatorEng">James Gentry</author>
+                <author role="editorEng">Andreas Doctor</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 2.0 <date>2011 - 2016</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>84000: Translating the Words of the Buddha</name> is a global non-profit
+                    initiative that aims to translate all of the Buddha’s words into modern
+                    languages, and to make them available to everyone.</publisher>
+                <availability>
+                    <licence>
+                        <graphic url="http://i.creativecommons.org/l/by-nc-nd/2.0/88x31.png"/>
+                        <lb/>
+                        <p>This work is provided under the protection of a Creative Commons CC
+                            BY-NC-ND (Attribution - Non-commercial - No-derivatives) 3.0 copyright.
+                            It may be copied or printed for fair use, but only with full
+                            attribution, and not for commercial advantage or personal compensation.
+                            For full details, see the Creative Commons license.</p>
+                    </licence>
+                </availability>
+                <idno xml:id="UT22084-079-011"/>
+                <date>2011</date>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <ref>Toh. 384</ref>
+                    <biblScope>Degé Kangyur, vol. 79 (rgyud ’bum, ga), folios
+                        187a-195b</biblScope>
+                    <author role="translatorTib">Gayādhara</author>
+                    <author role="translatorTib">Śākya Yeshé</author>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <!--Could not find these terms in the text:   
+     <gloss><term xml:id="UT22084-079-011-te9"></term>
+        <term xml:lang="Bo-Ltn">bya grub ye shes</term>
+        <term xml:lang="Sa-Ltn">kṛtyanuṣṭhānajñāna</term>
+   </gloss>
+    <gloss><term xml:id="UT22084-079-011-te24">karmic action</term>
+        <term xml:lang="Bo-Ltn">las</term>
+        <term xml:lang="Sa-Ltn">karman</term>
+   </gloss> -->
+
+    <!--    Contents
+    Summary
+    Acknowledgments
+    Introduction
+    The Translation
+    The Glorious King of Tantras That Resolves All Secrets
+    The First Secret
+    The Second Secret
+    The Third Secret
+    The Fourth Secret
+    The Final Teaching
+    Notes
+    Bibliography-->
+    <text>
+        <front>
+            <div type="summary">
+                <head type="summary">Summary</head>
+                <milestone unit="chunk"/>
+                <p>As its title suggests, this tantra is specifically concerned with the proper
+                    interpretation, or “resolution,” of the highly esoteric or “secret” imagery and
+                    practices associated with deity yoga in both its development and completion
+                    stages as described in the Yoginītantra class of tantras. The work is organized
+                    according to a dialogue between the Buddha and Vajragarbha—the lead interlocutor
+                    throughout many of the Yoginītantras—and the Buddha’s responses give particular
+                    attention to the specifications of the subtle body completion-stage yoga
+                    involving manipulations of the body’s subtle energy channels, winds and fluids
+                    in conjunction with either a real or imagined consort. The tantra sets its
+                    interpretation of these common Yoginītantra themes and imagery within the wider
+                    context of the four initiations prevalent in this class of tantras. In resolving
+                    the secrets connected with each initiation, the text elaborates the different
+                    levels of meaning connected with each initiation’s contemplative practices.</p>
+            </div>
+            <div type="acknowledgment">
+                <head type="acknowledgment"> Acknowledgments</head>
+                <milestone unit="chunk"/>
+                <p>Translated by the Dharmachakra Translation Committee.</p>
+                <p>The principal translator for this text was James Gentry, who also wrote the
+                    introduction. Andreas Doctor later edited the translation and compared it with
+                    the original Tibetan.</p>
+                <p>The Dharmachakra Translation Committee would like to thank Chökyi Nyima Rinpoche
+                    for suggesting this tantra for translation, and Khenpo Sangyay Gyatso for his
+                    generous assistance with the resolution of several difficult passages.</p>
+                <p>This translation has been completed under the patronage and supervision of 84000:
+                    Translating the Words of the Buddha.</p>
+            </div>
+            <div type="introduction">
+                <head type="introduction">Introduction</head>
+                <div type="section">
+                    <milestone unit="chunk"/>
+                    <p>This translation is based on seven Tibetan-language textual witnesses of a
+                        translation from Sanskrit into Tibetan ostensibly executed by the 11th
+                        century translation team of the Indian <foreign type="term" xml:lang="Sa-Ltn">paṇḍita</foreign> Gayādhara and the Tibetan translator
+                        Drokmi Śākya Yeshé. The Sanskrit manuscript(s) upon which tradition
+                        claims Gayādhara and Drokmi based their translation has since vanished from
+                        the purview of Buddhists and Buddhist scholars.<note place="end">It should
+                            be noted that despite traditional claims there is considerable text
+                            internal evidence that this and many other works attributed to the pair
+                            of Gayādhara and Drokmi are not exactly translations based on Indian
+                            prototypes, but “grey texts,” that is, texts that were never completely
+                            Indian or Tibetan, but originated from the inspired collaborations of
+                            Tibetan and Indian translators and scholars. For more on the notion of
+                            “grey texts,” see Davidson (2000), pp 202-224.</note> In reliance,
+                        then, on the two conjectured dates of Drokmi’s death, this tantra’s <foreign xml:lang="la">terminus ante quem</foreign> can only be roughly estimated
+                        to be either 1043 or 1072.<note place="end">The textual record is
+                            inconsistent with regard to Drokmi’s precise birth and death dates. In
+                            the TBRC database of persons, his birth year is given as 992/993 and his
+                            death as 1043?/1072?. Very little information appears to exist with
+                            regard to Gayādhara’s precise dates.</note> Tibetan historical records
+                        claim that Gayādhara continued to be active after Drokmi’s death.<note place="end">Gö lotsāwa Zhönupal (translation), p 207.</note>
+                    </p>
+                    <milestone unit="chunk"/>
+                    <p>Judging from its bibliographic location within the relevant Kangyur
+                        collections, as well as from the distinctive themes it advances, this tantra
+                        belongs to the Yoginī class of tantras. Post-10th century Tibetan
+                        classification schemes<note place="end">For more on the Tibetan
+                            classification schemes for Indian tantric literature translated between
+                            the 10th through the 12th centuries see Gibson (1997), Snellgrove
+                            (1988), and, more recently, Dalton (2005).</note> that were formalized by
+                        the 14th century in the structure of the Tibetan Kangyurs typically
+                        catalogue the translated texts of the Yoginītantra class, which Tibetans
+                        called “Mother tantras,” alongside what they called “Father tantras”<note place="end">New translation schools usually cite the <title xml:lang="Sa-Ltn">Guhyasamājatantra</title> as the paradigmatic
+                            example of the Father class of tantras.</note> and “Non-dual
+                            tantras,”<note place="end">The <title xml:lang="Sa-Ltn">Kālacakratantra</title> is most often cited as the paradigmatic
+                            Non-dual tantra, although the nature and boundaries of this category has
+                            been a controversial topic among Tibetan exegetes.</note> to make up the
+                        more inclusive category of “Unexcelled Yoga Tantra” (<foreign type="term" xml:lang="Sa-Ltn">yoganiruttara / anuttarayoga tantra</foreign>).<note place="end">Gray (2007, p 5, n 10) states that the category “unexcelled yoga tantra,” (<foreign type="term" xml:lang="Bo-Ltn">rnal ’byor bla med kyi rgyud</foreign>) which translates “anuttarayoga-tantra,” is attested in
+                            Tibetan translations of Indian Buddhist tantric literature like the
+                                <title xml:lang="Sa-Ltn">Vajrapañjara</title> and its commentaries.
+                            However, Christian Wedemeyer in a personal correspondence has mentioned
+                            that “annuttarayoga-tantra” never appears in the Sanskrit literature,
+                            only “yoganiruttara.”</note> The Unexcelled Yoga tantras, believed by
+                        most Tibetan exegetes to be the ultimate revelation of the Buddha of our
+                        eon, therefore occupy the first major bibliographic category in the “tantra
+                            collection”<note place="end">
+                            <title xml:lang="Bo-Ltn">rgyud ’bum</title>.</note> of most Kangyur
+                        collections. Unexcelled Yoga tantras are in turn followed by the tantra
+                        classes of “Yoga,” “Conduct” and finally “Action,” an order thought to
+                        represent along a descending gradient the relative soteriological power of
+                        the yogic techniques emphasized in each textual class.</p>
+                    <milestone unit="chunk"/>
+                    <p>The same hierarchical logic is also reflected in the Kangyur’s internal
+                        sub-divisions of Unexcelled Yoga tantra itself, where the highest of the high,
+                        Non-dual tantras, are followed by Mother tantras and then by Father tantras,
+                        once again reflecting in descending order Tibetan conceptions of the
+                        relative profundity and power of each sub-class’s methodological emphasis.
+                        In relating the rationale for this tripartite hierarchy in his commentary on
+                        the <title xml:lang="Sa-Ltn">Guhyagarbhatantra</title>, Longchenpa (<foreign type="term" xml:lang="Bo-Ltn">klong chen rab ’byams pa dri med ’od
+                            zer</foreign>, 1308–1364) echoes the following popular tantric
+                        dictum:</p>
+                    <q>
+                        <p>Father tantra primarily teaches generation stage, mother tantra primarily
+                            teaches completion stage, and non-dual tantra primarily teaches their
+                                integration.<note place="end">Longchenpa, F.479. It should be noted, however, that owing to
+                                his sectarian affiliation with the Old School (<foreign type="term" xml:lang="Bo-Ltn">rnying ma</foreign>) of secret mantra,
+                                Longchenpa groups these texts together under the rubric of “Great
+                                Yoga tantra” (Skt. <foreign type="term" xml:lang="Sa-Ltn">Mahāyoga</foreign>, Tib.<foreign type="term" xml:lang="Bo-Ltn">rnal ’byor chen po</foreign>) rather than
+                                that of Unexcelled Yoga tantra. This is because Old School adherents
+                                claim that the tantras otherwise known as “Unexcelled Yoga” are
+                                surpassed in efficacy and profundity by the dispensation of the
+                                Great Perfection.</note>
+                        </p>
+                    </q>
+                    <milestone unit="chunk"/>
+                    <p>In terms of content, then, Yoginītantras emphasize the apex of those Buddhist
+                        tantric methodologies developed on the Indian subcontinent from the 9th
+                        through the 12th centuries CE<note place="end">These dates are advanced by
+                            Isaacson (1998). </note> which later Tibetan exegetes collectively refer
+                        to as completion stage practices. Such practices are distinguished by
+                        Tibetans from those of the Father tantras, where the emphasis is on male
+                        deities, images, and symbols, and the associated practices of development
+                        stage, or deity yoga, in which one imaginatively recreates self and
+                        environment in the form of a central male deity and his celestial
+                        domain.</p>
+                    <milestone unit="chunk"/>
+                    <p>In contrast, the Yoginī or “female practitioner” tantras are said to
+                        emphasize more the special efficacy of female deities, principles and
+                        symbols. These tantras likewise promote yogic techniques—the completion
+                        phase practices of Tibetan parlance—involving highly choreographed
+                        manipulations of the energy channels, winds and seminal fluids that
+                        constitute the human body’s subtle physiology. Such practices center on the
+                        controlled arousal and movement of winds and fluids throughout the subtle
+                        body by means of sexual union with a real or imagined female practitioner or
+                        deity. Other salient features of the Yoginītantras include imagery related
+                        to Indian charnel grounds and the profusion of fierce male (<foreign type="term" xml:lang="Sa-Ltn">heruka</foreign>) and female (<foreign type="term" xml:lang="Sa-Ltn">yoginīs</foreign> and <foreign type="term" xml:lang="Sa-Ltn"> ḍākinīs</foreign>) divinities believed to cavort
+                        there; the ritual preparation, exchange and consumption of “polluting”
+                        substances such as bodily fluids and fleshes; an emphasis on the intimate
+                        connection and correlation between language, cosmos and subtle physiology;
+                        and a considerable degree of language and imagery shared with Hindu Śaiva
+                        tantric traditions, particularly the Kāpālikas.<note place="end">Alexis
+                            Sanderson’s work has been particularly focused on the fluidity between
+                            Buddhist and Śaiva tantric textual traditions. Sanderson argues that it
+                            was the Buddhists who borrowed language and imagery from Śaiva
+                            traditions. For a strong counterargument to Sanderson’s claims, see
+                            Davidson (2002), pp 203-206. </note> For Indian and Tibetan
+                        commentators of Yoginītantras the term <foreign type="term" xml:lang="Sa-Ltn">yoginī</foreign> not only denotes the overtly sexual
+                        nature of the practices these texts prescribe; it also connotes the power
+                        and efficacy of contact with the feminine in all its human and divine
+                        forms.</p>
+                    <milestone unit="chunk"/>
+                    <p>Yet, alongside the profusion of elements that might reflect a non-monastic
+                        origin or audience, the Yoginītantras also often assume knowledge of
+                        traditional Buddhist topics of learning like the dharmas of the Abhidharma,
+                        the ordination status of the various lay and monastic vow holders as
+                        stipulated in the Vinaya, and understandings of self, mind and world drawn
+                        from Middle-way and Mind-only formulations. The <title xml:lang="Sa-Ltn">Hevajratantra</title> and the <title xml:lang="Sa-Ltn">Cakrasaṃvaratantra,</title> the two most well known and widely
+                        practiced Yoginītantras, exhibit well this hybrid combination of
+                        characteristics.</p>
+                    <milestone unit="chunk"/>
+                    <p>Due to the social, political and economic fragmentation that followed the
+                        collapse of the Tibetan empire in 840-42 CE, Tibetans were unable to begin
+                        translating the Yoginītantras until over a century later, toward the end of
+                        the 10th century, when Tibetans once again resumed their large-scale
+                        importation of Indian Buddhist texts and traditions. This renewed interest
+                        in Indian Buddhism among Tibetans, a movement which has recently come to be
+                        called the “Tibetan Buddhist renaissance,”<note place="end">Davidson (2005).
+                        </note> was characterized foremost by the rise of an elite class of Tibetan
+                        scholars specially trained in the daunting task of translating and
+                        interpreting the developments in Indian Buddhist theory and practice which
+                        had transpired in the intervening century. From the inception of this period
+                        the new class of translator-scholars was thrust into the limelight and
+                        enjoyed the status of aristocracy.</p>
+                    <milestone unit="chunk"/>
+                    <p>Drokmi the translator appears to have been an especially important figure
+                        within this new ecclesiastical network. Ronald Davidson’s 2005 study
+                        entitled <title xml:lang="eng">Tibetan Renaissance: Tantric Buddhism in the
+                            Rebirth of Tibetan Culture</title>, which explores the major
+                        socio-religious figures and themes of this important period in Tibetan
+                        history, devotes an entire chapter (Chapter 5: “Drokmi: The Doyen of Central
+                        Tibetan Translators:” 161-209) to the life and career of Drokmi, including
+                        his relationship with the Indian scholar Gayādhara. We refer the reader to
+                        this chapter for a detailed discussion and analysis of Drokmi’s and
+                        Gayādhara’s lives and influence. </p>
+                    <milestone unit="chunk"/>
+                    <p>Here it suffices to note that Tibetan historical records depict Drokmi as
+                        having been especially steeped in Yoginītantra traditions. Drokmi receives
+                        credit, along with Gayādhara, for having produced authoritative translations
+                        of some of the most influential Yoginītantras to circulate in Tibet, most
+                        notably, the seminal texts of the <title xml:lang="Sa-Ltn">Hevajratantra</title> system of practice and exegesis.<note place="end">Gö lotsāwa Zhönupal (translation), pp 205-209.</note> Drokmi is also
+                        described as having produced, again together with Gayādhara, a translation
+                        of the famous <title xml:lang="eng">Root Text of Mārgaphala</title> (<title xml:lang="eng">Path and Fruit</title>), which would later become a core
+                        feature of the institutional identity of the Tibetan Sakya tradition. The
+                        process by which the first few generations of Sakya hierarchs integrated the
+                        laconic <title xml:lang="eng">Root Text of Mārgaphala</title> with the
+                            <title xml:lang="Sa-Ltn">Hevajratantra</title> ritual system to craft a
+                        powerfully influential sectarian identity forms the subject matter of much
+                        of Davidson’s 2005 study. Further readings on the rubric and contents of
+                        Buddhist Yoginītantras include Gray (2007), Isaacson (1998), Sanderson,
+                        (1995a, 1995b and 2001) and Snellgrove (1959 and 1987).</p>
+                    <milestone unit="chunk"/>
+                    <p>In most Kangyurs, <title xml:lang="eng">The Glorious King of Tantras That Resolves All Secrets</title> is found within a corpus of thirty-two works known as the Rali (<title xml:lang="Bo-Ltn">ra li</title>) tantras (Toh 383-414). The corpus is divided into four groups—mind, speech, body, and miscellaneous—each comprising eight tantras. All are works translated by Drokmi, and all but eight with Gayādhara.<note place="end">The exceptions are two translated by Drokmi with Ratnavajra (Toh 383 and 389), and six translated by Drokmi with Yoginī Candramāla (Toh 392-394, 396, 403 and 405).</note>
+                        <title xml:lang="eng">The Glorious King of Tantras That Resolves All Secrets</title> is the second of the first group, the eight mind tantras. It is not clear whether the texts belonging to the Rali corpus were so identified by Drokmi himself or later, but Butön, in his 1323 <title xml:lang="eng">History of the Dharma</title>, includes them in his classified list of canonical texts with the mention that they are “well known as the thirty-two Rali [tantras].”<note place="end">See Butön, F.178.b. He also mentions that they were translated from Indian originals, and that it is not true that they were composed in Tibet—a reference to continuing controversies over their authenticity as canonical texts (see note 1). Editors of the different Kangyurs mostly followed his opinion and included them, but their disputed status led to all except the last, Toh 414, being excluded from the Narthang Kangyur (and hence, later still, from the Lhasa Kangyur).</note> He places them as belonging to the Cakrasaṃvara cycle, and editors of the Kangyur have generally followed this classification. </p>
+                    <milestone unit="chunk"/>
+                    <p>A brief review of the structure and content of <title xml:lang="eng">The
+                            Glorious King of Tantras That Resolves All Secrets </title>reveals the
+                        presence of several Yoginītantra traits. The tantra is organized according
+                        to a dialogue between the Buddha and Vajragarbha, who is the lead
+                        interlocutor of the Buddha’s entourage throughout many of the Yoginītantras,
+                        such as the <title xml:lang="Sa-Ltn">Hevajratantra,</title> and others.
+                        After a brief opening narrative frame common to the Yoginītantras,
+                        Vajragarbha poses a series of four questions about each of the four major
+                        terms of the tantra’s title: secret, resolution, tantra, and king. The
+                        Buddha offers responses, which in turn elicit further questions.
+                        Vajragarbha’s opening four questions structure the body of the text as a
+                        whole, while his follow-up questions tend to open sub-topics for further
+                        discussion. The following outline, which we have extracted in accordance with
+                        Vajragarbha’s questions, reveals the tantra’s thematic flow. Folio numbers
+                        correspond to the Degé witness.</p>
+                    <lb/>
+                    <list rend="numbered">
+                        <milestone unit="chunk"/>
+                        <item>Opening narrative frame (187a.2-.4)</item>
+                        <item n="1">I. What is “secret”? (187a.4-195a.5) <list>
+                                <item n="1.1">1. The first secret, the practice of the development
+                                    stage related to the vase initiation (187a.5-190b.5) <list>
+                                        <item n="1.1.1">A. The support (187a.6-188a.5)</item>
+                                        <item n="1.1.2">B. The supported (188a.5-190b.5) <list>
+                                                <item n="1.1.2.1">i. What is the completion of the
+                                                  thirty-seven features? (188b.6-189a.2)</item>
+                                                <item n="1.1.2.2">ii. How are they “generated”?
+                                                  (189a.2)</item>
+                                                <item n="1.1.2.3">iii. What are their stages like?
+                                                  (189a.2)</item>
+                                                <item n="1.1.2.4">iv. What are the maṇḍala that is
+                                                  the support, its sessions, and its breaks like?
+                                                  (189a.2-189a.5)</item>
+                                                <item n="1.1.2.5">v. How are view and conduct
+                                                  brought into coalescence? (189a.5-189b.1) <list>
+                                                        <item n="1.1.2.5.1">a. What is “ambrosia” like?
+                                                  (189b.2-190a.1) <list>
+                                                                <item n="1.1.2.5.1.1">a1. Outer ambrosia
+                                                  (189b.2-.7)</item>
+                                                                <item n="1.1.2.5.1.2">a2. Inner ambrosia
+                                                  (189b.7-190a.1)</item>
+                                                                <item n="1.1.2.5.1.3">a3. Secret ambrosia
+                                                  (190a.1)</item>
+                                                            </list>
+                                                        </item>
+                                                        <item n="1.1.2.5.2">b. What is the conduct
+                                                  associated with it like? (190a.1-)<list>
+                                                                <item n="1.1.2.5.2.1">b1. Beginners
+                                                  (190a.2)</item>
+                                                                <item n="1.1.2.5.2.2">b2. Superior persons
+                                                  (190a.2-.4)</item>
+                                                            </list>
+                                                        </item>
+                                                        <item n="1.1.2.5.3">c. How do its qualities
+                                                  emerge?</item>
+                                                        <item n="1.1.2.5.4">d. What are all the meanings
+                                                  of the adornments? <list>
+                                                                <item n="1.1.2.5.4.1">d1. What is the “sixth”
+                                                  like? (190a.6-190b.3)</item>
+                                                                <item n="1.1.2.5.4.2">d2. What is a superior
+                                                  person like? (190b.3-.4)</item>
+                                                                <item n="1.1.2.5.4.3">d3. How is desire fully
+                                                  purified? (190b.4-190b.5)</item>
+                                                            </list>
+                                                        </item>
+                                                    </list>
+                                                </item>
+                                            </list>
+                                        </item>
+                                    </list>
+                                </item>
+                                <item n="1.2">2. The second secret, the subtle physiology related
+                                    the secret initiation (190b.5-193a.5) <list>
+                                        <item n="1.2.1">A. Wheels, their locations and natures
+                                            (190b.5-191b.7)</item>
+                                        <item n="1.2.2">B. Subtle energy channels
+                                            (191b.7-192a.3)</item>
+                                        <item n="1.2.3">C. “Camphor” (subtle seminal fluid) abiding
+                                            in those channels (192a.3.4)</item>
+                                        <item n="1.2.4">D. Practices based on this subtle physiology
+                                            (192a.4-193a.5)</item>
+                                    </list>
+                                </item>
+                                <item n="1.3">3. The third secret, sexual yoga related to the
+                                    wisdom-gnosis initiation (193a.5-195a.2) <list>
+                                        <item n="1.3.1">A. What is a cluster of stars like?</item>
+                                        <item n="1.3.2">B. What is coalescence like?</item>
+                                        <item n="1.3.3">C. What is non-duality like?</item>
+                                        <item n="1.3.4">D. The actual practice of sexual yoga and
+                                            the status of its practitioners (194a.1-195a.2) <list>
+                                                <item n="1.3.4.1">i. What is a three initiation
+                                                  fully ordained monk like? (194b.2-.4)</item>
+                                                <item n="1.3.4.2">ii. What are his activities like?
+                                                  (194b.4-195a.2)</item>
+                                            </list>
+                                        </item>
+                                    </list>
+                                </item>
+                                <item n="1.4">4. The fourth secret, related to the fourth initiation
+                                    (195a.2-195a.5)</item>
+                            </list>
+                        </item>
+                        <item n="2">II. What is its “resolution” like? (195a.5-195b.3)</item>
+                        <item n="3">III. What is the meaning of tantra? (195b.3-.5)</item>
+                        <item n="4">IV. And what is its king like? (193b.5-.6)</item>
+                        <item>Closing narrative frame (193b.6-.7)</item>
+                    </list>
+                    <lb/>
+                    <milestone unit="chunk"/>
+                    <p>This text is present in at least seven of the currently extant Kangyurs—the
+                        Coné, Degé, Lithang, Kangxi Peking, Stok Palace, Urga, and Yonglé Peking
+                            versions<note place="end">See bibliography for details.</note> (referenced in the notes, following
+                        Harrison and Eimer’s suggested <foreign xml:lang="la">sigla</foreign>,<note place="end">Harrison and Eimer (1997).</note> as C, D, J, K, S, U, and
+                        Y)—where it occupies 18, 18, 14, 18, 21, 18, and 18 folios, respectively.
+                        While the tantra is located in each of these Kangyurs within the second
+                        bibliographic subdivision of the “collected tantras” section, among the
+                        penultimate Yoginītantras, the location of the “collected tantras” section
+                        varies somewhat between collections. The present translation is based
+                        primarily on the Degé edition, in consultation also with the six other
+                        available witnesses.</p>
+                </div>
+            </div>
+        </front>
+        <body>
+            <div type="translation">
+                <head type="translation">THE TRANSLATION</head>
+                <head type="titleMain">The Glorious King of Tantras That Resolves All Secrets</head>
+                <div type="section">
+                    <head type="sectionTitle">Prologue</head>
+                    <!--added for Curtis -->
+                    <milestone unit="chunk"/>
+                    <p>
+                        <!--<modularPassage type="homage">-->
+                        <ref cRef="F.187a.2"/> I pay homage to Glorious
+                        Vajrasattva!<!--</modularPassage>-->
+                    </p>
+                    <p>Thus have I heard at one time. The Blessed One dwelt in equanimity in the
+                        womb of the Vajra Lady, which is the enlightened body, speech, and mind of
+                        all tathāgatas.</p>
+                    <p>Then, the entourage, including bodhisattva Vajragarbha and others performed
+                        three circumambulations counterclockwise, made outer, inner, and secret
+                        offerings, and asked the following:</p>
+                    <sp>
+                        <speaker>the entourage</speaker>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>O Blessed Vajra Holder!</l>
+                            <l>What is “secret”?</l>
+                            <l>How is it resolved?</l>
+                            <l>What is the meaning of tantra?</l>
+                            <l>And what is its king?</l>
+                        </lg>
+                    </sp>
+                </div>
+                <div type="chapter">
+                    <head type="chapter">The First Secret</head>
+                    <!-- <head type="chapterTitle">The First Secret</head> -->
+                    <milestone unit="chunk"/>
+                    <p>The Blessed One said:</p>
+                    <sp>
+                        <speaker>The Blessed One</speaker>
+                        <lg>
+                            <l>“Secret” is four-fold.</l>
+                            <l>First is the practice of the development stage</l>
+                            <l>Related to the vase initiation.</l>
+                            <l>I taught meditation on the support and the supported</l>
+                            <l>So that practitioners might relinquish</l>
+                            <l>Dualistic concepts of a universe and its inhabitants.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>Its individual features all have an intended meaning.</l>
+                            <l>Firstly, in other tantras,</l>
+                            <l>I taught about emptiness and so forth.</l>
+                            <l>Among the particulars of the support and supported,</l>
+                            <l>The first concerns the intention behind the support.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>Imagine that, like one candle lighting another,</l>
+                            <l>The syllable <foreign type="mantra" xml:lang="Sa-Ltn">hūṃ</foreign>
+                                at the heart</l>
+                            <l>Projects a black-hued <foreign type="mantra" xml:lang="Sa-Ltn">e</foreign>,</l>
+                            <l>Which forms a vast, deep triangle.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>The three corners are enlightened body, speech, and mind.</l>
+                            <l>This signifies the destruction of the three poisons.</l>
+                            <l>The sides are the three liberations.</l>
+                            <l>This signifies the destruction of the ten non-virtues</l>
+                            <l>That emerge from ordinary body, speech, and mind. </l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>The dharma body is immaculate, </l>
+                            <l>And therefore <ref cRef="F.187.b"/> naturally all-pervading.</l>
+                            <l>This is the significance of vast.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>Since even the noble listeners, solitary realizers, </l>
+                            <l>And bodhisattvas as well,</l>
+                            <l>Do not realize the dharma body,</l>
+                            <l>It is explained with intention as deep.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>Then, again the <foreign type="mantra" xml:lang="Sa-Ltn">hūṁ</foreign> at the heart</l>
+                            <l>Projects a <foreign type="mantra" xml:lang="Sa-Ltn">hūṁ</foreign>
+                                syllable that forms into a vajra,</l>
+                            <l>Which forms into a vajra tent.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>There are two obstacles: first, to life,</l>
+                            <l>And second, to liberation.</l>
+                            <l>These are the two obstructing forces,</l>
+                            <l>The outer and the inner.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>The outer creates obstacles to life.</l>
+                            <l>The inner creates obstacles to liberation.</l>
+                            <l>The significance of the vajra tent </l>
+                            <l>Is that it protects from the two-fold obstructions.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>Then <foreign type="mantra" xml:lang="Sa-Ltn">yaṁ</foreign>, just as
+                                before,</l>
+                            <l>Projects a shape, like a half-moon.</l>
+                            <l>It provides control over the abandonment of conceptuality</l>
+                            <l>And the dawn of non-conceptuality.</l>
+                            <l>This is the meaning of domination.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>Concerning the significance of the four flags,</l>
+                            <l>I have taught that it signifies all things</l>
+                            <l>Present throughout the three times.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>The triangular fire maṇḍala from <foreign type="mantra" xml:lang="Sa-Ltn">raṁ</foreign>
+                            </l>
+                            <l>Signifies wrathful ritual.</l>
+                            <l>The three-pronged vajra signifies the three buddha bodies.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>The round water disk from <foreign type="mantra" xml:lang="Sa-Ltn">baṁ</foreign>
+                            </l>
+                            <l>Is said to be the cessation of mental activity.</l>
+                            <l>The vase is the four aspects of the dharma body.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>The square golden earth from <foreign type="mantra" xml:lang="Sa-Ltn">laṁ</foreign>
+                            </l>
+                            <l>Has the nature of prosperity.</l>
+                            <l>The five-pronged vajra is the five gnoses.</l>
+                            <l>The eight peaks of Mount Meru above that</l>
+                            <l>Signify the eight liberations.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>Symbolizing the absence of conceptuality about an ordinary universe
+                                and inhabitants,</l>
+                            <l>The eight charnel grounds </l>
+                            <l>Should be arranged to left and right in order.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>The concepts related to each feature, moreover,</l>
+                            <l>Should be learned from a master’s oral instructions.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>Symbolizing the power of the antidote fully developed,</l>
+                            <l>Trees are continuously arranged in sequence.</l>
+                            <l>The directional protectors are arranged as symbols </l>
+                            <l>For the overcoming of concepts oriented toward the ten
+                                non-virtues.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>The eight <foreign type="term" xml:lang="Sa-Ltn">nāgas</foreign> are
+                                stationed</l>
+                            <l>To destroy the wicked ones</l>
+                            <l>Of attachment, hatred and ignorance.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>Rain clouds are arrayed </l>
+                            <l>So that body and speech<note place="end">SY <foreign type="term" xml:lang="Bo-Ltn">gis</foreign> (instrumental / agentive
+                                    particle): CDJKU <foreign type="term" xml:lang="Bo-Ltn">gi</foreign> (genitive particle).</note> may act for the
+                                welfare of<note place="end">KY <foreign type="term" xml:lang="Bo-Ltn">gyi</foreign> (genitive particle): CDJU
+                                        <foreign xml:lang="Bo-Ltn">gyis</foreign> (instrumental /
+                                    agentive particle). </note> beings,</l>
+                            <l>With divine pride in the two form buddha bodies</l>
+                            <l>Endowed with great compassion. <ref cRef="F.188.a"/>
+                            </l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>Inner and secret are the same.</l>
+                            <l>Likewise, as for the ultimate, the fourth,</l>
+                            <l>One should learn the oral tradition.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>Then, inside, the celestial palace appears.</l>
+                            <l>
+                                <foreign type="mantra" xml:lang="Sa-Ltn">Bhruṁ</foreign> creates an
+                                eight-spoked wheel.</l>
+                            <l>The eight spokes stand for the eight consciousnesses.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>The wheel transforms into the body of Vairocana.</l>
+                            <l>Viewed from the outside, he is luminous inside.</l>
+                            <l>Likewise, from inside out,</l>
+                            <l>Meaning that all appears as one.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>The five kinds of gems<note place="end">KSY <foreign type="term" xml:lang="Bo-Ltn">rin</foreign> (gem): CDJU <foreign type="term" xml:lang="Bo-Ltn">tshon</foreign> (color).</note> symbolize the five buddha bodies.</l>
+                            <l>The five colors indicate the five families.</l>
+                            <l>The four corners are said to be the four pure abodes.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>The four sides are the four means of magnetizing.</l>
+                            <l>The four gates are the four foundations of mindfulness.</l>
+                            <l>The eight pillars are the eight liberations.</l>
+                            <l>The four beams symbolize the four gnoses.</l>
+                            <l>All the gate adornments and so forth,</l>
+                            <l>Are said to be the powers and the like.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>Then, as for the seats inside the palace, </l>
+                            <l>They are lotuses born from vowels as seed-syllables.</l>
+                            <l>The lotus seat indicates not being stained</l>
+                            <l>By the afflictions such as passion, etc.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>The sun and moon atop the lotuses</l>
+                            <l>Symbolize skillful means and wisdom.</l>
+                            <l>The corpse is taught first </l>
+                            <l>For the destruction of the self, or conceptuality.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>The four-featured seat of the central deity </l>
+                            <l>Is given as a seat to each member of the retinue,</l>
+                            <l>Since they each are an aspect of the central deity.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>That completes the supportive maṇḍala</l>
+                            <l>Conjoined with its intended meaning.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>Next, the deities are generated</l>
+                            <l>According to the four types of birth.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>The miraculous manner is to arise instantaneously,</l>
+                            <l>Like a fish jumping out of water.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>Birth from heat and moisture is to arise from conditions,</l>
+                            <l>Like a lotus nurtured by the sun.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>Birth from an egg happens through projection and absorption,</l>
+                            <l>Like copper produced from stone.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>Birth from a womb occurs from union,</l>
+                            <l>Burned from above and formed from below,</l>
+                            <l>Like a statue created from wax. <note place="end">S <foreign type="term" xml:lang="Bo-Ltn">lugs</foreign> (bronze cast
+                                    statue): CDJKUY <foreign type="term" xml:lang="Bo-Ltn">gzugs</foreign> (form). In his review of this translation,
+                                    a referee preferred this reading, stating that it refers to the
+                                    “lost wax” technique of casting bronze statues.</note>
+                            </l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>Vairocana is completed with the palace.</l>
+                            <l>Later, the Heruka is generated.</l>
+                            <l>Conferring initiation is the Blessed One Akṣobhya.</l>
+                            <l>Praise is Ratnasambhava.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>Offering is Amoghasiddhi.</l>
+                            <l>Tasting ambrosia is Amitābha. <ref cRef="F.188.b"/>
+                            </l>
+                            <l>The accomplishments that emerge </l>
+                            <l>From these six aspects are extraordinary.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>Then, concerning the recitation, or meditation,</l>
+                            <l>There are those of superior, mediocre and inferior faculties.</l>
+                            <l>It is said that superior ones</l>
+                            <l>Are to meditate, or recite in full.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>The mediocre should focus on the central deity in father-mother
+                                union. </l>
+                            <l>The inferior are to apply themselves to the eyes of the central
+                                figure. </l>
+                            <l>Having reached stability on the eyes of the central figure,</l>
+                            <l>They are to meditate on the thirty-seven features in full.</l>
+                            <l>The mediocre are to do likewise.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>Located in the body are channels; circulating within them are winds; </l>
+                            <l>Mounted on these is the mind—the inferior practice involves
+                                shape;</l>
+                            <l>The more profound involve mantra and seminal drops; </l>
+                            <l>And the ultimate involves dharma and the seven parts. </l>
+                            <l>Teaching this way is exceedingly profound.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>Everything taught above</l>
+                            <l>Should also be understood as four-fold. </l>
+                            <l>Each one, moreover, is four-fold; </l>
+                            <l>The manifold manner is exceedingly profound.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>Outer and inner is the meaning of mantra.</l>
+                            <l>The maṇḍala image is the outer meaning. </l>
+                            <l>Regarding the outer is the inner.</l>
+                            <l>The secrecy of just that is the secret meaning.</l>
+                            <l>Proficiency is the meaning of perfection.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>The maṇḍala image is the outer meaning.</l>
+                            <l>Inwardly, concerning the characteristics of the maṇḍala,</l>
+                            <l>The aggregates, elements, and sense media </l>
+                            <l>Are each transformed into a deity, either five, six, or thirty-seven; </l>
+                            <l>Left, right, above, below, the gates, and so forth—</l>
+                            <l>These should be understood from a master’s oral instructions.</l>
+                        </lg>
+                    </sp>
+                    <milestone unit="chunk"/>
+                    <p>Then Vajragarbha asked:</p>
+                    <sp>
+                        <speaker>Vajragarbha</speaker>
+                        <lg>
+                            <l>What is the completion </l>
+                            <l>Of the “thirty-seven”?</l>
+                            <l>How are they “developed”?</l>
+                            <l>What are their stages?</l>
+                            <l>What is the supportive maṇḍala like?</l>
+                            <l>And how are the sessions and breaks?</l>
+                            <l>How are view and conduct united? </l>
+                            <l>Tell me, O Spiritual Hero!</l>
+                        </lg>
+                    </sp>
+                    <milestone unit="chunk"/>
+                    <p>The Blessed One said:</p>
+                    <sp>
+                        <speaker>The Blessed One</speaker>
+                        <lg>
+                            <l>The thirty-seven, the pristine cause,</l>
+                            <l>Gives rise to non-dual gnosis, the effect.</l>
+                            <l>Therefore, the cause, which precedes the effect,</l>
+                            <l>Is to become the principal deity.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>Even in just becoming the Heruka</l>
+                            <l>All causes are complete;</l>
+                            <l>The twenty-four locations and so forth</l>
+                            <l>Should be learned from a master’s oral instructions.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>The effect does not come from a mistaken cause—</l>
+                            <l>Barley does not sprout from a grain of wheat. <ref cRef="F.189.a"/>
+                            </l>
+                            <l>Nor does it come from an incomplete cause—</l>
+                            <l>There is no sprout from damaged grain;</l>
+                            <l>Nor without a cause,</l>
+                            <l>Like fragrance from a space flower.</l>
+                            <l>The cause is not a cause without conditions,</l>
+                            <l>Like a forest fire without wind.</l>
+                            <l>The beginner thus endowed with these four parts</l>
+                            <l>Will abandon concepts.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>“Development” is said to be done</l>
+                            <l>By one who adheres to deity practice.</l>
+                            <l>Multiple aspects, external and internal,</l>
+                            <l>Are explained as its stages.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>The particular supportive maṇḍala,</l>
+                            <l>Is said to be of three types—</l>
+                            <l>Without courtyard, without canopy, and with canopy—</l>
+                            <l>According to inclination.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>Due to the divisions of the four chakras,</l>
+                            <l>Daily sessions are taught as four.<note place="end">CKSY
+                                        <foreign type="quote" xml:lang="Bo-Ltn">/’khor lo bzhi yi
+                                        dbye ba yis/ /nyin thun bzhi ru gsungs pa yin/</foreign>
+                                    (“Due to the divisions of the four chakras/ Daily sessions are
+                                    taught as four”). DJU <foreign type="quote" xml:lang="Bo-Ltn">/’khor lo bzhi yi dbye ba yis/ /nyin thun bzhi yi dbye ba
+                                        yi/ /nyin mtshan bzhi ru gsungs pa yin/</foreign> (“Due to
+                                    the divisions of the four chakras/ Daily sessions are taught as
+                                    four/ In the divisions of the four periods of the day”). We have
+                                    made this selection out of consideration for the four line
+                                    stanza structure that predominates in this text.</note>
+                            </l>
+                            <l>Breaks should also be understood to be four.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>It is taught that a practitioner who switches </l>
+                            <l>To twenty-two and a half minute hours and meditates in eight
+                                sessions</l>
+                            <l>Equalizes sessions and breaks.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>During breaks, practitioners</l>
+                            <l>Of mediocre and inferior faculties</l>
+                            <l>Should project the deities in full</l>
+                            <l>And properly perform offerings, and so forth,</l>
+                            <l>Like one candle igniting another.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>“View” refers to equipoise;</l>
+                            <l> Subsequent attainment is explained as conduct.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>When practicing the development stage,</l>
+                            <l>One is permitted to observe the conduct of wearing the six
+                                adornments.</l>
+                            <l>In connection with the secret initiation,</l>
+                            <l>One is allowed to observe the conduct of adornments and ambrosia.</l>
+                            <l>I have said that those of the vajra family, the ratna family,</l>
+                            <l>The padma family and the karma family are permitted to observe the
+                                conduct.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>Those connected with the wisdom-gnosis initiation</l>
+                            <l>Have in common what was taught above, and</l>
+                            <l>In particular, are permitted to observe the conduct of the seal.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>With either conduct devoid of view, </l>
+                            <l>Or view devoid of conduct,</l>
+                            <l>One transgresses the pledges of secret mantra</l>
+                            <l>And takes birth as a hell-being in Endless Torment.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>Therefore, conduct devoid of view should be abandoned;</l>
+                            <l>It is the conduct of a hostile demon.</l>
+                            <l>Likewise, view devoid of conduct is also to be abandoned;</l>
+                            <l>Tormenting the body through austerities <ref cRef="F.189.b"/>
+                            </l>
+                            <l>And despising the aggregates that are Vairocana and so forth</l>
+                            <l>Is simply the work of a dry intellectual.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>Consequently, view and conduct are to be unified—</l>
+                            <l>When an elephant rises it rises all together,</l>
+                            <l>And when an elephant sits it sits all together.</l>
+                        </lg>
+                    </sp>
+                    <milestone unit="chunk"/>
+                    <p>Vajragarbha then asked:</p>
+                    <sp>
+                        <speaker>Vajragarbha</speaker>
+                        <lg>
+                            <l>What is meant by “ambrosia”?</l>
+                            <l>What conduct is associated with it?</l>
+                            <l>How do its qualities emerge?</l>
+                            <l>Tell me, O Central Deity,</l>
+                            <l>All the meanings of the adornments and the rest!</l>
+                        </lg>
+                    </sp>
+                    <milestone unit="chunk"/>
+                    <p>The Blessed One said:</p>
+                    <sp>
+                        <speaker>The Blessed One</speaker>
+                        <lg>
+                            <l>Ambrosia is taught as three-fold.</l>
+                            <l>Firstly, one enjoys the outer ambrosia.</l>
+                            <l>Arrange the five hooks</l>
+                            <l>In the five ambrosias and the five meats. </l>
+                            <l>This should begin on the eighth and fourteenth days of the month.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>One should then gather <foreign type="term" xml:lang="Sa-Ltn">silha</foreign> wood, Akṣobhya, and dry manure.</l>
+                            <l>This should begin on the twelfth and sixteenth days of the month.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>One should then take Heruka, Vairocana, and essence of dry
+                                manure.</l>
+                            <l>The eighth, fourteenth, and fifteenth days </l>
+                            <l>Of the waxing and waning lunar periods </l>
+                            <l>Are taught as auspicious times for everything.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>The appearance of the lion should be white and excellent,</l>
+                            <l>Its body and speech gentle and without any fault—</l>
+                            <l>This is the basis for the formation of flesh.</l>
+                            <l>As for ox, or elephant,</l>
+                            <l>This should be the flesh of one from which musk and the like
+                                emerges</l>
+                            <l>Based on the single material cause of it eating a <foreign type="term" xml:lang="Sa-Ltn">ketaka</foreign> flower.</l>
+                            <l>Beef should be flesh that contains bile.</l>
+                            <l>Horse meat should come from the king among horses,</l>
+                            <l>Whose complexion is neither white nor red,</l>
+                            <l>With flesh that neither changes shape nor color.</l>
+                            <l>Human meat must be the flesh of a seventh-birth.</l>
+                            <l>An adept should investigate his body, speech, and mind.</l>
+                            <l>The food container should be a skull-cup in a single piece.</l>
+                            <l>The ambrosia should be accomplished with the ingredients inside
+                                it.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>Superior, mediocre, and inferior signs— </l>
+                            <l>Blazing, wafting, and bubbling—</l>
+                            <l>Are explained as pertaining to the external signs.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>Furthermore, the point of signs having arisen is that old age is
+                                eradicated. </l>
+                            <l>If sounds have not been heard there will be no accomplishment.</l>
+                            <l>When sounds have issued forth one will become pure.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>Inner ambrosia is self-arisen.</l>
+                            <l>Having interrupted the flow of ambrosia dripping</l>
+                            <l>From the nine orifices of the one with the bell,</l>
+                            <l>It fills the body like sesame seeds. </l>
+                            <l>Then, as the breath enters the <foreign type="term" xml:lang="Sa-Ltn">avadhūtī</foreign>
+                            </l>
+                            <l>The circulation of the upper sixth is elicited.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>When <foreign type="term" xml:lang="Sa-Ltn">silha</foreign> and
+                                camphor abide in the center, <ref cRef="F.190.a"/>
+                            </l>
+                            <l>The lower sixth circulates.</l>
+                            <l>This is the secret ambrosia, </l>
+                            <l>Which vanquishes grey hair, wrinkles, and death.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>The practice of conduct is two-fold: </l>
+                            <l>For superior and beginner persons.</l>
+                            <l>The ambrosia of the outer sixth is bestowed </l>
+                            <l>In order for them to adhere well to the development stage </l>
+                            <l>And abandon fixation to caste.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>Beginners have both outer and inner ambrosias,</l>
+                            <l>Whose potencies are also manifold—</l>
+                            <l>It renders them devoid of grey hair and destroys conceptuality.</l>
+                            <l>It consecrates the four maṇḍalas.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>It is taught that one will seize the sixth</l>
+                            <l>Which is situated at the center,</l>
+                            <l>Four finger-widths above the upper tip of the relative, </l>
+                            <l>Through gaining familiarity with the fifth.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>Settling the breath at the location of the navel,</l>
+                            <l>The upper sixth is seized.</l>
+                            <l>Its potencies are also manifold.</l>
+                            <l>One will be devoid of craving and feel buoyant.</l>
+                            <l>Just like an eagle, </l>
+                            <l>One will soar in the sky without plummeting.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>It is said that the lower sixth is situated </l>
+                            <l>At the center of the superior and disconnected ones.</l>
+                            <l>It is taught to superior persons</l>
+                            <l>And its potencies are also manifold.</l>
+                            <l>It blocks the orifice of the one with the bell.</l>
+                            <l>It destroys anger, the first of the adornments.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>The stage of subjugating Rudra </l>
+                            <l>In the great charnel ground of Śītavana </l>
+                            <l>Is that conceptuality is destroyed with ambrosia.</l>
+                            <l>The four enlightened activities are in common.</l>
+                            <l>Through the seal, desire is purified.</l>
+                        </lg>
+                    </sp>
+                    <milestone unit="chunk"/>
+                    <p>Vajragarbha then asked:</p>
+                    <sp>
+                        <speaker>Vajragarbha</speaker>
+                        <lg>
+                            <l>What is meant by “the sixth”?</l>
+                            <l>What is a superior person like?</l>
+                            <l>How is desire purified?</l>
+                            <l>Tell me, O Spiritual Hero!</l>
+                        </lg>
+                    </sp>
+                    <milestone unit="chunk"/>
+                    <p>The Blessed One replied:</p>
+                    <sp>
+                        <speaker>The Blessed One</speaker>
+                        <lg>
+                            <l>From the four of right, left, above and below, </l>
+                            <l>Emerges space, the fifth.</l>
+                            <l>The fifth’s absence of nature</l>
+                            <l>Is taught to be “the sixth.”</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>Preceded by joy, supreme joy, </l>
+                            <l> Innate joy, and the freedom from joy,</l>
+                            <l>Great bliss, the fifth, emerges.</l>
+                            <l>Great bliss being pure, devoid of nature,</l>
+                            <l>Is the sixth, pertaining to the lower door.</l>
+                            <l>Therefore, even those who aspire for the sixth <ref cRef="F.190.b"/>
+                            </l>
+                            <l>Meditate on the complete fifth, </l>
+                            <l>Preceded by the fourth.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>For example, when the power of alchemy </l>
+                            <l>Is applied to a copper object,</l>
+                            <l>The copper itself becomes gold,</l>
+                            <l>And the gold itself comes from just copper.</l>
+                            <l>Likewise, the Buddha does not teach</l>
+                            <l>That the sixth appears from anything but the fifth.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>Throughout a year, month, fortnight, </l>
+                            <l>A day, night, and hour,</l>
+                            <l>The sixth emerges for only a moment.</l>
+                            <l>It is not the purview of beginners.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>In the same way, a drop of ambrosia </l>
+                            <l>Placed in a vessel of water</l>
+                            <l>Is only experienced as water.</l>
+                            <l>The ambrosia is not experienced.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>Still, based on water, </l>
+                            <l>The ambrosia is also caused to be experienced.</l>
+                            <l>Likewise, based on the elaborate fifth,</l>
+                            <l>The simple sixth emerges.</l>
+                            <l>I have taught this in other tantras.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>A person who has traversed the five signs, the eight flavors, </l>
+                            <l>Or the eight levels, and has thus become clairvoyant, </l>
+                            <l>Has fully relinquished the action seal.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>One who engages in the great seal,</l>
+                            <l>Adhering to a gnosis seal,</l>
+                            <l>Is a superior person.</l>
+                            <l>It is explained that he has seized the sixth.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>“Desire” is cyclic existence,</l>
+                            <l>Its purification is taught to be nirvana.</l>
+                        </lg>
+                    </sp>
+                </div>
+                <div type="chapter">
+                    <head type="chapter">The Second Secret</head>
+                    <!-- <head type="chapterTitle">The Second Secret</head> -->
+                    <sp>
+                        <speaker>The Blessed One</speaker>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>Next is the second secret.</l>
+                            <l>It is the profound meaning of dependent origination</l>
+                            <l>In connection with the secret initiation.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>First, give rise to the divine pride.</l>
+                            <l>Know that the <foreign type="term" xml:lang="Sa-Ltn">ḍākinīs</foreign> are the channels.</l>
+                            <l>Know that the <foreign type="term" xml:lang="Sa-Ltn">ḍākas</foreign>
+                                are the spirit of enlightenment.</l>
+                            <l>Know the locations of the chakras, the chakras themselves, </l>
+                            <l>And their related practices.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>The distance from the chakra of great bliss</l>
+                            <l>To the confluence of Brahma </l>
+                            <l>Is forty-eight finger-widths.</l>
+                            <l>Each chakra is three finger-widths,</l>
+                            <l>And thus the nature of enlightened body, speech, and mind.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>The locations of the initiations and the chakras</l>
+                            <l>Should be learned from a master’s oral instructions.</l>
+                            <l>An adept must determine whether the wind of the anus </l>
+                            <l>Is three or four finger-widths from the fire of the Brahma
+                                confluence. </l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>Three spaces is the secret location.</l>
+                            <l>Likewise, three spaces marks the chakra of awareness. </l>
+                            <l>Four finger-widths is the location of Hayagrīva. <ref cRef="F.191.a"/>
+                            </l>
+                            <l>Eight finger-widths is the location of Secret Guardian of Bliss.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>Based on the particularities of the bodily supports</l>
+                            <l>Of male and female practitioners, </l>
+                            <l>Forty-eight finger-widths can be divided.</l>
+                            <l>In this way, at eight finger-widths is located the secret chakra.</l>
+                            <l>The other chakras, located within forty finger-widths,</l>
+                            <l>Should be learned from a master’s oral instructions.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>An adept should determine all of them</l>
+                            <l>As being inside or outside of the spinal column.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>There are also two types of chakra.</l>
+                            <l>First are the chakras themselves; second the channels. </l>
+                            <l>Chakras are also taught as four-fold:</l>
+                            <l>Conditional, secret, natural, and empowered.</l>
+                            <l>There are two conditional, four secret,</l>
+                            <l>Sixteen natural, and two empowered chakras. </l>
+                            <l>Caṇḍālī, twenty-four,</l>
+                            <l>Are hidden in the four chakras.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>If you turn away from the master in a gathering, </l>
+                            <l>Spread his oral instructions or bandy them about, </l>
+                            <l>Receive the concealed stage in order to indulge in desire, </l>
+                            <l>Turn away from, or disparage the hidden points,</l>
+                            <l>Obstruct the secret mantra, or insult other practices,</l>
+                            <l>You will be reborn in the great hell of Endless Torment,</l>
+                            <l>Until the thousand and one buddhas are all gone.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>I have not said to keep concealed</l>
+                            <l>Anything that is concealed in these chakras.</l>
+                            <l>Thus, what in other tantras has been hidden, </l>
+                            <l>In this tantra I explain in detail.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>Thirty-two, divided into left and right parts,</l>
+                            <l>Is concealed in the amount of sixty-four.</l>
+                            <l>Thirty-two, paired,</l>
+                            <l>Is concealed in the amount of sixteen.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>Thirty-two, grouped according to cardinal and intermediate
+                                directions,</l>
+                            <l>Is concealed in the amount of eight. </l>
+                            <l>The crown chakra is concealed at the crown.</l>
+                            <l>The Secret Guardian of Bliss is concealed at the navel.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>Sixteen, paired,</l>
+                            <l>Is concealed in the amount of eight.</l>
+                            <l>Sixteen, divided into right and left parts, </l>
+                            <l>Is concealed in the amount of thirty-two.</l>
+                            <l>Sixteen, multiplied by four,</l>
+                            <l>Is concealed in the amount of sixty-four.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>At the throat, in the chakra of enjoyment,</l>
+                            <l>One enjoys the six flavors.</l>
+                            <l>Thus, Rasanā is concealed in the chakra of enjoyment.</l>
+                            <l>The Hayagrīva chakra is concealed at the throat. <ref cRef="F.191.b"/>
+                            </l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>Eight, divided into right and left parts</l>
+                            <l>Is concealed in the amount of sixteen. </l>
+                            <l>Eight, with right, left, top, bottom,</l>
+                            <l>Is concealed in the amount of thirty-two.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>Eight divided into eight parts, with right, left, top, bottom,</l>
+                            <l>And four intermediate directions, </l>
+                            <l>Is concealed in the amount of sixty-four. </l>
+                            <l>The fire at the Brahma confluence is concealed in fire.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>In the dharma chakra at the heart all phenomena are known.</l>
+                            <l>Therefore, awareness is concealed there.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>Sixty-four, paired, </l>
+                            <l>Is concealed in the amount of thirty-two. </l>
+                            <l>Sixty-four, grouped in fours, </l>
+                            <l>Is concealed in the amount of sixteen. </l>
+                            <l>Sixty-four, grouped in eights, </l>
+                            <l>Is concealed in the amount of eight.</l>
+                        </lg>
+                        <lg>
+                            <l>The wind of the anus is concealed within wind.</l>
+                            <l>The secret inner heat is concealed in the inner heat. </l>
+                            <l>On each chakra there are four chakras</l>
+                            <l>That externally clasp in the form of the life-force.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>Even though waters, streams, and rivers</l>
+                            <l>Are caused to flow in numerous ways,</l>
+                            <l>In the ocean they become one flavor.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>Playing at the navel is the enlightened body of great bliss</l>
+                            <l>Endowed with the liberations and emptinesses, </l>
+                            <l>And likewise the major and minor marks. </l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>At the heart is the dharma body,</l>
+                            <l>Likewise, with the liberations and so forth. </l>
+                            <l>Similarly, the enjoyment body is at the throat and </l>
+                            <l>The emanation body is at the chakra of great bliss.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>The major marks above and emptiness below</l>
+                            <l>Is the first union of great bliss.</l>
+                            <l>The liberations above and the minor marks below</l>
+                            <l>Is the second union of great bliss. </l>
+                            <l>The others should be learned orally. </l>
+                            <l>The pristine ten powers are the ten unions. </l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>Wind is the essence of Tārā, in that</l>
+                            <l>The nature of breath fills the six channels.</l>
+                            <l>Fire is the nature of Pāṇḍaravāsinī, in that </l>
+                            <l>The three corner channels are filled with warmth.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>Naturally present</l>
+                            <l>Are eight and five characteristics.</l>
+                            <l>The eight are the eight first vowels.</l>
+                            <l>The five are the five first consonants, or </l>
+                            <l>The five suffix endings, the palace of knowledge.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>To the right and left of the vowel letter of Hayagrīva</l>
+                            <l>Are two <foreign type="mantra" xml:lang="Sa-Ltn">a</foreign>
+                                syllables, at the perimeter of which are nine petals.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>At the chakra of the Secret Guardian of Bliss,</l>
+                            <l>In the center of the four neuter letters and two <foreign type="mantra" xml:lang="Sa-Ltn">a</foreign> syllables</l>
+                            <l>Are the thirty-seven factors of enlightenment.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>Next, concerning the characteristics of the channels, <ref cRef="F.192.a"/>
+                            </l>
+                            <l>Seventy-two thousand external channels</l>
+                            <l>Are located in the flesh and give rise to fat. </l>
+                            <l>One hundred and twenty internal channels</l>
+                            <l>Are located in the fat and give rise to marrow.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>Thirty-two secret channels </l>
+                            <l>Are located in the bones and give rise to camphor.</l>
+                            <l>The three suchness channels</l>
+                            <l>Are located in the secret place and give rise to bliss.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>There are seventy-two thousand houses.</l>
+                            <l>Each house has a hundred thousand further houses.</l>
+                            <l>The types of worms<note place="end">
+                                    <foreign type="term" xml:lang="Bo-Ltn">srin bu</foreign>.</note>
+                                present in those houses </l>
+                            <l>Are seventy-two thousand and their number</l>
+                            <l>Should likewise be understood as multiplied by a hundred
+                                thousand.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>It is taught that in the inner and secret channels </l>
+                            <l>The types of worms also correspond in number.</l>
+                            <l>Within the three suchness channels </l>
+                            <l>Are nine worms that give rise to desire.</l>
+                            <l>With the triad of day, night, and twilight</l>
+                            <l>These should be understood by the adept as nine.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>The camphor located in those channels </l>
+                            <l>Is the ambrosia emergent from union. </l>
+                            <l>Ambrosia and so forth has already been explained.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>Imagine that <foreign type="mantra" xml:lang="Sa-Ltn">yaṁ</foreign>
+                                becomes a maṇḍala of wind, </l>
+                            <l>And <foreign type="mantra" xml:lang="Sa-Ltn">raṁ</foreign> becomes a
+                                maṇḍala of fire. </l>
+                            <l>On top of this is the syllable <foreign type="mantra" xml:lang="Sa-Ltn">a</foreign>, which becomes a skull cup.</l>
+                            <l>Then <foreign type="mantra" xml:lang="Sa-Ltn">paṁ</foreign> becomes
+                                an eight-petal lotus. </l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>Imagine a moon disk inside of that. </l>
+                            <l>Arrange the fleshes and so forth on it.</l>
+                            <l>Conceived as four finger-widths, or a full thumb-length above the
+                                central deity, </l>
+                            <l>One should visualize the syllables in reverse order,</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>Blue, red, and white.</l>
+                            <l>Imagine a <foreign type="mantra" xml:lang="Sa-Ltn">hūṁ</foreign>
+                                becoming a <foreign type="term" xml:lang="Sa-Ltn">vajra</foreign>. </l>
+                            <l>Above, visualize the syllable <foreign type="mantra" xml:lang="Sa-Ltn">maṁ</foreign>, </l>
+                            <l>Resting on a sun disk. </l>
+                            <l>This is the union of ambrosia.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>The five fleshes transform into the five seats. </l>
+                            <l>The hooks transform into the five ambrosias. </l>
+                            <l>The karmic winds fan the flames, </l>
+                            <l>Which melts the moon, the central deity, and so forth—</l>
+                            <l>This is ordinary ambrosia.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>The three letters and the sun melt— </l>
+                            <l>This is called “divine ambrosia.”</l>
+                            <l>That which is summoned by light rays </l>
+                            <l>I have taught to be wisdom ambrosia.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>Circumambulating three times, enlightened body, speech, and mind,</l>
+                            <l>Is the practice of blessing.</l>
+                            <l>Tasting and offering the ambrosia</l>
+                            <l>Is taught to be the “practice of offering.”</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>Then comes the practice of play <ref cRef="F.192.b"/>
+                            </l>
+                            <l>Which should be understood to mean the right and left.</l>
+                            <l>Next, in the practice of melting,</l>
+                            <l>The equalizing wind and the fire of inner heat </l>
+                            <l>Transform the subtle body into the essence of the four wisdoms.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>One part, Akṣobhya and Vairocana,</l>
+                            <l>Is the flesh eating ḍākinī, equanimity.</l>
+                            <l>One part is concerted activity, </l>
+                            <l>Which the worms, the action ḍākinīs, offer.</l>
+                            <l>One part, wind and bile, </l>
+                            <l>And through bile, phlegm and so forth,</l>
+                            <l>Should be learned from a master’s oral instructions.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>The channels, the gnosis ḍākinī, </l>
+                            <l>Offers discriminating gnosis. </l>
+                            <l>One part, the lack of nature,</l>
+                            <l>With mirror-like gnosis, </l>
+                            <l>The vajra ḍākinī offers.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>Winds are the vajra ḍākinī, and</l>
+                            <l>Channels are the gnosis ḍākinī.</l>
+                            <l>Camphor is the flesh-eating ḍākinī, and </l>
+                            <l>Worms are the action ḍākinī.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>Furthermore, all the particulars of the ḍākinīs</l>
+                            <l>That dwell in the channels and elsewhere </l>
+                            <l>Should be understood in the proper order.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>Enlightened body is the action ḍākinī. </l>
+                            <l>Enlightened speech is the flesh-eating ḍākinī. </l>
+                            <l>Enlightened mind is the gnosis ḍākinī.</l>
+                            <l>Great bliss is the vajra ḍākinī.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>Furthermore, the particulars of the ḍākinīs </l>
+                            <l>Should be understood with respect to the central chakra.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>Joy is the action ḍākinī, and </l>
+                            <l>Supreme joy is the flesh-eating ḍākinī. </l>
+                            <l>Natural joy is the gnosis ḍākinī.</l>
+                            <l>Great bliss is the vajra ḍākinī.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>The ḍāka is the moon disk, </l>
+                            <l>And the ḍākinī is the sun. </l>
+                            <l>The caṇḍalī, twenty-four,</l>
+                            <l>Are ascertained as the four chakras that conceal them.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>The great bliss chakra is absorbed within the enjoyment chakra.</l>
+                            <l>The enjoyment chakra is absorbed within the dharma chakra. </l>
+                            <l>As for the sequence of absorption above,</l>
+                            <l>Everything fuses into a seminal drop.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>This is like how a single sun</l>
+                            <l>Shines throughout the ten directions, </l>
+                            <l>Yet its profusion of rays is fused with it.</l>
+                            <l>It is also like the parasol of a universal monarch,</l>
+                            <l>Which is an assembly of wooden machinery.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>Moreover, once absorbed into the dharma chakra at the heart,<ref cRef="F.193.a"/>
+                            </l>
+                            <l>In the center of the sun and moon disc, the size of a chick pea, </l>
+                            <l>Is a seminal drop, the size of a mustard seed.</l>
+                            <l>Around this, on the left and right, </l>
+                            <l>Is a mantra garland as fine as a strand of hair.</l>
+                            <l>The vowels and consonants enwrap the drop like a snake.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>Those are the practice of the seminal drop.</l>
+                            <l>Once the mind has become stable in this,</l>
+                            <l>One may meditate on the subtle practice. </l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>Imagine that the moon dissolves into the letters,</l>
+                            <l>The letters dissolve into the sun,</l>
+                            <l>And then the sun dissolves into the <foreign type="mantra" xml:lang="Sa-Ltn">u</foreign> vowel diacritic.</l>
+                            <l>The <foreign type="mantra" xml:lang="Sa-Ltn">u</foreign> vowel
+                                diacritic and the rest then gradually dissolve.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>The five limbs are the five gnoses.</l>
+                            <l>That is the subtle practice. </l>
+                            <l>Then, with one’s mind on the subtle <foreign type="term" xml:lang="Sa-Ltn">nāda</foreign>, </l>
+                            <l>One is to meditate in stages. </l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>Then comes self-aware gnosis, </l>
+                            <l>In which all phenomena, being empty, are of one taste.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>Moreover, the way in which </l>
+                            <l>The dharma chakra and the emanation chakra</l>
+                            <l>Drip and blaze</l>
+                            <l>Should be learned from a master’s oral instructions.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>External concepts are exertion.</l>
+                            <l>Internal concepts are the wind of vitality.</l>
+                            <l>At the central channel where both vitality and exertion are
+                                constricted,</l>
+                            <l>Above the nose-tip of the relative,</l>
+                            <l>At a distance of four finger-widths, the three channels converge.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>Since this is the location where the breath is constricted, </l>
+                            <l>Initially, one should hold it there. </l>
+                            <l>Then, hold it in the place of emanation.</l>
+                            <l>Alternatively, one should understand how to count it.</l>
+                        </lg>
+                    </sp>
+                </div>
+                <div type="chapter">
+                    <head type="chapter">The Third Secret</head>
+                    <!-- <head type="chapterTitle">The Third Secret</head> -->
+                    <sp>
+                        <speaker>The Blessed One</speaker>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>Next is the third secret.</l>
+                            <l>It is explained as the basic character of joy </l>
+                            <l>In connection with the wisdom-gnosis initiation. </l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>The anus quivers and the body hairs rise. </l>
+                            <l>Twelve non-observations of the basic character of joy </l>
+                            <l>Is taught to be its nature.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>With the circulation of the spirit of enlightenment, one reflects on
+                                non-conceptuality.</l>
+                            <l>Twenty-five non-observations of supreme joy </l>
+                            <l>Completely fills the secret gem.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>The non-observation of innate joy</l>
+                            <l>Is taught to be the dharma body.</l>
+                            <l>The interruption of the flow of bliss is the joy of cessation;</l>
+                            <l>Its non-observation is the two form buddha bodies.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>Moreover, all the preliminaries,</l>
+                            <l>The subsidiary techniques, and actual union,</l>
+                            <l>Along with their intention, are in stages.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>Despite multiply radiating like a cluster of stars, <ref cRef="F.193.b"/>
+                            </l>
+                            <l>They coalesce like the sun and moon.</l>
+                            <l>Despite coalescing like the sun and moon, </l>
+                            <l>They are non-dual like an eclipse.</l>
+                        </lg>
+                    </sp>
+                    <milestone unit="chunk"/>
+                    <p>Vajragarbha then asked:</p>
+                    <sp>
+                        <speaker>Vajragarbha</speaker>
+                        <lg>
+                            <l>What is a cluster of stars?</l>
+                            <l>What is coalescence?</l>
+                            <l>What is non-duality?</l>
+                        </lg>
+                    </sp>
+                    <milestone unit="chunk"/>
+                    <p>The Blessed One said:</p>
+                    <sp>
+                        <speaker>The Blessed One</speaker>
+                        <lg>
+                            <l>The thirty-seven factors of enlightenment</l>
+                            <l>Are radiated as the features of the cause.</l>
+                            <l>The three buddha bodies and the five gnoses</l>
+                            <l>Are radiated as the features of the fruition.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>The causes are absorbed within seven </l>
+                            <l>And the fruitions are absorbed within three. </l>
+                            <l>The causes dissolve into the fruitions, and</l>
+                            <l>The fruition should be meditated upon as two-fold.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>All phenomena are the essence of mind.</l>
+                            <l>Mind is of an empty nature. </l>
+                            <l>All is of one taste in being empty. </l>
+                            <l>This is the expanse devoid of accepting and rejecting.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>In order to fully purify desire,</l>
+                            <l>Desire rooted in the five seals of enlightened body—</l>
+                            <l>The pair of the great seal and the gnosis seal, </l>
+                            <l>Along with the samaya seal, the dharma seal and the action seal—</l>
+                            <l>Becomes exceedingly profound.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>This is great bliss, which is three-fold—</l>
+                            <l>The natures of development and completion,</l>
+                            <l>And the chakra of great bliss.</l>
+                            <l>The first abides as the letter <foreign type="mantra" xml:lang="Sa-Ltn">e </foreign>at the secret nose-tip.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>The second, which fills the emanation chakra, </l>
+                            <l>The awareness chakra and the rest, </l>
+                            <l>Abides in the Secret Guardian of Bliss.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>The natural chakra of great bliss</l>
+                            <l>Is replete with the flavor of<note place="end">KSY <foreign type="term" xml:lang="Bo-Ltn">po’i</foreign> (genitive
+                                    particle). CDJU <foreign type="term" xml:lang="Bo-Ltn">pos</foreign> (instrumental / agentive particle). </note>
+                                great bliss, </l>
+                            <l>Just as a sesame seed is with sesame butter.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>Like sap dripping</l>
+                            <l>From a cut tree branch,</l>
+                            <l>From that great bliss itself comes the</l>
+                            <l>Form of hundreds, thousands, </l>
+                            <l>Tens of thousands, and hundreds of thousands of tips of hair.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>First comes a cloudy form;</l>
+                            <l>The second resembles smoke. </l>
+                            <l>Third is the form of lightning; </l>
+                            <l>The fourth resembles a butter lamp. </l>
+                            <l>The sequence of all these, moreover, </l>
+                            <l>Occurs according to the order of the emanation chakra and the
+                                rest.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>The emergence of the form of cloud</l>
+                            <l>Is the sign for birth, the syllable <foreign type="mantra" xml:lang="Sa-Ltn">a</foreign>. </l>
+                            <l>That which resembles a butter lamp </l>
+                            <l>Is taught to be the sign of <foreign type="mantra" xml:lang="Sa-Ltn">haṁ</foreign>, for<note place="end">KSY <foreign type="term" xml:lang="Bo-Ltn">yi</foreign> (genitive particle). CDJU
+                                        <foreign type="term" xml:lang="Bo-Ltn">yis
+                                    </foreign>(instrumental / agentive particle).</note> death.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>The fifth, which resembles space,</l>
+                            <l>Should be understood as the empty sign </l>
+                            <l>For the intermediate state, non-duality.</l>
+                            <l>Moreover, <ref cRef="F.194.a"/> vibrating and so forth</l>
+                            <l>Should be learned from a master’s oral instructions.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>Next, concerning the third secret, </l>
+                            <l>The characteristics of the four joys </l>
+                            <l>In connection with the wisdom-gnosis initiation are as follows: </l>
+                            <l>The anus quivering, body hairs rising, </l>
+                            <l>And the body vibrating are the essence of joy.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>Reflecting on the bliss of the spirit of enlightenment
+                                circulating</l>
+                            <l>From the base of the secret vajra</l>
+                            <l>Is the essence of supreme joy. </l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>Reflecting on vajra and lotus stoppered</l>
+                            <l>Is the essence of innate joy.</l>
+                            <l>Reflecting on the bliss of having the continuity of bliss
+                                interrupted</l>
+                            <l>Is the essence of the joy of cessation.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>Moreover, the characteristics of all these, </l>
+                            <l>Such as the factor of the spirit of enlightenment, and so forth,</l>
+                            <l>Should be understood in terms of what was taught above.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>Joy is called “luminance;”</l>
+                            <l>Supreme joy is radiance.</l>
+                            <l>Extreme joy is imminence. </l>
+                            <l>Innate joy is clear light.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>The nature of the four gnoses </l>
+                            <l>Are the antidotes that destroy the four demons. </l>
+                            <l>The coarse level is secretly destroyed by four.</l>
+                            <l>The four subtle demons are naturally</l>
+                            <l>Destroyed in the four chakras.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>The four joys based on the chakras</l>
+                            <l>Themselves appear as the four gnoses, </l>
+                            <l>And therefore destroy the four demons.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>The three poisons based on desire</l>
+                            <l>Are the demon of afflictions, </l>
+                            <l>Involving twelve attributes of desire. </l>
+                            <l>The Secret Guardian of Bliss destroys the afflictions.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>Color and shape are the demon of the aggregates. </l>
+                            <l>The Hayagrīva chakra destroys the aggregates.</l>
+                            <l>The four concealed things are the demon of the gods.</l>
+                            <l>The chakra of awareness destroys the demon of the gods.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>As for death, along with birth, </l>
+                            <l>The secret of their non-origination destroys the lord of death.</l>
+                            <l>The destruction of the subtle demons is similar.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>Concerning the four moments and the four sections;</l>
+                            <l>The four auspiciousnesses and the four truths;</l>
+                            <l>The four elements and the four mothers; </l>
+                            <l>The four pure stations, and so forth—</l>
+                            <l>Apart from the four gnoses themselves</l>
+                            <l>There is nothing higher to be found. <ref cRef="F.194.b"/>
+                            </l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>It is due to the particularities of concepts</l>
+                            <l>And, furthermore, the particularities of inclinations </l>
+                            <l>And the particularities of various religious systems, </l>
+                            <l>That such a plethora has been taught.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>A practitioner who has traversed the three initiations</l>
+                            <l>Is taught to be a great, fully ordained monk. </l>
+                            <l>For it is taught that he<note place="end">KSY <foreign type="term" xml:lang="Bo-Ltn">yis</foreign> (instrumental / agentive
+                                    particle): CDJU <foreign type="term" xml:lang="Bo-Ltn">yi</foreign> (genitive particle).</note> will accomplish
+                                all.</l>
+                        </lg>
+                    </sp>
+                    <milestone unit="chunk"/>
+                    <p>Vajragarbha then asked:</p>
+                    <sp>
+                        <speaker>Vajragarbha</speaker>
+                        <lg>
+                            <l>What is such a triple-initiation fully ordained monk like?</l>
+                            <l>What are his activities?</l>
+                        </lg>
+                    </sp>
+                    <milestone unit="chunk"/>
+                    <p>The Blessed One said:</p>
+                    <sp>
+                        <speaker>The Blessed One</speaker>
+                        <lg>
+                            <l>Fully ordained monks, and so forth, are three-fold:</l>
+                            <l>Individual liberation, bodhisattva, </l>
+                            <l>And knowledge-holder fully ordained monks.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>According to the sequence of possessing</l>
+                            <l>One, four, ten, or two hundred and fifty vows,</l>
+                            <l>Temporary lay-vow holders, permanent lay-vow holders, novice
+                                monks,</l>
+                            <l>And fully-ordained monks, respectively, are those of individual
+                                liberation.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>Those of generosity, great generosity,</l>
+                            <l>Extreme generosity and complete generosity</l>
+                            <l>Are bodhisattva temporary lay-vow holders, permanent lay-vow holders, </l>
+                            <l>Novice monks and fully-ordained monks, respectively.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>Those who adhere to virtue</l>
+                            <l>Upon having entered the maṇḍala</l>
+                            <l>Are adherents of virtue, temporary lay-vow holders.</l>
+                            <l>With seven, they are great.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>Concerning the particular three great ones,</l>
+                            <l>By being in service to the virtue of the vase initiation,</l>
+                            <l>One is in the service of virtue, a permanent lay-vow holder.</l>
+                            <l>Therefore, with seven, they are great.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>One who is in accordance with the virtue of the secret initiation </l>
+                            <l>Is in harmony with virtue, a novice. </l>
+                            <l>With seven, they become great.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>By upholding that very virtue of wisdom-gnosis, </l>
+                            <l>One is an upholder of virtue, a fully ordained monk.</l>
+                            <l>With seven, they are great.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>These particular three great ones </l>
+                            <l>Are also the three non-returners, </l>
+                            <l>In that reverting back to karmic maturation, cyclic existence, and
+                                the lower vehicle—</l>
+                            <l>The three abandonments—are renounced by the three vehicles,
+                                respectively, </l>
+                            <l>And those of the knowledge-holder vehicle adhere to the fruition.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>A practitioner who adheres to this fruition</l>
+                            <l>Should dwell in the apparel </l>
+                            <l>Of a house-holder, or a vajra-holder, </l>
+                            <l>And confer initiations, consecrations, and so forth.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>I have not taught that one should perform secret conduct <ref cRef="F.195.a"/>
+                            </l>
+                            <l>In the apparel of all three vehicles.</l>
+                            <l>For example, copper is wrought from stone.</l>
+                            <l>Based on copper, one can enjoy the appearance of gold. </l>
+                            <l>When there is copper, there is no stone.</l>
+                            <l>By becoming golden, stone no longer appears.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>The Buddha has not taught that</l>
+                            <l>A knowledge-holder fully ordained monk </l>
+                            <l>Should embody both</l>
+                            <l>Individual liberation and bodhisattva vows.</l>
+                        </lg>
+                    </sp>
+                </div>
+                <div type="chapter">
+                    <head type="chapter">The Fourth Secret</head>
+                    <!-- <head type="chapterTitle">The Fourth Secret</head> -->
+                    <sp>
+                        <speaker>The Blessed One</speaker>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>Next, is the fourth secret,</l>
+                            <l>Related to the fourth initiation.</l>
+                            <l>Here one should meditate, having overcome</l>
+                            <l>This perpetually shifting mind itself,</l>
+                            <l>As well as its attendant objects of meditation—</l>
+                            <l>The forms and so forth that it latches onto.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>Having fully relinquished all reference points</l>
+                            <l>Of apprehended objects and apprehending subjects,</l>
+                            <l>Since the nature of mind is inconceivable, </l>
+                            <l>One should not think of anything whatsoever.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>When the nature of mind is submerged within the empty,</l>
+                            <l>And the empty is well-submerged within the mind, </l>
+                            <l>Concepts of empty, not empty, and so forth, </l>
+                            <l>Are destroyed, leaving the mind like the sky.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>There does not exist a support, there is nothing supported.</l>
+                            <l>Even the matchless state does not exist.</l>
+                            <l>The perfected presence of precisely that</l>
+                            <l>Is innate non-dual awareness. </l>
+                        </lg>
+                    </sp>
+                </div>
+                <div type="chapter">
+                    <head type="chapter">The Final Teaching</head>
+                    <!-- <head type="chapterTitle">The Final Teaching</head> -->
+                    <milestone unit="chunk"/>
+                    <p>Next, the Blessed One spoke on resolving:<note place="end">KSY <foreign type="term" xml:lang="Bo-Ltn">gcod</foreign> (resolving). CDJU
+                                <foreign type="term" xml:lang="Bo-Ltn">spyod</foreign> (conduct).
+                            This selection is based on the logic of the text, which is structured
+                            according to the title and the opening questions.</note>
+                    </p>
+                    <sp>
+                        <speaker>The Blessed One</speaker>
+                        <lg>
+                            <l>Having meditated authentically on the great seal,</l>
+                            <l>Without understanding that the wrathful dances</l>
+                            <l>And the seals are merely an illusory display, </l>
+                            <l>One will be born as a haughty spirit—</l>
+                            <l>One of the kings of the eight charnel grounds—</l>
+                            <l>Devoid of compassion, an eater of flesh and blood.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>If one enters the outer, inner, concealed, </l>
+                            <l>And ultimate maṇḍalas and obtains initiation, </l>
+                            <l>One must meditate, recite, and so forth,</l>
+                            <l>Lest one might obstruct and denigrate the secret mantra.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>Disparaging any spiritual practice, </l>
+                            <l>Ridiculing<note place="end">S <foreign type="term" xml:lang="Bo-Ltn">’phya</foreign> (to ridicule, insult). C <foreign type="term" xml:lang="Bo-Ltn">’byar</foreign> (?). DJU
+                                        <foreign type="term" xml:lang="Bo-Ltn">’phyar</foreign> (to
+                                    lift). K <foreign type="term" xml:lang="Bo-Ltn">phyir</foreign>
+                                    (in order, for the sake of, because of). Y <foreign type="term" xml:lang="Bo-Ltn">phyar</foreign> (to lift).</note> vajra
+                                siblings, disciples<note place="end">S <foreign type="term" xml:lang="Bo-Ltn">ma</foreign> (final syllable in
+                                    “disciple”). CDJKUY <foreign xml:lang="Bo-Ltn">la</foreign> (locative / object particle).</note> with
+                                shared tantric commitments,</l>
+                            <l>Breaking the root and branch samaya vows, </l>
+                            <l>Cursing the lama—by the fruition of these </l>
+                            <l>One will be born as a hell-being in Endless Torment.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>I have explained that not to understand</l>
+                            <l>The significance of the channel-chakras </l>
+                            <l>Of profound interdependent origination <ref cRef="F.195.b"/>
+                            </l>
+                            <l>Is to straddle a blade sixteen finger-widths long.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>If one does not understand the hidden secret,</l>
+                            <l>Through the three-fold non-observation of the concealed</l>
+                            <l>One will be born below as a hell being.</l>
+                            <l>As the wheel of a cart revolves, </l>
+                            <l>So will one revolve due to the maturation of karma.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>Through knowing it, the very meaning of the view—ones’ own
+                                self-awareness‌,</l>
+                            <l>Self-awareness‌, whatever bliss is desired, </l>
+                            <l>Self-awareness‌, whatever illusory display is desired, </l>
+                            <l>Self-awareness‌, like a crystal orb,</l>
+                            <l>Basic space and gnosis, and so forth— </l>
+                            <l>Is thus resolved.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>The meaning of tantra is threefold.</l>
+                            <l>The chakra of great bliss is the causal tantra; </l>
+                            <l>The secret nose-tip is the means tantra;</l>
+                            <l>The Secret Guardian of Bliss is the fruitional tantra.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>The vase is taught to be the causal tantra; </l>
+                            <l>The secret is the means tantra;</l>
+                            <l>The wisdom-gnosis is the fruitional tantra.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>Birth is taught to be the causal tantra. </l>
+                            <l>Death is taught to be the means tantra. </l>
+                            <l>The intermediate state is the fruitional tantra.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>“Tantra” means continuum;</l>
+                            <l>Its king, which teaches secrets, </l>
+                            <l>Has taught secrets as four-fold.</l>
+                        </lg>
+                        <milestone unit="chunk"/>
+                        <lg>
+                            <l>The vase initiation is secret for beginners. </l>
+                            <l>At the time of the vase initiation, the secret initiation is secret. </l>
+                            <l>Wisdom-gnosis is secret in the secret initiation.</l>
+                            <l>Self-awareness‌ is secret in the wisdom-gnosis initiation. </l>
+                            <l>The secret chakra is the fourth secret.</l>
+                        </lg>
+                    </sp>
+                    <milestone unit="chunk"/>
+                    <p>Then, bodhisattva Vajragarbha and an assembly of ḍākinīs equal in number to
+                        the atoms in Mount Meru circumambulated the Blessed One three times and
+                        disappeared. </p>
+                </div>
+                <div type="colophon">
+                    <milestone unit="chunk"/>
+                    <p>This concludes <title xml:lang="eng">The Glorious King of Tantras That
+                            Resolves All Secrets</title>. Translated by the paṇḍita Gayādhara and
+                        the translator bhikṣu Śākya Yeshé.</p>
+                </div>
+            </div>
+        </body>
+        <back>
+            <div type="notes">
+                <head type="notes">Notes</head>
+                <list type="abbreviations">
+                    <head>Abbreviations</head>
+                    <item>
+                        <abbr>D</abbr>
+                        <expan>Degé Kangyur</expan>
+                    </item>
+                    <item>
+                        <abbr>C</abbr>
+                        <expan>Coné Kangyur</expan>
+                    </item>
+                    <item>
+                        <abbr>J</abbr>
+                        <expan>Lithang Kangyur</expan>
+                    </item>
+                    <item>
+                        <abbr>K</abbr>
+                        <expan>Kangxi Peking Kangyur</expan>
+                    </item>
+                    <item>
+                        <abbr>S</abbr>
+                        <expan>Stok Palace Kangyur</expan>
+                    </item>
+                    <item>
+                        <abbr>U</abbr>
+                        <expan>Urga Kangyur</expan>
+                    </item>
+                    <item>
+                        <abbr>Y</abbr>
+                        <expan>Yonglé Peking Kangyur</expan>
+                    </item>
+                </list>
+            </div>
+            <div type="listBibl">
+                <head type="listBibl">Bibliography</head>
+                <div type="section">
+                    <head type="section">Indian Texts in Tibetan Translation</head>
+                    <div type="section">
+                        <head type="section">a) Collections</head>
+                        <bibl>D: Degé Kangyur, facsimile edition of the 1733 redaction of si tu chos
+                            kyi ’byung gnas, Delhi, 1978. Numbers from Tōhoku (Toh.) catalogue
+                            (Tokyo, 1934).</bibl>
+                        <bibl>K: Peking Kangyur, original wood-block print prepared in 1684/1692
+                            under the Kangxi emperor. Rare text collection at Harvard-Yenching
+                            Library.</bibl>
+                    </div>
+                    <div type="section">
+                        <head type="section">b) Individual Texts</head>
+                        <bibl>
+                            <title xml:lang="Sa-Ltn">Śrīguhyasarvacchindatantrarāja</title> (<title xml:lang="Bo-Ltn">dpal gsang ba thams cad gcod pa’i rgyud kyi rgyal
+                                po</title>) (C). Coné Kangyur, vol. 4 (rgyud ’bum, nga),
+                            4b.5-13b.3.</bibl>
+                        <bibl>
+                            <title xml:lang="Sa-Ltn">Śrīguhyasarvacchindatantrarāja</title> (<title xml:lang="Bo-Ltn">dpal gsang ba thams cad gcod pa’i rgyud kyi rgyal
+                                po</title>) (D). Tōh. 384, Degé Kangyur, vol. 79 (rgyud ’bum, ga),
+                            ff. 187a.2-195b7.</bibl>
+                        <bibl>
+                            <title xml:lang="Sa-Ltn">Śrīguhyasarvacchindatantrarāja</title> (<title xml:lang="Bo-Ltn">dpal gsang ba thams cad gcod pa’i rgyud kyi rgyal
+                                po</title>) (K). PTT. 29, Peking Kangxi Kangyur, vol. 4 (rgyud ’bum,
+                            nga), ff. 4a8-13a3.</bibl>
+                        <bibl>
+                            <title xml:lang="Sa-Ltn">Śrīguhyasarvacchindatantrarāja</title> (<title xml:lang="Bo-Ltn">dpal gsang ba thams cad gcod pa’i rgyud kyi rgyal
+                                po</title>) (S). Stok Palace (stog pho brang bris ma) Kangyur, vol. 93 (rgyud ’bum, kha), ff.
+                            450a.4-461a.4.</bibl>
+                        <bibl>
+                            <title xml:lang="Sa-Ltn">Śrīguhyasarvacchindatantrarāja</title> (<title xml:lang="Bo-Ltn">dpal gsang ba thams cad gcod pa’i rgyud kyi rgyal
+                                po</title>) (U). Urga Kangyur, vol. 80 (rgyud ’bum, ga), ff.
+                            187a.2-195b.7.</bibl>
+                        <bibl>
+                            <title xml:lang="Sa-Ltn">Śrīguhyasarvacchindatantrarāja</title> (<title xml:lang="Bo-Ltn">dpal gsang ba thams cad gcod pa’i rgyud kyi rgyal
+                                po</title>) (J and Y). bka’ ’gyur (dpe bsdur ma) [Comparative
+                            Edition of the Kangyur], krung go’i bod rig pa zhib ’jug ste gnas kyi
+                            bka’ bstan dpe sdur khang (The Tibetan Tripitaka Collation Bureau of the
+                            China Tibetology Research Center). 108 volumes. Beijing: krung go’i bod
+                            rig pa dpe skrun khang (China Tibetology Publishing House), 2006-2009,
+                            vol 79, pp 538-560.</bibl>
+                    </div>
+                </div>
+                <div type="section">
+                    <head type="section">Other Tibetan Texts</head>
+                    <bibl>Butön (bu ston rin chen grub). <title xml:lang="Bo-Ltn">chos ’byung</title> [“History of the Dharma”]<title xml:lang="Bo-Ltn">bde bar gshegs pa’i bstan pa’i gsal byed chos kyi ’byung gnas gsung rab rin po che’i mdzod.</title> In
+                        <title xml:lang="Bo-Ltn">gsung 'bum / rin chen grub</title>, vol 24 (ya), pp 619-1042.
+                        Lhasa: zhol par khang, 2000. (TBRC W1934)</bibl>
+                    <bibl>Gö lotsāwa Zhönupal (’gos lo tsā ba gzhon nu dpal). <title xml:lang="Bo-Ltn">deb ther sngon
+                            po</title>. New Delhi: International Academy of Indian Culture, 1974.
+                        Translated, by George Roerich with help from Gendun Chöphel, as <title xml:lang="eng">The Blue Annals</title>. Calcutta: Royal Asiatic Society
+                        of Bengal, 1949. Reprinted Delhi: Motilal Banarsidass Publishers
+                        1988.</bibl>
+                    <bibl>Longchenpa (klong chen rab ’byams pa dri med ’od zer). <title xml:lang="Bo-Ltn">dpal
+                            gsang ba de kho na nyid nges ’grel phyogs bcu mun gsel.</title> In
+                            <title xml:lang="Bo-Ltn">rnying ma bka’ ma rgyas pa</title>, vol 26,
+                        Kalimpong: Dupjung Lama, 1982-1987.</bibl>
+                </div>
+                <div type="section">
+                    <head type="section">Modern Sources</head>
+                    <bibl>Dalton, Jacob (2005). “A Crisis of Doxography: How Tibetans Organized
+                        Tantra during the 8th-12th Centuries.” In <title xml:lang="eng">Journal of
+                            the International Association of Buddhist Studies,</title> 28.1 (2005):
+                        115-181.</bibl>
+                    <bibl>Davidson, Ronald (2005). <title xml:lang="eng">Tibetan Renaissance:
+                            Tantric Buddhism in the Rebirth of Tibetan Culture.</title> New York:
+                        Columbia University Press, 2005.</bibl>
+                    <bibl>______(2002). <title xml:lang="eng">Indian Esoteric Buddhism: A Social
+                            History of the Tantric Movement.</title> New York: Columbia University
+                        Press, 2002.</bibl>
+                    <bibl>______ (2000). “Gsar ma Apocrypha: The Creation of Orthodoxy, Gray Texts,
+                        and the New Revelation.” In <title xml:lang="eng">The Many Canons of Tibetan
+                            Buddhism</title>, edited by Helmut Eimer and David Germano, 202-224.
+                        Leiden: Brill, 2000.</bibl>
+                    <bibl>Gibson, Todd (1997). “Inner Asian Contributions to the Vajrayāna.” <title xml:lang="eng">Indo-Iranian Journal</title> 40 (1997): 37-57.</bibl>
+                    <bibl> Gray, David (2007). <title xml:lang="eng">The Cakrasamvara Tantra: A
+                            Study and Annotated Translation.</title> New York: American Institute of
+                        Buddhist Studies at Columbia University in New York, 2007.</bibl>
+                    <bibl>Harrison, Paul, and Helmut Eimer (1997). “Kanjur and Tanjur Sigla: A
+                        Proposal for Standardisation.” <title xml:lang="eng">Transmission of the
+                            Tibetan Canon</title>, edited by Helmut Eimer, xi–xiv. Vienna: Verlag
+                        der Österreichischen Akademie der Wissenschaften, 1997.</bibl>
+                    <bibl>Isaacsson, Harunaga (1998). “Tantric Buddhism in India (from c. A.D. 800
+                        to c. A.D. 1200).” In <title xml:lang="de">Buddhismus in Geschichte und
+                            Gegenwart</title>. Band II. Hamburg, 23–49. Internal publication of
+                        Hamburg University, 1998.</bibl>
+                    <bibl>Sanderson, Alexis (2001). “History through Textual Criticism in the study
+                        of Śaivism, the Pañcarātra and the Buddhist Yoginītantras.” In <title xml:lang="fr">Les Sources et le temps. Sources and Time: A Colloquium,
+                            Pondicherry, 11-13 January 1997,</title> edited by François Grimal,
+                        1-47. Publications du département d’Indologie 91. Pondicherry: Institut
+                        Français de Pondichéry, École Française d’Extrême-Orient, 2001.</bibl>
+                    <bibl>______(1995a). “Vajrayāna: Origin and Function.” In <title xml:lang="eng">Buddhism into the Year 2000.</title> International Conference
+                        Proceedings. Bangkok and Los Angeles: Dhammakāya Foundation, 1995a.</bibl>
+                    <bibl>______(1995b). “Pious Plagiarism: Evidence of the Dependence of the
+                        Buddhist Yoginītantras on Śaiva Scriptural Sources.” Unpublished lecture
+                        given in Leiden, April 11, 1995b.</bibl>
+                    <bibl>Snellgrove, David (1988). “Categories of Buddhist Tantras.” In <title xml:lang="it">Orientalia Iosephi Tucci Memoriae Dicata.</title> Edited
+                        by R. Gnoli and L. Lanciotti, 1353-1384. Serie Orientale Roma 56.3, Rome :
+                        Istituto Italiano per il Medio ed Estremo Oriente, 1988.</bibl>
+                    <bibl>______(1987). <title xml:lang="eng">Indo-Tibetan Buddhism.</title> London:
+                        Serindia Publications, 1987.</bibl>
+                    <bibl> ______(1959). <title xml:lang="eng">Hevajra Tantra.</title> London:
+                        Oxford University Press, 1959.</bibl>
+                </div>
+            </div>
+            <div type="glossary">
+                <list>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-079-011-te1">fruition</term>
+                            <term xml:lang="Bo-Ltn">’bras bu </term>
+                            <term xml:lang="Sa-Ltn">phalatva, phalatā</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-079-011-te2">apprehend</term>
+                            <term xml:lang="Bo-Ltn">’dzin pa </term>
+                            <term xml:lang="Sa-Ltn">grah</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-079-011-te3">cyclic existence</term>
+                            <term xml:lang="Bo-Ltn">’khor ba </term>
+                            <term xml:lang="Sa-Ltn">saṃsāra</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-079-011-te4">chakra</term>
+                            <term xml:lang="Bo-Ltn">’khor lo </term>
+                            <term xml:lang="Sa-Ltn">cakra</term>
+                            <term type="alternative" xml:lang="eng">wheel</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-079-011-te5">demon</term>
+                            <term xml:lang="Bo-Ltn">bdud </term>
+                            <term xml:lang="Sa-Ltn">māra</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-079-011-te6">ambrosia</term>
+                            <term xml:lang="Bo-Ltn">bdud rtsi </term>
+                            <term xml:lang="Sa-Ltn">amṛta</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-079-011-te7">obstructing forces</term>
+                            <term xml:lang="Bo-Ltn">bgegs </term>
+                            <term xml:lang="Sa-Ltn">vighna</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-079-011-te8">development stage</term>
+                            <term xml:lang="Bo-Ltn">bskyed rim </term>
+                            <term xml:lang="Sa-Ltn">utpattikrama</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-079-011-te9">all-accomplishing wisdom</term>
+                            <term xml:lang="Bo-Ltn">bya grub ye shes </term>
+                            <term xml:lang="Sa-Ltn">kṛtyanuṣṭhānajñāna</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-079-011-te10">spirit of enlightenment</term>
+                            <term xml:lang="Bo-Ltn">byang chub kyi sems </term>
+                            <term xml:lang="Sa-Ltn">bodhicitta</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-079-011-te11">aspect of enlightenment</term>
+                            <term xml:lang="Bo-Ltn">byang chub kyi yan lag </term>
+                            <term xml:lang="Sa-Ltn">bodhyaṅga</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-079-011-te12">dharma body</term>
+                            <term xml:lang="Bo-Ltn">chos sku </term>
+                            <term xml:lang="Sa-Ltn">dharmakāya</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-079-011-te13">samaya vows</term>
+                            <term xml:lang="Bo-Ltn">dam tshig </term>
+                            <term xml:lang="Sa-Ltn">samaya</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-079-011-te14">initiation</term>
+                            <term xml:lang="Bo-Ltn">dbang </term>
+                            <term xml:lang="Sa-Ltn">abhiṣeka</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-079-011-te15">joy</term>
+                            <term xml:lang="Bo-Ltn">dga’ ba </term>
+                            <term xml:lang="Sa-Ltn">tuṣṭi, nandana, etc.</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-079-011-te16">maṇḍala</term>
+                            <term xml:lang="Bo-Ltn">dkyil ’khor </term>
+                            <term xml:lang="Sa-Ltn">maṇḍala</term>
+                            <term type="alternative" xml:lang="eng">disc</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-079-011-te17">non-observations</term>
+                            <term xml:lang="Bo-Ltn">mi dmigs pa </term>
+                            <term xml:lang="Sa-Ltn">anupalabdhi</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-079-011-te18">accomplishment</term>
+                            <term xml:lang="Bo-Ltn">dngos grub </term>
+                            <term xml:lang="Sa-Ltn">siddhi</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-079-011-te19">eight great charnel grounds</term>
+                            <term xml:lang="Bo-Ltn">dur khrod chen po brgyad </term>
+                            <term xml:lang="Sa-Ltn">aṣṭa mahāśmaśānāni</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-079-011-te20">central deity</term>
+                            <term xml:lang="Bo-Ltn">gtso bo </term>
+                            <term xml:lang="Sa-Ltn">maṇḍaleśa</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-079-011-te21">inner heat</term>
+                            <term xml:lang="Bo-Ltn">gtum mo </term>
+                            <term xml:lang="Sa-Ltn">caṇḍālī</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-079-011-te22">apprehended</term>
+                            <term xml:lang="Bo-Ltn">gzung ba </term>
+                            <term xml:lang="Sa-Ltn">grāhya</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-079-011-te23">cyclic existence</term>
+                            <term xml:lang="Bo-Ltn">khor ba </term>
+                            <term xml:lang="Sa-Ltn">saṃsāra</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-079-011-te24">relative</term>
+                            <term xml:lang="Bo-Ltn">kun rdzob </term>
+                            <term xml:lang="Sa-Ltn">saṃvṛti</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-079-011-te25">karmic action</term>
+                            <term xml:lang="Bo-Ltn">las </term>
+                            <term xml:lang="Sa-Ltn">karman</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-079-011-te26">action seal</term>
+                            <term xml:lang="Bo-Ltn">las kyi phyag rgya </term>
+                            <term xml:lang="Sa-Ltn">karmamudrā</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-079-011-te27">innate</term>
+                            <term xml:lang="Bo-Ltn">lhan skyes </term>
+                            <term xml:lang="Sa-Ltn">sahaja</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-079-011-te28">enjoyment body</term>
+                            <term xml:lang="Bo-Ltn">longs spyod rdzogs pa’i sku </term>
+                            <term xml:lang="Sa-Ltn">sambhogakāya</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-079-011-te29">view</term>
+                            <term xml:lang="Bo-Ltn">lta ba </term>
+                            <term xml:lang="Sa-Ltn">darśana , dṛṣṭi</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-079-011-te30">ḍākinī</term>
+                            <term xml:lang="Bo-Ltn">mkha’ ’gro ma </term>
+                            <term xml:lang="Sa-Ltn">ḍākinī</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-079-011-te31">equipoise</term>
+                            <term xml:lang="Bo-Ltn">mnyam bzhag </term>
+                            <term xml:lang="Sa-Ltn">samādhi , samāhita , samāpatti</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-079-011-te32">major and minor marks</term>
+                            <term xml:lang="Bo-Ltn">mtshan dpe </term>
+                            <term xml:lang="Sa-Ltn">lakṣaṇavyañjanāni</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-079-011-te33">listeners</term>
+                            <term xml:lang="Bo-Ltn">nyan thos </term>
+                            <term xml:lang="Sa-Ltn">śrāvaka</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-079-011-te34">sun disc</term>
+                            <term xml:lang="Bo-Ltn">nyi ma’i dkyil ’khor </term>
+                            <term xml:lang="Sa-Ltn">sūryamaṇḍala</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-079-011-te35">afflictions</term>
+                            <term xml:lang="Bo-Ltn">nyon mongs pa </term>
+                            <term xml:lang="Sa-Ltn">kleśa</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-079-011-te36">great seal</term>
+                            <term xml:lang="Bo-Ltn">phyag rgya chen po </term>
+                            <term xml:lang="Sa-Ltn">mahāmudrā</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-079-011-te37">seal</term>
+                            <term xml:lang="Bo-Ltn">phyag rgya </term>
+                            <term xml:lang="Sa-Ltn">mudrā</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-079-011-te38">nature</term>
+                            <term xml:lang="Bo-Ltn">rang bzhin </term>
+                            <term xml:lang="Sa-Ltn">prakṛti, svabhāva</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-079-011-te39">solitary realizers</term>
+                            <term xml:lang="Bo-Ltn">rang rgyal </term>
+                            <term xml:lang="Sa-Ltn">pratyekabuddha</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-079-011-te40">self-awareness‌</term>
+                            <term xml:lang="Bo-Ltn">rang rig </term>
+                            <term xml:lang="Sa-Ltn">svasaṃvedana, svasaṃvedanā</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-079-011-te41">vajra</term>
+                            <term xml:lang="Bo-Ltn">rdo rje </term>
+                            <term xml:lang="Sa-Ltn">vajra</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-079-011-te42">completion stage</term>
+                            <term xml:lang="Bo-Ltn">rdzogs rim </term>
+                            <term xml:lang="Sa-Ltn">sampannakrama</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-079-011-te43">adornment</term>
+                            <term xml:lang="Bo-Ltn">rgyan </term>
+                            <term xml:lang="Sa-Ltn">ābharaṇa , vibhūṣaṇa , maṇḍana</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-079-011-te44">awareness</term>
+                            <term xml:lang="Bo-Ltn">rig pa </term>
+                            <term xml:lang="Sa-Ltn">saṃvedana</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-079-011-te45">knowledge-holder</term>
+                            <term xml:lang="Bo-Ltn">rig pa ’dzin pa </term>
+                            <term xml:lang="Sa-Ltn">vidyādhara</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-079-011-te46">Subsequent attainment</term>
+                            <term xml:lang="Bo-Ltn">rjes thob </term>
+                            <term xml:lang="Sa-Ltn">pṛṣṭhalabdhajñāna</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-079-011-te47">wind</term>
+                            <term xml:lang="Bo-Ltn">rlung </term>
+                            <term xml:lang="Sa-Ltn">vāta , vāyu , prāṇa</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-079-011-te48">consciousness</term>
+                            <term xml:lang="Bo-Ltn">rnam shes </term>
+                            <term xml:lang="Sa-Ltn">vijñāna , jñāna</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-079-011-te49">support</term>
+                            <term xml:lang="Bo-Ltn">rten </term>
+                            <term xml:lang="Sa-Ltn">āśraya , niśraya</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-079-011-te50">interdependent origination</term>
+                            <term xml:lang="Bo-Ltn">rten cing ’brel bar byung ba </term>
+                            <term xml:lang="Sa-Ltn">pratītyasamutpāda</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-079-011-te51">channels</term>
+                            <term xml:lang="Bo-Ltn">rtsa </term>
+                            <term xml:lang="Sa-Ltn">nāḍī</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-079-011-te52">buddha</term>
+                            <term xml:lang="Bo-Ltn">sangs rgyas </term>
+                            <term xml:lang="Sa-Ltn">buddha</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-079-011-te53">enlightened body, speech, and
+                                mind</term>
+                            <term xml:lang="Bo-Ltn">sku gsung thugs </term>
+                            <term xml:lang="Sa-Ltn">kāyavākcitta</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-079-011-te54">mantra</term>
+                            <term xml:lang="Bo-Ltn">sngags </term>
+                            <term xml:lang="Sa-Ltn">mantra</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-079-011-te55">mantra garland</term>
+                            <term xml:lang="Bo-Ltn">sngags phreng </term>
+                            <term xml:lang="Sa-Ltn">mantramālā , mantrāvali</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-079-011-te56">universe and its inhabitants</term>
+                            <term xml:lang="Bo-Ltn">snod bcud </term>
+                            <term xml:lang="Sa-Ltn">sthāvarajaṅgama</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-079-011-te57">mental activity</term>
+                            <term xml:lang="Bo-Ltn">spros pa </term>
+                            <term xml:lang="Sa-Ltn">prapañca</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-079-011-te58">emanation body</term>
+                            <term xml:lang="Bo-Ltn">sprul pa’i sku </term>
+                            <term xml:lang="Sa-Ltn">nirmāṇakāya</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-079-011-te59">seminal drop</term>
+                            <term xml:lang="Bo-Ltn">thig le </term>
+                            <term xml:lang="Sa-Ltn">bindu</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-079-011-te62">seminal fluid</term>
+                            <term xml:lang="Bo-Ltn">thig le </term>
+                            <term xml:lang="Sa-Ltn">bindu</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-079-011-te60">gnosis</term>
+                            <term xml:lang="Bo-Ltn">ye shes </term>
+                            <term xml:lang="Sa-Ltn">jñāna</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-079-011-te63">gnoses</term>
+                            <term xml:lang="Bo-Ltn">ye shes </term>
+                            <term xml:lang="Sa-Ltn">jñāna</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-079-011-te64">wisdom</term>
+                            <term xml:lang="Bo-Ltn">shes rab </term>
+                            <term xml:lang="Sa-Ltn">prajñā</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-079-011-te61">solitary realizer</term>
+                            <term xml:lang="Bo-Ltn">rang rgyal </term>
+                            <term xml:lang="Sa-Ltn">pratyekabuddha</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-079-011-pe1">Pāṇḍaravāsinī</term>
+                            <term xml:lang="Bo-Ltn">gos dkar mo </term>
+                            <term xml:lang="Sa-Ltn">Pāṇḍaravāsinī</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-079-011-pe2">Tārā</term>
+                            <term xml:lang="Bo-Ltn">sgrol ma </term>
+                            <term xml:lang="Sa-Ltn">Tārā</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-079-011-pe3">Hayagrīva</term>
+                            <term xml:lang="Bo-Ltn">rta mgrin </term>
+                            <term xml:lang="Sa-Ltn">Hayagrīva</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-079-011-pe4">Vairocana</term>
+                            <term xml:lang="Bo-Ltn">rnam snang </term>
+                            <term xml:lang="Sa-Ltn">Vairocana</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-079-011-pe5">Vajrasattva</term>
+                            <term xml:lang="Bo-Ltn">rdo rje sems dpa’ </term>
+                            <term xml:lang="Sa-Ltn">Vajrasattva</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-079-011-pe6">Vajragarbha</term>
+                            <term xml:lang="Bo-Ltn">rdo rje snying po </term>
+                            <term xml:lang="Sa-Ltn">Vajragarbha</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-079-011-pe7">Brahma</term>
+                            <term xml:lang="Bo-Ltn">tshangs pa </term>
+                            <term xml:lang="Sa-Ltn">Brahma</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-079-011-pe8">Heruka</term>
+                            <term xml:lang="Bo-Ltn">he ru ka </term>
+                            <term xml:lang="Sa-Ltn">Heruka</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-079-011-pe9">Akṣobhya</term>
+                            <term xml:lang="Bo-Ltn">mi bskyod pa </term>
+                            <term xml:lang="Sa-Ltn">Akṣobhya</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-079-011-pe10">Ratnasambhava</term>
+                            <term xml:lang="Bo-Ltn">rin chen ’byung gnas </term>
+                            <term xml:lang="Sa-Ltn">Ratnasambhava</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-079-011-pe11">Amoghasiddhi</term>
+                            <term xml:lang="Bo-Ltn">don grub </term>
+                            <term xml:lang="Sa-Ltn">Amoghasiddhi</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-079-011-pe12">Amitābha</term>
+                            <term xml:lang="Bo-Ltn">’od dpag med </term>
+                            <term xml:lang="Sa-Ltn">Amitābha</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-079-011-pe13">Rudra</term>
+                            <term xml:lang="Bo-Ltn">ru dra </term>
+                            <term xml:lang="Sa-Ltn">Rudra</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-079-011-pe14">Gayādhara</term>
+                            <term xml:lang="Bo-Ltn">ga ya dha ra </term>
+                            <term xml:lang="Sa-Ltn">Gayādhara</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-079-011-pe15">Drokmi</term>
+                            <term xml:lang="Bo-Ltn">’brog mi shAkya ye shes </term>
+                            <term xml:lang="Sa-Ltn">-</term>
+                            <term type="definition">Drokmi Śākya Yeshé, the great 11th century translator from Lhatsé in Western Tsang.</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-079-011-pe16">Spiritual Hero</term>
+                            <term xml:lang="Bo-Ltn">dpa’ bo </term>
+                            <term xml:lang="Sa-Ltn">-</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-079-011-pe17">Blessed One</term>
+                            <term xml:lang="Bo-Ltn">bcom ldan ’das </term>
+                            <term xml:lang="Sa-Ltn">-</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-079-011-pe18">Vajra Lady</term>
+                            <term xml:lang="Bo-Ltn">rdo rje btsun mo </term>
+                            <term xml:lang="Sa-Ltn">-</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-079-011-pe19">Secret Guardian of Bliss</term>
+                            <term xml:lang="Bo-Ltn">gsang ba bde skyong </term>
+                            <term xml:lang="Sa-Ltn">-</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-079-011-pe20">Butön</term>
+                            <term xml:lang="Bo-Ltn">bu ston rin chen grub </term>
+                            <term xml:lang="Sa-Ltn">-</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-079-011-pl1">Mount Meru</term>
+                            <term xml:lang="Bo-Ltn">ri rab </term>
+                            <term xml:lang="Sa-Ltn">sumeru</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-079-011-pl2">Endless Torment</term>
+                            <term xml:lang="Bo-Ltn">mnar med </term>
+                            <term xml:lang="Sa-Ltn">avīci</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-079-011-pl3">Śītavana</term>
+                            <term xml:lang="Bo-Ltn">si hla ling </term>
+                            <term xml:lang="Sa-Ltn">Śītavana</term>
+                        </gloss>
+                    </item>
+                </list>
+            </div>
+        </back>
+    </text>
+</TEI>

@@ -1,0 +1,466 @@
+<!--  Edited and finalized by John, placed in TEI folder 22 June 2016 --><!-- copied from tei production folder 2016_08_15-->
+<?xml-model href="oxygen:/Exist$84000-AWS/db/84000/schema/84000-ODD.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="bo">སྤྱན་རས་གཟིགས་དབང་ཕྱུག་གིས་ཞུས་པ་ཆོས་བདུན་པ།</title>
+                <title type="mainTitle" xml:lang="eng">The Inquiry of Avalokiteśvara on the Seven
+                    Qualities</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">Avalokiteśvara­paripṛcchā­sapta­dharmaka</title>
+                <title type="longTitle" xml:lang="bo">འཕགས་པ་སྤྱན་རས་གཟིགས་དབང་ཕྱུག་གིས་ཞུས་པ་ཆོས་བདུན་པ་ཞེས་བྱ་བ་ཐེག་པ་ཆེན་པོའི་མདོ།</title>
+                <title type="longTitle" xml:lang="Bo-Ltn">’phags pa spyan ras gzigs dbang phyug gis
+                    zhus pa chos bdun pa zhes bya ba theg pa chen po’i mdo</title>
+                <title type="longTitle" xml:lang="eng"> The Noble Mahāyāna Sūtra “The Inquiry of
+                    Avalokiteśvara on the Seven Qualities”</title>
+                <title type="longTitle" xml:lang="Sa-Ltn">Āryāvalokiteśvara­paripṛcchā­sapta­dharmaka­nāma­mahā­yāna­sūtra</title>
+                <author role="translatorMain">Translated by the University of Calgary Buddhist
+                    Studies team<lb/> under the patronage and supervision of 84000: Translating the
+                    Words of the Buddha</author>
+                <author role="translatorEng">James B. Apple</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 1.1 <date>2014 - 2016</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>84000: Translating the Words of the Buddha</name> is a global non-profit
+                    initiative that aims to translate all of the Buddha’s words into modern
+                    languages, and to make them available to everyone.</publisher>
+                <availability>
+                    <licence>
+                        <graphic url="http://i.creativecommons.org/l/by-nc-nd/2.0/88x31.png"/>
+                        <lb/>
+                        <p>This work is provided under the protection of a Creative Commons CC
+                            BY-NC-ND (Attribution - Non-commercial - No-derivatives) 3.0 copyright.
+                            It may be copied or printed for fair use, but only with full
+                            attribution, and not for commercial advantage or personal compensation.
+                            For full details, see the Creative Commons license.</p>
+                    </licence>
+                </availability>
+                <idno xml:id="UT22084-057-009"/>
+                <date>2014</date>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <ref>Toh 150</ref>, <biblScope>Degé Kangyur, vol. 57 (mdo sde, pa), folios 331a
+                        – 331b</biblScope>
+                    <author role="translatorTib">Dīpaṃkaraśrījñāna</author>
+                    <author role="translatorTib">Gewai Lodrö</author>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <!--Contents											
+		Summary												
+	             Acknowledgments
+		Introduction
+		The Translation
+		 The Inquiry of Avalokiteśvara on the Seven Qualities
+		Notes
+		Bibliography-->
+            <div type="summary">
+                <head type="summary">Summary</head>
+                <milestone unit="chunk"/>
+                <p>The sūtra is introduced with the Buddha residing on Vulture Peak Mountain in
+                    Rājagṛha, together with a great monastic assembly of 1,250 monks and a multitude
+                    of bodhisattva mahāsattvas. The Buddha is approached and asked by the
+                    bodhisattva mahāsattva Avalokiteśvara about the qualities that should be
+                    cultivated by a bodhisattva who has just generated the altruistic mind set on
+                    attaining awakening. The Buddha briefly expounds seven qualities that should be
+                    practiced by such a bodhisattva, emphasizing mental purity and cognitive
+                    detachment from conceptuality. </p>
+            </div>
+            <div type="acknowledgment">
+                <head type="acknowledgment">Acknowledgements</head>
+                <milestone unit="chunk"/>
+                <p>Translation by the University of Calgary Buddhist Studies team. This sūtra was
+                    introduced and translated by James B. Apple.</p>
+                <p>This translation has been completed under the patronage and supervision of 84000:
+                    Translating the Words of the Buddha.</p>
+            </div>
+            <div type="introduction">
+                <head type="introduction">Introduction</head>
+                <div type="section">
+                    <milestone unit="chunk"/>
+                    <p>
+                        <title xml:lang="eng">The Inquiry of Avalokiteśvara‌ on the Seven
+                        Qualities</title>
+                        <note place="end">Within the title, DGoHeJLQ have 
+                        <foreign xml:lang="Bo-Ltn">spyan ras gzigs dbang phyug</foreign>; FSZ have 
+                        <foreign xml:lang="Bo-Ltn">spyan ras gzigs kyi dbang phyug</foreign>. Go has the 
+                        title <foreign xml:lang="Bo-Ltn">’phags pa spyan ras gzigs dbang phyug gyis zhus pa / 
+                        byang chub sems dpa’i slab pa bdun pa</foreign> (“The Inquiry of Avalokiteśvara: 
+                        the Seven Points of a Bodhisattva’s Training”).</note>
+                        is a brief sūtra describing seven qualities that should be
+                        cultivated by a bodhisattva immediately upon generating the altruistic mind
+                        set on attaining awakening. The mind of awakening is the intention or
+                        resolution to attain full and complete buddhahood for the benefit of oneself
+                        and all sentient beings. </p>
+                    <milestone unit="chunk"/>
+                    <p>The structure of the sūtra is in three parts: the opening formula that gives
+                        the time, place, and Buddha’s retinue when the discourse was taught; the
+                        prescription of seven dharmas to be cultivated; and a formulaic
+                        conclusion.</p>
+                    <milestone unit="chunk"/>
+                    <p> The Buddha delivers his teaching in response to the bodhisattva mahāsattva
+                        Avalokiteśvara’s inquiry. What is unusual in the formulaic inquiry phrases
+                        of this sūtra is that Avalokiteśvara places his right knee in the center of
+                        a lotus flower; in most sūtras that follow such a pattern, the questioner
+                        places his knee on the ground. This implicitly demonstrates the reverence in
+                        which Avalokiteśvara was held by the compilers or transmitters of this
+                        sūtra. The Buddha prescribes seven qualities or dharmas that one should
+                        cultivate after producing the mind of awakening. They emphasize mental
+                        purity and cognitive detachment from conceptuality. These prescriptions are
+                        straightforward and easy to understand according to the overview of the
+                        sūtra by Pekar Sangpo (<foreign xml:lang="Bo-Ltn">pad dkar bzang po</foreign>, see bibliography).</p>
+                    <milestone unit="chunk"/>
+                    <p>
+                        <title xml:id="eng">The Inquiry of Avalokiteśvara on the Seven
+                            Qualities</title> was initially translated from an Indian language, most
+                        likely Sanskrit, into Tibetan by Atiśa Dīpaṃkara­śrī­jñāna (982-1054) and the
+                        Tibetan monk Gewai Lodrö.</p>
+                    <p>The translation took place in all probability at the monastery of Tholing in
+                        West Tibet, where the rulers of Ngari (<foreign type="term" xml:lang="Bo-Ltn">mnga’ ris</foreign>) first officially welcomed Atiśa
+                        and where Gewai Lodrö was active.<note place="end">See Chattopadhyaya 1967:
+                            325.</note> Gewai Lodrö collaborated with the great Kaśmīri scholar
+                        Subhūtiśrī(śānti) in Tholing before working with Atiśa. Atiśa and Gewai
+                        Lodrö worked together on several translations found in editions of the
+                        Tengyur, including the verses of the <title xml:lang="Sa-Ltn">Bodhi­patha­pradīpa</title> (<ref>Toh 3947</ref>) and the <bibl>
+                            <title xml:lang="Sa-Ltn">Cittotpāda­saṃvara­vidhikrama</title> (<ref>Toh
+                                3969</ref>)</bibl>, and two texts found in most Kangyurs, the <title xml:lang="Sa-Ltn">Gaṇḍi­samaya­sūtra</title> (<ref>Toh 299</ref>) and the
+                        <title xml:lang="Sa-Ltn">Siddhaika­vīra­mahā­tantra­rāja</title> (<ref>Toh
+                            544</ref>, <ref>Degé 541</ref>).<note place="end">See Dharmachakra Translation Group 2016.</note>
+                    </p>
+                    <milestone unit="chunk"/>
+                    <p> Atiśa makes explicit reference to this sūtra in his <title xml:lang="Sa-Ltn">Bodhi­mārga­pradīpa­pañjikā</title>, <title xml:lang="Sa-Ltn">Cittotpāda­saṃvara­vidhikrama</title>, and <title xml:lang="Sa-Ltn">Ratna­karaṇḍodghāṭa­nāma­madhyamakopadeśa</title> (<ref>Toh 3930, English
+                        translation Apple 2010: 142-43</ref>). In the <title xml:lang="Sa-Ltn">Bodhi­mārga­pradīpa­pañjikā</title> this sūtra is mentioned in the
+                        sections discussing the mind of awakening (Sherburne 2000: 101), the
+                        monastic life (Sherburne 2000: 127), and the supersensory knowledges
+                        (Sherburne 2000: 209). The <title xml:lang="Sa-Ltn">Cittotpāda­saṃvara­vidhikrama</title> also advocates the practice of this
+                        sūtra’s prescriptions for a bodhisattva who wishes to attain supersensory
+                        knowledge quickly (Sherburne 2000: 540-541).</p>
+                    <milestone unit="chunk"/>
+                    <p>The present translation from Tibetan is based upon a critical edition of ten
+                        Kangyur exemplars. A detailed philological analysis of the extant editions
+                        of this sūtra indicates that the oldest copies of this sūtra are preserved
+                        among Western Kangyur collections such as the Gondhla Collection, Hemis
+                        Kangyur, and Phudrak (<foreign xml:lang="Bo-Ltn">phug brag</foreign>)
+                        Kangyur.</p>
+                </div>
+            </div>
+        </front>
+        <body>
+            <div type="translation">
+                <head type="translation">The Translation</head>
+                <head type="titleHon">The Noble Mahāyāna Sūtra</head>
+                <head type="titleMain">The Inquiry of Avalokiteśvara on the Seven Qualities </head>
+                <div type="section">
+                    <milestone unit="chunk"/>
+                    <p>
+                        <!--<modularPassage type="homage">-->Homage to the Bhagavān
+                        Mañjuśrīkumārabhūta!<!--</modularPassage>-->
+                    </p>
+                    <lb/>
+                    <milestone unit="chunk"/>
+                    <p>
+                        <!--<modularPassage type="thusDid">-->Thus have I heard at one time. The
+                        Bhagavān was dwelling in Rājagṛha<note place="end">GoLSZ <foreign xml:lang="Bo-Ltn">rgyal po’i khab na</foreign>; DFHeJQ <foreign xml:lang="Bo-Ltn">rgyal po’i khab</foreign>
+                        </note> on the Vulture
+                        Peak mountain<note place="end">FGoLSZ <foreign xml:lang="Bo-Ltn">bya rgod
+                                kyi phung po</foreign>; DHeJQ <foreign xml:lang="Bo-Ltn">bya rgod
+                                phung po</foreign>
+                        </note> together with a great monastic assembly of
+                        1,250 monks and a multitude of bodhisattva
+                        mahāsattvas.<!--</modularPassage>--> At that time, the bodhisattva
+                        mahāsattva Noble Avalokiteśvara rose from his seat, arranged his upper robe
+                        on one shoulder, and placed his right knee in the center of a lotus flower. </p>
+                    <milestone unit="chunk"/>
+                    <p>Joining his hands in devotion toward the Bhagavān, he asked him, “Bhagavān, in how many qualities should a bodhisattva train, just after
+                            generating the altruistic mind set on attaining awakening?”<note place="end"> FGoHeLSZ <foreign xml:lang="Bo-Ltn">byang chub tu
+                                    sems</foreign>; DJQ <foreign xml:lang="Bo-Ltn">byang chub kyi
+                                    sems</foreign>
+                        </note>
+                    </p>
+                    <p>The Bhagavān replied to the bodhisattva mahāsattva Noble Avalokiteśvara’s
+                        inquiry with the following words.</p>
+                    <lb/>
+                    <milestone unit="chunk"/>
+                    <p>“Kulaputra, bodhisattvas should train in seven qualities just after
+                            generating the altruistic mind set on attaining awakening.<note place="end"> DFGoHeLSZ <foreign xml:lang="Bo-Ltn">byang chub tu sems
+                                    bskyed</foreign>; JQ <foreign xml:lang="Bo-Ltn">sems
+                                    bskyed</foreign>
+                        </note> What are the seven? They are as follows. </p>
+                    <list>
+                        <item>“(1) One should not have sexual enjoyment even in thought, not to
+                                mention joining together the two sexual organs. <ref cRef="F.331.b"/>
+                        </item>
+                        <item>“(2) One should not take up with a non-virtuous friend even in
+                                dreams.</item>
+                        <item>“(3) With a mind free like a bird, one should be completely
+                                without grasping.</item>
+                        <item>“(4) With mastery in skill and wisdom, one should be without pride
+                                and reified conceptions of ‘I.’ </item>
+                        <item>“(5) One should abandon conceptions of existence and non-existence
+                                and be firm in the emancipation (<foreign xml:lang="Sa-Ltn">vimokṣa</foreign>) of emptiness.</item>
+                        <item>“(6) One should not take delight in saṃsāra through an inauthentic
+                                conceptual understanding, saṃsāra being like a magical illusion or
+                                dream.</item>
+                        <item>“(7) And one should refrain from deprecating the law of cause and
+                                effect. </item>
+                    </list>
+                    <p>“Kulaputra, a bodhisattva who has just generated the altruistic mind set
+                            on attaining awakening<note place="end">DFGoJQ <foreign xml:lang="Bo-Ltn">byang chub tu sems bskyed</foreign>; HeLSZ
+                                    <foreign xml:lang="Bo-Ltn">sems bskyed</foreign>
+                        </note> should
+                            train in these seven qualities.”</p>
+                    <milestone unit="chunk"/>
+                    <p>
+                        <!--<modularPassage type="finalPraise">-->When the Bhagavān had spoken, the
+                        bodhisattva Noble Avalokiteśvara, along with the monks and bodhisattvas,
+                        rejoiced and praised highly what had been proclaimed by the 
+                        Bhagavān.<!--</modularPassage>-->
+                        <note place="end">Go omits <foreign xml:lang="Bo-Ltn">’phags 
+                            pa spyan ras gzigs dbang phyug dang / dge slong de dag dang byang chub sems dpa’
+                                de dag yi rangs te/ bcom ldan ’das kyis gsungs pa la mngon par bstod
+                                do</foreign>
+                        </note>
+                    </p>
+                </div>
+                <div type="colophon">
+                    <milestone unit="chunk"/>
+                    <p>This completes the Noble Mahāyāna sūtra, <title xml:lang="eng">The Inquiry of Avalokiteśvara on
+                        the Seven Qualities</title>.<note place="end">DFHeJLQSZ <foreign xml:lang="Bo-Ltn">chos bdun pa</foreign>; Go <foreign xml:lang="Bo-Ltn">byang sems
+                                dpa’i / slab pa bdun pa</foreign>
+                        </note>
+                    </p>
+                    <p>Translated and edited by the Indian master Dīpaṃkara­śrī­jñāna and the
+                        translator monk Gewai Lodrö.</p>
+                </div>
+            </div>
+        </body>
+        <back>
+            <div type="notes">
+                <head type="notes">Notes</head>
+                <list type="abbreviations">
+                    <head>Abbreviations</head>
+                    <item>
+                        <abbr>MsK</abbr>
+                        <expan>Manuscript Kangyur</expan>
+                    </item>
+                    <item>
+                        <abbr>PK</abbr>
+                        <expan>Printed Kangyur</expan>
+                    </item>
+                    <item>
+                        <abbr>D</abbr>
+                        <expan>Degé (sde dge) PK</expan>
+                    </item>
+                    <item>
+                        <abbr>F</abbr>
+                        <expan>Phug brag MsK</expan>
+                    </item>
+                    <item>
+                        <abbr>Go</abbr>
+                        <expan>Gondhla Collection MsK</expan>
+                    </item>
+                    <item>
+                        <abbr>He</abbr>
+                        <expan>Hemis MsK</expan>
+                    </item>
+                    <item>
+                        <abbr>J</abbr>
+                        <expan>Lithang PK</expan>
+                    </item>
+                    <item>
+                        <abbr>L</abbr>
+                        <expan>London MsK</expan>
+                    </item>
+                    <item>
+                        <abbr>Q</abbr>
+                        <expan>Peking Qianlong PK</expan>
+                    </item>
+                    <item>
+                        <abbr>S</abbr>
+                        <expan>Stok Palace MsK</expan>
+                    </item>
+                    <item>
+                        <abbr>Z</abbr>
+                        <expan>Shey Palace MsK</expan>
+                    </item>
+                </list>
+            </div>
+            <div type="listBibl">
+                <head type="listBibl">Bibliography</head>
+                <div type="section">
+                    <head type="section">Tibetan Kangyur Editions</head>
+                    <bibl>
+                        (rKTs = University of Vienna Resources for Kanjur and Tibetan Studies, 
+                            www.istb.univie.ac.at/kanjur/xml3/xml/. For other abbreviations, see Notes.)</bibl>
+                    <lb/>
+                    <bibl>
+                        <title xml:lang="Bo-Ltn">’phags pa spyan ras gzigs dbang phyug gis zhus pa
+                            chos bdun pa zhes bya ba theg pa chen po’i mdo
+                            (Āryāvalokiteśvara­pari­pṛcchā­sapta­dharmaka­nāma­mahā­yāna­sūtra)</title>. Toh
+                        150, rKTs-K150, D 150, Degé Kangyur (PK) vol. 57 (mdo sde, pa), folios
+                        331a-331b. http://tbrc.org/link?RID=W22084 </bibl>
+                    <bibl>
+                        <title xml:lang="Bo-Ltn">’phags pa spyan ras gzigs dbang phyug gis zhus pa
+                            chos bdun pa zhes bya ba theg pa chen po’i mdo</title>. rKTs-K150,
+                        He48.6, Hemis Kangyur (He) (MsK), mdo sde, nga, folios 296b-299b. Digital
+                        scans from rKTs. </bibl>
+                    <bibl>
+                        <title xml:lang="Bo-Ltn">’phags pa spyan ras gzigs dbang phyug gis zhus pa
+                            chos bdun pa zhes bya ba theg pa chen po’i mdo</title>. rKTs-K150, J94,
+                        Lithang (li thang) Kangyur (J) (PK), vol. 52 (mdo sde, pa), folios
+                        278a-279a. http://tbrc.org/link?RID=W4CZ7445 </bibl>
+                    <bibl>
+                        <title xml:lang="Bo-Ltn">’phags pa spyan ras gzigs dbang phyug gis zhus pa
+                            chos bdun pa zhes bya ba theg pa chen po’i mdo</title>. rKTs-K150, Q
+                        817, Peking Qianlong (Q) (PK), vol. 33 (mdo sna tshogs, nu), folios
+                        293b-294b (p 36 in bound edition). </bibl>
+                    <bibl>
+                        <title xml:lang="Bo-Ltn">’phags pa spyan ras gzigs dbang phyug gis zhus pa
+                            chos bdun pa zhes bya ba theg pa chen po’i mdo.</title> bka’ ’gyur (dpe
+                        bsdur ma) [Comparative Edition of the Kangyur], krung go’i bod rig pa zhib
+                        ’jug ste gnas kyi bka’ bstan dpe sdur khang (The Tibetan Tripitaka Collation
+                        Bureau of the China Tibetology Research Center). 108 volumes. Beijing: krung
+                        go’i bod rig pa dpe skrun khang (China Tibetology Publishing House),
+                        2006-2009, vol. 57, pp. 875-878.</bibl>
+                    <bibl>
+                        <title xml:lang="Bo-Ltn">’phags pa spyan ras gzigs dbang phyug gyis zhus pa
+                            / byang chub sems dpa'i slab pa bdun pa zhes bya ba theg pa chen po’i
+                            mdo</title>. Go16,04, Gondhla Collection (Go) (MsK), vol. 16 (ka),
+                        folios 49a-49b. Digital scans from rKTs. See also Tauscher (2008)
+                        below.</bibl>
+                    <bibl>
+                        <title xml:lang="Bo-Ltn">’phags pa spyan ras gzigs kyi dbang phyug gis zhus
+                            pa chos bdun pa zhes bya ba theg pa chen po'i mdo</title>. rKTs-K150,
+                        L154, London Kangyur (L) (MsK), vol. 52 (mdo sde, za), folios 8b-9a. Digital
+                        scans from rKTs. </bibl>
+                    <bibl>
+                        <title xml:lang="Bo-Ltn">’phags pa spyan ras gzigs kyi dbang phyug gis zhus
+                            pa chos bdun pa zhes bya ba theg pa chen po’i mdo</title>. rKTs-K150,
+                        C790, Phug brag Kangyur (F) (MsK), vol. 80 (mdo sde, la), folios 371b-372b.
+                        Institute for Advanced Studies of World Religions. 1990. </bibl>
+                    <bibl>
+                        <title xml:lang="Bo-Ltn">’phags pa spyan ras gzigs kyi dbang phyug gis zhus
+                            pa chos bdun pa zhes bya ba theg pa chen po'i mdo</title>. rKTs-K150,
+                        Z242, Shey Palace Manuscript Kangyur (Z) (MsK), vol.69 (mdo, za), folios
+                        7a-8a. Digital scans from rKTs. </bibl>
+                    <bibl>
+                        <title xml:lang="Bo-Ltn">’phags pa spyan ras gzigs kyi dbang phyug gis zhus
+                            pa chos bdun pa zhes bya ba theg pa chen po’i mdo</title>. rKTs-K150,
+                        S211, Stok Palace Manuscript Kangyur (stog pho brang bris ma) (S)
+                        (MsK), vol. 73 (mdo sde, za) folios 7b-8b. TBRC W22083. 109 vols. leh:
+                        smanrtsis shesrig dpemzod, 1975-1980. http://tbrc.org/link?RID=W22083
+                    </bibl>
+                </div>
+                <div type="section">
+                    <head type="section">Other references</head>
+                    <bibl>Apple, James B. 2010. “Atiśa’s Open Basket of Jewels: A Middle Way Vision
+                        in Late Phase Indian Vajrayāna.” <title level="j">The Indian International
+                            Journal of Buddhist Studies 11</title>: 117-198.</bibl>
+                    <bibl>Chattopadhyaya, Alaka. 1967. <title xml:lang="eng">Atīśa and Tibet Life
+                            and Works of Dīpaṃkara Śrījñāna in relation to the History and Religion
+                            of Tibet.</title>(Reprinted) New Delhi: Motilal Banarsidass, 1999,
+                        2011.</bibl>
+                    <bibl>Dharmachakra Translation Group. 2016. <title xml:lang="eng">The Tantra of Siddhaika­vīra.</title> Toh 544, in Tantra / Tantra Collection / Action tantras. 84000: Translating the Words of the Buddha.</bibl>
+                    <bibl>Pad dkar bzang po (author), mi nyag mgon po (editor). “ ’phags pa spyan
+                        ras gzigs dbang phyug gis zhus pa’i chos bdun pa’i mdo.” In <title xml:lang="Bo-Ltn">mdo sde spyi’i rnam bzhag</title>, p. 426. Beijing: mi
+                        rigs dpe skrun khang (Minorities Publishing House), 2006. TBRC W1PD76588.
+                        http://tbrc.org/link?RID=O2DB70299|O2DB702992DB70539$W1PD76588 </bibl>
+                    <bibl>Sherburne, Richard. 2000. <title xml:lang="eng">The Complete Works of
+                            Atīśa Śrī Dīpaṁkara Jñāna, Jo-bo-rje: The Lamp for the Path and
+                            Commentary, together with the newly translated Twenty-Five Key Texts
+                            (Tibetan and English Texts)</title>. New Delhi: Aditya Prakashan.</bibl>
+                    <bibl>Tauscher, Helmut. 2008. <title xml:lang="eng">Catalogue of the Gondhla
+                            proto-Kanjur</title>. Vienna: Arbeitskreis für Tibetische und
+                        Buddhistische Studien Universität Wien.</bibl>
+                </div>
+            </div>
+            <div type="glossary">
+                <list>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-057-009-te1">generating the altruistic mind set on
+                                attaining awakening</term>
+                            <term xml:lang="Bo-Ltn">byang chub kyi sems bskyed </term>
+                            <term xml:lang="Sa-Ltn">bodhicittotpāda</term>
+                            <term type="definition">The altruistic resolve to achieve complete and
+                                perfect Buddhahood for the sake of oneself and all sentient
+                                beings.</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-057-009-te2">the opening formula</term>
+                            <term xml:lang="Bo-Ltn">gleng gzhi </term>
+                            <term xml:lang="Sa-Ltn">nidāna</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-057-009-pe1">Avalokiteśvara</term>
+                            <term xml:lang="Bo-Ltn">spyan ras gzigs dbang phyug </term>
+                            <term xml:lang="Sa-Ltn">Avalokiteśvara</term>
+                            <term type="definition">A bodhisattva who first appears in the
+                                <title xml:lang="Sa-Ltn">Sukhāvatī­vyūha</title> sūtra (Toh 115) and then in a number of other Mahāyāna sūtras
+                                such as the <title xml:lang="Sa-Ltn">Sad­dharma­puṇḍarīka</title> (Toh 113). Avalokiteśvara develops into a great
+                                bodhisattva who embodies compassion with multiple forms in Indian,
+                                Chinese, and Tibetan Buddhism.</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-057-009-pe2">Atiśa</term>
+                            <term xml:lang="Bo-Ltn">a ti sha </term>
+                            <term xml:lang="Sa-Ltn">Atiśa</term>
+                            <term type="definition">Atiśa Dīpaṃkara­śrī­jñāna (982–1054 C.E.), often
+                                referred to in Tibetan as <foreign xml:lang="Bo-Ltn">jo bo</foreign>, “(The) Lord,” was a renowned figure
+                                in the history of Tibetan Buddhism famous for coming to Tibet and
+                                revitalizing Buddhism there during the early eleventh
+                                century.</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-057-009-pe3">Gewai Lodrö</term>
+                            <term xml:lang="Bo-Ltn">dge ba’i blo gros </term>
+                            <term xml:lang="Sa-Ltn">-</term>
+                            <term type="definition">Ma Gewai Lodrö (<foreign xml:lang="Bo-Ltn">ma dge ba’i blo gros</foreign>), a Tibetan
+                                lotsāva, was an important disciple of Rinchen Zangpo (<foreign xml:lang="Bo-Ltn">rin chen bzang
+                                po</foreign>, 958-1055) who translated several texts with Atiśa and worked
+                                with the Kaśmīri master Subhūti­śri­bhadra to translate a number of
+                                pramāṇa texts.</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-057-009-pe4">Subhūtiśrī</term>
+                            <term xml:lang="Bo-Ltn">-</term>
+                            <term xml:lang="Sa-Ltn">Subhūtiśrī</term>
+                            <term type="definition">Subhūtiśrī(śānti) was a paṇḍita from Kaśmīr
+                                invited to Western Tibet during the reign of the king <foreign xml:lang="Bo-Ltn">Lha lde</foreign> who
+                                translated a number of Prajñāpāramitā texts, sūtras, and works of
+                                pramāṇa.</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-057-009-pl1">Tholing</term>
+                            <term xml:lang="Bo-Ltn">tho ling </term>
+                            <term xml:lang="Sa-Ltn">-</term>
+                            <term type="definition">The important West Tibetan monastery founded in
+                                996 C.E. by King Yeshé Ö (<foreign xml:lang="Bo-Ltn">ye shes 'od</foreign>) and the translator Rinchen Zangpo (<foreign xml:lang="Bo-Ltn">rin chen bzang
+                                po</foreign>).</term>
+                        </gloss>
+                    </item>
+                </list>
+            </div>
+        </back>
+    </text>
+</TEI>

@@ -1,0 +1,1330 @@
+<!--from staging 2016_08_15 -->
+<?xml-model href="oxygen:/Exist$84000-AWS/db/84000/schema/84000-ODD.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="mainTitle" xml:lang="bo">གསང་སྔགས་ཆེན་པོ་རྗེས་སུ་འཛིན་པ།</title>
+                <title type="mainTitle" xml:lang="eng">Upholding the Great Secret Mantra</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">Mahāmantrānudhāraṇi</title>
+                <title type="longTitle" xml:lang="bo">གསང་སྔགས་ཆེན་པོ་རྗེས་སུ་འཛིན་པའི་མདོ།</title>
+                <title type="longTitle" xml:lang="Bo-Ltn">gsang sngags chen po rjes su ’dzin pa’i
+                    mdo</title>
+                <title type="longTitle" xml:lang="eng">The Sūtra of Upholding the Great Secret
+                    Mantra</title>
+                <title type="longTitle" xml:lang="Sa-Ltn">Mahāmantrānudhāraṇisūtra</title>
+                <author role="translatorMain">Translated by the Dharmachakra Translation
+                    Committee<lb/> under the patronage and supervision of 84000: Translating the
+                    Words of the Buddha.</author>
+                <author role="translator">Chökyi Nyima Rinpoche</author>
+                <author role="translatorMain">James Gentry</author>
+                <author role="translator">Andreas Doctor</author>
+            </titleStmt>
+            <editionStmt>
+                <edition>v 1.0 <date>2016</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>84000: Translating the Words of the Buddha</name> is a global non-profit
+                    initiative that aims to translate all of the Buddha’s words into modern
+                    languages, and to make them available to everyone.</publisher>
+                <availability>
+                    <licence>
+                        <graphic url="http://i.creativecommons.org/l/by-nc-nd/2.0/88x31.png"/>
+                        <lb/>
+                        <p>This work is provided under the protection of a Creative Commons CC
+                            BY-NC-ND (Attribution - Non-commercial - No-derivatives) 3.0 copyright.
+                            It may be copied or printed for fair use, but only with full
+                            attribution, and not for commercial advantage or personal compensation.
+                            For full details, see the Creative Commons license.</p>
+                    </licence>
+                </availability>
+                <idno xml:id="UT22084-090-007"/>
+                <date>2013</date>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <ref>Toh 563</ref>
+                    <biblScope>Degé Kangyur, vol. 90 (rgyud ’bum, pha), folios 150b–156a</biblScope>
+                    <author role="translatorTib">Śīlendrabodhi</author>
+                    <author role="translatorTib">Jñānasiddhi</author>
+                    <author role="translatorTib">Śākyaprabha</author>
+                    <author role="translatorTib">Bandé Yeshé Dé</author>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <!--title style="contentsPage">Contents
+        
+        <title style="contentsAncillaryItem">Summary
+            <title style="contentsAncillaryItem">Acknowledgements
+                <title style="contentsAncillaryItem">Introduction
+                    
+                    <title style="contentsTranslation">THE TRANSLATION
+                        <title style="contentsTextTitle">The Sūtra of Upholding the Great Secret Mantra
+                            
+                            <title style="contentsAncillaryItem">Bibliography
+                                <title style="contentsAncillaryItem">Notes-->
+    <text>
+        <front>
+            <div type="summary">
+                <head type="summary">Summary</head>
+                <milestone unit="chunk"/>
+                <p>
+                    <title xml:lang="eng">Upholding the Great Secret Mantra</title> is one of five
+                    texts that together constitute the Pañcarakṣā scriptural collection, popular for
+                    centuries as an important facet of Mahāyāna-Vajrayāna Buddhism’s traditional
+                    approach to personal and communal misfortunes of all kinds. It addresses a range
+                    of human ailments, as well as misfortunes such as robbery, natural disaster, and
+                    criminal punishment, thought to be brought on especially through the animosity
+                    of non-human spirit entities. The sūtra stipulates the invocation of these
+                    spirit entities, which it separates into hierarchically ordered groups and thus
+                    renders subordinate to the command of the Buddha and members of his saṅgha. The
+                    Buddha stipulates that just “upholding” or intoning their names and the mantra
+                    formula for each will quell the violent interventions of non-human entities and
+                    even hasten them to provide for the pragmatic needs of the saṅgha and its
+                    surrounding communities. </p>
+            </div>
+            <div type="acknowledgment">
+                <head type="acknowledgment">Acknowledgments</head>
+                <milestone unit="chunk"/>
+                <p>Translated by the Dharmachakra Translation Committee under the guidance of Chökyi
+                    Nyima Rinpoche. The translation was produced by James Gentry, who also wrote the
+                    introduction. Andreas Doctor compared the translation with the original Tibetan
+                    and edited the text.</p>
+                <p>This translation has been completed under the patronage and supervision of 84000:
+                    Translating the Words of the Buddha. </p>
+            </div>
+            <div type="introduction">
+                <head type="introduction">Introduction</head>
+                <div type="section">
+                    <milestone unit="chunk"/>
+                    <p>
+                        <title xml:lang="eng">Upholding the Great Secret Mantra</title> (<title xml:lang="Sa-Ltn">Mahāmantrānudhāraṇi</title>
+                        <note place="end">The Sanskrit title in the Degé Kangyur is <title xml:lang="Sa-Ltn">Mahāmantranudhāraṇisūtra</title>, and the same
+                            title (with variations in the diacritical marks) is found in the
+                            Lithang, Cone and Lhasa Kangyurs. The Yunglo, Narthang, and Tok Palace
+                            Kangyurs, however, have <title xml:lang="Sa-Ltn">Mahāmantranudhārisūtra</title> (again, with variations in the exact
+                            spelling), and this latter alternative was preferred by the compilers of
+                            the Tōhoku catalogue. However, the entry in Edgerton’s <title xml:lang="eng">Buddhist Hybrid Sanskrit Dictionary</title> for
+                                <title xml:lang="Sa-Ltn">Mahāmantrānusāriṇī</title> suggests that
+                            this, instead, may be the original Sanskrit name of the goddess
+                            concerned.</note>, Toh 563) is the fifth scripture in a series of five;
+                        the other four texts are the <title xml:lang="Sa-Ltn">Mahāsāhasrapramardanī</title> (Toh 558), <title xml:lang="Sa-Ltn">Mahāmāyūrīvidyārājñī</title> (Toh 559), <title xml:lang="Sa-Ltn">Mahāpratisāravidyārājñī</title> (Toh 561), and <title xml:lang="Sa-Ltn">Mahāśītavana</title> (Toh 562). Together these five texts have been
+                        apotheosized in the Mahāyāna tradition as five goddesses known collectively
+                        as the Pañcarakṣā, or the “Five Protectresses.” In the Tibetan tradition
+                        this collection is known by the moniker <foreign type="term" xml:lang="Bo-Ltn">gzungs chen grwa lnga</foreign>, the “Fivefold Great
+                        Dhāraṇī.” In the Degé Kangyur collection these texts constitute 60, 49, 43,
+                        25, and 12 folios, respectively, making a total of 189 folios. </p>
+                    <milestone unit="chunk"/>
+                    <p>Tibetan redactors of Kangyur collections have catalogued this set of five
+                        texts together within the final Action (<foreign xml:lang="Sa-Ltn" type="term">kriyā</foreign>) tantras section of the “tantra collection”
+                            (<foreign xml:lang="Bo-Ltn" type="term">rgyud ’bum</foreign>) division.
+                        Indeed, these scriptures do contain elements—powerful incantations, an
+                        emphasis on external ritual hygiene and other material details such as
+                        auspicious dates, and so forth—that resonate with standard kriyāyoga
+                        practice as understood in Tibet. Yet missing from nearly all these texts is
+                        any extensive mention of the contemplative visualization exercises,
+                        specialized ritual gestures (<foreign xml:lang="Sa-Ltn" type="term">mudrā</foreign>), elaborate <foreign xml:lang="Sa-Ltn" type="term">maṇḍala</foreign> diagrams, and initiation ceremonies so typical of
+                        full-blown Buddhist tantra. A close perusal of these five texts might then
+                        lead the reader to construe them as standard Mahāyāna texts with a
+                        preponderance of elements—magical mantra formulas, ritual prescriptions,
+                        pragmatic aims, and so forth—that only later coalesced and developed into a
+                        typically tantric practice tradition with its own unique set of view,
+                        meditation, and conduct. To complicate things further, the core of the
+                            <title xml:lang="Sa-Ltn">Mahāmāyūrī</title>, for one, is rooted in
+                        Indian Buddhist traditions that predate even the rise of Mahāyāna (Sørensen
+                        2006: 90). The <title xml:lang="Sa-Ltn">Mahāmāyūrī</title> also appears as a
+                        remedy for snakebites in the earlier <title xml:lang="Sa-Ltn">Mūlasarvāstivāda-vinayavastu</title> (Pathak 1989: 32).<note place="end"> The story comes at the very end of the <title xml:lang="Sa-Ltn">Bhaiṣajyavastu</title> (Toh 1 ch. 6); see Yao,
+                            Fumi (tr.). <title xml:lang="eng">On Medicinal Materials</title>. 84000:
+                            Translating the Words of the Buddha (forthcoming).</note> This accords
+                        with Gregory Schopen’s general observation, based on inscriptional evidence,
+                        that “dhāraṇī texts were publically known much earlier and more widely than
+                        texts we think of as ‘classically’ Mahāyāna” (1989: 157). </p>
+                    <milestone unit="chunk"/>
+                    <p>Regardless of their bibliographical position in the Tibetan canon, the Five
+                        Protectresses have been among the most popular texts used for pragmatic
+                        purposes throughout the Mahāyāna-Vajrayāna Buddhist world. While it seems
+                        certain that these texts each developed independently and were only later
+                        combined into a five-text corpus, their popularity is attested by their
+                        eventual spread to Nepal, Tibet, Central Asia, China, Mongolia, Korea,
+                        Japan, and Indonesia (Hidas 2007: 189). In East Asia, the textual tradition
+                        associated with the <foreign xml:lang="Sa-Ltn" type="term">Mahāmāyūrī</foreign> in particular was instrumental in integrating
+                        Buddhist and indigenous notions of divine kingship (Orzech 2002: 58).
+                        Moreover, the tradition of all five goddesses and their texts still occupies
+                        a place of central importance today in the Vajrayāna Buddhism practiced by
+                        the Newar population of the Kathmandu Valley, Nepal. Newar Buddhist
+                        communities of Kathmandu have even translated the texts of the Five
+                        Protectresses into the modern vernacular, based on which they continue to
+                        stage a number of annual rites for a broad range of pragmatic purposes
+                        (Lewis 2000: 119–164). Newars often propitiate the Five Protectresses
+                        together by means of a five-section <foreign xml:lang="Sa-Ltn" type="term">maṇḍala</foreign> and other tantric elements that do not necessarily
+                        feature in the scriptures themselves. This tradition reflects a specifically
+                        tantric ritual treatment of the texts, which, judging by the presence of
+                        tantric <foreign xml:lang="Sa-Ltn" type="term">sādhana</foreign> practices
+                        associated with these five texts in the Tibetan Tengyur collections, had
+                        already developed by the time the Tibetan translations were executed.
+                        Indeed, the Tibetan translation of the <title xml:lang="Sa-Ltn">Mahāpratisarā</title> reflects a recension of the Sanskrit text that
+                        Gergely Hidas suggests “most likely served the better integration of this
+                        text into the Vajrayāna, changing the historical locus of the <foreign xml:lang="Sa-Ltn" type="term">nidāna</foreign> to a mythical Vajrayānic
+                        setting” (2007: 188). This helps account for why the Tibetan redactors
+                        construed these five texts as belonging to the category of kriyā tantra, and
+                        not to the Dhāraṇī or Sūtra sections. </p>
+                    <milestone unit="chunk"/>
+                    <p>The designation Five Protectresses denotes the set of five texts, the
+                        incantations presented therein, and the five goddesses presiding over each.
+                        It is believed that all these texts, specifically their incantations,
+                        provide special protection against a wide range of illnesses and misfortunes
+                        for those who memorize, recollect, read, copy, teach, wear, or otherwise
+                        come into contact with them. Each text promises protection from specific
+                        misfortunes, with considerable overlap witnessed between the texts. Despite
+                        the pragmatic thrust of these scriptures, each text also contains numerous
+                        allusions to doctrinal notions. The range of effects described therein
+                        sometimes, though rarely, extends beyond the pragmatic sphere to include the
+                        purification of negative karma, deliverance from the lower realms, and even
+                        the attainment of buddhahood. </p>
+                    <milestone unit="chunk"/>
+                    <p>
+                        <title xml:lang="eng">Upholding the Great Secret Mantra</title> was
+                        translated into Tibetan under Tibetan imperial patronage sometime during the
+                        early ninth century by a translation team that included the
+                        translator-editor Bandé Yeshé Dé (ca. late eighth to early ninth century)
+                        and the Indian scholars Śīlendrabodhi, Jñānasiddhi, and Śākyaprabha. The
+                        sūtra promises protection against a range of threats, from illnesses,
+                        natural disasters, and dangers while traveling, to warfare, corporal
+                        punishment, and theft. This text frames all of these perils as originating
+                        from the animosity and ill will of human beings and spirits. The principal
+                        focus is threats posed by the capricious spirit world of “non-humans”
+                            (<foreign type="term" xml:lang="Bo-Ltn">mi ma yin</foreign>), who feed
+                        off the life force, vitality, flesh, and blood of humans. The negative
+                        impact of these non-humans extends beyond the individual to include homes,
+                        villages, towns, cities, regions, and entire countries. The text claims to
+                        be efficacious by means of “drawing” or demarcating a “boundary” around
+                        those in need of protection, sealing them off from the source of harm and
+                        thereby restoring health and internal cohesion. It is through “receiving,
+                        holding, reciting, preaching, and mastering” this scripture that such a
+                        protective boundary is formed. </p>
+                    <milestone unit="chunk"/>
+                    <p>The narrative of the sūtra begins with an interchange between the Buddha and
+                        the god Brahmā. Brahmā, along with his divine retinue, visits the Blessed
+                        One at the Jetavana hermitage and requests that he “guard, protect, look
+                        after, and bring peace and well-being” to the entire trichiliocosm of a
+                        thousand million worlds, just as the god himself does for the chiliocosm of
+                        a thousand worlds under his care. The Buddha acquiesces to his request by
+                        remaining silent. He subsequently proceeds to teach the scripture’s dhāraṇī
+                        formulas and to extol its many benefits. Much as in the <title xml:lang="Sa-Ltn">Mahāmāyūrīvidyārājñī</title>, but with less
+                        elaboration, the Buddha prescribes the invocation by name of the spirits
+                        responsible for personal and communal misfortunes. These litanies, which the
+                        Buddha separates into groups based on the locations and activities of these
+                        beings, hierarchically arrange the spirits so that they are all subordinate
+                        to the Buddha’s command and to the command of his saṅgha. The Buddha states
+                        that just “upholding” or intoning these names along with the mantra formula
+                        that accompanies each group will urge them to obey members of the saṅgha so
+                        that they desist from causing harm and instead serve the pragmatic needs of
+                        the saṅgha and surrounding lay communities. </p>
+                    <milestone unit="chunk"/>
+                    <p>Owing to the absence of a reliable Sanskrit edition that reflects the Tibetan
+                        translations, this English translation is based on the Tibetan Degé edition,
+                        in consultation with the Pedurma (<foreign xml:lang="Bo-Ltn" type="term">dpe
+                            bsdur ma</foreign>) comparative edition. Thus, rather than adjudicate on
+                        the many variant readings of the dhāraṇī formulas found in the different
+                        Tibetan versions of this text, we have chosen to defer this issue for now
+                        and record only the Degé version until a Sanskrit edition is produced that
+                        might shed further light on the matter. </p>
+                </div>
+            </div>
+        </front>
+        <body>
+            <div type="translation">
+                <head type="translation">THE TRANSLATION</head>
+                <head type="titleHon">The Sūtra of</head>
+                <head type="titleMain">Upholding the Great Secret Mantra</head>
+                <div type="section">
+                    <milestone unit="chunk"/>
+                    <lg>
+                        <l>
+                            <ref cRef="F.150.b"/> Homage to the Three Jewels! </l>
+                        <l>Homage to the Buddha! Homage to the Dharma! </l>
+                        <l>Homage to the Saṅgha! Homage to the seven perfectly and completely
+                            buddhas, along with their śrāvakas—those who have perfectly gone, and
+                            those who have perfectly entered! </l>
+                    </lg>
+                    <milestone unit="chunk"/>
+                    <p>Having paid homage to them:</p>
+                    <lg>
+                        <l>May these incantations be practiced for a purpose! </l>
+                        <l>May these incantations be accomplished!</l>
+                        <l>May their purpose—the goal for which they are practiced—</l>
+                        <l>Be accomplished!</l>
+                    </lg>
+                    <milestone unit="chunk"/>
+                    <p>Thus have I heard at one time. The Blessed One was dwelling in the Jetavana,
+                        Anāthapiṇḍada’s grove in Śrāvastī. At that time, Brahmā, master of the Sahā
+                        world, with the gods of the Brahmā realm; Śakra, lord of the gods, with the
+                        gods of the Heaven of the Thirty-Three; the four great kings, with the gods
+                        of their realm; the twenty-eight great yakṣa generals; and Hārītī with her
+                        children and retinue of servants went before the Blessed One, bowed their
+                        heads to his feet, and stood to one side. </p>
+                    <milestone unit="chunk"/>
+                    <p>Standing there, Brahmā, master of the Sahā world, bowed toward the Blessed
+                        One with palms joined, and said, “Venerable Blessed One, I rule as lord over
+                        the realms of the chiliocosm. <ref cRef="F.151.a"/> Venerable Blessed One,
+                        when needed I guard, protect, look after, and bring peace and well-being to
+                        the realms in the chiliocosm. Venerable Bliss-Gone Dharma Sovereign, Blessed
+                        One, you rule as lord over the realms of the great trichiliocosm. Blessed
+                        One, when you see fit you, too, guard, protect, look after, and bring peace
+                        and well-being to the realms of the great trichiliocosm. So, Venerable
+                        Blessed One, I request you to guard, protect, look after, and bring peace
+                        and well-being to the realms of the trichiliocosm!” </p>
+                    <milestone unit="chunk"/>
+                    <p>The Blessed One acquiesced by remaining silent. Brahmā, master of the Sahā
+                        world, understood that the Buddha had acquiesced by his silence, and at that
+                        moment he vanished. </p>
+                    <milestone unit="chunk"/>
+                    <p>Subsequently, the Blessed One said to the monks, “Monks, last night I was
+                        approached by Brahmā, master of the Sahā world, along with the gods of the
+                        Brahmā realm; Śakra, lord of the gods, with the gods of the Heaven of the
+                        Thirty-Three; the four great kings, with the gods of the realm of the four
+                        great kings; and the twenty-eight great yakṣa generals; and Hārītī with her
+                        children and retinue of servants also came. </p>
+                    <milestone unit="chunk"/>
+                    <p>“Brahmā, master of the Sahā world, said to me, ‘Venerable Blessed One, I rule
+                        as lord over the realms of the chiliocosm. Venerable Blessed One, when
+                        needed, I guard, protect, look after, and bring peace and well-being to the
+                        realms in the chiliocosm. <ref cRef="F.151.b"/> Venerable Bliss-Gone Dharma
+                        Sovereign, Blessed One, you rule as lord over the realms of the great
+                        trichiliocosm. Blessed One, when you see fit, you also guard, protect, look
+                        after, and bring peace and well-being to the realms of the great
+                        trichiliocosm. So, Venerable Blessed One, I request you to guard, protect,
+                        look after, and bring peace and well-being to the realms of the
+                        trichiliocosm!’ </p>
+                    <milestone unit="chunk"/>
+                    <p>“Monks, I acquiesced by not responding to Brahmā, master of the Sahā world.
+                        Then Brahmā, master of the Sahā world, knowing that I had acquiesced by
+                        remaining silent, disappeared at that moment. </p>
+                    <milestone unit="chunk"/>
+                    <p>“Monks, this queen of incantations, <title xml:lang="eng">Upholding the Great
+                            Secret Mantra</title>, was taught by the perfectly and completely
+                        awakened thus-gone arhats of the past. It will be taught by the perfectly
+                        and completely awakened thus-gone arhats in the future. And likewise, right
+                        now in the present, I will also teach it as an aid for the awakening of
+                        buddhahood.” </p>
+                    <milestone unit="chunk"/>
+                    <p>Then the Blessed One said to venerable Ānanda, “Ānanda, you are to receive,
+                        hold, recite, preach, and master this queen of incantations, <title xml:lang="eng">Upholding the Great Secret Mantra</title>! Ānanda, this
+                        queen of incantations, Upholding the Great Secret Mantra, will bring
+                        welfare, benefit, happiness, and comfort to the four assemblies. </p>
+                    <milestone unit="chunk"/>
+                    <q>
+                        <p>
+                            <foreign xml:lang="Sa-Ltn" type="mantra">“Tadyathā. Ubuddhe nibuddhe
+                                vibuddhe saṁbuddhe viśvaṣṭabuddhe īhabuddhe tattrabuddhe niyaṁgame
+                                chavila apula tapula <ref cRef="F.152.a"/> tāle māle maṅgagamaṅga
+                                manana imam vidyā hudume huhume pūrvaprahare.</foreign>
+                        </p>
+                    </q>
+                    <milestone unit="chunk"/>
+                    <p>“Ānanda, this strong and powerful secret mantra, which has been practiced for
+                        a long time, was taught by the perfectly and completely awakened thus-gone
+                        arhats of the past. It will be taught by the perfectly and completely
+                        awakened thus-gone arhats in the future. And such is also the case at
+                        present, as I now teach it to aid in the awakening of buddhahood. With this
+                        queen of incantations, <title xml:lang="eng">Upholding the Great Secret
+                            Mantra</title>, I will protect and form a boundary around the person
+                        named such-and-such. I will form a boundary one league to the east. I will
+                        form a boundary one league in all the cardinal and intermediate directions. </p>
+                    <milestone unit="chunk"/>
+                    <q>
+                        <p>
+                            <foreign xml:lang="Sa-Ltn" type="mantra">“Tadyathā. Samuca vimuca
+                                palamuca jagadhara madasṭhala nalakamaga samuḥśvavāti vimukti yoga
+                                hinasagama aradamula vihaṁgami idiciri vitalākhayo makhayo
+                                lagabhidharaṇi pratiprāyogi aḥcakrapati samasraḥvati ilāya milāya
+                                bahusaddhya anatama arthavati garavati tikhinitive akanati sakanati
+                                samidima vasuvaṭe aṭe aṭe taṭṭa kharusmin kharusmin lahataṁ lahutaṁ
+                                sambhara sambhara vatiranataṁ nirutaṁ ila taila saraphala bahuphala
+                                satamata daṁṣṭrimata. </foreign>
+                        </p>
+                    </q>
+                    <milestone unit="chunk"/>
+                    <p>“Ānanda, this strong and powerful secret mantra, which has been practiced for
+                        a long time, was taught by the perfectly and completely awakened thus-gone
+                        arhats of the past. It will be taught by the perfectly and completely
+                        awakened thus-gone arhats in the future. And such is also the case at
+                        present, for I too teach it. Brahmā, lord of the Sahā world, teaches it.
+                        Śakra, lord of the gods, also teaches it. The four great kings also teach
+                        it. The twenty-eight great yakṣa generals also teach it. <ref cRef="F.152.b"/> And Hārītī, with her children and retinue of servants, also teaches it. </p>
+                    <milestone unit="chunk"/>
+                    <p>“Ānanda, any monk, nun, layman, or laywoman who receives this queen of
+                        incantations, <title xml:lang="eng">Upholding the Great Secret
+                            Mantra</title>, and understands, sees, or performs it, precisely as it
+                        has been taught and mastered, will be guarded, protected, looked after, and
+                        brought peace and well-being for as long as he or she shall live. </p>
+                    <milestone unit="chunk"/>
+                    <p>“Ānanda, by the command of the perfectly and completely awakened thus-gone
+                        arhats of the past, future, and present, this queen of incantations, <title xml:lang="eng">Upholding the Great Secret Mantra</title>, shall guard,
+                        protect, look after, and bring peace and well-being to the person named
+                        such-and-such. It will form a boundary. It will form a boundary one league
+                        to the east. Likewise, it will form a boundary one league to the west. It
+                        will form a boundary one league to the south. It will form a boundary one
+                        league to the north. It will form a boundary one league in all the cardinal
+                        and intermediate directions. </p>
+                    <milestone unit="chunk"/>
+                    <p>“Ānanda, there are four who dwell on and off the path of the four great
+                            kings.<note place="end">The commentary (<title xml:lang="Bo-Ltn">gsang
+                                sngags chen mo rjes su ’dzin ma’i mdo’i ’bum ’grel</title>,
+                            263b–264a) reads: “The ‘path of the four great kings’ is the four great
+                            kings themselves…and those guarded by the four great kings. ‘Those not
+                            on the path” refers to the sons of the great kings. These four entities
+                            garner petty lords and retinues, enacting violence against beings. Who
+                            are they? They cause harm in the east, south, west, and north, such that
+                            the 80,000 types of obstructers are also included within these
+                            four.”</note> Who are they? They are Auspicious, Friend to All,
+                        Complete, and Glory of Joy. Whoever knows their names and families will not
+                        be in danger of the great kings, nor will he be in danger of robbers, fire,
+                        water, humans, or non-humans. </p>
+                    <milestone unit="chunk"/>
+                    <p>“Ānanda, Vajrapāṇi’s older brother called Swift Hand resides in the city
+                        known as Cakravālapur. Whoever knows his name and family will be guarded,
+                        protected, looked after, pardoned, <ref cRef="F.153.a"/> and brought peace
+                        and well-being by him. On behalf of the person named such-and-such, I
+                        beseech and supplicate Vajrapāṇi’s older brother Swift Hand! By the command
+                        of the blessed buddhas of the past, future, and present, all yakṣas,
+                        rākṣasas, pretas, piśācas, kumbhaṇḍas, pūtanas, and kaṭapūtanas who seek an
+                        occasion and look for an opportunity to harm the person named such-and-such
+                        will not find any such opportunity, nor will they be able to quarrel with
+                        him! </p>
+                    <milestone unit="chunk"/>
+                    <p>“Ānanda, there are fourteen great rākṣasīs. They protected the Bodhisattva
+                        while he was in his mother’s womb. They also protected him during his birth,
+                        as a newborn, and while he was being reared. Who are they? They are
+                        Powerful, Stainless, Tumult, Supple, Terrifying Lady, Voice of Jambu,
+                        Supreme Seizer, Master, Renowned Female, Amazing Renown, Conflict Lover,
+                        Playful Lady, Earth Supporter, and Conflict Engager. Whoever knows their
+                        names and families will be guarded, protected, looked after, and brought
+                        peace and well-being by them! </p>
+                    <milestone unit="chunk"/>
+                    <p>“Ānanda, there are eight rākṣasīs who steal the vitality of men or women
+                        regardless of whether they are asleep or not. Who are they? They are Horn,
+                        Unassailable, Instigator of Evil, Slanderous, Red Female Servant, Greatest,
+                        Excellent Eyes, and Terrifying. Whoever knows their names and families will
+                        be guarded, protected, looked after, and brought peace and well-being by
+                        them! </p>
+                    <milestone unit="chunk"/>
+                    <p>“Ānanda, there are seven rākṣasīs who travel as far as one hundred miles when
+                        they smell the scent of blood. Who are they? They are Excellent Splendor,
+                        Layered Joy, Giver of Various Things, <ref cRef="F.153.b"/> Excellent White
+                        Female Servant, Desiring Engagement, Surrounding City, and Mountain
+                        Protector. Whoever knows their names and families will be guarded,
+                        protected, looked after, brought peace and well-being, and granted pardon! </p>
+                    <milestone unit="chunk"/>
+                    <p>“Ānanda, there is a rākṣasī called Mahākālī with one thousand sons who lives
+                        at the seashore and travels 80,000 miles in a single night. Whoever knows
+                        her name and family will be guarded, protected, looked after, brought peace
+                        and well-being, and granted pardon by her! </p>
+                    <milestone unit="chunk"/>
+                    <p>“Ānanda, there are five rākṣasīs who, along with 7,700,000 yakṣas, guard and
+                        protect the humans in the Jambu continent. Who are they? They are Always
+                        Insane, Further Insane, Bloated with Power, Bamboo Stick, and Wealthy.
+                        Whoever knows their names and families will be guarded, protected, looked
+                        after, brought peace and well-being, and granted pardon by them! </p>
+                    <milestone unit="chunk"/>
+                    <p>“Therefore, on behalf of the person named such-and-such, I beseech and
+                        supplicate those five rākṣasīs, along with the 7,700,000 yakṣas! By the
+                        command of the blessed buddhas of the past, future, and present, may the
+                        person named such-and-such be guarded, protected, looked after, brought
+                        peace and well-being, and granted pardon! </p>
+                    <milestone unit="chunk"/>
+                    <q>
+                        <p>
+                            <foreign xml:lang="Sa-Ltn" type="mantra">“Tadyathā. Vīmude vītide
+                                picarite pigarite karaṭi karavīra swāri madhuraghoṣe śatahanita
+                                bhaṣitaghe akke nakke vika ḍitā vikuṭite viraje
+                                vighaṣṭavāte.</foreign>
+                        </p>
+                    </q>
+                    <milestone unit="chunk"/>
+                    <p>“Ānanda, nowhere in the worlds of gods, demons, Brahmā, mendicants, priests,
+                        humans, kiṃnaras, and mahoragas have I seen anyone—whether human, non-human,
+                        yakṣa, rākṣasa, asura, gandharva, nāga, garuḍa, guhyaka, preta, piśāca,
+                        vetāla, kākhorda, kṛtya, pūtana, kaṭapūtana, unmada, or apasmāra—<ref cRef="F.154.a"/> who, seeking an opportunity to hurt and looking for
+                        conflict, was ever able to harm a person guarded, shielded, protected,
+                        looked after, brought peace and well-being, and granted pardon by this queen
+                        of incantations, <title xml:lang="eng">Upholding the Great Secret
+                            Mantra</title>—unless, that is, the ripening of their karma precludes
+                        it. </p>
+                    <milestone unit="chunk"/>
+                    <p>“Therefore, by the command of the blessed buddhas of the past, future, and
+                        present, I will use this queen of incantations, <title xml:lang="eng">Upholding the Great Secret Mantra</title>, to guard the person named
+                        such-and-such from humans, non-humans, yakṣas, rākṣasas, piśācas, asuras,
+                        gandharvas, nāgas, garuḍas, guhyakas, pretas, vetālas, kākhordas, kṛtyas,
+                        pūtanas, kaṭapūtanas, unmadas, and apasmāras. He will be protected,
+                        shielded, brought peace and well-being, granted pardon, and purged of
+                        poison. </p>
+                    <milestone unit="chunk"/>
+                    <p>“This queen of incantations, <title xml:lang="eng">Upholding the Great Secret
+                            Mantra</title>, will intoxicate all those with hostile intentions, ill
+                        will, animosity, and rage, as well as all demons, <ref cRef="F.154.b"/> trail
+                        guards, fort guards, and customs guards. It will intoxicate them, cause
+                        paralysis and stupefaction, and seize their hands, feet, minds, and tongues.
+                        Through this queen of incantations, <title xml:lang="eng">Upholding the
+                            Great Secret Mantra</title>, the person will escape on each and every
+                        occasion. </p>
+                    <lb/>
+                    <milestone unit="chunk"/>
+                    <lg>
+                        <l>“Oh wonder! Brahmin! You transcended anguish,</l>
+                        <l>Crossed over existence within the world,</l>
+                        <l>And finally, after so long,</l>
+                        <l>Saw the transcendence of all resentment and fear!</l>
+                    </lg>
+                    <milestone unit="chunk"/>
+                    <lg>
+                        <l>“Patience is the supreme austerity;</l>
+                        <l>Patience is the supreme nirvāṇa—so proclaims the Buddha.</l>
+                        <l>As for the ordained who harm others,</l>
+                        <l>One who is violent toward others is not a proper renunciant.</l>
+                    </lg>
+                    <milestone unit="chunk"/>
+                    <lg>
+                        <l>“On the other hand, just as those with eyesight</l>
+                        <l>Also have capabilities,</l>
+                        <l>The wise, in this world of the living,</l>
+                        <l>Avoid misdeeds.</l>
+                    </lg>
+                    <milestone unit="chunk"/>
+                    <lg>
+                        <l>“To all the buddhas</l>
+                        <l>Of present, future, and past</l>
+                        <l>I pay homage!</l>
+                        <l>To all of them I go for refuge!</l>
+                    </lg>
+                    <milestone unit="chunk"/>
+                    <lg>
+                        <l>“Since in the world it is the bliss-gone arhats</l>
+                        <l>To whom the moon goes for refuge,</l>
+                        <l>Buddhas, with compassion for the world,</l>
+                        <l>Free the moon from Rāhu!</l>
+                    </lg>
+                    <milestone unit="chunk"/>
+                    <lg>
+                        <l>“‘Rāhu! The moon dispels darkness.</l>
+                        <l>Illuminating the sky, </l>
+                        <l>It shines with white </l>
+                        <l>And pristine light. </l>
+                        <l>Instead of seizing it in the sky,</l>
+                        <l>Instantly release the lantern of creatures!’</l>
+                    </lg>
+                    <milestone unit="chunk"/>
+                    <lg>
+                        <l>“Then, suddenly,</l>
+                        <l>Rāhu, with his body trembling and in a sweat</l>
+                        <l>Like a sick person, </l>
+                        <l>Abruptly released the moon.</l>
+                    </lg>
+                    <milestone unit="chunk"/>
+                    <lg>
+                        <l>“‘Rāhu, why did you,</l>
+                        <l>Trembling and in a sweat</l>
+                        <l>Like a sick person, </l>
+                        <l>Suddenly release the moon?’</l>
+                    </lg>
+                    <milestone unit="chunk"/>
+                    <lg>
+                        <l>“‘If, upon uttering these verses of the Buddha,</l>
+                        <l>The moon were not released,</l>
+                        <l>My head would crack into seven pieces,</l>
+                        <l>And even while alive, I would be unhappy.<note place="end">The commentary
+                                    (<title xml:lang="Bo-Ltn">gsang sngags chen mo rjes su ’dzin
+                                    ma’i mdo’i ’bum ’grel</title>, 274a7) explains this in terms of
+                                the next life. It states: “Even after dying, one will be reborn in
+                                the hell of Endless Torment.”</note>’</l>
+                    </lg>
+                    <milestone unit="chunk"/>
+                    <lg>
+                        <l>“Oh wonder! Amazing is the emergence of buddhas</l>
+                        <l>Who see the truth!</l>
+                        <l>If one recites these verses,</l>
+                        <l>Rāhu will release the moon.</l>
+                    </lg>
+                    <milestone unit="chunk"/>
+                    <p>“By such truth and true words, as follows: <ref cRef="F.155.a"/> one who is
+                        unforgettable to beings appearing in the world is a ‘thus-gone one;’ that he
+                        speaks by speaking truly means he speaks by speaking truly at the
+                        appropriate time. Furthermore, Ānanda, those verses were spoken by the
+                        Thus-Gone One to assist in the observation of pure conduct. And what is
+                        more, Ānanda, the following words will secure the purpose, as well as
+                        further assist and ease, whatever function those verses are set to perform: </p>
+                    <milestone unit="chunk"/>
+                    <q>
+                        <p>
+                            <foreign xml:lang="Sa-Ltn" type="mantra">“Syād. Athedana svasti mati
+                                vilumati praharati kaśumadchi nanda mati vihagrahe vidumati edakṛta
+                                ārtha sudṛśabuddhi bodhimati suhudume alakhūme alamite higaraśara
+                                āśuha pragaśini. </foreign>
+                        </p>
+                    </q>
+                    <milestone unit="chunk"/>
+                    <p>“Ānanda, the ten roots of seeds and the ten root words of seeds have been
+                        spoken by the Thus-Gone One. Ānanda, these words will be spoken by Thus-Gone
+                        Ones, and will be taught by them; so if people who dwell in their teaching
+                        utter them, yakṣas and rākṣasas will perform activities for them like
+                        slaves. </p>
+                    <milestone unit="chunk"/>
+                    <p>“By such truth and true words, as follows: true words at the irreversible
+                        level are called the ‘words that are supreme in the world.’ Those who, of
+                        all renunciants, are ‘the most joyful renunciants,’ the perfectly and
+                        completely awakened, thus-gone arhats, who have neither fear nor terror,
+                        who, neither cowering nor fleeing, lack fear, and who, having abandoned fear
+                        and its impetus, are called ‘free of anything that causes one to cry out in
+                        hair-raising panic’—these are what is meant by ‘those who speak by speaking
+                        truly, those who speak by speaking truly at the appropriate time.’ By their
+                        truth and those true words, may the person person named such-and-such have
+                        well-being! </p>
+                    <milestone unit="chunk"/>
+                    <p>“By such truth and true words, as follows: of all those who observe ethical
+                        discipline, controlled conduct, austerities, or pure conduct, those who are
+                        known as ‘supreme in the discipline that pleases the noble ones’—by their
+                        truth and their true words, may the person named such-and-such have
+                        well-being! </p>
+                    <milestone unit="chunk"/>
+                    <p>“Of the elders, Ājñātakauṇḍinya, like the eldest of a king’s sons, foremost
+                        among those practicing pure conduct, <ref cRef="F.155.b"/> for a long time
+                        has passed since his ordination; Mahākāśyapa, supreme among those with few
+                        desires who adhere to the qualities from training and have contentment;
+                        Śāradvatīputra, supreme among those with great wisdom and eloquence;
+                        Mahāmaudgalyāyana, supreme among those with great miraculous powers and
+                        great magical abilities; Aniruddha, supreme among those with the divine eye;
+                        Ānanda, supreme among the learned; Upālī, supreme among holders of
+                        discipline; Pūrṇamaitrāyaṇīputra, supreme among Dharma preachers; Rāhula,
+                        supreme among those with respect for the trainings; Vasumallaputra, supreme
+                        among those who distribute bedding and cushions; Piṇḍola Bhāradvāja, supreme
+                        among those who proclaim the lion’s roar; Kālodāyin, supreme among those who
+                        inspire householders; and Sudarśana, supreme among those who are venerated
+                        by gods and men—by the truth and true words of these elders, may the person
+                        named such-and-such be guarded, protected, looked after, brought peace and
+                        well-being, and granted pardon. He shall be protected from kings, ministers,
+                        robbers, fire, water, enemies, and adversaries, and when traveling, lost,
+                        asleep, drunk, or careless! </p>
+                    <milestone unit="chunk"/>
+                    <p>“By such truth and true words, as follows: among all possible beings—those
+                        without feet, with two feet, with four feet, or with many feet; those with
+                        form or without form; those with perception, without perception, or neither
+                        with nor without perception—the Thus-Gone One is called ‘supreme.’ By his
+                        truth and his true words, may the person person named such-and-such be
+                        guarded, protected, looked after, brought peace and well-being, and granted
+                        pardon! </p>
+                    <milestone unit="chunk"/>
+                    <p>“By such truth and true words, as follows: in the entire range of conditioned
+                        and unconditioned phenomena, freedom from attachment is called ‘supreme.’ By
+                        that truth and those true words, <ref cRef="F.156.a"/> may the person person
+                        named such-and-such be guarded, protected, embraced, brought peace and
+                        well-being, and granted pardon. </p>
+                    <milestone unit="chunk"/>
+                    <p>“By such truth and true words, as follows: of all kinds of assemblies,
+                        gatherings, multitudes, and retinues, the saṅgha of the Thus-Gone One’s
+                        śrāvakas is called ‘supreme.’ By their truth and their true words, may
+                        countries, regions, cities, towns, villages, houses, abodes, fields, and
+                        this sick patient be guarded, protected, looked after, and brought peace and
+                        well-being. Boundaries will be formed around them. All bhūtas will be turned
+                        back. Those who steal vitality will be turned back. </p>
+                    <milestone unit="chunk"/>
+                    <p>“By such truth and true words, as follows: in order that I—a blessed,
+                        perfectly and completely awakened, thus-gone arhat—may end this person’s
+                        desire, anger, and ignorance, by the truth and true words of the teaching,
+                        explanation, and enunciation of the 84,000 sections of teachings, may the
+                        404 sicknesses of the person named such-and-such come to an end! May they be
+                        eliminated! May they cease! May they cease completely!” </p>
+                    <milestone unit="chunk"/>
+                    <p><!--modularPassage type=concludingPraise-->When the Blessed One had spoken,
+                        the world, including venerable Ānanda, Brahmā, master of the Sahā world, and
+                        all gods, humans, asuras, and gandharvas rejoiced and praised what the
+                        Blessed One had said.<!--/modularPassage-->
+                    </p>
+                </div>
+                <div type="colophon">
+                    <milestone unit="chunk"/>
+                    <p> This completes <title xml:lang="eng">The Sūtra of Upholding the Great Secret
+                            Mantra</title>.</p>
+                    <p>This was translated and edited by the Indian scholars Śīlendrabodhi,
+                        Jñānasiddhi, and Śākyaprabha, along with the translator-editor Bandé Yeshé
+                        Dé, who then revised it according to the new lexicon and finalized it. </p>
+                </div>
+            </div>
+        </body>
+        <back>
+            <div type="notes">
+                <head type="notes">Notes</head>
+            </div>
+            <div type="listBibl">
+                <head type="listBibl">Bibliography</head>
+                <div type="section">
+                    <head type="section">Tibetan and Sanskrit Texts</head>
+                    <bibl>
+                        <title xml:lang="Bo-Ltn">gsang sngags chen po rjes su ’dzin pa’i mdo</title>
+                            (<title xml:lang="Sa-Ltn">Mahāmantrānudhāraṇisūtra</title>). Toh 563,
+                        Degé Kangyur vol. 90 (rgyud ’bum, pha), folios 150b–156a. </bibl>
+                    <bibl>
+                        <title xml:lang="Bo-Ltn">gsang sngags chen po rjes su ’dzin pa’i mdo</title>
+                            (<title xml:lang="Sa-Ltn">Mahāmantrānudhāraṇisūtra</title>). bka’ ’gyur
+                        (dpe bsdur ma) [Comparative Edition of the Kangyur], krung go’i bod rig pa
+                        zhib ’jug ste gnas kyi bka’ bstan dpe sdur khang (The Tibetan Tripitaka
+                        Collation Bureau of the China Tibetology Research Center). 108 volumes.
+                        Beijing: krung go’i bod rig pa dpe skrun khang (China Tibetology Publishing
+                        House), 2006–2009, vol. 90, pp. 457–476. </bibl>
+                    <bibl>
+                        <title xml:lang="Bo-Ltn">gsang sngags chen mo rjes su ’dzin ma’i mdo’i ’bum
+                            ’grel</title> (<title xml:lang="Sa-Ltn">Mahāmantrānudhāraṇīsūtraśatasahasraṭīkā</title>). Toh 2692, Degé
+                        Tengyur vol. 72 (rgyud, du), folios 241b–282b. </bibl>
+                </div>
+                <div type="section">
+                    <head type="section">Secondary Sources</head>
+                    <bibl>Hidas, Gergely (2012). <title xml:lang="eng">Mahāpratisarā-Mahāvidyārājñī,
+                            The Great Amulet, Great Queen of Spells: Introduction, Critical Editions
+                            and Annotated Translation.</title> Sata-pitaka Series: Indo-Asian
+                        Literatures Vol. 636. New Delhi: International Academy of Indian Culture and
+                        Aditya Prakashan, 2012. </bibl>
+                    <bibl>——— (2010). “<title xml:lang="Sa-Ltn">Mahāpratisarāvidyāvidhi</title>: The
+                        Spell-Manual of the Great Amulet.” <title xml:lang="eng">Acta
+                            Orientalia Academiae Scientiarum Hung</title>, vol. 63(4) (2010):
+                        473–484. </bibl>
+                    <bibl>——— (2007). “Remarks on the Use of the Dhāraṇīs and Mantras of the
+                        Mahāpratisarā-Mahāvidyārājñī.” <title xml:lang="eng">In Indian
+                            Languages and Texts Through the Ages: Essays of Hungarian Indologists in
+                            Honour of Prof. Csaba Töttössy</title>. Edited by Csaba Dezsö, pp.
+                        185–208. New Delhi: Manohar Publishers and Distributors, 2007. </bibl>
+                    <bibl>Lewis, Todd. <title xml:lang="eng">Popular Buddhist Texts from Nepal:
+                            Narratives and Rituals of Newar Buddhism</title>. Albany: SUNY Press,
+                        2000. </bibl>
+                    <bibl>Orzech, Charles D. “Metaphor, Translation, and the Construction of
+                        Kingship in the Scripture for Humane Kings and the Mahāmāyūrī Vidyārājñī
+                        Sūtra.” <title xml:lang="fr">Cahiers d’Extreme-Asie</title>, vol. 13 (2002):
+                        55–83. </bibl>
+                    <bibl>Pathak, Suniti K. “A Dharani-mantra in the Vinaya-vastu.” <title xml:lang="eng">Bulletin of Tibetology</title>, vol. 25, no. 2
+                        (1989). </bibl>
+                    <bibl>Schopen, Gregory. “A Verse from the <title xml:lang="Sa-Ltn">Bhadracaripranidhana</title> in a 10th Century Inscription found at
+                        Nalanda.” <title xml:lang="eng">Journal of the International
+                            Association of Buddhist Studies</title>, 12(1) (1989): 149–57. </bibl>
+                    <bibl>Sørensen, Henrik H. “The Spell of the Great, Golden Peacock Queen: The
+                        Origin, Practices, and Lore of an Early Esoteric Buddhist Tradition in
+                        China.” <title xml:lang="eng">Pacific World Journal</title>, Fall
+                        (8) (2006): 89–123. </bibl>
+                </div>
+            </div>
+            <div type="glossary">
+                <list>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-090-007-te1">apasmāra</term>
+                            <term xml:lang="Bo-Ltn">brjed byed </term>
+                            <term xml:lang="Sa-Ltn">apasmāra</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-090-007-te2">asura</term>
+                            <term xml:lang="Bo-Ltn">lha ma yin </term>
+                            <term xml:lang="Sa-Ltn">asura</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-090-007-te3">bhūta</term>
+                            <term xml:lang="Bo-Ltn">byung po </term>
+                            <term xml:lang="Sa-Ltn">bhūta</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-090-007-te4">gandharva</term>
+                            <term xml:lang="Bo-Ltn">dri za </term>
+                            <term xml:lang="Sa-Ltn">gandharva</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-090-007-te5">garuḍa</term>
+                            <term xml:lang="Bo-Ltn">nam mkha’ lding </term>
+                            <term xml:lang="Sa-Ltn">garuḍa</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-090-007-te6">guhyaka</term>
+                            <term xml:lang="Bo-Ltn">gsang ba pa </term>
+                            <term xml:lang="Sa-Ltn">guhyaka</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-090-007-te7">kākhorda</term>
+                            <term xml:lang="Bo-Ltn">byad stems </term>
+                            <term xml:lang="Sa-Ltn">kākhorda</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-090-007-te8">kaṭapūtana</term>
+                            <term xml:lang="Bo-Ltn">lus srul po </term>
+                            <term xml:lang="Sa-Ltn">kaṭapūtana</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-090-007-te9">kiṃnara</term>
+                            <term xml:lang="Bo-Ltn">mi’am ci </term>
+                            <term xml:lang="Sa-Ltn">kiṃnara</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-090-007-te10">kṛtya</term>
+                            <term xml:lang="Bo-Ltn">gshed byed </term>
+                            <term xml:lang="Sa-Ltn">kṛtya</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-090-007-te11">kumbhaṇḍa</term>
+                            <term xml:lang="Bo-Ltn">grul bum </term>
+                            <term xml:lang="Sa-Ltn">kumbhaṇḍa</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-090-007-te12">league</term>
+                            <term xml:lang="Bo-Ltn">rgyang grags </term>
+                            <term xml:lang="Sa-Ltn">krośa</term>
+                            <term type="definition">A measure of distance, one quarter of a <foreign type="term" xml:lang="Sa-Ltn">yojana</foreign>; supposedly the
+                                distance within which a cry can be heard.</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-090-007-te13">mahoraga</term>
+                            <term xml:lang="Bo-Ltn">lto ’phye chen po </term>
+                            <term xml:lang="Sa-Ltn">mahoraga</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-090-007-te14">nāga</term>
+                            <term xml:lang="Bo-Ltn">klu </term>
+                            <term xml:lang="Sa-Ltn">nāga</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-090-007-te15">piśāca</term>
+                            <term xml:lang="Bo-Ltn">sha za </term>
+                            <term xml:lang="Sa-Ltn">piśāca</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-090-007-te16">preta</term>
+                            <term xml:lang="Bo-Ltn">yi dags </term>
+                            <term xml:lang="Sa-Ltn">preta</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-090-007-te17">pūtana</term>
+                            <term xml:lang="Bo-Ltn">srul po </term>
+                            <term xml:lang="Sa-Ltn">pūtana</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-090-007-te18">rākṣasa</term>
+                            <term xml:lang="Bo-Ltn">srin po </term>
+                            <term xml:lang="Sa-Ltn">rākṣasa</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-090-007-te19">rākṣasī</term>
+                            <term xml:lang="Bo-Ltn">srin mo </term>
+                            <term xml:lang="Sa-Ltn">rākṣasī</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-090-007-te20">unmāda</term>
+                            <term xml:lang="Bo-Ltn">smyo byed </term>
+                            <term xml:lang="Sa-Ltn">unmāda</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-090-007-te21">vetāla</term>
+                            <term xml:lang="Bo-Ltn">ro langs </term>
+                            <term xml:lang="Sa-Ltn">vetāla</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-090-007-te22">yakṣa</term>
+                            <term xml:lang="Bo-Ltn">gnod sbyin </term>
+                            <term xml:lang="Sa-Ltn">yakṣa</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-090-007-pe1">Always Insane</term>
+                            <term xml:lang="Bo-Ltn">rtag tu myos </term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-090-007-pe2">Amazing Renown</term>
+                            <term xml:lang="Bo-Ltn">rmad grags </term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-090-007-pe3">Ānanda</term>
+                            <term xml:lang="Bo-Ltn">kun dga’ bo </term>
+                            <term xml:lang="Sa-Ltn">Ānanda</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-090-007-pe4">Anāthapiṇḍada</term>
+                            <term xml:lang="Bo-Ltn">mgon med zas sbyin </term>
+                            <term xml:lang="Sa-Ltn">Anāthapiṇḍada</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-090-007-pe5">Aniruddha</term>
+                            <term xml:lang="Bo-Ltn">ma ’gags pa </term>
+                            <term xml:lang="Sa-Ltn">Aniruddha</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-090-007-pe6">Auspicious</term>
+                            <term xml:lang="Bo-Ltn">bkra shis ldan </term>
+                            <term xml:lang="Sa-Ltn">Svastika</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-090-007-pe7">Bamboo Stick</term>
+                            <term xml:lang="Bo-Ltn">od ma sbubs </term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-090-007-pe8">Bloated with Power</term>
+                            <term xml:lang="Bo-Ltn">stobs kyis rgyags </term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-090-007-pe9">Brahmā</term>
+                            <term xml:lang="Bo-Ltn">tshangs pa </term>
+                            <term xml:lang="Sa-Ltn">Brahmā</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-090-007-pe10">Complete</term>
+                            <term xml:lang="Bo-Ltn">gang po </term>
+                            <term xml:lang="Sa-Ltn">Pūrṇa</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-090-007-pe11">Conflict Engager</term>
+                            <term xml:lang="Bo-Ltn">thab ’jug </term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-090-007-pe12">Conflict Lover</term>
+                            <term xml:lang="Bo-Ltn">thab dga’ </term>
+                            <term xml:lang="Sa-Ltn">Kalahapriya?</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-090-007-pe13">Desiring Engagement</term>
+                            <term xml:lang="Bo-Ltn">jug ’dod </term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-090-007-pe14">Earth Supporter</term>
+                            <term xml:lang="Bo-Ltn">sa ’dzin </term>
+                            <term xml:lang="Sa-Ltn">Bhūmidhāra</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-090-007-pe15">Excellent Eyes</term>
+                            <term xml:lang="Bo-Ltn">mig bzang </term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-090-007-pe16">Excellent Splendor</term>
+                            <term xml:lang="Bo-Ltn">gzi brjid mchog </term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-090-007-pe17">Excellent White Female
+                                Servant</term>
+                            <term xml:lang="Bo-Ltn">bren mo dkar mo bzang </term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-090-007-pe18">Friend to All</term>
+                            <term xml:lang="Bo-Ltn">kun bshes </term>
+                            <term xml:lang="Sa-Ltn">Viśvamitra</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-090-007-pe19">Further Insane</term>
+                            <term xml:lang="Bo-Ltn">rjes su myos </term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-090-007-pe20">Giver of Various Things</term>
+                            <term xml:lang="Bo-Ltn">sna tshog sbyin sbong </term>
+                            <term xml:lang="Sa-Ltn">Citra?</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-090-007-pe21">Glory of Joy</term>
+                            <term xml:lang="Bo-Ltn">dga’ ba’i dpal </term>
+                            <term xml:lang="Sa-Ltn">Śrīharṣa</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-090-007-pe22">Greatest</term>
+                            <term xml:lang="Bo-Ltn">rab chen </term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-090-007-pe23">Hārītī</term>
+                            <term xml:lang="Bo-Ltn">phrog ma </term>
+                            <term xml:lang="Sa-Ltn">Hārītī</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-090-007-pe24">Horn</term>
+                            <term xml:lang="Bo-Ltn">rwa </term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-090-007-pe25">Instigator of Evil</term>
+                            <term xml:lang="Bo-Ltn">ngan slob </term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-090-007-pe26">Kālodāyin</term>
+                            <term xml:lang="Bo-Ltn">nag po ’char ka </term>
+                            <term xml:lang="Sa-Ltn">Kālodāyin</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-090-007-pe27">Ājñātakauṇḍinya</term>
+                            <term xml:lang="Bo-Ltn">kun shes kauN+Din+ya </term>
+                            <term xml:lang="Sa-Ltn">Ājñātakauṇḍinya</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-090-007-pe28">Layered Joy</term>
+                            <term xml:lang="Bo-Ltn">dga’ brtsegs </term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-090-007-pe29">Mahākālī</term>
+                            <term xml:lang="Bo-Ltn">nag mo chen mo </term>
+                            <term xml:lang="Sa-Ltn">Mahākālī</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-090-007-pe30">Mahākāśyapa</term>
+                            <term xml:lang="Bo-Ltn">’od srung chen po </term>
+                            <term xml:lang="Sa-Ltn">Mahākāśyapa</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-090-007-pe31">Mahāmaudgalyāyana</term>
+                            <term xml:lang="Bo-Ltn">maud gal gyi bu chen po </term>
+                            <term xml:lang="Sa-Ltn">Mahāmaudgalyāyana</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-090-007-pe32">Master</term>
+                            <term xml:lang="Bo-Ltn">bla ma </term>
+                            <term xml:lang="Sa-Ltn">Prabhu, Guru</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-090-007-pe33">Mountain Protector</term>
+                            <term xml:lang="Bo-Ltn">ri srung </term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-090-007-pe34">Piṇḍola Bhāradvāja</term>
+                            <term xml:lang="Bo-Ltn">bha ra dwa dza bsod snyoms len </term>
+                            <term xml:lang="Sa-Ltn">Piṇḍola Bhāradvāja</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-090-007-pe35">Playful Lady</term>
+                            <term xml:lang="Bo-Ltn">rtsed mo </term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-090-007-pe36">Powerful</term>
+                            <term xml:lang="Bo-Ltn">stobs ldan </term>
+                            <term xml:lang="Sa-Ltn">Balī</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-090-007-pe37">Pūrṇamaitrāyaṇīputra</term>
+                            <term xml:lang="Bo-Ltn">byams ma’i bu gang po </term>
+                            <term xml:lang="Sa-Ltn">Pūrṇamaitrāyaṇīputra</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-090-007-pe38">Rāhu</term>
+                            <term xml:lang="Bo-Ltn">sgra gcan </term>
+                            <term xml:lang="Sa-Ltn">Rāhu</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-090-007-pe39">Rāhula</term>
+                            <term xml:lang="Bo-Ltn">sgra gcan zin </term>
+                            <term xml:lang="Sa-Ltn">Rāhula</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-090-007-pe40">Red Female Servant</term>
+                            <term xml:lang="Bo-Ltn">bran mo dmar mo </term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-090-007-pe41">Renowned Female</term>
+                            <term xml:lang="Bo-Ltn">grags ma </term>
+                            <term xml:lang="Sa-Ltn">Kīrtī</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-090-007-pe42">Śakra</term>
+                            <term xml:lang="Bo-Ltn">brgya byin </term>
+                            <term xml:lang="Sa-Ltn">Śakra</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-090-007-pe43">Śākyaprabha</term>
+                            <term xml:lang="Bo-Ltn">shAkya pra bha va </term>
+                            <term xml:lang="Sa-Ltn">Śākyaprabha</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-090-007-pe44">Śāradvatīputra</term>
+                            <term xml:lang="Bo-Ltn">sha ra dwa t’i bu </term>
+                            <term xml:lang="Sa-Ltn">Śāradvatīputra</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-090-007-pe45">Śīlendrabodhi</term>
+                            <term xml:lang="Bo-Ltn">shrI lendra bo dhi </term>
+                            <term xml:lang="Sa-Ltn">Śīlendrabodhi</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-090-007-pe46">Slanderous</term>
+                            <term xml:lang="Bo-Ltn">phra ma can </term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-090-007-pe47">Stainless</term>
+                            <term xml:lang="Bo-Ltn">dri med </term>
+                            <term xml:lang="Sa-Ltn">Vimalā</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-090-007-pe48">Sudarśana</term>
+                            <term xml:lang="Bo-Ltn">legs mthong </term>
+                            <term xml:lang="Sa-Ltn">Sudarśana</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-090-007-pe49">Supple</term>
+                            <term xml:lang="Bo-Ltn">rab mnyen </term>
+                            <term xml:lang="Sa-Ltn">Pramṛdū</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-090-007-pe50">Supreme Seizer</term>
+                            <term xml:lang="Bo-Ltn">mchog len </term>
+                            <term xml:lang="Sa-Ltn">Paramalabhā</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-090-007-pe51">Surrounding City</term>
+                            <term xml:lang="Bo-Ltn">grong khyer ’khor yug </term>
+                            <term xml:lang="Sa-Ltn">Cakravālapur</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-090-007-pe52">Swift Hand</term>
+                            <term xml:lang="Bo-Ltn">lag myur </term>
+                            <term xml:lang="Sa-Ltn">Laghupāṇi</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-090-007-pe53">Terrifying</term>
+                            <term xml:lang="Bo-Ltn">jigs byed </term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-090-007-pe54">Terrifying Lady</term>
+                            <term xml:lang="Bo-Ltn">jigs byed ma </term>
+                            <term xml:lang="Sa-Ltn">Bhairavā</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-090-007-pe55">Tumult</term>
+                            <term xml:lang="Bo-Ltn">sgra chen </term>
+                            <term xml:lang="Sa-Ltn">Ghoṣā</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-090-007-pe56">Unassailable</term>
+                            <term xml:lang="Bo-Ltn">thub med </term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-090-007-pe57">Upālī</term>
+                            <term xml:lang="Bo-Ltn">nye bar ’khor </term>
+                            <term xml:lang="Sa-Ltn">Upālī</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-090-007-pe58">Vasumallaputra</term>
+                            <term xml:lang="Bo-Ltn">gyad bu nor </term>
+                            <term xml:lang="Sa-Ltn">Vasumallaputra</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-090-007-pe59">Voice of Jambū</term>
+                            <term xml:lang="Bo-Ltn">dzam bu’i mgrin </term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-090-007-pe60">Wealthy</term>
+                            <term xml:lang="Bo-Ltn">byor ldan </term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-090-007-pe61">Jñānasiddhi</term>
+                            <term xml:lang="Bo-Ltn">dznyA na siddhi </term>
+                            <term xml:lang="Sa-Ltn">Jñānasiddhi</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-090-007-pl1">great trichiliocosm</term>
+                            <term xml:lang="Bo-Ltn">stong gsum gyi stong chen po </term>
+                            <term xml:lang="Sa-Ltn">trisāhasramahāsāhasralokadhātu</term>
+                            <term type="definition">The largest universe spoken of in Buddhist
+                                cosmology, consisting of one billion smaller world systems.</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-090-007-pl2">Sahā world</term>
+                            <term xml:lang="Bo-Ltn">mi mjed </term>
+                            <term xml:lang="Sa-Ltn">sahā</term>
+                            <term type="definition">A name for the “world” in which we live.</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-090-007-pl3">Jetavana</term>
+                            <term xml:lang="Bo-Ltn">rgyal bu rgyal byed kyi tshal </term>
+                            <term xml:lang="Sa-Ltn">jetavana</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-090-007-pl4">Śrāvastī</term>
+                            <term xml:lang="Bo-Ltn">mnyan yod </term>
+                            <term xml:lang="Sa-Ltn">śrāvastī</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-090-007-pl5">chiliocosm</term>
+                            <term xml:lang="Bo-Ltn">stong gi ’jig rten gyi khams </term>
+                            <term xml:lang="Sa-Ltn">sāhasralokadhātu</term>
+                            <term type="definition">A universe in Buddhist cosmology consisting of
+                                one thousand smaller world systems.</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-090-007-pl6">Cakravālapur</term>
+                            <term xml:lang="Bo-Ltn">grong khyer khor yug </term>
+                            <term xml:lang="Sa-Ltn">cakravālapur</term>
+                        </gloss>
+                    </item>
+                </list>
+            </div>
+        </back>
+    </text>
+</TEI>
