@@ -1,5 +1,5 @@
-<!--Currently being checked and edited by John-->
-<!--from staging 2016_08_15 -->
+<!--Checked and edited by John, placed in TEI fiolder 17 Aug 2016-->
+<!-- from tei (production) 2016_08_17-->
 <?xml-model href="oxygen:/Exist$84000-AWS/db/84000/schema/84000-ODD.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
@@ -1440,6 +1440,7 @@
                     <milestone unit="chunk"/>
                     <p>Then the Blessed One, the Vajra Holder, taught this chapter on mantra for the
                         sake of living beings:</p>
+                    <lb/>
                     <p>
                         <foreign type="mantra" xml:lang="Sa-Ltn">“Oṃ nīlāmbaradhara vajrapāṇi
                                 hūṃ hūṃ phaṭ.</foreign>
@@ -1520,10 +1521,9 @@
                             <foreign type="mantra" xml:lang="Sa-Ltn">“Oṃ āḥ hūṃ.</foreign>
                         </l>
                     </lg>
-                    <lg>
-                        <l>“That is the mantra for the blessings of enlightened body, speech, and
-                            mind.</l>
-                    </lg>
+                    <p>“That is the mantra for the blessings of enlightened body, speech, and
+                            mind.</p>
+                    <lb/>
                     <milestone unit="chunk"/>
                     <lg>
                         <l>
@@ -1682,10 +1682,9 @@
                 </div>
                 <div type="chapter">
                     <head type="chapter">Chapter 11</head>
-                    <head type="chapterTitle"> The Arrangement of Mantras</head>
+                    <head type="chapterTitle">The Arrangement of Mantras</head>
                     <milestone unit="chunk"/>
                     <p>Vajrapāṇi then said these well-spoken words:</p>
-                    <lb/>
                     <lg>
                         <l>“The ritual of arranging mantras,</l>
                         <l>How might that be?”</l>
@@ -1874,7 +1873,6 @@
                             enlightened mind.”</p>
                     <milestone unit="chunk"/>
                     <p>The Blessed One answered this request by saying:</p>
-                    <lb/>
                     <lg>
                         <l>“Vajrapāṇi, terrifying one, </l>
                         <l>It is excellent that you consider the welfare of others so
@@ -1906,15 +1904,18 @@
                         <l>The one to be accomplished is turned into a mass of light, </l>
                         <l>And, in an instant, caught within the <foreign type="mantra" xml:lang="Sa-Ltn">hūṃ</foreign>.</l>
                     </lg>
+                    <milestone unit="chunk"/>
                     <p>
                         <foreign type="mantra" xml:lang="Sa-Ltn">“Oṃ vajrakrodha ahicaṇḍa
                                     phaṭ.</foreign>
                     </p>
                     <lb/>
-                    <milestone unit="chunk"/>
                     <lg>
                         <l>“With ten thousand repetitions, one will certainly be freed from the
                                 grahas.</l>
+                    </lg>
+                    <milestone unit="chunk"/>
+                    <lg>
                         <l>“Vajrapāṇi,</l>
                         <l>Your radiation and absorption of enlightened mind is secret.</l>
                         <l>Cover the body of the one to be accomplished in color,</l>
@@ -2082,7 +2083,7 @@
                             <term xml:lang="Bo-Ltn"> gdon </term>
                             <term xml:lang="Sa-Ltn">graha</term>
                             <term type="definition">A type of evil spirit known to exert a harmful
-                                influence on the human body and mind. They are closely associated
+                                influence on the human body and mind. Grahas are closely associated
                                 with the planets and other astronomical bodies.</term>
                         </gloss>
                     </item>
@@ -2137,12 +2138,20 @@
                     </item>
                     <item>
                         <gloss>
-                            <term xml:id="UT22084-087-003-te16">one to be accomplished,
-                                target</term>
+                            <term xml:id="UT22084-087-003-te16">target</term>
                             <term xml:lang="Bo-Ltn">bsgrub bya </term>
                             <term xml:lang="Sa-Ltn">sādhya</term>
                             <term type="definition">This is the object of ritual accomplishment,
-                                whatever is the focus and/or the goal of ritual activity.</term>
+                                whatever is the focus and/or the goal of ritual activity. Also translated “one to be accomplished.”</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-087-003-te22">one to be accomplished</term>
+                            <term xml:lang="Bo-Ltn">bsgrub bya </term>
+                            <term xml:lang="Sa-Ltn">sādhya</term>
+                            <term type="definition">This is the object of ritual accomplishment,
+                                whatever is the focus and/or the goal of ritual activity. Also translated “target.”</term>
                         </gloss>
                     </item>
                     <item>
