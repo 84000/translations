@@ -1,26 +1,24 @@
-
-<!--copied from staging 2016_08_15 --><!-- Checked , first pass, visual check, parser ready 6/5/16, visual check 6/10/16 SMJ -->
-<?xml-model href="oxygen:/Exist$84000-AWS/db/84000/schema/84000-ODD.rnc" type="application/relax-ng-compact-syntax"?>
+<!-- Checked and editied by John, placed in TEI folder 11 Sept 2016 --><?xml-model href="../../../schema/84000-ODD.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title type="mainTitle" xml:lang="bo">རྒྱལ་བའི་བློ་གྲོས་ཀྱིས་ཞུས་པའི་མདོ། </title>
                 <title type="mainTitle" xml:lang="eng">The Sūtra of the Inquiry of Jayamati</title>
-                <title type="mainTitle" xml:lang="Sa-Ltn">Jayamatiparipṛcchāsūtra</title>
-                <title type="longTitle" xml:lang="bo">འཕགས་པ་རྒྱལ་བའི་བློ་གྲོས་ཀྱིས་ཞུས་པ་ཞེ་བྱ་བ་ཐེག་པ་ཆེན་པོའི་མདོ།་ </title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">Jaya­mati­paripṛcchā­sūtra</title>
+                <title type="longTitle" xml:lang="bo">འཕགས་པ་རྒྱལ་བའི་བློ་གྲོས་ཀྱིས་ཞུས་པ་ཞེ་བྱ་བ་ཐེག་པ་ཆེན་པོའི་མདོ།</title>
                 <title type="longTitle" xml:lang="Bo-Ltn">’phags pa rgyal ba’i blo gros kyis zhus pa
                     zhes bya ba theg pa chen po’i mdo </title>
-                <title type="longTitle" xml:lang="eng">The Noble Mahāyāna sūtra “The Inquiry of
+                <title type="longTitle" xml:lang="eng">The Noble Mahāyāna Sūtra “The Inquiry of
                     Jayamati”</title>
-                <title type="longTitle" xml:lang="Sa-Ltn">Āryajayamatiparipṛcchānāmamahāyānasūtra</title>
+                <title type="longTitle" xml:lang="Sa-Ltn">Ārya­jayamati­paripṛcchā­nāma­mahā­yāna­sūtra</title>
                 <author role="translatorMain">Translated by the University of Calgary Buddhist
                     Studies team<lb/> under the patronage and supervision of 84000: Translating the
                     Words of the Buddha</author>
                 <author role="translatorEng">James B. Apple</author>
             </titleStmt>
             <editionStmt>
-                <edition>v 1.0 <date>2015</date>
+                <edition>v 1.0 <date>2016</date>
                 </edition>
             </editionStmt>
             <publicationStmt>
@@ -70,7 +68,7 @@
                     practicing these prescriptions when they are cultivated. </p>
             </div>
             <div type="acknowledgment">
-                <head type="acknowledgment"> Acknowledgments</head>
+                <head type="acknowledgment">Acknowledgments</head>
                 <milestone unit="chunk"/>
                 <p>Translation by the University of Calgary Buddhist Studies team. This sūtra was
                     introduced and translated by James B. Apple. </p>
@@ -81,60 +79,63 @@
                 <head type="introduction">Introduction</head>
                 <div type="section">
                     <milestone unit="chunk"/>
-                    <p>At first glance, the <title xml:lang="Sa-Ltn">Jayamatiparipṛcchāsūtra</title>
+                    <p>At first glance, the <title xml:lang="Sa-Ltn">Jaya­mati­paripṛcchā­sūtra</title>
                         (“The Sūtra of the Inquiry of Jayamati”) appears to be a short Mahāyāna
                         sūtra preserved in the Tibetan Kangyurs,<note place="end">On the necessity
                             of employing the plural “Kangyurs” as opposed to “the Kangyur,” see the
-                            work of Peter Skilling 1995, 2009, 2013.</note> as well as preserved in
-                        a recently published Sanskrit manuscript (Vinītā 2010, Vol I,2: 305-316).
-                        However, despite appearances, the <title xml:lang="Sa-Ltn">Jayamatiparipṛcchāsūtra</title> in fact has an intertextual
-                        relationship, previously unrecognized, as part of the <title xml:lang="Sa-Ltn">Śūraṃgamasamādhisūtra</title> (“The Concentration of
+                            work of Peter Skilling (1997, 2009, 2013).</note> as well as in
+                        a recently published Sanskrit manuscript.<note place="end">Vinītā (2010), Vol I,1, pp 305-316.</note> 
+                        However, despite appearances, the <title xml:lang="Sa-Ltn">Jaya­mati­paripṛcchā­sūtra</title> in fact has an intertextual
+                        relationship, previously unrecognized, as part of the <title xml:lang="Sa-Ltn">Śūraṃgama­samādhi­sūtra</title> (“The Concentration of
                         Heroic Progress”) (Apple 2015). </p>
                     <milestone unit="chunk"/>
-                    <p>The Sanskrit version of the <title xml:lang="Sa-Ltn">Jayamatiparipṛcchāsūtra</title> is preserved as the eighth among twenty
+                    <p>The Sanskrit version of the <title xml:lang="Sa-Ltn">Jaya­mati­paripṛcchā­sūtra</title> is preserved as the eighth among twenty
                         sūtras contained in a unique, but incomplete, manuscript collection
                         recovered from the Potala Palace in Lhasa, Tibet. The Sanskrit edition is
                         divided into three paragraphs with section numbers. We have retained the
                         section numbers in the following translation of the Tibetan version. The
-                        Tibetan version of the <title xml:lang="Sa-Ltn">Jayamatiparipṛcchāsūtra</title> exists in twelve available Tibetan
+                        Tibetan version of the <title xml:lang="Sa-Ltn">Jaya­mati­paripṛcchā­sūtra</title> exists in twelve available Tibetan
                         exemplars that date initially from the late eighth to mid-ninth century,
                         beginning with the Dunhuang IOL Tib J 75 exemplar, up through the vulgate
                         editions of handwritten and printed Kangyur versions which date from the
                         thirteenth to the eighteenth centuries. </p>
+                    <lb/>
                     <milestone unit="chunk"/>
                     <p>
                         <title xml:lang="Sa-Ltn">The Inquiry of Jayamati</title> is listed in two
-                        early ninth century Tibetan catalogs, the Lhenkarma (<title xml:lang="Bo-Ltn">lhan kar ma</title>) (§236; Herrmann-Pfandt 2008: 124)
-                        and the Phangthangma (<title xml:lang="Bo-Ltn">’phang thang ma</title>) (Rdo
-                        2003:18), as the <title xml:lang="Sa-Ltn">Jayamatiparipṛcchā</title> (<title xml:lang="Bo-Ltn">rgyal ba’i blo gros kyis zhus pa</title>) in eleven
+                        early ninth century Tibetan catalogs, the Lhenkarma (<title xml:lang="Bo-Ltn">lhan kar 
+                        ma</title>),<note place="end">§236; see Herrmann-Pfandt (2008), p 124. The Lhenkarma is also sometimes called the Denkarma (<title xml:lang="Bo-Ltn">ldan kar ma</title>).</note> and the Phangthangma (<title xml:lang="Bo-Ltn">’phang thang ma</title>),<note place="end">Rdo
+                            (2003), p 18.</note> as the <title xml:lang="Sa-Ltn">Jayamati­paripṛcchā</title> (<title xml:lang="Bo-Ltn">rgyal ba’i blo gros kyis zhus pa</title>) in eleven
                         ślokas. The late thirteenth century catalog of the Tibetan Kadampa master
                         Darma Gyaltsen (<foreign type="term" xml:lang="Bo-Ltn">dar ma rgyal
                             mtshan</foreign>, 1227-1305), commonly known as Chomden Reltri (<foreign type="term" xml:lang="Bo-Ltn">bcom ldan ral gri</foreign>), lists the
-                        sūtra as <title xml:lang="Sa-Ltn">Jayamatiparipṛcchā</title> (<title xml:lang="Bp-Ltn">rgyal ba’i blo gros kyis zhus pa</title>) in eleven
-                        ślokas (Schaeffer and van der Kuijp 2009:133). A listing of texts appended
+                        sūtra as the <title xml:lang="Sa-Ltn">Jayamatiparipṛcchā</title> (<title xml:lang="Bp-Ltn">rgyal ba’i blo gros kyis zhus pa</title>) in eleven
+                        ślokas.<note place="end">Schaeffer and van der Kuijp (2009), p 133.</note> A listing of texts appended
                         to the <title xml:lang="Eng">History of Buddhism in India and its Spread to
                             Tibet</title> by Butön Rinchen Drup (<foreign type="term" xml:lang="Bo-Ltn">bu ston rin chen grub</foreign>, 1290-1364) also
                         records the work as the <title xml:lang="Sa-Ltn">Jayamatiparipṛcchā</title>
                             (<title xml:lang="Bo-Ltn">rgyal ba’i blo gros kyis zhus pa</title>) in
-                        eleven ślokas.<note place="end">Nishioka 1980:74, §277. See Van der Kuijp
+                        eleven ślokas.<note place="end">Nishioka (1980), p 74, §277. See Van der Kuijp
                             (2013) for an analysis of this work’s textual formation and
                             transmission.</note> These catalog lists match the Tibetan title of the
                         sūtra that is found in a marginal note above the first line of the Sanskrit
                         manuscript of the <title xml:lang="Sa-Ltn">Jayamatiparipṛcchā</title> as
                             <title xml:lang="Bo-Ltn">’phags pa rgyal ba’i blo gros kyis zhus pa’i
-                            mdo ste brgyad par rdzogs so</title> (Vinītā 2010:314, note α). However,
-                        among vulgate Kangyurs, the Tshalpa (<foreign type="term" xml:lang="Bo-Ltn">tshal pa</foreign>) editions of Cone (C), Degé (D), Jangsatham (J),
-                        Peking (Q), the independent Kangyurs of Phu brag (F, F2), and the Gondlha
+                                mdo ste brgyad par rdzogs so</title>.<note place="end">Vinītā (2010), p 314, note α.</note>
+                    </p>
+                    <p>However, among vulgate Kangyurs, the Tshalpa (<foreign type="term" xml:lang="Bo-Ltn">tshal pa</foreign>) editions of Cone (C), Degé (D), Jangsatham (J),
+                        Peking (Q), the independent Kangyurs of Phug brag (F, F2), and the Gondlha
                         (Go) proto-Kangyur give the title as <title xml:lang="Eng">The Mahāyāna
-                            Sūtra “Jayamati”</title> (<title xml:lang="Bo-Ltn">Jayamatināmamahāyānasūtra, blo gros zhes bya ba theg pa chen po’i
+                            Sūtra “Jayamati”</title> (<title xml:lang="Sa-Ltn">Jayamatināmamahāyānasūtra</title>, <title xml:lang="Bo-Ltn">rgyal ba’i blo gros zhes bya ba theg pa chen po’i
                             mdo</title>), while only the Kangyurs of the Thempangma (<foreign type="term" xml:lang="Bo-Ltn">thems spang ma</foreign>) line of London
-                        (L) and Stogs Palace (S), as well as the mixed Kangyur of Narthang (N), give
+                        (L) and Stok Palace (S), as well as the mixed Kangyur of Narthang (N), give
                         the title, in Tibetan at least, as <title xml:lang="Bo-Ltn">’phags pa rgyal
                             ba’i blo gros kyis zhus pa zhes bya ba theg pa chen po’i mdo</title>,
                             (<title xml:lang="Eng">The Mahāyāna Sūtra “The Inquiry of
-                            Jayamati”</title>). Although this should translate the Sanskrit <title xml:lang="Sa-Ltn">Jayamatiparipṛcchānāmamahāyānasūtra</title>, these
-                        Kangyurs, too, use the Sanskrit title <title xml:lang="Sa-Ltn">Jayamatināmamahāyānasūtra</title>. None of the available Tibetan
+                                Jayamati”</title>). Although this should translate the Sanskrit <title xml:lang="Sa-Ltn">Jaya­mati­paripṛcchā­nāma­mahā­yāna­sūtra</title>, these
+                        Kangyurs, too, use the Sanskrit title <title xml:lang="Sa-Ltn">Jaya­mati­nāma­mahā­yāna­sūtra</title>. None of the available Tibetan
                         editions have a colophon that lists the translators of the <foreign xml:lang="Sa-Ltn">sūtra</foreign>. </p>
+                    <lb/>
                     <milestone unit="chunk"/>
                     <p>Analysis of the Sanskrit and Tibetan versions indicate that they preserve
                         different <foreign type="term" xml:lang="Sa-Ltn">nidāna</foreign> or
@@ -145,39 +146,38 @@
                             bodhisatvas.<note place="end">We follow the Buddhist Sanskrit spelling
                             of ‘bodhisatva’ with a single rather than a double ‘t’ as found in
                             manuscripts and inscriptions as the latter is a convention of modern
-                            editors. See Bhattacharya (2010).</note> Vinītā’s study (2010, Volume
-                        I,1, p. 315, note a) also notes that the conclusions of the Sanskrit and
-                        Tibetan versions differ. The differences between the Sanskrit and Tibetan
+                            editors. See Bhattacharya (2010).</note> Vinītā’s study<note place="end">Vinītā (2010), vol.
+                                I,1, p 315, note α.</note> also notes that the conclusions of the Sanskrit and
+                        Tibetan versions differ. These differences between the Sanskrit and Tibetan
                         versions of the introductory settings and formulaic conclusions may well
                         indicate that this brief sūtra was redacted in a manner similar to the
-                        Mūlasarvāstivāda rules on “how to make up a sūtra” (Schopen 2004). This is
+                        Mūla­sarvāsti­vāda rules on “how to make up a sūtra.”<note place="end">Schopen (2004).</note> This is
                         based on the fact that all Tibetan versions of the sūtra give Śrāvastī as
                         the setting, this being the favored location for a redacted text among the
-                        Mūlasarvāstivāda according to Gregory Schopen’s recent analysis.<note place="end">As detailed by Schopen (2004: 397), narrative elements
+                        Mūla­sarvāsti­vāda according to Gregory Schopen’s recent analysis.<note place="end">As detailed by Schopen (2004, p 397), narrative elements
                             appear to carry great weight for some scholars but “we know next to
                             nothing for certain about how early texts were redacted and
-                            transmitted.” (Ibid, page 399) The rules for redaction in the
-                            Mūla-Sarvāstivāda Vinaya “clearly favor Śrāvastī” as the setting. Both
+                            transmitted” (ibid, p 399). The rules for redaction in the
+                            Mūla­sarvāstivāda Vinaya “clearly favor Śrāvastī” as the setting. Both
                             Rājagṛha and Śrāvastī are among the six great cities recommended as a
                             location if the setting is forgotten. Schopen provides analysis of
-                            occurences noting that Gokhale records a 75% occurrence of Sāvatthi in
+                            occurrences noting that Gokhale records a 75% occurrence of Sāvatthi in
                             Pāli texts, Minh Chang records a 45% occurrence in the Chinese
                             Madhyama-āgama, and Schopen himself estimates an 80% occurrence rate for
-                            Śrāvastī in the Mūlasarvāstivāda Vinaya. Currently known redaction rules
+                            Śrāvastī in the Mūla­sarvāstivāda Vinaya. Currently known redaction rules
                             applied to sūtras, therefore, place the location in Śrāvastī more
                             frequently than would otherwise be expected.</note>
                     </p>
                     <milestone unit="chunk"/>
                     <p>The other immediately apparent difference in content between the Sanskrit
-                        version and Tibetan version is that the edited Tibetan contains nineteen
-                        prescriptions rather than the fourteen given in the Sanskrit. In the
+                        and Tibetan versions is that the edited Tibetan contains nineteen
+                        prescriptions rather than the fourteen in the Sanskrit. In the
                         following translation, the third and fourth prescriptions in the Tibetan are
                         in inverse order compared with the Sanskrit. Notably, the eighth
-                        prescription in the Tibetan version discusses knowledge (<foreign type="term" xml:lang="Bo-Ltn">ye shes ≈ jñāna</foreign>) while the
-                        Sanskrit version has <foreign type="term" xml:lang="Sa-Ltn">dhyāna</foreign>
-                            (<foreign type="term" xml:lang="Bo-Ltn">≈ bsam gtan</foreign>).
+                        prescription in the Tibetan version discusses knowledge, while the
+                        Sanskrit version has meditative absorption.
                         Classical philological and phylogenetic textual analysis of the available
-                        Tibetan exemplars of the <title xml:lang="Sa-Ltn">Jayamatiparipṛcchā</title>
+                        Tibetan exemplars of the <title xml:lang="Sa-Ltn">Jayamati­paripṛcchā</title>
                         indicates there are four lines of textual relations grouped within the (I)
                         Tshalpa (C, D, J, N, Q, Y) line, (II) Thempangma (L, S) line, (III) Dunhuang
                         (M) and Phug brag (F, F2) manuscripts, and (IV) Western Kangyur lines (Go).
@@ -187,70 +187,73 @@
                         proto-Kangyur and vulgate Kangyurs represent another textual recension. The
                         Dunhuang and Phug brag exemplars may represent early, but incomplete,
                         Tibetan translations of the sūtra. </p>
+                    <lb/>
                     <milestone unit="chunk"/>
-                    <p>Be that as it may, the doctrinal content of the <title xml:lang="Sa-Ltn">Jayamatiparipṛcchā</title>, including all nineteen prescriptions found
+                    <p>Be that as it may, the doctrinal content of the <title xml:lang="Sa-Ltn">Jayamati­paripṛcchā</title>, including all nineteen prescriptions found
                         among vulgate Tibetan Kangyurs, is actually contained within the much older
                         version of Kumārajīva’s early fifth century Chinese translation of the
-                            <title xml:lang="Sa-Ltn">Śūraṃgamasamādhisūtra</title>, the <title xml:lang="Chinese">Shoulengyan sanmei jing</title> 首楞嚴三昧經 (Taishō.
+                            <title xml:lang="Sa-Ltn">Śūraṃgama­samādhi­sūtra</title>, the <title xml:lang="Chinese">Shoulengyan sanmei jing</title>, 首楞嚴三昧經 (Taishō.
                         no.642, 15), as well as the later ninth century Tibetan translation of the
-                            <title xml:lang="Sa-Ltn">Śūraṃgamasamādhisūtra</title>. This
-                        intertextual relation between the <title xml:lang="Sa-Ltn">Jayamatiparipṛcchāsūtra</title> and <title xml:lang="Sa-Ltn">Śūraṃgamasamādhisūtra</title> has not been noticed before, either by
+                            <title xml:lang="Sa-Ltn">Śūraṃgama­samādhi­sūtra</title>. This
+                        intertextual relation between the <title xml:lang="Sa-Ltn">Jaya­mati­paripṛcchā­sūtra</title> and <title xml:lang="Sa-Ltn">Śūraṃgama­samādhi­sūtra</title> has not been noticed before, either by
                         traditional Buddhist scholars or by modern Buddhist studies scholars.
                         Versions in French and English of the corresponding content are located in
-                        section 153 of Étienne Lamotte’s translation the <title xml:lang="Sa-Ltn">Śūraṃgamasamādhisūtra</title> (French 1965:255-6; English 1998:225-6),
-                        under the title given by Lamotte “Why and How to Practice the Heroic
+                        section 153 of Étienne Lamotte’s translation of the <title xml:lang="Sa-Ltn">Śūraṃgama­samādhi­sūtra</title>,<note place="end">Lamotte, French (1965) pp 255-6; English (1998), pp 225-6.</note>
+                        under the title given by Lamotte, “Why and How to Practice the Heroic
                         Progress.” Kumārajīva’s Chinese version and the Tibetan version of the
-                            <title xml:lang="Sa-Ltn">Śūraṃgamasamādhisūtra</title>, translated by
+                            <title xml:lang="Sa-Ltn">Śūraṃgama­samādhi­sūtra</title>, translated by
                         Śākyaprabha and Ratnarakṣita, closely match the syntax and terminology found
-                        in the Tibetan version of the <title xml:lang="Sa-Ltn">Jayamatiparipṛcchāsūtra</title>, despite several minor differences in
+                        in the Tibetan version of the <title xml:lang="Sa-Ltn">Jaya­mati­paripṛcchā­sūtra</title>, despite several minor differences in
                         wording (Apple, 2015).</p>
                     <milestone unit="chunk"/>
                     <p>Although there is a direct correspondence in content between the
-                        Jayamatiparipṛcchā-sūtra and this section of the <title xml:lang="Sa-Ltn">Śūraṃgamasamādhisūtra</title>, a significant difference between the two
-                        sūtras is the person speaking the prescribed content. In the <title xml:lang="Sa-Ltn">Jayamatiparipṛcchāsūtra</title> the prescriptions are
+                        <title xml:lang="Sa-Ltn">Jaya­mati­paripṛcchā­sūtra</title> and this section of the <title xml:lang="Sa-Ltn">Śūraṃgama­samādhi­sūtra</title>, a significant difference between the two
+                        sūtras is the person speaking the prescribed content. In the <title xml:lang="Sa-Ltn">Jaya­mati­paripṛcchā­sūtra</title> the prescriptions are
                         delivered by the Buddha to the <foreign type="term">bodhisatva</foreign>
-                        Jayamati. The <title xml:lang="Sa-Ltn">Śūraṃgamasamādhisūtra</title>, on the
+                        Jayamati. The <title xml:lang="Sa-Ltn">Śūraṃgama­samādhi­sūtra</title>, on the
                         other hand, attributes the prescriptions to Jayamati. After Jayamati
-                        proclaims the nineteen prescriptions in the <title xml:lang="Sa-Ltn">Śūraṃgamasamādhisūtra</title>, the Buddha responds to Jayamati,
-                        corresponding to section 154 of Lamotte’s <title xml:lang="Sa-Ltn">Śūraṃgamasamādhisūtra</title> translation (1998:226-7), with a
-                        proclamation advocating the practice of the <title xml:lang="Sa-Ltn">Śūraṃgamasamādhi</title>, emphasizing how this <foreign type="term" xml:lang="Sa-Ltn">samādhi</foreign> encompasses and goes beyond the
+                        proclaims the nineteen prescriptions in the <title xml:lang="Sa-Ltn">Śūraṃgama­samādhi­sūtra</title>, the Buddha responds to Jayamati,
+                        corresponding to section 154 of Lamotte’s <title xml:lang="Sa-Ltn">Śūraṃgama­samādhi­sūtra</title> translation,<note place="end">Lamotte (1998), pp 226-7.</note> with a
+                        proclamation advocating the practice of the <title xml:lang="Sa-Ltn">Śūraṃgama­samādhi</title>, emphasizing how this <foreign type="term" xml:lang="Sa-Ltn">samādhi</foreign> encompasses and goes beyond the
                         qualities that the bodhisatva Jayamati had declared.</p>
                     <milestone unit="chunk"/>
-                    <p>The correspondence between the <title xml:lang="Sa-Ltn">Jayamatiparipṛcchāsūtra</title> and this section of the <title xml:lang="Sa-Ltn">Śūraṃgamasamādhisūtra</title> brings up a number of
+                    <p>The correspondence between the <title xml:lang="Sa-Ltn">Jaya­mati­paripṛcchā­sūtra</title> and this section of the <title xml:lang="Sa-Ltn">Śūraṃgama­samādhi­sūtra</title> brings up a number of
                         interesting questions related to philology, intertextuality, and other
                         cultural practices in the study of Mahāyāna sūtras. Based on the analysis of
                         these sūtras, the <foreign xml:lang="Latin">stemma codicum</foreign> for the
-                        content of the <title xml:lang="Sa-Ltn">Jayamatiparipṛcchāsūtra</title>, due
-                        to its being incorporated into the <title xml:lang="Sa-Ltn">Śūraṃgamasamādhisūtra</title>, pushes the inferred archetype or oldest
+                        content of the <title xml:lang="Sa-Ltn">Jaya­mati­paripṛcchā­sūtra</title>, due
+                        to its being incorporated into the <title xml:lang="Sa-Ltn">Śūraṃgama­samādhi­sūtra</title>, pushes the inferred archetype or oldest
                         inferable ancestor of this sūtra back before the fifth century of
-                        Kumārajīva. How do we know this? The content of the <title xml:lang="Sa-Ltn">Jayamatiparipṛcchāsūtra</title> was wholly subsumed and inverted from
+                        Kumārajīva.</p>
+                    <milestone unit="chunk"/>
+                    <p> How do we know this? The content of the <title xml:lang="Sa-Ltn">Jaya­mati­paripṛcchā­sūtra</title> was wholly subsumed and inverted from
                         the Buddha’s speech to represent the bodhisatva Jayamati’s proclamation,
-                        including all nineteen prescriptions in the <title xml:lang="Sa-Ltn">Śūraṃgamasamādhisūtra</title>. This means that the content of the
-                            <title xml:lang="Sa-Ltn">Jayamatiparipṛcchāsūtra</title> must precede
-                        the composition of this section of the <title xml:lang="Sa-Ltn">Śūraṃgamasamādhisūtra</title>. Most modern scholars theorize that the
-                            <title xml:lang="Sa-Ltn">Śūraṃgamasamādhisūtra</title> is one of the
-                        oldest Mahāyāna sūtras (Lamotte 1998:41) due to its listing in Chinese
+                        including all nineteen prescriptions in the <title xml:lang="Sa-Ltn">Śūraṃgama­samādhi­sūtra</title>. This means that the content of the
+                            <title xml:lang="Sa-Ltn">Jaya­mati­paripṛcchā­sūtra</title> must precede
+                        the composition of this section of the <title xml:lang="Sa-Ltn">Śūraṃgama­samādhi­sūtra</title>. Most modern scholars theorize that the
+                            <title xml:lang="Sa-Ltn">Śūraṃgama­samādhi­sūtra</title> is one of the
+                        oldest Mahāyāna sūtras<note place="end">Lamotte (1998), p 41.</note> due to its listing in Chinese
                         catalogs as being translated several times before Kumārajīva’s fifth century
-                        Chinese version, including the non-extant second century <title xml:lang="Chinese">Shoulengyan jing</title> 首楞嚴經 of Lokakṣema 支讖 (185
-                        c.e.) and the lost third century translation of Zhi Qian 支謙.<note place="end">See Hureau (2010:1224) and Nattier (2008:75).</note>
+                        Chinese version, including the non-extant second century <title xml:lang="Chinese">Shoulengyan jing</title>, 首楞嚴經, of Lokakṣema (支讖, 185
+                        c.e.) and the lost third century translation of Zhi Qian (支謙).<note place="end">See Hureau (2010), p 1224, and Nattier (2008), p 75.</note>
                         Although we are unable to verify that these early, but lost, Chinese
-                        versions included the section that corresponds with the <title xml:lang="Sa-Ltn">Jayamatiparipṛcchāsūtra</title>, we can still infer
-                        that the content of the <title xml:lang="Sa-Ltn">Jayamatiparipṛcchāsūtra</title> with its nineteen prescriptions must go
+                        versions included the section that corresponds with the <title xml:lang="Sa-Ltn">Jaya­mati­paripṛcchā­sūtra</title>, we can still infer
+                        that the content of the <title xml:lang="Sa-Ltn">Jaya­mati­paripṛcchā­sūtra</title> with its nineteen prescriptions must go
                         back to the fourth century. It is highly probable that the content of the
-                            <title xml:lang="Sa-Ltn">Jayamatiparipṛcchāsūtra</title> circulated as a
+                            <title xml:lang="Sa-Ltn">Jaya­mati­paripṛcchā­sūtra</title> circulated as a
                         type of <foreign type="term" xml:lang="Sa-Ltn">subhāṣita</foreign> or set of
                         well-spoken sayings for monks who took up the vocation<note place="end">On
                             the notion of early Mahāyāna formations as an optional and legitimate
                             vocation, or particular lifestyle, within Buddhist communities see
-                            Nattier (2003:84-86) and Skilton (2002:134).</note> of Mahāyāna
+                            Nattier (2003), pp 84-86, and Skilton (2002), p 134.</note> of Mahāyāna
                         practices.</p>
                     <milestone unit="chunk"/>
-                    <p>In sum, the evidence of relationships between the <title xml:lang="Sa-Ltn">Jayamatiparipṛcchāsūtra</title> and <title xml:lang="Sa-Ltn">Śūraṃgamasamādhisūtra</title> brings a nuanced awareness to the
+                    <p>In sum, the evidence of relationships between the <title xml:lang="Sa-Ltn">Jaya­mati­paripṛcchā­sūtra</title> and <title xml:lang="Sa-Ltn">Śūraṃgama­samādhi­sūtra</title> brings a nuanced awareness to the
                         intertextual relationships between Mahāyāna sūtras. This evidence indicates
                         that the authorial communities that composed and compiled “Mahāyāna” texts
                         during the Kuṣāṇa and Gupta eras in South Asia were aware of each other’s
                         work and that there were shared elements between authorial communities of
-                        different “Mahāyāna” sūtras. The subsumption of the <title xml:lang="Sa-Ltn">Jayamatiparipṛcchāsūtra</title> into the <title xml:lang="Sa-Ltn">Śūraṃgamasamādhisūtra</title> also provides a rare glimpse of something
+                        different “Mahāyāna” sūtras. The subsuming of the <title xml:lang="Sa-Ltn">Jaya­mati­paripṛcchā­sūtra</title> into the <title xml:lang="Sa-Ltn">Śūraṃgama­samādhi­sūtra</title> also provides a rare glimpse of something
                         more. It points toward the editorial practices utilized by the authors of
                         Mahāyāna sūtras to gain rhetorical advantage over competitors. The shared
                         content demonstrates that the authorial communities of these sūtras were not
@@ -271,40 +274,40 @@
                         <!--<modularPassage type="homage">--> Homage to all buddhas and bodhisatvas!
                         <!--</modularPassage>-->
                     </p>
+                    <lb/>
                     <p>Thus I have heard at one time. The Bhagavān was residing at the grove of
                         Anāthapiṇḍada in Jeta Wood in Śrāvastī together with a great assembly of
                         monks and a great multitude of bodhisatvas. Then, the Bhagavān addressed the
-                        bodhisatva Jayamati: </p>
+                        bodhisatva Jayamati as follows. </p>
+                    <lb/>
                     <milestone unit="chunk"/>
-                    <sp>
-                        <speaker>the Bhagavān</speaker>
-                        <p>“Jayamati, a faithful man or woman of a good family <note place="end">The
-                                translation follows Vinītā’s (2010:57, 459) observation for <foreign xml:lang="Sa-Ltn" type="term">kulaputra</foreign> (as well as
+                    <p>“Jayamati, a faithful man or woman of a good family<note place="end">The
+                                translation follows Vinītā’s (2010, pp 57 and 459) observation for <foreign xml:lang="Sa-Ltn" type="term">kulaputra</foreign> (as well as
                                     <foreign xml:lang="Sa-Ltn" type="term">kuladuhitā</foreign>)
                                 that –<foreign xml:lang="Sa-Ltn">putra</foreign> in the latter part
                                 of a compound does not mean ‘son’ but indicates a ‘member’ of a
-                                class or group.</note> (1) who desires merits should worship the
-                            Tathāgata; (2) who desires discernment should be devoted to learning;
-                            (3) who desires heavenly rebirth should uphold moral conduct; (4) who
-                            desires wealth should increase charity; (5) who desires beauty should
-                            cultivate patience; (6) who desires eloquence should pay respect to the
-                            guru; (7) who desires memory should not have excessive pride; (8) who
+                                class or group.</note> (1)&#160;who desires merit should worship the
+                       Tathāgata; (2)&#160;who desires discernment should be devoted to learning;
+                       (3)&#160;who desires heavenly rebirth should uphold moral conduct; (4)&#160;who
+                       desires wealth should increase charity; (5)&#160;who desires beauty should
+                       cultivate patience; (6)&#160;who desires eloquence should pay respect to the
+                       guru; (7)&#160;who desires memory should not have excessive pride; (8)&#160;who
                             desires knowledge should frequently practice appropriate mindfulness;
-                                <ref cRef="F.251.a"/> (9) who desires liberation should abstain from
-                            all evil; (10) who desires to make all beings happy should generate the
-                            mind for awakening; (11) who desires a sweet voice should speak
-                            truthfully; (12) who desires virtuous qualities should take joy in
-                            solitude; (13) who desires the Dharma should attend to the spiritual
-                            friend; (14) who desires quiescence should frequently practice no
-                            contact with others; (15) who desires insight should frequently examine
-                            things as empty; (16) who desires rebirth in the world of Brahmā should
-                            cultivate love, compassion, joy, and equanimity; (17) who desires the
+                       <ref cRef="F.251.a"/> (9)&#160;who desires liberation should abstain from
+                       all evil; (10)&#160;who desires to make all beings happy should generate the
+                       mind for awakening; (11)&#160;who desires a sweet voice should speak
+                       truthfully; (12)&#160;who desires virtuous qualities should take joy in
+                       solitude; (13)&#160;who desires the Dharma should attend to the spiritual
+                       friend; (14)&#160;who desires quiescence should frequently practice no
+                       contact with others; (15)&#160;who desires insight should frequently examine
+                       things as empty; (16)&#160;who desires rebirth in the world of Brahmā should
+                       cultivate love, compassion, joy, and equanimity; (17)&#160;who desires the
                             abundant resources of gods and humans should behave in conformity with
-                            the path of ten virtuous actions; (18) who desires complete nirvāṇa
-                            should take joy in empty dharmas; (19) who desires to obtain all
-                            virtuous qualities <note>Refers to "all qualities."</note> should worship
+                            the path of ten virtuous actions; (18)&#160;who desires complete nirvāṇa
+                            should take joy in empty dharmas; (19)&#160;who desires to obtain all
+                            virtuous qualities<note>Refers to “all qualities.”</note> should worship
                             the Three Jewels.” </p>
-                    </sp>
+                    <lb/>
                     <milestone unit="chunk"/>
                     <p>When the Bhagavān had spoken, the bodhisatva mahāsatva Jayamati, the complete
                         assembly, and the world with its gods, humans, demigods and gandharvas
@@ -325,40 +328,42 @@
                 <div type="section">
                     <head type="section">Indian Sūtras</head>
                     <bibl>
-                        <title xml:lang="Sa-Ltn">Jayamatināmamahāyānasūtra</title> (<title xml:lang="Bo-Ltn">’phags pa rgyal ba’i blo gros zhes bya ba theg pa chen
-                            po’i mdo</title>), Tôh. 194, also entitled <title xml:lang="Sa-Ltn">Jayamatiparipṛcchānāmamahāyānasūtra</title> (<title xml:lang="Bo-Ltn">’phags pa rgyal ba’i blo gros kyis zhus pa zhes bya ba theg pa chen
-                            po’i mdo</title>) in (L), (S), and (N):</bibl>
-                    <bibl>(C) Cone Kangyur, vol. 41 (mdo sde, tsa), folios 309b-310a;</bibl>
-                    <bibl>(D) Degé Kangyur, vol. 61 (mdo sde, tsa), folios 250b-251a;</bibl>
-                    <bibl>(F) Phug brag Kangyur, vol. 70 (mdo sde, ma), folios 58b-59a;</bibl>
-                    <bibl>(F2) Phug brag Kangyur, vol. 82 (mdo sde, sa), folios 257b-258b;</bibl>
-                    <bibl>(Go) Gondhla Collection, vol. 13 (ka-na, folio 200b – ka-ma, folios
-                        1a);</bibl>
-                    <bibl>(J) Lithang Kangyur, vol. 56 (mdo sde, tsa), folios 282a-282b;</bibl>
-                    <bibl>(L) London Kangyur, vol. 52 (mdo sde, za), folios 7b-8b;</bibl>
-                    <bibl>(M)IOL Tib J 75; </bibl>
-                    <bibl>(N) Narthang Kangyur, vol. 61 (mdo sde, ba), folios 403b-404b;</bibl>
-                    <bibl>(Q) Peking Kangyur, vol. 34 (mdo sna tshogs, mu),folios 260b-261a (p 232); </bibl>
-                    <bibl>(S) Stog Palace Kangyur, vol. 73 (mdo sde, za), folios 6b-7b;</bibl>
-                    <bibl>(Y) Readings of the Yongle Kangyur found in bka’ ’gyur (dpe bsdur ma)
+                        <title xml:lang="Bo-Ltn">’phags pa rgyal ba’i blo gros zhes bya ba theg pa chen
+                            po’i mdo</title> (<title xml:lang="Sa-Ltn">Jayamati­nāma­mahā­yāna­sūtra</title>), Toh. 194, also entitled <title xml:lang="Bo-Ltn">’phags pa rgyal ba’i blo gros kyis zhus pa zhes bya ba theg pa chen
+                            po’i mdo</title> (<title xml:lang="Sa-Ltn">Jaya­mati­paripṛcchā­nāma­mahā­yāna­sūtra</title>) in (L), (S), and (N):<lb/>(C) Cone Kangyur, vol. 41 (mdo sde, tsa), folios 309b-310a;<lb/>
+                    (D) Degé Kangyur, vol. 61 (mdo sde, tsa), folios 250b-251a;<lb/>
+                    (F) Phug brag Kangyur, vol. 70 (mdo sde, ma), folios 58b-59a;<lb/>
+                    (F2) Phug brag Kangyur, vol. 82 (mdo sde, sa), folios 257b-258b;<lb/>
+                    (Go) Gondhla Collection, vol. 13 (ka-na, folio 200b – ka-ma, folio
+                        1a);<lb/>
+                    (J) Lithang Kangyur, vol. 56 (mdo sde, tsa), folios 282a-282b;<lb/>
+                    (L) London Kangyur, vol. 52 (mdo sde, za), folios 7b-8b;<lb/>
+                    (M) IOL Tib J 75; <lb/>
+                    (N) Narthang Kangyur, vol. 61 (mdo sde, ba), folios 403b-404b;<lb/>
+                    (Q) Peking Kangyur, vol. 34 (mdo sna tshogs, mu), folios 260b-261a (p 232); <lb/>
+                    (S) Stok Palace Kangyur, vol. 73 (mdo sde, za), folios 6b-7b;<lb/>
+                    (Y) Readings of the Yongle Kangyur found in bka’ ’gyur (dpe bsdur ma)
                         [Comparative Edition of the Kangyur], krung go’i bod rig pa zhib ’jug ste
                         gnas kyi bka’ bstan dpe sdur khang (The Tibetan Tripitaka Collation Bureau
                         of the China Tibetology Research Center). 108 volumes. Beijing: krung go’i
                         bod rig pa dpe skrun khang (China Tibetology Publishing House), 2006–9, vol.
                         61 (mdo sde, tsa), pp. 681-683.</bibl>
                     <bibl>
-                        <title xml:lang="Sa-Ltn">Śūraṃgamasamādhināmamahāyānasūtra</title>:<title xml:lang="Chinese">Shoulengyan sanmei jing</title> 首楞嚴三昧經 (Taishō 642,
-                        15), translated by Kumārajīva (402-412 c.e.). ’phags pa dpa’ bar ’gro ba’i
-                        ting nge ’dzin zhes bya ba theg pa chen po’i mdo, Tôh. 132, translated by
+                        <title xml:lang="Sa-Ltn">Śūraṃgama­samādhi­nāma­mahā­yāna­sūtra</title>:<lb/>
+                        <title xml:lang="Chinese">Shoulengyan sanmei jing</title>, 首楞嚴三昧經 (Taishō 642,
+                        15), translated by Kumārajīva (402-412 c.e.). 
+                        <lb/>
+                        <title xml:lang="Bo-Ltn">’phags pa dpa’ bar ’gro ba’i
+                        ting nge ’dzin zhes bya ba theg pa chen po’i mdo</title>, Toh. 132, translated by
                         Śākyaprabha and Ratnarakṣita, Degé Kangyur, vol. 55 (mdo sde, da), folios
-                        253b-316b. See Lamotte 1998.</bibl>
+                        253b-316b. For translations, see Lamotte 1965, 1998.</bibl>
                 </div>
                 <div type="section">
                     <head type="section">Tibetan Indigenous Sources</head>
-                    <bibl>Rdo, Rta., editor. (2003) <title xml:lang="Bo-Ltn">dkar chag ’phang thang
-                            ma / sgra sbyor bam po gnyis pa</title>. Pe cin:Mi rigs dpe skrun
+                    <bibl>Rdo, Rta (ed.). (2003) <title xml:lang="Bo-Ltn">dkar chag ’phang thang
+                            ma / sgra sbyor bam po gnyis pa</title>. Beijing: mi rigs dpe skrun
                         khang.</bibl>
-                    <bibl>Pad dkar bzang po. (2006). Edited by Mi nyag mgon po. <title xml:lang="Bo-Ltn">mdo sde spyi’i rnam bzhag</title>. Pe cin: mi rigs dpe
+                    <bibl>Pad dkar bzang po. Ed. Mi nyag mgon po (2006). <title xml:lang="Bo-Ltn">mdo sde spyi’i rnam bzhag</title>. Beijing: mi rigs dpe
                         skrun khang.</bibl>
                 </div>
                 <div type="section">
@@ -367,24 +372,24 @@
                         Case of Jayamati.” Paper presented at the 223rd meeting of the American
                         Oriental Society, Portland, Oregon, Friday, March 15, 2013.</bibl>
                     <bibl>Apple, James B. (2013b). “Phylogenetics and Philology in the Study of
-                        Tibetan Kanjurs: The Case of the Tibetan Dunhuang version of the <title xml:lang="eng">Sūtra of Jayamati</title>.” Paper presented at the <title xml:lang="Sa-Ltn">Canadian Society for the Study of Religion</title>,
+                        Tibetan Kanjurs: The Case of the Tibetan Dunhuang version of the <title xml:lang="eng">Sūtra of Jayamati</title>.” Paper presented at the Canadian Society for the Study of Religion,
                         Victoria, British Columbia, Sunday, June 2, 2013.</bibl>
                     <bibl>Apple, James B. (2015). “Redaction and Rhetoric in Mahāyāna Sūtras: The
-                        Case of Jayamati.” Indo-Iranian Journal, vol. 58:1, pp 1-24. </bibl>
+                        Case of Jayamati.” <title xml:lang="eng">Indo-Iranian Journal</title>, vol. 58:1, pp 1-24. </bibl>
                     <bibl>Bhattacharya, Gouriswar. (2010). “How to Justify the Spelling of the
                         Buddhist Hybrid Sanskrit Term Bodhisatva?” In Eli Franco and Monika Zin
                         (eds.), <title xml:lang="eng">From Turfan to Ajanta: Festschrift for Dieter
-                            Schlingloff on the Occasion of his Eightieth Birthday</title>,
-                        Rupandehi: Lumbini International Research Institute, Vol. II, 35–50.</bibl>
-                    <bibl>Hureau, Sylvie. (2009). “Buddhist Rituals,” in <title xml:lang="eng">Early
+                            Schlingloff on the Occasion of his Eightieth Birthday</title>, vol. II, 35–50.
+                        Rupandehi: Lumbini International Research Institute.</bibl>
+                    <bibl>Hureau, Sylvie. (2009). “Buddhist Rituals.” In John Lagerwey and Pengzhi Lü (eds.), <title xml:lang="eng">Early
                             Chinese Religion: The Period of Division</title> (220-589 AD). Part two,
-                        Volume 1 edited by John Lagerwey and Pengzhi Lü, 1207-1244. </bibl>
+                        vol. 1, 1207-1244. </bibl>
                     <bibl>Lalou, Marcelle. (1953). “Les Textes Bouddhiques au temps du Roi
-                        khri-sroṅ-lde-bcan.” Journal Asiatique 241:313-53.</bibl>
+                        khri-sroṅ-lde-bcan.” <title xml:lang="fr">Journal Asiatique</title> 241:313-53.</bibl>
                     <bibl>Lamotte, Étienne. (1965). <title xml:lang="fr">La Concentration de la
-                            Marche Héroïque, Śūraṃgamasamādhisūta</title>. Bruxelles: Institut belge
+                        Marche Héroïque, Śūraṃgama­samādhi­sūtra</title>. Bruxelles: Institut belge
                         des hautes études chinoises.</bibl>
-                    <bibl>Lamotte, Étienne (Sara Boin-Webb, trans). (1998). <title xml:lang="eng">Śūraṃgamasamādhisūtra: The Concentration of Heroic Progress: An Early
+                    <bibl>——————  (Sara Boin-Webb, tr.). (1998). <title xml:lang="eng">Śūraṃgama­samādhi­sūtra: The Concentration of Heroic Progress: An Early
                             Mahaȳan̄a Buddhist Scripture</title>. Surrey: Curzon Press.</bibl>
                     <bibl>La Vallée Poussin, Louis de. (1962). <title xml:lang="eng">Catalogue of
                             the Tibetan manuscripts from Tun-huang in the India Office
@@ -394,30 +399,31 @@
                             Chinese Buddhist Translations: Texts from the Eastern Han [dong han] and
                             Three Kingdoms [san guo] Periods</title>. Tokyo: International Research
                         Institute for Advanced Buddhology, Soka University.</bibl>
-                    <bibl>Nishioka, Soshū. (1980). “‘Putun bukkyōshi’ Mokurokubusakuin 1/Index to
+                    <bibl>Nishioka, Soshū. (1980). “ ‘Putun bukkyōshi’ Mokurokubusakuin 1 / Index to
                         the Catalogue Section of Bu-ston’s ‘History of Buddhism’ 1.” <title xml:lang="jp">Tōkyō daigaku bungakubu Bunka-kōryū-kenkyū-shisetsu Kenkyū
                             Kiyō</title> 4: 61-92.</bibl>
                     <bibl>Schaeffer, Kurtis R., and Leonard W. J. van der Kuijp. (2009). <title xml:lang="eng">An Early Tibetan Survey of Buddhist literature: The Bstan
-                            pa rgyas pa rgyan gyi nyi ‘od of Bcom Idan ral gri</title>. Cambridge,
+                            pa rgyas pa rgyan gyi nyi ‘od of Bcom ldan ral gri</title>. Cambridge,
                         Mass: Dept. of Sanskrit and Indian Studies, Harvard University.</bibl>
                     <bibl>Schopen, Gregory. (2004). “If You Can’t Remember, How to Make It Up: Some
-                        Monastic Rules for Redacting Canonical Texts.” Pp. 395-408 in <title xml:lang="eng">Buddhist Monks and Business Matters: Still More Papers on
-                            Monastic Buddhism in India</title>. Honolulu: University of Hawaii
+                        Monastic Rules for Redacting Canonical Texts.”  In <title xml:lang="eng">Buddhist Monks and Business Matters: Still More Papers on
+                            Monastic Buddhism in India</title>, pp. 395-408. Honolulu: University of Hawaii
                         Press. </bibl>
-                    <bibl>Skilling, Peter. (1995). “From bKa’ bstan bcos to bKa’ ‘gyur and bsTan
-                        ‘gyur,” in Helmut Eimer (ed.), <title xml:lang="eng">Transmission of the
+                    <bibl>Skilling, Peter. (1997). “From bKa’ bstan bcos to bKa’ ’gyur and bsTan
+                        ’gyur.” In Eimer, Helmut (ed.), <title xml:lang="eng">Transmission of the
                             Tibetan Canon: Papers Presented at a Panel of the 7th Seminar of the
-                            International Association for Tibetan Studies</title>, Graz 1995,
-                        Vienna, 87-111. </bibl>
-                    <bibl>Skilling, Peter. (2009). “Translating the Buddha’s Words: Some Notes on
+                            International Association for Tibetan Studies, Graz 1995</title>, pp. 87-111.
+                        Vienna: Österreichische Akademie der Wissenschaften. </bibl>
+                    <bibl>——————. (2009). “Translating the Buddha’s Words: Some Notes on
                         the Kanjur Translation Project.” Talk at Nonthaburi, March 11, 2009.</bibl>
-                    <bibl>Skilling Peter, and Saerji. (2013). “The Circulation of the
-                        Buddhāvataṃsaka in India.” Annual Report of The International Research
+                    <bibl>——————, and Saerji. (2013). “The Circulation of the
+                        Buddhāvataṃsaka in India.” In <title xml:lang="eng">Annual Report of The International Research
                         Institute for Advanced Buddhology at Soka University for the Academic Year
-                        2012, Volume XVI, 193-216. </bibl>
+                        2012</title>, vol. XVI, pp. 193-216. </bibl>
                     <bibl>Van der Kujip, Leonard. (2013). “Some Remarks on the Textual Transmission
                         and Text of Bu ston Rin chen grub’s <title xml:lang="Bo-Ltn">Chos
-                            ‘byung</title>, a Chronicle of Buddhism in India and Tibet,” <title xml:lang="fr">Revue d’Etudes Tibétaines</title>, no. 25, Avril, pp.
+                            ’byung</title>, a Chronicle of Buddhism in India and Tibet.” In <title xml:lang="fr">Revue 
+                            d’études tibétaines</title>, no. 25, Avril, pp.
                         115-193. </bibl>
                     <bibl>Vinītā, Bhikṣuṇī. (2010). <title xml:lang="eng">A Unique Collection of
                             Twenty Sūtras in a Sanskrit Manuscript from the Potala</title>. Beijing:
@@ -573,7 +579,7 @@
                     </item>
                     <item>
                         <gloss>
-                            <term xml:id="UT22084-061-014-te21">to take joy in</term>
+                            <term xml:id="UT22084-061-014-te21">take joy in</term>
                             <term xml:lang="Bo-Ltn">mngon par dga’ bar bya </term>
                         </gloss>
                     </item>
@@ -589,6 +595,13 @@
                             <term xml:id="UT22084-061-014-te23">Three Jewels</term>
                             <term xml:lang="Bo-Ltn">dkon mchog gsum </term>
                             <term xml:lang="Sa-Ltn">trīṇi ratnāni</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-061-014-te24">meditative absorption</term>
+                            <term xml:lang="Bo-Ltn">bsam gtan </term>
+                            <term xml:lang="Sa-Ltn">dhyāna</term>
                         </gloss>
                     </item>
                     <item>

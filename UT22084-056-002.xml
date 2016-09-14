@@ -1,6 +1,4 @@
-<!-- Checked on 5/19, parser ready, SMJ -->
-<!-- copied from staging 2016_08_15-->
-<?xml-model href="oxygen:/Exist$84000-AWS/db/84000/schema/84000-ODD.rnc" type="application/relax-ng-compact-syntax"?>
+<!-- Checked and edited by John, placed in TEI folder 5 Sept 2016 --><?xml-model href="../../../schema/84000-ODD.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -8,13 +6,13 @@
                 <title type="mainTitle" xml:lang="bo">བསོད་ནམས་ཐམས་ཅད་བསྡུས་པའི་ཏིང་ངེ་འཛིན།</title>
                 <title type="mainTitle" xml:lang="eng">The Absorption That Encapsulates All
                     Merit</title>
-                <title type="mainTitle" xml:lang="Sa-Ltn">Sarvapuṇyasamuccayasamādhi</title>
+                <title type="mainTitle" xml:lang="Sa-Ltn">Sarvapuṇya­samuccaya­samādhi</title>
                 <title type="longTitle" xml:lang="bo">འཕགས་པ་བསོད་ནམས་ཐམས་ཅད་བསྡུས་པའི་ཏིང་ངེ་འཛིན་ཅེས་བྱ་བ་ཐེག་པ་ཆེན་པོའི་མདོ།</title>
                 <title type="longTitle" xml:lang="Bo-Ltn">’phags pa bsod nams thams cad bsdus pa’i
                     ting nge ’dzin ces bya ba theg pa chen po’i mdo</title>
                 <title type="longTitle" xml:lang="eng">The Noble Mahāyāna Sūtra “The Absorption That
                     Encapsulates All Merit”</title>
-                <title type="longTitle" xml:lang="Sa-Ltn">Āryasarvapuṇyasamuccayasamādhināmamahāyānasūtra</title>
+                <title type="longTitle" xml:lang="Sa-Ltn">Ārya­sarva­puṇya­samuccaya­samādhi­nāma­mahā­yāna­sūtra</title>
                 <author role="translatorMain">Translated by the Dharmachakra Translation
                     Committee<lb/> under the patronage and supervision of 84000: Translating the
                     Words of the Buddha</author>
@@ -22,7 +20,7 @@
                 <author role="editorEng">Andreas Doctor</author>
             </titleStmt>
             <editionStmt>
-                <edition>v 1.0 <date>2015</date>
+                <edition>v 1.0 <date>2016</date>
                 </edition>
             </editionStmt>
             <publicationStmt>
@@ -102,7 +100,7 @@ Notes -->
                     <milestone unit="chunk"/>
                     <p> Like a number of other Great Vehicle sūtras, <title xml:lang="eng">The
                             Absorption That Encapsulates All Merit</title> consists of a rich and at
-                        times disjointed amalgamation of stories, teachings, and conversations.
+                        times disjointed amalgam of stories, teachings, and conversations.
                         Although the sūtra begins in a seemingly historical setting in the vicinity
                         of Vaiśālī, in the course of the narration we travel throughout our world
                         system in times past, present, and future, as well as other world systems
@@ -113,7 +111,7 @@ Notes -->
                         from the mouths of a cast of characters with whom we are gradually
                         acquainted. Some of these characters are familiar: the Buddha, of course,
                         and bodhisattvas like Mañjuśrī and Nārāyaṇa, as well as the śrāvakas
-                        Maudgalyāyanaand Ānanda, who make brief guest appearances in what is largely
+                        Maudgalyāyana and Ānanda, who make brief guest appearances in what is largely
                         a Great Vehicle ensemble. </p>
                     <p>The central plot surrounds the conversion and awakening of a newcomer, a
                         “strongman” named Vimalatejā. The sūtra’s structure is framed loosely around
@@ -159,24 +157,23 @@ Notes -->
                     <p>On this note, the story segues back to the Buddha’s encampment in Āmrapālī’s
                         grove, where Vimalatejā arrives with his nose in the air. Noticing
                         Vimalatejā’s presence and haughty attitude, the Buddha ventures into a
-                        lengthy, rather apropos dialogue on the topic of power; although this
+                        lengthy, rather pertinent dialogue on the topic of power; although this
                         discussion is carried out with Maudgalyāyana, it is directed entirely at
                         Vimalatejā. The discussion consists of a set of progressively more
                         astounding comparative descriptions that reveal the inimitable quality of
-                        the buddhas’ and bodhisattvas’ power, which we—and Vimalatejā—come to see
-                        has literally no rival in the world. Humbled and inspired to expand the
+                        the buddhas’ and bodhisattvas’ power which, as we—and Vimalatejā—come to see,
+                        is literally unrivalled in the world. Humbled and inspired to expand the
                         scope of his own strength, which he had previously thought to be matchless,
                         Vimalatejā then takes refuge in the Three Jewels and forms the resolve of a
                         bodhisattva. </p>
                     <milestone unit="chunk"/>
                     <p>This leads us back to where the previous scene left off, before it was
                         interrupted by the arrival of the self-inflated visitor. Nārāyaṇa, the
-                        interlocutor, reminds the Buddha that he never followed through in
-                        responding to his questions, or in other words detailing what precisely
-                            <distinct>the absorption that encapsulates all merit</distinct> referred
-                        to. The Buddha graciously bestows a reply, at which point we discover that
-                            <distinct>the absorption that encapsulates all merit</distinct> actually
-                        refers to nothing other than the mind of awakening (<foreign type="term" xml:lang="Sa-Ltn">bodhicitta</foreign>). </p>
+                        interlocutor, returns to the questions he had asked the Buddha, and reminds him that he had 
+                        not yet explained exactly what was referred to by the term 
+                        <distinct>the absorption that encapsulates all merit</distinct>. 
+                        The Buddha graciously bestows a reply, at which point we discover that
+                        the term refers to nothing other than the mind of awakening (<foreign type="term" xml:lang="Sa-Ltn">bodhicitta</foreign>). </p>
                     <milestone unit="chunk"/>
                     <p>The Buddha’s explanation then takes the form of four “introductions” to the
                         topic at hand. These consist of another set of characteristically
@@ -187,11 +184,12 @@ Notes -->
                         addressed to, and comprehended by, nonspecialists) between power, merit, and
                         the bodhisattva endeavor. After a series of miracles, at which a huge
                         portion of the audience forms the resolve set on awakening, an apparent
-                        first chapter is concluded. Although all Kangyurs contain this mention of a
-                        first chapter being concluded at this point, some catalogues state that this
+                        first chapter comes to a close—apparent because, although all Kangyurs contain at this point
+                        the mention of a first chapter being concluded, some catalogues state that this
                         may be an error of transcription with no thematic significance,
                         corresponding as it does with a change of fascicles. No mention is made of
-                        subsequent chapters, as would usually be the case. </p>
+                        subsequent chapters, as would usually be the case.<note place="end">The catalogue of the Narthang Kangyur (F.94a) says that the Tshalpa (<foreign type="term" xml:lang="Bo-Ltn">tshal pa</foreign>) catalogue lists this text as having two chapters (<foreign type="term" xml:lang="Bo-Ltn">le’u</foreign>), but that the Great Fifth Dalai Lama considered this to be a scribal error. Neverheless, the 16th century Tibetan commentator Pekar Zangpo (<foreign xml:lang="Bo-Ltn">pad dkar bzang po</foreign>, p 193) does identify a thematic distinction, writing that the first chapter deals with the nature of the absorption while the second explains its causes and the benefits of training in it. Curiously, however, both the Narthang and Degé catalogues also list the text as having no less than 50 <foreign type="term" xml:lang="Bo-Ltn">le’u</foreign>. It may be that in this and similar catalogue entries (see also Dharmachakra 2016, Introduction I.15) the term <foreign type="term" xml:lang="Bo-Ltn">le’u</foreign> is being used to denote “episodes” or “scenes,” rather than in its more usual sense of formal sections or chapters.</note>
+                    </p>
                     <milestone unit="chunk"/>
                     <p>Chapter 2, or the second fascicle, begins with a long dialogue between the
                         Buddha and Vimalatejā, in which the Buddha sets out to elaborate further on
@@ -252,7 +250,7 @@ Notes -->
                         Buddhist ideas, carrying the course of the discussion into the nature of
                         nonduality and the imminence of awakened qualities within all beings. He is
                         even led by Nārāyaṇa to comment on several challenging statements from other
-                        sūtras, such as the line: “Rely on the true meaning; do not rely on the
+                        sūtras, such as the line, “Rely on the true meaning; do not rely on the
                         words.” Vimalatejā answers these questions with ease and is commended by the
                         Buddha. A conversation between Nārāyaṇa and Mañjuśrī now follows, in which
                         the latter expounds on similar themes. </p>
@@ -290,12 +288,15 @@ Notes -->
                         their cultural institution. All of this unfolds in Āmrapālī’s grove near
                         Vaiśālī where the Buddha timelessly dwells, and the Great Vehicle teachings
                         emerge in constant revelation. </p>
+                    <lb/>
+                    <milestone unit="chunk"/>
                     <p>
-                        <title xml:lang="eng">The Absorption That Encapsulates All Meri</title>t is
-                        extant in Tibetan and Chinese, but there is no evidence that a Sanskrit
-                        version still exists.<note place="end">See Nyingma Edition of the sDe-dge
-                            bKa’-’gyur and bsTan-’gyur: Research Catalogue and Bibliography, vol.1,
-                            p. 329–30.</note>
+                        <title xml:lang="eng">The Absorption That Encapsulates All Merit</title> is
+                        extant in Tibetan and in two Chinese translations, but no Sanskrit version is known to have survived.
+                        The Tibetan version was translated from Sanskrit by Prajñāvarman, Śīlendrabodhi, Yeshé Dé, “and 
+                        others,” in the late eighth or early ninth centuries. Although it is not one of the best known 
+                        sūtras, it is quoted in at least two Indian treatises 
+                        in the Tengyur, and citations of several different passages appear in a number of Tibetan commentaries.
                     </p>
                 </div>
             </div>
@@ -310,9 +311,11 @@ Notes -->
                     <milestone unit="chunk"/>
                     <p><!--modularPassage type=openingHomage-->Homage to all buddhas and
                         bodhisattvas!</p>
+                    <lb/>
+                    <milestone unit="chunk"/>
                     <!--/modularPassage-->
                     <p><!--modularPassage type=thusSettingRetinue-->Thus have I heard at one time.
-                        The Blessed One was dwelling in Vaiśālī in the mansion in Āmrapālī’s great
+                        The Blessed One was dwelling in Vaiśālī in the mansion in Āmra‌pālī’s great
                         grove, together with a great assembly of ten thousand monks.
                         <!--/modularPassage--><!--modularPassage type=thusSettingRetinue--> All
                         these monks were foe-destroyers whose defilements were exhausted. They were
@@ -336,14 +339,15 @@ Notes -->
                         Vardamānamati, <ref cRef="F.71.a"/> the bodhisattva great being Anantamati,
                         the bodhisattva great being Dharmamati, the bodhisattva great being
                         Maitreya, the bodhisattva great being Mañjuśrīkumārabhūta, and the
-                        bodhisattva great being Nārāyaṇa.<!--/modularPassage> -->Together with them
+                        bodhisattva great being Nārāyaṇa.<!--/modularPassage> --> Together with them
                         were forty thousand gods, all of whom were thoroughly immersed in the Great
                         Vehicle, as well as Śakra, Brahmā, and many world protectors. Surrounded and
                         revered by this retinue of many hundreds of thousands, the Blessed One
-                        taught the Dharma. </p>
+                        taught the Dharma. On this occasion, the Blessed One’s teaching was 
+                        particularly pithy and overwhelmed the masses of non-Buddhists. </p>
+                    <lb/>
                     <milestone unit="chunk"/>
-                    <p>On this occasion, the Blessed One’s teaching was particularly pithy and
-                        overwhelmed the masses of non-Buddhists. Afterward the bodhisattva great
+                    <p>Afterward the bodhisattva great
                         being Nārāyaṇa <!--modularPassage type=kneelingRequest-->rose up from his
                         seat, draped his shawl over one shoulder, and knelt on his right knee. With
                         his palms together, he bowed toward the Blessed One and supplicated him as
@@ -357,7 +361,7 @@ Notes -->
                         great beings in your protection. Please arouse the bodhisattva great beings’
                         roots of goodness. Please exalt the bodhisattva great beings, delight them,
                         and instruct them thoroughly. Please look after the Buddha’s legacy, the
-                        continuity of the bodhisattva great beings’ spiritual tradition.<ref cRef="F.71.b"/>
+                        continuity of the bodhisattva great beings’ spiritual tradition. <ref cRef="F.71.b"/>
                     </p>
                     <milestone unit="chunk"/>
                     <p>“Please do not forsake sentient beings. Please show the path by which, with
@@ -385,7 +389,7 @@ Notes -->
                         in all their completeness, and thus without deceiving beings? How can they
                         engage in every type of giving, and thus attain the untaught generosity? How
                         can they live by the purity of the three sets of vows, and thus attain the
-                        untaught discipline?<ref cRef="F.72.a"/>
+                        untaught discipline? <ref cRef="F.72.a"/>
                     </p>
                     <milestone unit="chunk"/>
                     <p>“How can they, with no malevolence in their minds, remain impartial toward
@@ -395,11 +399,11 @@ Notes -->
                         without dwelling in any type of concentration, absorption, or equipoise,
                         attain the untaught concentration? How can they be free of any viewpoint,
                         and, as they attain illumination regarding all the Buddha’s teachings,
-                        achieve the untaught wisdom? How can they, via the four means of
-                        magnetizing, fully endeavor to attract beings, and thus become exceedingly
-                        magnetizing? How can they endeavor to comprehend the transience of human and
-                        divine life, and thus become free of expectations? How can they be as
-                        steadfast as a doorstep as they set their minds on omniscience itself and
+                        achieve the untaught wisdom? How can they exert themselves unrelentingly in attracting beings 
+                        using the four means of drawing them in, and thus become exceedingly
+                        magnetizing? How can they endeavor to engage mentally with the transience of the life 
+                        of gods and humans, and thus become free of expectations? How can they be as
+                        steadfast as a doorsill as they set their minds on omniscience itself and
                         stay free of the wish to be a śrāvaka or solitary buddha? </p>
                     <milestone unit="chunk"/>
                     <p>“How can they stay under the influence of the Dharma and not the influence of
@@ -417,15 +421,16 @@ Notes -->
                     <p>The Blessed One then answered the bodhisattva great being Nārāyaṇa, lord of
                         the trichiliocosm, <!--modularPassage type=questionApproval-->“Excellent, Nārāyaṇa, excellent. It is excellent of you to have thought to
                         ask such a question of the Thus-Gone One for the sake of the
-                            bodhisattvas.<ref cRef="F.72.b"/> Accordingly, Nārāyaṇa, you should
+                            bodhisattvas. <ref cRef="F.72.b"/> Accordingly, Nārāyaṇa, you should
                         listen carefully and keep in mind what I am about to
                         say.<!--/modularPassage--> I will now explain how the bodhisattva great
                         beings can attain all these particular qualities as well as others.” </p>
                     <p>The bodhisattva great being Nārāyaṇa said, “Wonderful, Blessed One! “He then
                         listened attentively, as the Blessed One had advised him. </p>
+                    <lb/>
                     <milestone unit="chunk"/>
-                    <p>Then the Blessed One told him, “Nārāyaṇa, there is something known as
-                            <distinct>the bodhisattva great beings’ absorption that encapsulates all
+                    <p>The Blessed One began, “Nārāyaṇa, there is something known as
+                            the bodhisattva great beings’ <distinct>absorption that encapsulates all
                             merit</distinct>. Based on it, bodhisattva great beings’ merit will not
                         be depleted, their dharmas will not diminish, their insight will not
                         diminish, and their wisdom will not diminish. They will always meet the
@@ -437,21 +442,22 @@ Notes -->
                     <p>In this way, the Blessed One merely uttered the phrase <distinct>absorption
                             that encapsulates all merit</distinct>, but did not describe it any
                         further. </p>
+                    <lb/>
                     <milestone unit="chunk"/>
-                    <p>At this time, there lived in Vaiśālī a mighty strongman named Vimalatejā. Now
-                        he began to wonder, “I am someone who has the great strength that comes with
+                    <p>Living in Vaiśālī at that time was a mighty strongman named Vimalatejā. Now
+                        he began to think to himself, “I am someone who has the great strength that comes with
                         being a mighty and powerful strongman. Among the beings in this world, there
                         does not seem to be anyone who rivals me in power or vigor, so who could be
-                        superior to me?” </p>
+                        superior to me, I wonder?” </p>
                     <p>He continued to ponder, “The monk Gautama is said to have a great deal of
                         power. It is said that his power consists of the ten strengths, and that he
                         has a body like that of Nārāyaṇa.” He then thought, “I should go find this
-                        monk Gautama.<ref cRef="F.73.a"/> That way I can really make a comparison of
+                        monk Gautama. <ref cRef="F.73.a"/> That way I can really make a comparison of
                         this ‘Blessed One’ and myself, and resolve my doubts.” </p>
                     <milestone unit="chunk"/>
                     <p>So the mighty strongman Vimalatejā left the great city of Vaiśālī and went to
-                        the mansion in Āmrapālī’s vast grove. There was the Thus-Gone One, the
-                        Foe-Destroyer, the Completely Perfect Buddha, surrounded and revered by his
+                        the mansion in Āmra‌pālī’s great grove. There was the Thus-Gone One, the
+                        foe-destroyer, the completely perfect Buddha, surrounded and revered by his
                         hundred-thousandfold retinue. Vimalatejā saw the great power with which the
                         Buddha taught the Dharma. In his magnificent beauty the Buddha seemed like
                         the lofty king of mountains in the midst of the ocean, and Vimalatejā could
@@ -472,7 +478,7 @@ Notes -->
                     <p>At that moment the Blessed One emitted a light known as
                             <emph>Illumination</emph> from his right hand. This light illuminated
                         the entire great trichiliocosm; and then it lit up the place where the arrow
-                        was, at the outer periphery of this buddhafield.<ref cRef="F.73.b"/>
+                        was, at the outer periphery of this buddhafield. <ref cRef="F.73.b"/>
                     </p>
                     <p>The Blessed One said to the venerable great Maudgalyāyana, “Do you see that
                         arrow at the outer periphery of the world system?” </p>
@@ -625,7 +631,7 @@ Notes -->
                         would bore through the earth and spring up above. Through the buddhas’
                         power, nonetheless, the earth is not destroyed, and no being is harmed. Such
                         is the power, speed, strength, and ability of a bodhisattva great being in
-                        his or her last existence, immediately after birth.<ref cRef="F.76.a"/>
+                        his or her last existence, immediately after birth. <ref cRef="F.76.a"/>
                     </p>
                     <milestone unit="chunk"/>
                     <p>“Maudgalyāyana, the strength of a bodhisattva great being in his or her last
@@ -656,7 +662,7 @@ Notes -->
                         single pore of skin on his big toe, without squashing even a single being.
                         The bodhisattva great beings’ magical and miraculous powers, in this way,
                         are truly boundless, inconceivable, unparalleled, and innumerable. The
-                        thus-gone ones are incomparable.<ref cRef="F.76.b"/>
+                        thus-gone ones are incomparable. <ref cRef="F.76.b"/>
                     </p>
                     <milestone unit="chunk"/>
                     <p>“Maudgalyāyana, if the powers of the thus-gone ones were displayed, even you
@@ -664,15 +670,15 @@ Notes -->
                         bodhisattva ventures to the seat of awakening, the four elements of earth,
                         water, fire, and wind become one and are consecrated as the element of
                         space. Therefore the earth is not damaged, nor are any beings harmed.” </p>
+                    <lb/>
                     <milestone unit="chunk"/>
                     <p>The mighty strongman Vimalatejā was astounded upon hearing what the Thus-Gone
-                        One said about the bodhisattvas’ hereditary power; he was amazed and so
+                        One had said about the bodhisattvas’ hereditary power; he was amazed and so
                         delighted that he got goosebumps.
                         <!--modularPassage type=kneelingRequest-->Rising from his seat, he draped
                         his shawl over one shoulder and knelt on his right knee. With his palms
                         together, he bowed toward the Blessed One. </p>
-                    <p>He said to the Blessed One,<!--/modularPassage--></p>
-                    <p>“Blessed One, upon hearing from the Blessed One about the power of the
+                    <p>He said to the Blessed One,<!--/modularPassage--> “Blessed One, upon hearing from the Blessed One about the power of the
                         bodhisattvas, my pride and arrogance were humbled; indeed they have vanished
                         entirely. Blessed One, I take refuge in the Buddha, the Dharma, and the
                         Saṅgha of monks. I set my mind as well on unsurpassed and perfectly complete
@@ -687,8 +693,9 @@ Notes -->
                         same powers as the thus-gone ones, the foe-destroyers, the completely
                         perfect buddhas.”<!--/modularPassage-->
                     </p>
+                    <lb/>
                     <milestone unit="chunk"/>
-                    <p>Afterward the bodhisattva Nārāyaṇa asked the Blessed One, “Blessed One, what
+                    <p>The bodhisattva Nārāyaṇa now asked the Blessed One, “Blessed One, what
                         is this <distinct>absorption that encapsulates all merit</distinct>, of
                         which you uttered the name but said nothing more? <ref cRef="F.77.a"/>
                         Blessed One, please explain this <distinct>absorption that encapsulates all
@@ -764,6 +771,7 @@ Notes -->
                         a bodhisattva’s quantity of merit defies any description in terms of number,
                         fraction, quantity, analogy, or causality. Nārāyaṇa, this was the first
                         introduction to the absorption that encapsulates all merit. </p>
+                    <lb/>
                     <milestone unit="chunk"/>
                     <p>“Furthermore, Nārāyaṇa, say that Brahmā, <ref cRef="F.78.b"/> lord of the
                         thousandfold universe, extended love throughout the thousandfold universe.
@@ -816,13 +824,14 @@ Notes -->
                         unsurpassed and perfectly complete awakening gathers together all merit.
                         This, Nārāyaṇa, was the second introduction to the absorption that
                         encapsulates all merit.</p>
+                    <lb/>
                     <milestone unit="chunk"/>
                     <p>“Nārāyaṇa, tell me, how many world systems are there in the eastern
                         direction? In the southern direction? The western? The northern? Below?
                         Above? How many world systems are to be found in all ten directions?” </p>
                     <p>The bodhisattva Nārāyaṇa replied, “Blessed One, the amount is unfathomable.
                         Blissful One, it is unfathomable. The number of world systems in the ten
-                        directions could not be expressed or conveyed.”<ref cRef="F.79.b"/>
+                        directions could not be expressed or conveyed.” <ref cRef="F.79.b"/>
                     </p>
                     <milestone unit="chunk"/>
                     <p>The Blessed One said, “Nārāyaṇa, even if we had one hundred thousand eons to
@@ -891,6 +900,7 @@ Notes -->
                         of a wheel-bearing monarch, or Śakra or Brahmā, it would not be on a par
                         with this. Nārāyaṇa, this was the third introduction to the absorption that
                         encapsulates all merit. </p>
+                    <lb/>
                     <milestone unit="chunk"/>
                     <p>“Moreover, Nārāyaṇa, even if all beings included in the great billionfold
                         universe had the same amount of merit as a wheel-bearing monarch, their
@@ -919,6 +929,7 @@ Notes -->
                         has been definitively emerged for five hundred eons; it would not even bear
                         comparison. We could continue this way. Nārāyaṇa, this was the fourth
                         introduction to the absorption that encapsulates all merit.” </p>
+                    <lb/>
                     <milestone unit="chunk"/>
                     <!--modularPassage type=multipleResult-->
                     <p>As this sermon was expounded, 32,000 people formed the resolve set on
@@ -1048,6 +1059,7 @@ Notes -->
                         explain it. Those bodhisattva great beings who seek to acquire the ‘marks of
                         one hundred merits’ will exert themselves in the practice of meditating on
                         this absorption.” </p>
+                    <lb/>
                     <milestone unit="chunk"/>
                     <p>The mighty strongman Vimalatejā then continued his questions to the Blessed
                         One: “Blessed One, how is it that a bodhisattva great being should endeavor in
@@ -1062,7 +1074,7 @@ Notes -->
                         generosity, discipline, and learning. </p>
                     <milestone unit="chunk"/>
                     <p>“Son of noble family, how should bodhisattva great beings endeavor in
-                        accumulating generosity, you might ask? Son of noble family, bodhisattva
+                        accumulating generosity, you ask? Son of noble family, bodhisattva
                         great beings should not accept anything unless they can imagine giving it
                         away and have an attitude of generosity toward it. They should not keep any
                         possession unless they are willing to give it away. They should not keep any
@@ -1259,10 +1271,11 @@ Notes -->
                         seven riches, they will also be wealthy. Since they have the marks of one
                         hundred merits, they possess great merit as well. Since they nurture all
                         beings, they are also a field of merit.” </p>
+                    <lb/>
                     <milestone unit="chunk"/>
                     <p>The Blessed One then continued to address the mighty strongman Vimalatejā,
                         “Son of noble family, what is the bodhisattvas’ accumulation of discipline,
-                        you might ask? It is not to let discipline deteriorate and not to give up
+                        you ask? It is not to let discipline deteriorate and not to give up
                         the training. It is to have compassion for those with faulty discipline, and
                         sincere respect for those who are disciplined. It is to carry out and follow
                         the path of the ten virtuous deeds correctly—with purity in regard to the
@@ -1471,6 +1484,7 @@ Notes -->
                     <milestone unit="chunk"/>
                     <p>Vimalatejā replied, “Indeed it would, Blessed One. Indeed it would,
                         Bliss-Gone One. Such a person would indeed have difficulty in doing that.” </p>
+                    <milestone unit="chunk"/>
                     <p>The Blessed One continued, “Son of noble family, certain bodhisattvas who are
                         not truly afflicted in their nature will nevertheless undergo the process of
                         affliction in the three realms in order to bring beings to maturity. While
@@ -1488,7 +1502,7 @@ Notes -->
                             the Tshalpa tradition, here reads <foreign type="quote" xml:lang="Bo-Ltn">dgon par bgyi ba lta bu ni ’jig rten gnas pa lags
                                 so</foreign>, which is difficult to interpret in the context. This
                             (and some other details of this passage) appear less erroneous in the
-                            Kangyurs of the Thempangma tradition. The sTog Pho brang manuscript
+                            Kangyurs of the Thempangma tradition. The Stok Palace (<foreign xml:lang="Bo-Ltn">stog pho brang</foreign>) manuscript
                             Kangyur reads <foreign type="quote" xml:lang="Bo-Ltn">dgum par bgyi ba
                                 lta bu ni</foreign> … which is the reading we have translated
                             here.</note> The threatening executioners represent the formations.
@@ -1496,11 +1510,13 @@ Notes -->
                         being free from the three realms, while in fact, in order to bring all
                         beings to maturity and in order to liberate all beings, they continue to do
                         nothing but roam in those three realms. </p>
+                    <milestone unit="chunk"/>
                     <p>“Blessed One, by engendering a mindset of great compassion, bodhisattva great
                         beings outshine all the śrāvakas and solitary buddhas. On what account?
                         Blessed One, on account of the fact that the śrāvakas and solitary buddhas
                         do not have such great compassion, nor such expertise in methods.” <ref cRef="F.91.b"/>
                     </p>
+                    <lb/>
                     <milestone unit="chunk"/>
                     <p>The Blessed One now said to the mighty strongman Vimalatejā, “Son of noble
                         family, how should bodhisattva great beings exert themselves in the
@@ -1541,7 +1557,7 @@ Notes -->
                     <p>“Son of noble family, when a bodhisattva great being endeavors to exert
                         himself in the pursuit of learning, it becomes a support for all beings to
                         perfect their insight. On these occasions, even the gods delight and rejoice
-                        in it, proclaiming ‘Ah! This sublime being—with his mind purified through
+                        in it, proclaiming, ‘Ah! This sublime being—with his mind purified through
                         learning, diligence, and insight—will be able to achieve the ten powers! Ah!
                         This sublime being will be able to cut entirely through the whole incessant
                         web of affliction with the sword of insight. Ah! This sublime being will be
@@ -1556,8 +1572,9 @@ Notes -->
                         At the same time, all the evil demons and deities of the demonic legions
                         throughout the great trichiliocosm <ref cRef="F.92.b"/> experience pain and
                         despondency, thinking, ‘This being is not in our control. We have no power
-                        over him. He will totally destroy us. He has control over us.’ Why is this?
-                        Because with such learning, son of noble family, one develops insight. With
+                        over him. He will totally destroy us. He has control over us.’ </p>
+                    <milestone unit="chunk"/>
+                    <p>Why is this? Because with such learning, son of noble family, one develops insight. With
                         insight, the afflictions are pacified. Without afflictions, demons have no
                         ingress. With learning comes understanding. With understanding, one pursues
                         the Dharma in the correct way. When one exerts oneself in genuine pursuit of
@@ -1573,6 +1590,7 @@ Notes -->
                         aggregates, the demon of the afflictions, the demon of the lord of death,
                         and the demon of the god—these are the four demons will they be able to
                         vanquish. </p>
+                    <lb/>
                     <milestone unit="chunk"/>
                     <p>“Moreover, son of noble family, let me relate to you just a little of the way
                         bodhisattvas of the past, who strove for and pursued the Dharma, endeavored
@@ -1602,7 +1620,7 @@ Notes -->
                         god from the demonic legions. Advancing directly in front of the sage, the
                         god announced, ‘I have in my possession a verse about the names of the
                         Buddha, which was spoken by one buddha among the blessed buddhas.’ </p>
-                    <p>“‘Then speak it,’ the sage answered. </p>
+                    <p>“ ‘Then speak it,’ the sage answered. </p>
                     <p>“The god replied, ‘For that you will have to peel off your own skin and dry
                         it in the sun to make paper out of it. Then create an ink formed from your
                         blood, and a pen from one of your bones. If you can do that, you may request
@@ -1652,31 +1670,31 @@ Notes -->
                     <p>“Son of noble family, as soon as the great sage Supreme One had said this, at
                         that very moment, at that very instant, at that very second, his words were
                         known in a world system thirty-two buddhafields below this one known as
-                        Totally Immaculate. There dwelt the thus-gone one, the foe-destroyer, the
-                        completely perfect buddha Immaculately Renowned King. He lived there,
+                        Totally Immaculate. There dwelt the Thus-Gone One, the foe-destroyer, the
+                        completely perfect Buddha Immaculately Renowned King. He lived there,
                         flourished there, and taught the Dharma. Knowing the great sage Supreme
                         One’s pure intentions and perceiving, too, the maturity of the beings in
-                        this world, the thus-gone one Immaculately Renowned King immediately
+                        this world, the Thus-Gone One Immaculately Renowned King immediately
                         vanished from that realm along with five hundred bodhisattvas. </p>
                     <milestone unit="chunk"/>
                     <p>“At that very moment, in that very instant, in that very second, as quickly
                         as a strong person can stretch out his arm and draw it in, they appeared
-                        before the great sage Supreme One. As soon as the blessed one, thus-gone
-                        one, the foe-destroyer, the completely perfect buddha Immaculately Renowned
+                        before the great sage Supreme One. As soon as the Blessed One, thus-gone
+                        one, the foe-destroyer, the completely perfect Buddha Immaculately Renowned
                         King appeared there, the woods were instantaneously filled with an immense
                         glow, and a rain of flowers fell. At the same time, the sound of Dharma
                         teachings rang out from all the branches, leaves, flowers, and fruits in the
                         forest. <ref cRef="F.94.b"/> At the same time, many trillions of gods
                         assembled. </p>
                     <milestone unit="chunk"/>
-                    <p>“As soon as the glow from the blessed one, the thus-gone one Immaculately
+                    <p>“As soon as the glow from the Blessed One, the thus-gone one Immaculately
                         Renowned King struck the great sage Supreme One, his wounds and gashes
                         disappeared, and his body and complexion were restored to their normal
                         state. Then the great sage Supreme One bowed his head to the feet of the
-                        blessed one, the thus-gone one, the foe-destroyer, the completely perfect
-                        buddha known as Immaculately Renowned King. He circumambulated the blessed
-                        one three times and then, putting his palms together above his head, all ten
-                        fingers touching each other, he said to the thus-gone one Immaculately
+                        Blessed One, the thus-gone one, the foe-destroyer, the completely perfect
+                        Buddha known as Immaculately Renowned King. He circumambulated the Blessed
+                        One three times and then, putting his palms together above his head, all ten
+                        fingers touching each other, he said to the Thus-Gone One Immaculately
                         Renowned King, ‘I take the Blessed One as my guide. I take the Blissful One
                         as my guide. I take refuge in the Blessed One, the Dharma, and the Saṅgha of
                         monks. Blessed one, please teach me the Dharma, and by any means, I will
@@ -1684,7 +1702,7 @@ Notes -->
                         with faulty views, becoming myself a teacher of the Dharma of the genuine
                         view. Blissful One, please teach me the Dharma!’ </p>
                     <milestone unit="chunk"/>
-                    <p>“It was then, son of noble family, that the thus-gone one Immaculately
+                    <p>“It was then, son of noble family, that the Thus-Gone One Immaculately
                         Renowned King gave a teaching that commenced with this absorption that
                         encapsulates all merit for those gods and bodhisattvas, with the great sage
                         Supreme One at their head. Among the audience of gods, there were eight
@@ -1694,7 +1712,7 @@ Notes -->
                         achieved indestructible courage. Such was the teaching that was given. [B.3] </p>
                     <milestone unit="chunk"/>
                     <p>“That Blessed One then also taught the following eight adamantine
-                            statements:<ref cRef="F.95.a"/>
+                            statements: <ref cRef="F.95.a"/>
                     </p>
                     <list>
                         <item>‘All phenomena are devoid of afflictions and thus pure. </item>
@@ -1764,7 +1782,7 @@ Notes -->
                         with behavior that is never frivolous. And one should endeavor always to
                         seek and pursue what is wholesome. </p>
                     <milestone unit="chunk"/>
-                    <p>“Son of noble family, this was the way the blessed one, the thus-gone one
+                    <p>“Son of noble family, this was the way the Blessed One, the thus-gone one
                         Immaculately Renowned King responded to the request for statements about the
                         Dharma. In doing so, he illuminated and sent tremors through the world
                         system. He then vanished along with the bodhisattvas, only to reappear at
@@ -1798,8 +1816,9 @@ Notes -->
                         through the blessing of my truthful resolve—my desire and devotion for the
                         Dharma—that the blessed one, the thus-gone one Immaculately Renowned King
                         was invoked from that buddhafield below. </p>
+                    <lb/>
                     <milestone unit="chunk"/>
-                    <p>“Vimalatejā, you should understand through these accounts that for
+                    <p>“Vimalatejā, you should understand through such accounts that for
                         bodhisattva great beings who yearn for the Dharma, the thus-gone ones do not
                         pass beyond suffering, nor does the sacred Dharma ever disappear. <ref cRef="F.96.b"/> How is that? Vimalatejā, bodhisattva great beings who
                         yearn for the Dharma with perfect motivation and devotion cause the blessed
@@ -1826,10 +1845,12 @@ Notes -->
                         beings who have engendered devotion to the Dharma cannot be harmed in any
                         way by others. <ref cRef="F.97.a"/>
                     </p>
+                    <milestone unit="chunk"/>
                     <p>“In the light of this, Vimalatejā, bodhisattva great beings should endeavor
                         to gain expertise in the accumulation of learning. Bodhisattva great beings
                         who endeavor to gain expertise in the accumulation of learning will attain
                         such extraordinary qualities as these—or even greater and better than these. </p>
+                    <lb/>
                     <milestone unit="chunk"/>
                     <p>“Vimalatejā, these three practices constitute the foundation of merit, the
                         accumulation of merit, the emergence of merit, the expansion of merit, the
@@ -1883,10 +1904,12 @@ Notes -->
                         their Dharma eyes regarding phenomena so that they became cleared of dust,
                         and immaculate.<!--/modularPassage--> The mighty strongman Vimalatejā, too,
                         achieved acceptance of the Dharma accordingly. </p>
+                    <lb/>
                     <milestone unit="chunk"/>
                     <p>Subsequently the mighty strongman Vimalatejā asked the Blessed One, “Blessed
                         One, what qualities should a bodhisattva great being possess in order to
                         swiftly achieve acceptance that phenomena are unborn?” </p>
+                    <milestone unit="chunk"/>
                     <p>The Blessed One replied, “Son of noble family, there are four qualities that
                         a bodhisattva great being should possess to achieve acceptance that
                         phenomena are unborn. What are those four? To have the conviction that the
@@ -1953,6 +1976,7 @@ Notes -->
                         of lotus flowers fell, and the whole world was filled with an immense
                         glow.<!--/modularPassage-->
                     </p>
+                    <lb/>
                     <milestone unit="chunk"/>
                     <p><!--modularPassage type=smileLights-->The Blessed One then smiled. As is an
                         attribute of the thus-gone ones, when he smiled an assortment of blue,
@@ -2019,10 +2043,10 @@ Notes -->
                     <milestone unit="chunk"/>
                     <lg>
                         <l>“I bow today before the one whose mind is the supreme wisdom of
-                            awakening;.</l>
+                            awakening;</l>
                         <l>Today you have conquered the demons at the foot of the king of trees.</l>
                         <l>You who have ascended the throne of the sublime victorious ones,</l>
-                        <l>Supreme Leader omen, please say why it was you smiled.</l>
+                        <l>Supreme Leader of men, please say why it was you smiled.</l>
                     </lg>
                     <milestone unit="chunk"/>
                     <lg>
@@ -2039,39 +2063,39 @@ Notes -->
                     <p>Ānanda said, “Indeed I saw it, Blessed One. I saw it indeed, Blissful
                         One.”</p>
                     <milestone unit="chunk"/>
-                    <p>The Blessed One continued:</p>
-                    <p><!--modularPassage type=prediction-->“Ānanda, over the course of a hundred
+                    <p>The Blessed One continued, <!--modularPassage type=prediction-->“Ānanda, over the course of a hundred
                         thousand cycles of three incalculable eons, the mighty strongman Vimalatejā
                         will fully awaken to unsurpassed and completely perfect buddhahood. In the
                         eastern realm known as Utterly Purifying, in the eon known as Praised by
-                        Brahmā, he will appear in the world as a thus-gone one, a foe-destroyer, a
-                        completely perfect Buddha. He will be someone who is knowledgeable and
+                        Brahmā‌, he will appear in the world as a thus-gone one, a foe-destroyer, a
+                        completely perfect buddha. He will be someone who is knowledgeable and
                         virtuous, a blissful one, someone who knows the world, a charioteer to guide
                         beings, an unsurpassed being, a teacher of gods and men, a blessed buddha
                         known as King of Many Arrangements. Ānanda, that buddha realm known as
-                        Utterly Purifying of the thus-gone one, the foe-destroyer, the completely
-                        perfect buddha King of Many Arrangements will be filled with prosperity,
+                        Utterly Purifying of the Thus-Gone One, the foe-destroyer, the completely
+                        perfect Buddha King of Many Arrangements will be filled with prosperity,
                         abundance, happiness, plentiful harvests, and gaiety, and will have many
                         human and other inhabitants. As an analogy, Ānanda, the riches and
                         enjoyments of beings in the realm of the Utterly Purifying buddhafield will
                         be on a par with those of the gods in the Joyous Heaven. </p>
                     <milestone unit="chunk"/>
-                    <p>“In order to gather bodhisattvas, the thus-gone one King of Many Arrangements
-                        will teach only the Bodhisattva Collection without expounding anything else.
+                    <p>“In order to gather bodhisattvas, the Thus-Gone One King of Many Arrangements
+                        will teach only the bodhisattva collection without expounding anything else.
                         The words <foreign xml:lang="Sa-Ltn" type="term">śrāvaka</foreign> and
                             <distinct>solitary buddha</distinct> will not even exist there. The only
                         community that will emerge will be the great bodhisattva saṅgha that
-                        consists of bodhisattva great beings who have achieved acceptance. <ref cRef="F.100.b"/> That thus-gone one will live for a fathomless span of
+                        consists of bodhisattva great beings who have achieved acceptance. <ref cRef="F.100.b"/> That Thus-Gone One will live for a fathomless span of
                         time. In his buddhafield, the eight unfree states will not exist. Demons and
                         hostile forces will be vanquished. There will be no extremists. The
                         buddhafield will be made of beryl and be adorned with lotus flowers of gold
                         from the Jāmbū River.”<!--/modularPassage-->
                     </p>
-                    <p>Eventually the mighty strongman Vimalatejā descended down from midair. He
+                    <p>Eventually the mighty strongman Vimalatejā descended from midair. He
                         bowed at the feet of the Blessed One, requested ordination from the Blessed
                         One, and was ordained in the teachings of the Thus-Gone One. </p>
+                    <lb/>
                     <milestone unit="chunk"/>
-                    <p>The bodhisattva great being Nārāyaṇa now addressed the Blessed One, “The way
+                    <p>The bodhisattva great being Nārāyaṇa now said to the Blessed One, “The way
                         that the Blessed One has expounded on the doctrine of discipline, Blessed
                         One, is indeed marvelous. Blissful One, it is indeed marvelous. Even those
                         who visit the Thus-Gone One to denigrate him, pick out his faults, make
@@ -2162,6 +2186,7 @@ Notes -->
                         nothing harmful, he met the Thus-Gone One. This was a root of virtue that
                         manifested from causes in the past; thus was he able to swiftly attain
                         acceptance of the superknowledges.” </p>
+                    <lb/>
                     <milestone unit="chunk"/>
                     <p>Then the bodhisattva Nārāyaṇa asked the mighty strongman Vimalatejā, “Son of
                         noble family, what qualities have you engendered to achieve such
@@ -2209,9 +2234,8 @@ Notes -->
                         direction, remaining in themselves <ref cRef="F.103.a"/> and ceasing in
                             themselves.<note place="end">Tib: <foreign type="quote" xml:lang="Bo-Ltn">gang kho na na gnas pa de kho nar ’gags
                                 pa</foreign>. “Remaining in themselves and ceasing in themselves” is
-                            our best guess at translating this obscure phrase.</note>
-                    </p>
-                    <p>“The Blessed One has also stated, ‘The definition of the true meaning is
+                            our best guess at translating this obscure phrase.</note> The 
+                        Blessed One has also stated, ‘The definition of the true meaning is
                         perpetual cessation.’ Therefore, Nārāyaṇa, one who relies on the true
                         meaning does not proliferate or elaborate on anything. That which is not
                         proliferated or elaborated is the true meaning.” </p>
@@ -2235,17 +2259,17 @@ Notes -->
                         is taking place when there is nothing being done, nothing being carried out.
                         As long as one does not go against the true meaning, it is appropriate to
                         strive.” </p>
-
+                    <milestone unit="chunk"/>
                     <!--modularPassage type=multipleResult-->
                     <p>As the mighty strongman Vimalatejā expounded on the true meaning, the minds
                         of five hundred monks became freed of defilement and without grasping. Eight
                         thousand gods purified the eye of Dharma regarding phenomena so that it
                         became cleared of dust and immaculate.</p>
+                    <lb/>
                     <!--/modularPassage-->
                     <milestone unit="chunk"/>
                     <p>The bodhisattva great being Nārāyaṇa then told Vimalatejā, <ref cRef="F.103.b"/>
-                    </p>
-                    <p>“Vimalatejā, the Thus-Gone One declared, ‘Rely on the true meaning. Don’t
+                        “Vimalatejā, the Thus-Gone One declared, ‘Rely on the true meaning. Don’t
                         rely on the words.’ This is because beings lack skill in the true meaning
                         and experience things dualistically. They also lack skill concerning words,
                         misinterpreting them and failing to understand their true meaning. Thus the
@@ -2265,7 +2289,7 @@ Notes -->
                         <speaker>the Blessed One</speaker>
                         <milestone unit="chunk"/>
                         <lg>
-                            <l>“‘Through learning, one will comprehend dharmas.</l>
+                            <l>“ ‘Through learning, one will comprehend dharmas.</l>
                             <l>Through learning, one will not do evil.</l>
                             <l>Through learning, one will give up harm.</l>
                             <l>Through learning, one will gain nirvāṇa.’”</l>
@@ -2316,9 +2340,10 @@ Notes -->
                         sameness of nonself. That which is the sameness of non-self is the sameness
                         of all phenomena. Hence the expression <distinct>penetrate flawless
                             reality</distinct>.” </p>
+                    <lb/>
                     <milestone unit="chunk"/>
-                    <p>The bodhisattva great being Nārāyaṇa then said to the Blessed One: </p>
-                    <p>“Blessed One, a bodhisattva may correctly understand this Dharma discourse
+                    <p>The bodhisattva great being Nārāyaṇa then said to the Blessed One, “Blessed 
+                        One, a bodhisattva may correctly understand this Dharma discourse
                         regarding how all phenomena have such characteristics, and how they are
                         inherently and entirely beyond suffering; upon hearing it, he or she may
                         then believe and be convinced of it. That he or she nevertheless does not
@@ -2326,9 +2351,9 @@ Notes -->
                             in this passage of the term <foreign type="quote" xml:lang="Bo-Ltn">bar
                                 ma dor yongs su myang ngan las ’da’ ba</foreign> / <foreign xml:lang="Sa-Ltn">anantarāparinirvāyī</foreign> is the only
                             occurrence in any of the Kangyur sūtra sections, except for one mention
-                            in the longer Prajñāpāramitāsūtras in relation to the Buddha’s
-                            qualities. The term is included in the Mahāvyutpatti (section 46, 1015),
-                            and the <foreign xml:lang="Bo-Ltn">sgra sbyor bam po gnyis pa</foreign>
+                            in the longer <title xml:lang="Sa-Ltn">Prajñāpāramitāsūtras</title> in relation to the Buddha’s
+                            qualities. The term is included in the <title xml:lang="Sa-Ltn">Mahāvyutpatti</title> (section 46, 1015),
+                            and the <title xml:lang="Bo-Ltn">sgra sbyor bam po gnyis pa</title>
                             makes it clear that the Tibetans interpreted it as attaining the
                             śrāvaka’s nirvāṇa in the interval between one life and the next
                                 (<foreign type="quote" xml:lang="Bo-Ltn">antaraparinirvāṇi zhes bya
@@ -2337,7 +2362,7 @@ Notes -->
                                 byas nas mya ngan las ’da’ bas na bar ma dor yongs su mya ngan las
                                 ’da’ ba zhes bya</foreign>). According to Edgerton the Pāli sources
                             interpret the term as meaning simply “attaining parinirvāṇa prematurely”
-                            i.e. in the middle of life, and the Prajñāpāramitā occurrence could be
+                            i.e. in the middle of life, and the <title xml:lang="Sa-Ltn">Prajñāpāramitā</title> occurrence could be
                             interpreted as prematurely in the sense of before having perfected the
                             qualities. Here it could be interpreted either simply as attaining
                             nirvāṇa “without any interval,” i.e. immediately, or possibly as in the
@@ -2361,6 +2386,7 @@ Notes -->
                     <p>Then the mighty strongman Vimalatejā asked the Blessed One, “Blessed One,
                         what faults do bodhisattvas have, those whom the Blessed One described as
                             <emph>certain to fall</emph>?” </p>
+                    <milestone unit="chunk"/>
                     <p>The Blessed One replied, “Son of noble family, I do not at all regard
                         bodhisattvas as having any faults, and do not have any such concepts
                         whatsoever. Nevertheless, they may focus on the vehicle of the śrāvakas
@@ -2384,19 +2410,20 @@ Notes -->
                     <p>The mighty strongman Vimalatejā then said to the Blessed One, “Blessed One,
                         this marvelous doctrine of the bodhisattva great beings is not to be found
                         among the śrāvakas and solitary buddhas; how wonderful!” </p>
+                    <lb/>
+                    <milestone unit="chunk"/>
                     <p>On this occasion, since Mañjuśrīkumārabhūta was present in the gathering,
                             <ref cRef="F.105.b"/> the bodhisattva great being Nārāyaṇa mentioned to
-                        the Blessed One: </p>
-                    <p>“Blessed One, on this occasion of the absorption that encapsulates all merit,
+                        the Blessed One, “Blessed One, on this occasion of the absorption that encapsulates all merit,
                         Mañjuśrīkumārabhūta has not presented a talk.” </p>
                     <milestone unit="chunk"/>
-                    <p>Thus Mañjuśrīkumārabhūta addressed the bodhisattva great being Nārāyaṇa: </p>
-                    <p>“Son of noble family, bodhisattvas do not carry out the practices toward
+                    <p>Mañjuśrīkumārabhūta then said to the bodhisattva great being Nārāyaṇa, “Son of 
+                        noble family, bodhisattvas do not carry out the practices toward
                         awakening out of a desire for merit. They do not carry out the practices
                         toward awakening out of a desire for gain, praise, or eulogy, nor for the
                         higher states, wealth, followers, fame, renown, or honor.” </p>
                     <milestone unit="chunk"/>
-                    <p>Nārāyaṇa then asked, “Then why, Mañjuśrī, do bodhisattvas carry out the
+                    <p>Nārāyaṇa then asked, “So, Mañjuśrī, why do bodhisattvas carry out the
                         practices toward awakening?” </p>
                     <p>Mañjuśrī answered, “Son of noble family, bodhisattvas carry out the practices
                         toward awakening out of compassion for all beings. Bodhisattvas carry out
@@ -2404,7 +2431,7 @@ Notes -->
                         wish to eliminate all beings’ suffering, their wish to eradicate the
                         mistaken afflictions, and their wish to experience a similar suffering
                             themselves;<note place="end">Tib: <foreign type="quote" xml:lang="Bo-Ltn">bdag gi sdug bsngal dang ’dra bar ’dod
-                                pa</foreign> (or, in the sTog Pho brang Kangyur, <foreign type="quote" xml:lang="Bo-Ltn">bdag gis sdug bsngal</foreign> …).
+                                pa</foreign> (or, in the Stok Palace Kangyur, <foreign type="quote" xml:lang="Bo-Ltn">bdag gis sdug bsngal</foreign> …).
                             The meaning of this expression is unclear to us.</note> they do not
                         carry out these practices out of a wish for gratitude. Therefore, son of
                         noble family, bodhisattvas carry out the practices toward awakening without
@@ -2502,6 +2529,7 @@ Notes -->
                         Dharma discourse and to uphold it, made the solemn promise, “Blessed One, I
                         will assist those beings who are devoted to this Dharma discourse to
                         accomplish all their goals.” </p>
+                    <lb/>
                     <milestone unit="chunk"/>
                     <p>Finally the god named Free of Demons addressed Mañjuśrīkumārabhūta,
                         “Mañjuśrī, I, too, <ref cRef="F.107.b"/> have been inspired to speak about
@@ -2558,8 +2586,8 @@ Notes -->
                         Mañjuśrīkumārabhūta, “Mañjuśrī, this is the extent of my inspiration.
                         Starting with what I have said about practice, please expand on it, and
                         express it in your own way.”</p>
-                    <p>So Mañjuśrīkumārabhūta answered the god’s request: </p>
-                    <p>“God, bodhisattva practice entirely transcends all domains. How? Such
+                    <p>Mañjuśrīkumārabhūta, in answer to the god’s request, said, “God, bodhisattva 
+                        practice entirely transcends all domains. How? Such
                         practice cannot be considered within the domain of the eyes and visual form.
                         Likewise it cannot be considered within the domain of the ears and sound,
                         the nose and scent, the tongue and taste, the body and touch, or that of the
@@ -2602,23 +2630,24 @@ Notes -->
                         affliction. In this way, bodhisattva great beings do not disappoint the
                         blessed buddhas.” </p>
                     <milestone unit="chunk"/>
-                    <p>At this, the Blessed One bestowed his approval on Mañjuśrīkumārabhūta: </p>
-                    <p>“Excellent, Mañjuśrīkumārabhūta, excellent. You have put it excellently.
+                    <p>The Blessed One, bestowing his approval on what Mañjuśrīkumārabhūta had explained, 
+                        said “Excellent, Mañjuśrīkumārabhūta, excellent. You have put it excellently.
                         Bodhisattvas who practice in this way are indeed carrying out bodhisattva
                         practice. They will also swiftly receive their prophecy. Mañjuśrī, I know
-                        this clearly. Previously, during the time of the thus-gone one Dīpaṃkara
+                        this clearly. Previously, during the time of the Thus-Gone One Dīpaṃkara,
                         there was no virtuous practice I had not already performed. However, I did
                         not receive my prophecy. And why was that? Because I was practicing in a
                         conceptual manner; I was practicing with effort, and practicing in an
-                        apprehending manner. But then, when I met the thus-gone one, the
-                        foe-destroyer, the completely perfect buddha Dīpaṃkara, I transcended all
+                        apprehending manner. But then, when I met the Thus-Gone One, the
+                        foe-destroyer, the completely perfect Buddha Dīpaṃkara, I transcended all
                         practices. Just upon seeing him, and witnessing the Blessed One’s conduct, I
                         attained that conduct as well, and realized the fact that all phenomena are
-                        inherently unborn. It was on this occasion that the blessed thus-gone one
+                        inherently unborn. It was on this occasion that the Blessed Thus-Gone One
                         Dīpaṃkara prophesied, ‘In the future, you will be the thus-gone one, the
                         foe-destroyer, the completely perfect buddha Śākyamuni.’ It was at this
-                        time, too, that I attained acceptance that all phenomena are unborn.<ref cRef="F.109.b"/>
+                        time, too, that I attained acceptance that all phenomena are unborn. <ref cRef="F.109.b"/>
                     </p>
+                    <milestone unit="chunk"/>
                     <p>“Therefore, Mañjuśrī, those bodhisattva great beings who wish to swiftly
                         attain acceptance that all phenomena are unborn should devote themselves to
                         nonapprehension and effortlessness as described in this discourse on
@@ -2626,8 +2655,8 @@ Notes -->
                     <milestone unit="chunk"/>
                     <p>Mañjuśrīkumārabhūta then asked the Blessed One, “Blessed One, in order to
                         attain what achievements is acceptance attained?” </p>
-                    <p>The Blessed One answered:</p>
-                    <p>“Mañjuśrī, it is in order to attain the aggregates, the elements, and sense
+                    <milestone unit="chunk"/>
+                    <p>The Blessed One answered, “Mañjuśrī, it is in order to attain the aggregates, the elements, and sense
                         sources that acceptance is attained. Moreover, Mañjuśrī, it is in order to
                         attain all phenomena that acceptance is attained. Mañjuśrī, what is called
                         attaining acceptance is to attain their unending true nature. Mañjuśrī, what
@@ -2651,6 +2680,7 @@ Notes -->
                         incomparable qualities. Blessed One, bodhisattvas should respectfully learn
                         all its profound topics and put them into practice.”<!--/modularPassage-->
                     </p>
+                    <lb/>
                     <milestone unit="chunk"/>
                     <p>Bodhisattva Nārāyaṇa then asked Mañjuśrīkumārabhūta, “Mañjuśrī, how do
                         bodhisattva great beings become trained in these profound teachings?” </p>
@@ -2674,22 +2704,23 @@ Notes -->
                         Bodhisattvas who do not apprehend their physical, verbal, and mental virtue,
                         also, have become trained. Bodhisattvas who do not apprehend their skill in
                         the physical, verbal, and mental accumulations, too, have become trained.” </p>
+                    <lb/>
                     <milestone unit="chunk"/>
-                    <p>Then Bodhisattva Constant Stable Diligence addressed Mañjuśrīkumārabhūta: </p>
-                    <p>“Mañjuśrī, I too have become inspired to speak about how bodhisattvas become
+                    <p>Then Bodhisattva Constant Stable Diligence said to Mañjuśrīkumārabhūta, “Mañjuśrī, 
+                        I too have become inspired to speak about how bodhisattvas become
                         thoroughly trained.” </p>
                     <p>Mañjuśrī replied, “Son of noble family, if you know it is the right time,
                         please express your inspiration.”</p>
                     <milestone unit="chunk"/>
-                    <p>Bodhisattva Constant Stable Diligence then proceeded: </p>
-                    <p>“Mañjuśrī, bodhisattvas have become trained when they cause even one being to
+                    <p>Bodhisattva Constant Stable Diligence then proceeded, “Mañjuśrī, bodhisattvas 
+                        have become trained when they cause even one being to
                         enter the Buddha’s teachings. If a bodhisattva is eating food with someone,
                         accepting something from someone, or giving something to someone, and draws
                         that person toward awakening, then both of them receive the bodhisattva’s
                         pure benefit. If a bodhisattva draws someone into spiritual practice, then
                         both the giver and recipient receive the bodhisattva’s pure benefit. The
                         root of virtue is always shared with others whenever a bodhisattva proclaims
-                        the words <emph>Buddha</emph>, <emph>Dharma</emph>, and <emph>Saṅgha</emph>
+                        the words <emph>Buddha, Dharma, and Saṅgha</emph>
                         to others; or when he brings the Buddha, Dharma, and Saṅgha to mind while
                         making a gift; or when he mentally cultivates generosity, discipline,
                         patience, diligence, concentration, or insight; or when he proclaims these
@@ -2799,8 +2830,8 @@ Notes -->
                         pools, and ponds, resolved to make the water of the sublime teachings
                         inexhaustible. Bodhisattvas should be as insatiable as the ocean in their
                         one-pointed desire to learn. Bodhisattvas should be as immovable as the
-                        central mountain. Bodhisattvas should be utterly stable like the threshold
-                        of a doorway. Bodhisattvas should be particularly free of attachment to
+                        central mountain. Bodhisattvas should be as utterly stable as a doorsill. 
+                        Bodhisattvas should be particularly free of attachment to
                         luxuries. </p>
                     <milestone unit="chunk"/>
                     <p>“Bodhisattvas should be powerful, skilled in transforming minds. Bodhisattvas
@@ -2820,18 +2851,20 @@ Notes -->
                         practice, vows, training, <ref cRef="F.113.b"/> and diligence—are capable of
                         fully awakening to unexcelled and perfectly complete buddhahood.” </p>
                     <milestone unit="chunk"/>
-                    <p>The Blessed One then expressed his approval to Bodhisattva Constant Stable
-                        Diligence: </p>
-                    <p>“Excellent, son of noble family, excellent. You have described very well the
+                    <p>The Blessed One, expressing his approval of what Bodhisattva Constant Stable
+                        Diligence had explained, said to him, “Excellent, son of noble family, excellent. 
+                        You have described very well the
                         skill of remaining constantly in the bodhisattva’s practice. Son of noble
                         family, bodhisattva great beings who wish to achieve this absorption that
                         encapsulates all merit should avoid everything that is not meritorious, and
                         exert themselves in taking up everything that is meritorious.” </p>
+                    <lb/>
                     <milestone unit="chunk"/>
                     <p>Bodhisattva Nārāyaṇa then asked the Blessed One, “Blessed One, what
                         distinguishes bodhisattvas who have achieved this absorption that
                         encapsulates all merit? What signs do they have? What marks? What qualities?
                         What benefits?” </p>
+                    <milestone unit="chunk"/>
                     <p>The Blessed One answered Bodhisattva Nārāyaṇa, “Son of noble family,
                         bodhisattvas who have achieved this absorption that encapsulates all merit
                         have left the eight unfree states behind, and will not be born in the lower
@@ -2899,6 +2932,7 @@ Notes -->
                             <ref cRef="F.115.a"/> They are conscientious, and devoted to unimpeded
                         wisdom. They point out true omniscient wisdom to all beings, and dwell in
                         the activity of buddhas. </p>
+                    <milestone unit="chunk"/>
                     <p>“Nārāyaṇa, bodhisattvas who have certainty in this absorption that
                         encapsulates all merit can be distinguished in these ways. These qualities
                         can also be characterized as their signs, marks, qualities, or benefits.” </p>
@@ -2910,14 +2944,17 @@ Notes -->
                         Blessed One, any beings who have not come to hear about this precious
                         absorption—or who do not devote themselves to it once they have heard
                         it—must indeed be influenced by demons.” </p>
+                    <milestone unit="chunk"/>
                     <p>The Blessed One replied, “Precisely, Nārāyaṇa. It is just as you have said.
                         Moreover, those bodhisattvas who have emerged, are emerging, or will emerge
-                        definitively by way of this meditative concentration, acquire an
+                        definitively by way of this absorption, acquire an
                         unfathomable number of qualities. They acquire an inconceivable number of
                         qualities.” </p>
+                    <lb/>
                     <milestone unit="chunk"/>
-                    <p>Nārāyaṇa then asked Mañjuśrīkumārabhūta, “Mañjuśrī, what Dharma should
-                        bodhisattva great beings who wish to achieve this absorption strive in?” </p>
+                    <p>Nārāyaṇa then asked Mañjuśrīkumārabhūta, “Mañjuśrī, when bodhisattva great beings 
+                        wish to achieve this absorption, what Dharma should they strive in?” </p>
+                    <milestone unit="chunk"/>
                     <p>Mañjuśrī replied, “Nārāyaṇa, bodhisattva <ref cRef="F.115.b"/> great beings
                         who wish to achieve this absorption should not strive to eradicate the
                         qualities associated with ordinary beings, nor to attain the qualities of
@@ -2941,13 +2978,14 @@ Notes -->
                         regard all beings’ merit as being like this, since they experience the
                         absence of cyclic existence. They should regard the merit of one buddha or
                         that of all buddhas as being similar. At the same time, they should not
-                        regard things being similar or dissimilar, even in the slightest degree,
+                        regard things as being similar or dissimilar, even in the slightest degree,
                         since there are no such distinctions in the realm of phenomena. <ref cRef="F.116.a"/> They should have conviction that all merit—whether it
                         is that of ordinary beings, that which is associated with training or
                         nontraining, that of solitary buddhas, that of bodhisattvas, or that of
                         completely perfect buddhas—is unreal and insubstantial, with no fixed place
                         or location. And yet they should have conviction that all merit has a
                         connection with all sentient beings. </p>
+                    <milestone unit="chunk"/>
                     <p>“Son of noble family, consider how any possible physical form is considered
                         to consist and be composed of the four great elements. In the same way,
                         bodhisattva great beings should have conviction that merit has a connection
@@ -2979,6 +3017,7 @@ Notes -->
                         dedication, and being insatiable in incorporating all the qualities of
                         buddhafields into one’s own realm. Nārāyaṇa, they should strive in these
                         four.” </p>
+                    <lb/>
                     <milestone unit="chunk"/>
                     <p>Bodhisattva Nārāyaṇa then asked Mañjuśrīkumārabhūta, “Mañjuśrī, how do
                         bodhisattva great beings who are laypeople or renunciants acquire this
@@ -3008,6 +3047,7 @@ Notes -->
                         this absorption might live as householders, they should be referred to as
                         renunciants, since they do not lose the identity of the realm of
                         phenomena.”</p>
+                    <lb/>
                     <milestone unit="chunk"/>
                     <p>Bodhisattva Nārāyaṇa then asked Mañjuśrīkumārabhūta, “Mañjuśrī, <ref cRef="F.117.b"/> what should bodhisattva great beings abide by, so that
                         they will not lose this absorption that encapsulates all merit, and so that
@@ -3031,6 +3071,7 @@ Notes -->
                         ways of living, such that they become renunciants even while living as
                         householders?” <ref cRef="F.118.a"/>
                     </p>
+                    <milestone unit="chunk"/>
                     <p>Mañjuśrī replied, “Nārāyaṇa, bodhisattvas have four abodes. What are these
                         four? Abiding in love, abiding in compassion, abiding in joy, and abiding in
                         equanimity. Nārāyaṇa, these four are bodhisattvas’ abodes. Nārāyaṇa,
@@ -3083,6 +3124,7 @@ Notes -->
                             of conduct, though this is not clear.</note>
                         <ref cRef="F.119.a"/> The definition of joy is the absence of ill will. The
                         definition of equanimity is to be neither arrogant nor timid. </p>
+                    <milestone unit="chunk"/>
                     <p>“Furthermore, Nārāyaṇa, there can be love and compassion that are not great
                         love and great compassion. Śrāvakas and solitary buddhas do not have great
                         love and great compassion. What śrāvakas and solitary buddhas have is love
@@ -3096,6 +3138,7 @@ Notes -->
                         wandering beings. Great compassion is to think that you will free beings
                         from the negative states of cyclic existence and establish them in positive
                         ones. </p>
+                    <milestone unit="chunk"/>
                     <p>“Nārāyaṇa, you should understand through these descriptions that the love and
                         compassion that śrāvakas and solitary buddhas have is not great love or
                         great compassion. Nārāyaṇa, bodhisattva great beings, therefore, should
@@ -3110,11 +3153,13 @@ Notes -->
                         phenomena so that they became cleared of dust and
                         immaculate.<!--/modularPassage-->
                     </p>
+                    <lb/>
                     <milestone unit="chunk"/>
                     <p>Then Bodhisattva Nārāyaṇa asked the Blessed One, “Blessed One, the thus-gone
                         ones, the foe-destroyers, the completely perfect buddhas, are said to
                         possess the marks of one hundred merits. What merits enable one to
                         accomplish the thus-gone ones’ marks of one hundred merits?” </p>
+                    <milestone unit="chunk"/>
                     <p>The Blessed One answered Bodhisattva Nārāyaṇa, “Nārāyaṇa, imagine that as
                         many beings as there are in as many universes as there are grains of sand in
                         the Ganges were brought together, and each of them had as much merit as a
@@ -3188,11 +3233,13 @@ Notes -->
                         Children of noble family, I would not describe as learned any bodhisattvas
                         who do not expound in detail and correctly to others this absorption that
                         encapsulates all merit.” </p>
+                    <lb/>
                     <milestone unit="chunk"/>
                     <p>Then the gods and bodhisattvas together requested the Blessed One, “Blessed
                         One, please grant your blessings that this Dharma discourse on the
                         absorption that encapsulates all merit will be practiced and propagated by
                         all means in times to come.” </p>
+                    <milestone unit="chunk"/>
                     <p>At that moment the Blessed One emitted light from the coil of hair between
                         his eyebrows. This light illuminated infinite, limitless world systems,
                         while resounding with the phrase, “This Dharma discourse is blessed by the
@@ -3224,15 +3271,15 @@ Notes -->
                         world, including Mañjuśrīkumārabhūta, the bodhisattva Nārāyaṇa, the mighty
                         strongman Vimalatejā, the community of bodhisattva great beings, the great
                         śrāvakas, venerable Ānanda, numerous gods, as well as gods, humans,
-                        demigods, and gandharvas, all rejoiced and extolled the Buddha’s
-                        speech.<!--/modularPassage-->
+                        demigods, and gandharvas, all rejoiced and extolled what the Buddha
+                        had taught.<!--/modularPassage-->
                     </p>
                 </div>
                 <div type="colophon">
                     <milestone unit="chunk"/>
                     <p>This completes the noble Great Vehicle sūtra, <title xml:lang="eng">The
                             Absorption That Encapsulates All Merit</title>.</p>
-                    <p>Translated, edited, and finalized by the Indian preceptors Prajñāvarma and
+                    <p>Translated, edited, and finalized by the Indian preceptors Prajñāvarman and
                         Śīlendrabodhi, the chief editor and translator Bandé Yeshé Dé, and others.
                     </p>
                 </div>
@@ -3247,7 +3294,7 @@ Notes -->
                 <div type="section">
                     <bibl>
                         <title xml:lang="Bo-Ltn">’phags pa bsod nams thams cad bsdus pa’i ting nge
-                            ’dzin ces bya ba theg pa chen po’i mdo</title> (<title xml:lang="Sa-Ltn">Āryasarvapuṇyasamuccayasamādhināmamahāyānasūtra</title>). Toh 134, Degé
+                            ’dzin ces bya ba theg pa chen po’i mdo</title> (<title xml:lang="Sa-Ltn">Ārya­sarva­puṇya­samuccaya­samādhi­nāma­mahā­yāna­sūtra</title>). Toh 134, Degé
                         Kangyur, vol. 56 (mdo sde, na), folios 70b–121b.</bibl>
                     <bibl>
                         <title xml:lang="Bo-Ltn">’phags pa bsod nams thams cad bsdus pa’i ting nge
@@ -3259,12 +3306,14 @@ Notes -->
                         56, p. 196–317.</bibl>
                     <bibl>
                         <title xml:lang="Bo-Ltn">’phags pa bsod nams thams cad bsdus pa’i ting nge
-                            ’dzin ces bya ba theg pa chen po’i mdo</title> (<title xml:lang="Sa-Ltn">Āryasarvapuṇyasamuccayasamādhināmamahāyānasūtra</title>). sTog 107,
-                        sTog Pho brang Kangyur, vol. 63 (mdo sde, na), folios 80b–161b.</bibl>
+                            ’dzin ces bya ba theg pa chen po’i mdo</title> (<title xml:lang="Sa-Ltn">Ārya­sarva­puṇya­samuccaya­samādhi­nāma­mahā­yāna­sūtra</title>). sTog 107,
+                        Stok Palace (<title xml:lang="Bo-Ltn">stog pho brang bris ma</title>) Kangyur, vol. 63 (mdo sde, na), folios 80b–161b.</bibl>
                     <bibl>
-                        <title xml:lang="eng">The Nyingma Edition of the sDe-dge bKa’-’gyur and
-                            bsTan-’gyur: Research Catalogue and Bibliography</title>. 8 vols.
-                        Oakland, CA: Dharma Press, 1982.</bibl>
+                        Pekar Zangpo (pad dkar bzang po). <title xml:lang="Bo-Ltn">mdo sde spyi’i rnam bzhag</title>. Beijing: mi rigs dpe skrun khang [Minorities Publishing House], 2006.</bibl>
+                    <bibl>
+                        Dharmachakra Translation Committee (tr.). <title xml:lang="eng">The Illusory Absorption</title> (Toh 130). 84000: Translating the Words of the Buddha, 2016.</bibl>
+                    <bibl>
+                        Edgerton, Franklin. <title xml:lang="eng">Buddhist Hybrid Sanskrit Grammar and Dictionary</title>. New Haven: Yale University Press, 1953.</bibl>
                 </div>
             </div>
             <div type="glossary">
@@ -3285,11 +3334,11 @@ Notes -->
                     </item>
                     <item>
                         <gloss>
-                            <term xml:id="UT22084-056-002-te3">Bodhisattva Collection</term>
+                            <term xml:id="UT22084-056-002-te3">bodhisattva collection</term>
                             <term xml:lang="Bo-Ltn">byang chub sems dpa'i sde snod </term>
                             <term xml:lang="Sa-Ltn">bodhisattvapiṭaka</term>
                             <term type="definition">The sūtras and teachings of the bodhisattva
-                                vehicle.</term>
+                                vehicle in general (not to be confused with the sūtra of the same name, Toh 56, in the Ratnakūṭa).</term>
                         </gloss>
                     </item>
                     <item>
@@ -3441,7 +3490,7 @@ Notes -->
                     </item>
                     <item>
                         <gloss>
-                            <term xml:id="UT22084-056-002-pe6">Destroyer of Cyclic Existence</term>
+                            <term xml:id="UT22084-056-002-pe6">Krakucchanda</term>
                             <term xml:lang="Bo-Ltn">khor ba 'jig </term>
                             <term xml:lang="Sa-Ltn">Krakucchanda</term>
                             <term type="definition">The first buddha of our eon; the fifth buddha of
@@ -3548,8 +3597,9 @@ Notes -->
                     <item>
                         <gloss>
                             <term xml:id="UT22084-056-002-pe20">Nārāyaṇa</term>
-                            <term xml:lang="Bo-Ltn">sred me kyi bu </term>
+                            <term xml:lang="Bo-Ltn">sred med kyi bu </term>
                             <term xml:lang="Sa-Ltn">Nārāyaṇa</term>
+                            <term type="definition">In the ancient Indian tradition, the son of the first man; later seen as a powerful avatar of Viṣṇu, but also as the progenitor of Brahmā. In Buddhist texts, he figures in various ways including (as he does in most of this text) as a bodhisattva, while still one of the most powerful gods of the Realm of Form (as in 1.21).</term>
                         </gloss>
                     </item>
                     <item>
@@ -3564,7 +3614,7 @@ Notes -->
                     <item>
                         <gloss>
                             <term xml:id="UT22084-056-002-pe22">Śāriputra</term>
-                            <term xml:lang="Bo-Ltn">shaa ri'i bu </term>
+                            <term xml:lang="Bo-Ltn">shA ri'i bu </term>
                             <term xml:lang="Sa-Ltn">Śāriputra</term>
                             <term type="definition">One of the Buddha's primary śrāvaka followers,
                                 known as the compiler of the Abhidharma teachings.</term>
@@ -3595,7 +3645,7 @@ Notes -->
                         <gloss>
                             <term xml:id="UT22084-056-002-pe26">Vimalatejā</term>
                             <term xml:lang="Bo-Ltn">dri ma med pa'i gzi brjid </term>
-                            <term xml:lang="Sa-Ltn">Vimalateja</term>
+                            <term xml:lang="Sa-Ltn">Vimalatejā</term>
                         </gloss>
                     </item>
                     <item>
@@ -3608,7 +3658,8 @@ Notes -->
                     <item>
                         <gloss>
                             <term xml:id="UT22084-056-002-pe28">Wealthy as the Great Sal Tree</term>
-                            <term xml:lang="Bo-Ltn">shing saa la chen po lta bur nor bzangs </term>
+                            <term xml:lang="Bo-Ltn">shing sA la chen po lta bur nor bzangs </term>
+                            <term xml:lang="Sa-Ltn"> - </term>
                         </gloss>
                     </item>
                     <item>
@@ -3644,7 +3695,7 @@ Notes -->
                             <term xml:lang="Bo-Ltn">lha'i rgyal po dbang byed </term>
                             <term xml:lang="Sa-Ltn">Vaśavartin</term>
                             <term type="definition">The king of gods in the Heaven of Mastery Over
-                                Others’ Emanations (cf Edgerton’s and Negi’s dictionaries).</term>
+                                Others’ Emanations.</term>
                         </gloss>
                     </item>
                     <item>
@@ -3732,10 +3783,18 @@ Notes -->
                     </item>
                     <item>
                         <gloss>
-                            <term xml:id="UT22084-056-002-pl14">Totally Immaculate</term>
+                            <term xml:id="UT22084-056-002-pl14">seat of awakening</term>
                             <term xml:lang="Bo-Ltn">byang chub kyi snying po </term>
+                            <term xml:lang="Sa-Ltn">bodhimaṇḍa</term>
                             <term type="definition">Place at Bodh Gaya where the Buddha attained
                                 awakening.</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-056-002-pl22">Totally Immaculate</term>
+                            <term xml:lang="Bo-Ltn">kun nas dri ma med pa </term>
+                            <term type="definition">The buddhafield of Immaculately Renowned King.</term>
                         </gloss>
                     </item>
                     <item>
@@ -3749,7 +3808,8 @@ Notes -->
                     <item>
                         <gloss>
                             <term xml:id="UT22084-056-002-pl16">Wholly Joyous Heaven</term>
-                            <term xml:lang="Bo-Ltn">rnam par dag par byed pa </term>
+                            <term xml:lang="Bo-Ltn">yongs su dga’ ldan </term>
+                            <term xml:lang="Sa-Ltn">Santuṣita</term>
                         </gloss>
                     </item>
                     <item>
@@ -3761,7 +3821,7 @@ Notes -->
                     </item>
                     <item>
                         <gloss>
-                            <term xml:id="UT22084-056-002-pl18">Āmrapālī’s great grove</term>
+                            <term xml:id="UT22084-056-002-pl18">Āmra‌pālī’s great grove</term>
                             <term xml:lang="Bo-Ltn">a mras bsrungs pa'i tshal chen po </term>
                             <term xml:lang="Sa-Ltn">Āmrapālīvana</term>
                             <term type="definition">The grove donated to the Buddha by the courtesan
@@ -3776,6 +3836,20 @@ Notes -->
                             <term type="definition">Several ranges of mountains in west and central
                                 India, traditionally held to be the boundary between North and South
                                 India.</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-056-002-pl20">Heaven Entirely Free of Strife</term>
+                            <term xml:lang="Bo-Ltn">rab ’thab bral </term>
+                            <term xml:lang="Sa-Ltn">Suyāma</term>
+                        </gloss>
+                    </item>
+                    <item>
+                        <gloss>
+                            <term xml:id="UT22084-056-002-pl21">Supreme Emanations</term>
+                            <term xml:lang="Bo-Ltn">rab 'phrul </term>
+                            <term xml:lang="Sa-Ltn">Sunirmita</term>
                         </gloss>
                     </item>
                 </list>

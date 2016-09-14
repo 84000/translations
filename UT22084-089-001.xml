@@ -1,6 +1,4 @@
-<!-- finished 6/28/16-->
-<!--from staging 2016_08_15 -->
-<?xml-model href="oxygen:/Exist$84000-AWS/db/84000/schema/84000-ODD.rnc" type="application/relax-ng-compact-syntax"?>
+<!-- Checked and edited by John, placed in TEI folder 14 Sept 2016--><?xml-model href="../../../schema/84000-ODD.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -19,14 +17,19 @@
                     Buddha</author>
             </titleStmt>
             <editionStmt>
-                <edition>v 1.0 <date>2015</date>
+                <edition>v 1.0 <date>2016</date>
                 </edition>
             </editionStmt>
             <publicationStmt>
                 <publisher>
                     <name>84000: Translating the Words of the Buddha</name> is a global non-profit
                     initiative that aims to translate all of the Buddha’s words into modern
-                    languages, and to make them available to everyone. </publisher>
+                    languages, and to make them available to everyone.
+                    <lb/>
+                    <lb/>
+                    <name>Warning:</name> Readers are reminded that according to Vajrayāna Buddhist tradition there are restrictions and commitments concerning tantra. Practitioners who are not sure if they should read this translation are advised to consult the authorities of their lineage. The responsibility for reading this text or sharing it with others who may or may not fulfill the requirements lies in the hands of readers.
+                    <lb/>‌‌
+                </publisher>
                 <availability>
                     <licence>
                         <graphic url="http://i.creativecommons.org/l/by-nc-nd/2.0/88x31.png"/>
@@ -38,7 +41,7 @@
                     </licence>
                 </availability>
                 <idno xml:id="UT22084-089-001"/>
-                <date>2015</date>
+                <date>2016</date>
             </publicationStmt>
             <sourceDesc>
                 <bibl>
@@ -105,12 +108,12 @@
                 <div type="section">
                     <milestone unit="chunk"/>
                     <p>Despite what its title might suggest, the <title xml:lang="Sa-Ltn">Siddhaikavīratantra</title> (hereafter SEV) is not a tantra of
-                        Siddhaikavīra in the same way that, for example, the Hevajratantra is a
-                        tantra of Hevajra. Siddhaikavīra is not the main subject, and indeed,
-                        excluding the chapter colophons, his name is mentioned in the tantra only
-                        three times—and, interestingly, never in a mantra. Nevertheless,
-                        Siddhaikavīra is awarded prominence in the text in a short preamble that
-                        introduces the SEV and points out the soteriological nature of the mantra of
+                        Siddhaikavīra in the same way that, for example, the <title xml:lang="Sa-Ltn">Hevajratantra</title> is a tantra of Hevajra.
+                        Siddhaikavīra is not the main subject, and indeed, excluding the chapter
+                        colophons, his name is mentioned in the tantra only three times—and,
+                        interestingly, never in a mantra. Nevertheless, Siddhaikavīra is awarded
+                        prominence in the text in a short preamble that introduces the SEV and
+                        points out the soteriological nature of the mantra of
                         Siddhaikavīra-Arapacana, the forty-first mantra of the fifty-five in this
                         text and the only one that invokes him, setting this mantra somewhat apart
                         from other mantras, most of which have magical and practical applications.
@@ -145,7 +148,7 @@
                         of the Buddhist tantra. The deities being invoked are given a range of
                         evocative names and epithets—the glossary of the names found in this tantra
                         contains more than 100 entries. The appearance in this text of some deities,
-                        including Caṇḍamahāroṣaṇa and Kurukullā, could be the first anywhere in
+                        including Caṇḍamahāroṣaṇa and Kurukullā,<note place="end">For more on these two deities, see Dharmachakra (2016) and (2011), respectively.</note> could be the first anywhere in
                         literary sources, making the SEV a historically important text. </p>
                     <milestone unit="chunk"/>
                     <p> The date of the SEV is very uncertain. As a Kriyā tantra, it could date from
@@ -157,13 +160,12 @@
                         Sanskrit text has been preserved in many manuscripts held in the National
                         Archives in Kathmandu as well as in several libraries around the world; it
                         has also been edited and published twice, by Janardan Pandey (1998) and then
-                        by Nobuo Otsuka (1995). The Tibetan canonical translation is attributed to
-                        Dīpaṃkara Śrījñāna (Atīśa) and Gewai Lodrö (<foreign xml:lang="Bo-Ltn">dge
-                            ba’i blo gros</foreign>). Apart from the Tibetan Kangyur (Toh 544), it
-                        was also included, together with a commentary by Jamyang Khyentse Wangpo
-                        (1820–1892), in the 19th century <foreign xml:lang="Bo-Ltn">Druptap Küntü
-                            (sgrub thabs kun btus)</foreign> collection of practice materials
-                        (Khyentse 1970). That it was the subject of commentary as late as the 19th
+                        by Nobuo Otsuka (1995). The Tibetan canonical translation found in the Kangyur 
+                        (Toh 544) is attributed to Dīpaṃkara Śrījñāna (Atīśa) and Géwai Lodrö. It
+                        is also included, together with a commentary by Jamyang Khyentse Wangpo
+                        (1820–1892), in the 19th century collection of practice 
+                        materials, the <foreign xml:lang="Bo-Ltn">Druptap Küntü</foreign>
+                        (<foreign xml:lang="Bo-Ltn">sgrub thabs kun btus</foreign>).<note place="end">See bibliography, Khyentse (1970).</note> That it was the subject of commentary as late as the 19th
                         century indicates that the SEV, despite being a Kriyā tantra, never lost its
                         popularity over time. </p>
                 </div>
@@ -186,7 +188,7 @@
                         and soothsaying. At the beginning, the qualities of a person to whom the
                         contents of this chapter can be revealed are described and, pertinently, the
                         value and sacredness of truth is stressed. As we read in the invocation to
-                        Vimalacandra, one of the gods of divination: </p>
+                        Vimalacandra, one of the gods of divination (2.2-3): </p>
                     <milestone unit="chunk"/>
                     <q>
                         <lg>
@@ -199,8 +201,8 @@
                             <l>Truth is the Buddha, the Dharma and the Saṃgha;</l>
                             <l>It is the ocean of qualities.</l>
                             <l>By these words of truth</l>
-                            <l>May you swiftly enter the mirror [of divination].<note place="end">p.
-                                    9 in Pandey 1998.</note>
+                            <l>May you swiftly enter the mirror [of divination].<note place="end">Pandey (1998), p
+                                    9.</note>
                             </l>
                         </lg>
                     </q>
@@ -217,7 +219,7 @@
                         “Karṇapiśācī” suggests a piśācī who whispers into one’s ear (<foreign xml:lang="Sa-Ltn">karṇa</foreign>), and as may be expected, her mantra
                         requests her to whisper her answers into one’s ear. Other divination deities
                         can have equally suggestive names or epithets, such as Siddhalocanā
-                        (Accomplished Vision), Satyavadinī (Speaker of Truth), or Svapnavilokinī
+                        (Accomplished Vision), Satyavādinī (Speaker of Truth), or Svapnavilokinī
                         (One Who Can See Dreams). </p>
                     <milestone unit="chunk"/>
                     <p>The other group of mantras in this chapter is concerned with obtaining
@@ -359,57 +361,62 @@
                     </lg>
                     <label>First mantra</label>
                     <milestone unit="chunk"/>
-                    <lg>
-                        <l>
+                    <q>
+                        <p>
                             <foreign xml:lang="Sa-Ltn" type="mantra">oṃ kālumelu kālumelu stambhaya
-                                śilāvarṣaṃ tuṣāravarṣaṃ ca lucca i lucca i svāhā</foreign> |</l>
-                    </lg>
-                    <lg>
-                        <l>
+                                śilāvarṣaṃ tuṣāravarṣaṃ ca lucca i lucca i svāhā</foreign>&#160;|
+                    </p>
+                    </q>
+                    <q>
+                        <p>
                             <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ, kālumelu
                             kālumelu</foreign>, stop the hailstorm and snowfall, stop, stop!
                                 <foreign xml:lang="Sa-Ltn" type="mantra">Svāhā</foreign>!<note place="end">Tib.: <foreign xml:lang="Sa-Ltn" type="mantra">oṃ
                                     kālumelu kālume stambhaya śilāvarṣaṃ tuṣāranya ca lucca i lucca
-                                    i svāhā</foreign> |</note>
-                        </l>
-                    </lg>
+                                    i svāhā</foreign>&#160;|</note>
+                        </p>
+                    </q>
                     <milestone unit="chunk"/>
                     <p>This king of mantras, when correctly recited, will stop a hailstorm. Merely
                         to remember it, using incanted ashes, can stop snow<note place="end">Tib.:
                             “a hailstorm or a snowfall.”</note> falling, or make it fall wherever
                         one wishes. In the same way, one can also stop lightning, hurricanes,
-                        thunderbolt strikes, etc. </p>
+                        thunderbolt strikes, etc. {2}</p>
                     <label>Second Mantra</label>
                     <milestone unit="chunk"/>
-                    <lg>
-                        <l>
+                    <q>
+                        <p>
                             <foreign xml:lang="Sa-Ltn" type="mantra">oṃ garuḍa haṃsa he he cala cala
-                                svāhā</foreign> |</l>
-                    </lg>
-                    <lg>
-                        <l>{2} <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ</foreign>, garuḍa! Swan!
-                            Hey, hey! Move, move! <foreign xml:lang="Sa-Ltn" type="mantra">Svāhā</foreign>!</l>
-                    </lg>
+                                svāhā</foreign>&#160;|
+                    </p>
+                    </q>
+                    <q>
+                        <p>
+                            <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ</foreign>, garuḍa! Swan!
+                            Hey, hey! Move, move! <foreign xml:lang="Sa-Ltn" type="mantra">Svāhā</foreign>!
+                    </p>
+                    </q>
                     <p>The mere thought of this king of mantras will stop a hailstorm. By inscribing
                         it on a kettle drum with chalk and chanting over the drumstick, one can then
                         use the sound of the drum to stop a hailstorm. The same can be done with the
                         sound of a conch, etc. </p>
                     <label>Third Mantra</label>
                     <milestone unit="chunk"/>
-                    <lg>
-                        <l>
+                    <q>
+                        <p>
                             <foreign xml:lang="Sa-Ltn" type="mantra">oṃ he he tiṣṭha tiṣṭha bandha
                                 bandha dhāraya dhāraya nirundhaya nirundhaya devadattam ūrṇāmaṇe
-                                svāhā </foreign>|</l>
-                    </lg>
-                    <lg>
-                        <l>
+                                svāhā </foreign>|
+                    </p>
+                    </q>
+                    <q>
+                        <p>
                             <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ</foreign>, hey, hey! Remain,
                             remain! Bind, bind! Hold, hold! Restrain such-and-such, restrain! O
                             Ūrṇāmaṇi, <foreign xml:lang="Sa-Ltn" type="mantra">svāhā</foreign>!<note place="end">In the Tibetan the mantra ends: <foreign xml:lang="Sa-Ltn" type="mantra">nirundha nirundha chegemo*
-                                    ūrṇāmaṇe svāhā.</foreign>.</note>
-                        </l>
-                    </lg>
+                                    ūrṇāmaṇe svāhā</foreign>.</note>
+                        </p>
+                    </q>
                     <milestone unit="chunk"/>
                     <p>One should write the name of the enemy, in combination with this mantra, on a
                         palm leaf, and place it in the burrow of a crab. That will bind the enemy’s
@@ -417,7 +424,7 @@
                             omits the three sentences starting with “One should write…” and ending
                             with “evil designs, etc.”</note> This king of mantras, when recited
                         100,000 times according to the procedure of the preliminary practice,<note place="end">“Preliminary practice” (<foreign xml:lang="Sa-Ltn" type="term">pūrvasevā</foreign>) is a six-month period of formal
-                            practice before one can start employing the mantra for specific
+                            practice to be performed before one can start employing the mantra for specific
                             purposes.</note> will bring success. By merely remembering this mantra
                         one will be able to stop lightning, wind, thunderbolt strikes, hail, snow,
                         and so forth. One will also stop torrential rain.<note place="end">In the
@@ -428,7 +435,7 @@
                     <p>By using incanted ashes and mustard seeds, one will bind the snouts of mice,
                         the stylets of mosquitoes, etc. This will also stop attacks on a garden or
                         field by birds, worms, locusts, and other pests. One should inscribe this
-                        mantra on a rag discarded in a charnel ground, together with the name of a
+                        mantra on a rag that has been discarded in a charnel ground, together with the name of a
                         pregnant woman, enclose it in beeswax, place it in a charnel ground in a
                         pot, seal it, and bury it. That will stop the woman from losing her fetus.
                         Digging it up again, rinsing it with milk,<note place="end">Tib.: “with
@@ -436,12 +443,12 @@
                         of discomfort. <ref cRef="F.2.b"/>
                     </p>
                     <milestone unit="chunk"/>
-                    <p>One should write this mantra on birch bark or cloth<note place="end">Tib.:
-                            “on birch bark, cloth, or leaves.”</note> with turmeric or yellow
+                    <p>One should write this mantra on birchbark or cloth<note place="end">Tib.:
+                            “on birchbark, cloth, or leaves.”</note> with turmeric or yellow
                         orpiment. One should make an effigy<note place="end">Tib.: “an effigy in the
                             form of Bhairava.”</note> using clay from an anthill, and place the
                         mantra, enclosed in beeswax, in the effigy’s heart. One should fill its
-                        mouth with ash and bury it.<note place="end">Skt: “bury it right
+                        mouth with ash and bury it.<note place="end">Skt.: “bury it right
                             there.”</note> In case of a dispute, one will be able to paralyze the
                         mouth of one’s opponent. Also, in case of a lawsuit, one should incant the
                         tongue of the effigy seven times and pierce it with seven thorns.<note place="end">Tib.: “one should incant seven thorns and stick them in the
@@ -450,19 +457,19 @@
                     <p>One should write this mantra on a clay pot with chalk, fill the pot with
                         ashes, seal it, and bury it—that will paralyze the mouths of slanderers.
                         With clay wiped off the hand of a potter, one should make an effigy of a
-                        ram, and place in its heart this mantra inscribed on birch bark with
+                        ram, and place in its heart this mantra inscribed on birchbark with
                         turmeric or yellow orpiment, tied up with a yellow string, and enclosed in
                             beeswax.<note place="end">Except for the beeswax, the Tibetan omits the
                             details of how the mantra should be written and wrapped. </note> That
                         will put an end to their anger and paralyze their mouths.<note place="end">Tib.: “That will paralyze the mouths of any aggressors.”</note>
                     </p>
                     <milestone unit="chunk"/>
-                    <p>When wearing this mantra, written with saffron,<note place="end">Tib. omits
-                            “written with saffron.”</note> on one’s neck or arm, one will be able to
+                    <p>When this mantra is written with saffron<note place="end">Tib. omits
+                            “written with saffron.”</note> and worn on one’s neck or arm, one will be able to
                         stop the enemy’s weapons in battle. This king of mantras, placed at the feet
                         of an effigy of Gaṇapati made of clay from an anthill and buried at a
                         crossroads, {3} will stop all coming and going. It will interrupt all daily
-                        activities. When this king of mantras, written on birch bark or cloth and
+                        activities. When this king of mantras, written on birchbark or cloth and
                         enclosed in beeswax, is put in the Gaṇapati’s abdomen and placed in a new
                         jar filled with cool<note place="end">Tib. omits “cool.”</note> water, it
                         will stop all daily activities. </p>
@@ -476,8 +483,10 @@
                     <milestone unit="chunk"/>
                     <p>One should write this mantra on a rag from a charnel ground, in combination
                         with the names of the commanders of an opposing army, in the center of a
-                        double vajra. Outside the double vajra, one should write eight laṁ
-                        syllables, and around the outside of these, one should draw a double<note place="end">Tib. omits “double.”</note> maṇḍala of Indra. The mantra
+                        double vajra. Outside the double vajra, one should write eight 
+                        <foreign type="mantra" xml:lang="Sa-Ltn">laṁ</foreign>
+                        syllables, and around the outside of these, one should draw a 
+                        double<note place="end">Tib. omits “double.”</note> maṇḍala of Indra. The mantra
                         should then be placed in the abdomen of a Gaṇapati made of beeswax who is
                         adorned with the double vajra.<note place="end">Translation based on the
                             Tibetan. The Sanskrit reads, “The mantra should then be adorned with the
@@ -485,12 +494,12 @@
                             beeswax.”</note> When it is buried next to an opposing army, it will
                         stop that army. <ref cRef="F.3.a"/>
                     </p>
-                    <p>One should place this mantra, enclosed at both ends by a syllable oṃ flanked
-                        by two ṭha syllables, adorned by eight laṁ syllables, covered with a maṇḍala
+                    <p>One should place this mantra, enclosed at both ends by a syllable <foreign type="mantra" xml:lang="Sa-Ltn">oṃ</foreign> flanked
+                        by two <foreign type="mantra" xml:lang="Sa-Ltn">ṭha</foreign> syllables, adorned by eight <foreign type="mantra" xml:lang="Sa-Ltn ">laṁ</foreign> syllables, covered with a maṇḍala
                         of Indra, and embellished with a double vajra, in the abdomen of the effigy
                         of Gaṇapati made of clay from an anthill. One should then place it in a
                         cremation urn and bury this urn in a cemetery.<note place="end">Tib. adds
-                            “or burn it in a homa of chaff.”</note> That will stop an opposing army. </p>
+                            “or burn it in a <foreign type="term" xml:lang="Sa-Ltn">homa</foreign> of chaff.”</note> That will stop an opposing army. </p>
                     <milestone unit="chunk"/>
                     <p>If a city is on fire, one should offer a chaff <foreign xml:lang="Sa-Ltn">homa</foreign> and, facing the fire, throw on seven double handfuls of
                         water, having first incanted it with the mantra. One will then be able to
@@ -527,7 +536,6 @@
                         animals and poisonous snakes in a house, village, or town for {4} as long as
                         one desires. One breaks the spell by digging it up. This mantra accomplishes
                         all endeavors even when it has not been fully mastered. </p>
-                    <milestone unit="chunk"/>
                     <lg>
                         <l>To arrest the fangs of all creatures that bite,</l>
                         <l>One should incant gravel, etc., and scatter it.</l>
@@ -541,68 +549,71 @@
                         taking the splinters out. </p>
                     <label>Fourth Mantra</label>
                     <milestone unit="chunk"/>
-                    <lg>
-                        <l>
+                    <q>
+                        <p>
                             <foreign xml:lang="Sa-Ltn" type="mantra">oṃ nihi nicule abhayaṃkari elu
                                 velu śila pa ḍa i jahaṃ pelu āgāsapantharate ha attaṃdhari khili mo
-                                ḍi them bhi jakāre jā hi ṭhakāre hi ṭhaḥ ṭhaḥ ṭhaḥ svāhā |
+                                ḍi them bhi jakāre jā hi ṭhakāre hi ṭhaḥ ṭhaḥ ṭhaḥ svāhā&#160;|
                             </foreign>
-                        </l>
-                    </lg>
-                    <lg>
-                        <l>
+                        </p>
+                    </q>
+                    <q>
+                        <p>
                             <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ nihi</foreign>, O Niculā who
                             grants fearlessness! <foreign xml:lang="Sa-Ltn" type="mantra">Elu velu
                                 śila pa ḍa i jahaṃ pelu āgāsapantharate ha attaṃdhari khili mo ḍi
                                 them bhi jakāre jā hi ṭhakāre hi ṭhaḥ ṭhaḥ ṭhaḥ svāhā</foreign>!
-                        </l>
-                    </lg>
+                        
+                    </p>
+                    </q>
                     <milestone unit="chunk"/>
-                    <p>This king of mantras accomplishes all the previously mentioned acts even if
-                        it is not fully mastered. Moreover, it will accomplish all other tasks that
-                        may be desired by the <foreign xml:lang="SA-Ltn">mantrin</foreign>
-                        <note place="end">Tib. omits “by the mantrin.”</note>. Making a homa
-                        offering of salt and black mustard, or a chaff homa will certainly put to
-                        flight an opposing army. </p>
+                    <p>This king of mantras accomplishes all the previously mentioned acts even if it is not 
+                        fully mastered. Moreover, it will accomplish all other tasks that may be desired 
+                        by the <foreign xml:lang="SA-Ltn">mantrin</foreign>
+                        <note place="end">Tib. omits “by the 
+                        mantrin.”</note>. Making a <foreign type="term" xml:lang="Sa-Ltn">homa</foreign> offering
+                        of salt and black mustard, or a chaff <foreign type="term" xml:lang="Sa-Ltn">homa</foreign> 
+                        will certainly put an opposing army to flight . </p>
                     <label>Fifth Mantra</label>
                     <milestone unit="chunk"/>
-                    <lg>
-                        <l>
+                    <q>
+                        <p>
                             <foreign xml:lang="Sa-Ltn" type="mantra">oṃ ambāsimbāka pyāsu jom mo phe
-                                ḍa i du pyāsu </foreign>|</l>
-                    </lg>
-                    <lg>
-                        <l>
+                                ḍa i du pyāsu </foreign>|
+                    </p>
+                    </q>
+                    <q>
+                        <p>
                             <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ</foreign>, Ambāsimbāka,
                                 <foreign xml:lang="Sa-Ltn" type="mantra">pyāsu jom mo phe ḍa i du
                                 pyāsu!</foreign>
-                        </l>
-                    </lg>
+                        </p>
+                    </q>
                     <milestone unit="chunk"/>
                     <p>This king of mantras will remove all fear in all those who constantly recite
-                        it, even before it is fully mastered. By making a tika on one’s
-                            forehead<note place="end">Tib. omits “by making a tika on one’s
+                        it, even before it is fully mastered. By making a <foreign xml:lang="Sa-Ltn" type="term">tika</foreign> on one’s
+                            forehead<note place="end">Tib. omits “by making a <foreign xml:lang="Sa-Ltn" type="term">tika</foreign> on one’s
                             forehead.”</note> with vajra water incanted seven times, one will
                         confuse all of one’s adversaries and appease their anger. If one is
                         imprisoned, constant recitation of it will set one free. When one meets with
                         misfortune, one will be without fear. </p>
                     <label>Sixth Mantra</label>
                     <milestone unit="chunk"/>
-                    <lg>
-                        <l>
+                    <q>
+                        <p>
                             <foreign xml:lang="Sa-Ltn" type="mantra">eṣotthito hulu hulu jvālājihve
                                 hulu hulu yatraivotthito hulu hulu tatraiva pratigacchatu hulu hulu
-                                svāhā |</foreign>
-                        </l>
-                    </lg>
-                    <lg>
-                        <l> It has arisen; destroy it, destroy! Jvālājihvā, destroy it, destroy!
+                                svāhā&#160;|</foreign>
+                        </p>
+                    </q>
+                    <q>
+                        <p>
+                         It has arisen; destroy it, destroy! Jvālājihvā, destroy it, destroy!
                             Wherever it has arisen—destroy it, destroy—there you should go—destroy
-                            it, destroy! <foreign xml:lang="Sa-Ltn" type="mantra">Svāhā</foreign>!
-                        </l>
-                    </lg>
+                            it, destroy! <foreign xml:lang="Sa-Ltn" type="mantra">Svāhā</foreign>! {5} </p>
+                    </q>
                     <milestone unit="chunk"/>
-                    <p>{5} This king of mantras brings peace to all those afflicted by the scourge
+                    <p>This king of mantras brings peace to all those afflicted by the scourge
                         of quarrels and disputes, even when recited just once.<note place="end">Tib.
                             omits “just once.”</note>
                         <ref cRef="F.4.a"/> Performing a chaff <foreign xml:lang="Sa-Ltn" type="term">homa</foreign> will pacify everything. By reciting this
@@ -617,17 +628,18 @@
                     </p>
                     <label>Seventh Mantra</label>
                     <milestone unit="chunk"/>
-                    <lg>
-                        <l>
+                    <q>
+                        <p>
                             <foreign xml:lang="Sa-Ltn" type="mantra">oṃ padme padmākṣi padmasubhage
-                                phura phura phura |</foreign>
-                        </l>
-                    </lg>
-                    <lg>
-                        <l>
+                                phura phura phura&#160;|</foreign>
+                        </p>
+                    </q>
+                    <q>
+                        <p>
                             <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ</foreign>, O lotus-eyed
-                            Padmā! You with the beauty of a lotus! Flicker, flicker, flicker!</l>
-                    </lg>
+                            Padmā! You with the beauty of a lotus! Flicker, flicker, flicker!
+                    </p>
+                    </q>
                     <milestone unit="chunk"/>
                     <p>Having<note place="end">The Sanskrit sentence begins with “this king of
                             mantras,” which does not fit the context.</note> incanted some ash with
@@ -645,121 +657,131 @@
                         bad. </p>
                     <label>Eighth Mantra</label>
                     <milestone unit="chunk"/>
-                    <lg>
-                        <l>
+                    <q>
+                        <p>
                             <foreign xml:lang="Sa-Ltn" type="mantra">oṃ mocani mocaya mokṣaṇi
-                                mokṣaya jīvaṃvarade svāhā </foreign>|</l>
-                    </lg>
-                    <lg>
-                        <l>
+                                mokṣaya jīvaṃvarade svāhā </foreign>|
+                    </p>
+                    </q>
+                    <q>
+                        <p>
                             <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ</foreign>, Mocanī, release!
-                            O Mokṣaṇī, set free! O Jīvaṃvaradā, <foreign xml:lang="Sa-Ltn" type="mantra">svāhā</foreign>!</l>
-                    </lg>
+                            O Mokṣaṇī, set free! O Jīvaṃvaradā, <foreign xml:lang="Sa-Ltn" type="mantra">svāhā</foreign>!
+                    </p>
+                    </q>
                     <milestone unit="chunk"/>
-                    <p>When her birth canal is anointed with incanted sesame oil, a pregnant woman
-                        will give birth with ease. </p>
+                    <p>When a pregnant woman’s birth canal is anointed with incanted sesame oil, 
+                        she will give birth with ease. </p>
                     <p>Facing a bound person, one should throw seven double-handfuls of incanted
                         water toward him in the three periods of the day. The bound person will then
                         become free from his bondage. One should write this mantra with saffron or
-                        bovine orpiment on birch bark, and tie it to the head of someone who is
+                        bovine orpiment on birchbark, and tie it to the head of someone who is
                         bound; it will release him from bondage. </p>
                     <label>Ninth Mantra</label>
                     <milestone unit="chunk"/>
-                    <lg>
-                        <l>
+                    <q>
+                        <p>
                             <foreign xml:lang="Sa-Ltn" type="mantra">oṃ harimarkaṭanāmasahasrabāhur
-                                devadattaṃ bandhanād mocaya svāhā </foreign>|</l>
-                    </lg>
-                    <lg>
-                        <l>
+                                devadattaṃ bandhanād mocaya svāhā </foreign>|
+                    </p>
+                    </q>
+                    <q>
+                        <p>
                             <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ</foreign>, O thousand-armed
                             one called Grey Monkey, please release such-and-such from bondage!
                                 <foreign xml:lang="Sa-Ltn" type="mantra">Svāhā</foreign>! <ref cRef="F.4.b"/>
-                        </l>
-                    </lg>
+                        </p>
+                    </q>
                     <milestone unit="chunk"/>
                     <p>Having incanted a piece of chalk, one should repeatedly write this mantra on
                         the ground and rub it out in the opposite direction. Then a bound person
                         will be freed from bondage. Alternatively, one should write the mantra and
-                        the person’s name on a slip of birch bark<note place="end">Skt. omits “and
-                            the name”; Tib. omits “birch bark.” </note> and wear it on one’s head.
+                        the person’s name on a slip of birchbark<note place="end">Skt. omits “and
+                            the name”; Tib. omits “birchbark.” </note> and wear it on one’s head.
                         Then a bound person will be freed from bondage. </p>
                     <label>Tenth Mantra</label>
                     <milestone unit="chunk"/>
-                    <lg>
-                        <l>
+                    <q>
+                        <p>
                             <foreign xml:lang="Sa-Ltn" type="mantra">oṃ tāraṇi tāraya mocani mocaya
-                                mokṣaṇi mokṣaya jīvaṃvarade svāhā |</foreign>
-                        </l>
-                    </lg>
-                    <lg>
-                        <l>
+                                mokṣaṇi mokṣaya jīvaṃvarade svāhā&#160;|</foreign>
+                        </p>
+                    </q>
+                    <q>
+                        <p>
                             <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ</foreign>, Tāraṇī, liberate!
-                            Mocanī, release! Mokṣaṇī, set free! Jivaṃvaradā, <foreign xml:lang="Sa-Ltn" type="mantra">svāhā</foreign>!</l>
-                    </lg>
+                            Mocanī, release! Mokṣaṇī, set free! Jivaṃvaradā, <foreign xml:lang="Sa-Ltn" type="mantra">svāhā</foreign>! {6} </p>
+                    </q>
                     <milestone unit="chunk"/>
-                    <p>{6} This king of mantras, correctly recited, will accomplish all actions. </p>
-                    <p>One should anoint the birth canal with sesame oil incanted seven times. Then
-                        a pregnant woman will give birth with ease. A pregnant woman will give birth
-                        easily, too, after drinking a handful of water incanted seven times. By
+                    <p>This king of mantras, correctly recited, will accomplish all actions. </p>
+                    <p>One should anoint a pregnant woman’s birth canal with sesame oil incanted seven times. Then
+                        she will give birth with ease. A pregnant woman will also give birth
+                        easily after drinking a handful of water incanted seven times. By
                         reciting the mantra continuously, one will free oneself and others from
                         bondage. Wearing a leaf with the mantra on one’s neck or arm will release
                         one from bondage. </p>
                     <label>Eleventh Mantra</label>
                     <milestone unit="chunk"/>
-                    <lg>
-                        <l>
+                    <q>
+                        <p>
                             <foreign xml:lang="Sa-Ltn" type="mantra">oṃ tāre tu tāre ture mokṣaya
-                                jīvaṃvarade svāhā |</foreign>
-                        </l>
-                    </lg>
-                    <lg>
-                        <l>
+                                jīvaṃvarade svāhā&#160;|</foreign>
+                        </p>
+                    </q>
+                    <q>
+                        <p>
                             <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ</foreign>, Tārā, powerful
-                            Tārā, please liberate! O Jivaṃvaradā, <foreign xml:lang="Sa-Ltn" type="mantra">svāhā</foreign>!</l>
-                    </lg>
+                            Tārā, please liberate! O Jivaṃvaradā, <foreign xml:lang="Sa-Ltn" type="mantra">svāhā</foreign>!
+                    </p>
+                    </q>
                     <milestone unit="chunk"/>
                     <p>This king of mantras accomplishes all previously mentioned actions. One
                         should write this mantra, interwoven with the beneficiary’s name, with
-                        saffron on a piece of birch bark, surround it with beeswax, place it inside
+                        saffron on a piece of birchbark, surround it with beeswax, place it inside
                         a new jar filled with scented water, and worship it in the three periods of
                         the day with offerings of fragrant flowers and so forth. The person whose
                         name has been interwoven with the mantra will be victorious in all quarrels
                         and disputes. </p>
                     <label>Twelfth Mantra</label>
                     <milestone unit="chunk"/>
-                    <lg>
-                        <l>
-                            <foreign xml:lang="Sa-Ltn" type="mantra">eraṇḍasya vane kāko gaṅgātīram
-                                upasthitaḥ</foreign> |</l>
-                        <l>
-                            <foreign xml:lang="Sa-Ltn" type="mantra">pibatu dūtaḥ pānīyaṃ viśalyā
-                                bhavatu gurviṇī</foreign> ||</l>
-                    </lg>
+                    <q>
+                        <lg>
+                            <l>
+                                <foreign xml:lang="Sa-Ltn" type="mantra">eraṇḍasya vane kāko gaṅgātīram
+                                upasthitaḥ</foreign>&#160;|</l>
+                            <l>
+                                <foreign xml:lang="Sa-Ltn" type="mantra">pibatu dūtaḥ pānīyaṃ viśalyā
+                                bhavatu gurviṇī</foreign>&#160;||</l>
+                        </lg>
+                    </q>
                     <milestone unit="chunk"/>
-                    <lg>
-                        <l>The crow in a thicket of palma christi</l>
-                        <l>Roosting on the bank of Ganges—</l>
-                        <l> The messenger—may he drink water!</l>
-                        <l> May the pregnant woman be delivered of her child!</l>
-                    </lg>
+                    <q>
+                        <lg>
+                            <l>The crow in a thicket of palma christi</l>
+                            <l>Roosting on the bank of Ganges—</l>
+                            <l> The messenger—may he drink water!</l>
+                            <l> May the pregnant woman be delivered of her child!</l>
+                        </lg>
+                    </q>
                     <p> One should give the messenger who has arrived a drink of three handfuls of
                         water incanted with this mantra seven times. Then the pregnant woman will
                         give birth with ease. </p>
                     <label>Thirteenth Mantra</label>
                     <milestone unit="chunk"/>
-                    <lg>
-                        <l>
-                            <foreign xml:lang="Sa-Ltn" type="mantra">oṃ amaraṇi jīvantīye svāhā
+                    <q>
+                        <lg>
+                            <l>
+                                <foreign xml:lang="Sa-Ltn" type="mantra">oṃ amaraṇi jīvantīye svāhā
                             </foreign>|</l>
-                    </lg>
-                    <lg>
-                        <l>
-                            <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ</foreign>, Amaraṇī! <foreign xml:lang="Sa-Ltn" type="mantra">Svāhā</foreign> to Jīvantī!</l>
-                    </lg>
+                        </lg>
+                        <lg>
+                            <l>
+                                <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ</foreign>, Amaraṇī! <foreign xml:lang="Sa-Ltn" type="mantra">Svāhā</foreign> to Jīvantī!</l>
+                        </lg>
+                    </q>
                     <milestone unit="chunk"/>
                     <p>This king of mantras, duly recited, can accomplish all endeavors. After
-                        drinking water incanted with it, blisters will not appear. </p>
+                        water incanted with it has been drunk, blisters will not appear. </p>
                     <p>One should incant turmeric, yellow myrobalan, costus, etc., and rub it into a
                         wound caused by a venomous spider, a monkey, or skin eruptions.<note place="end">Tib. omits “spider” but adds “snake.”</note> Then one will
                         become well. <ref cRef="F.5.a"/> At the onset of any type of illness, one
@@ -785,23 +807,25 @@
                         ghosts, spirits of the deceased, ghouls, gods, and demons. </p>
                     <p> A woman whose child has died can bring that child back to life by bathing it
                         from a jar incanted with the mantra one hundred and eight times. {7} A woman
-                        who carries this mantra, written on birch bark, on her waist or arm will
+                        who carries this mantra, written on birchbark, on her waist or arm will
                         have her fetus protected. </p>
                     <p> When one recalls this mantra in battle, one will meet with victory. </p>
                     <p>By using the mantra for cleansing<note place="end">Based on the Tibetan (the
                             Sanskrit is unclear).</note> one will remove all diseases.</p>
                     <label>Fourteenth Mantra </label>
                     <milestone unit="chunk"/>
-                    <lg>
-                        <l>
-                            <foreign xml:lang="Sa-Lt" type="mantra">oṃ pādacalane svāhā |</foreign>
-                        </l>
-                    </lg>
-                    <lg>
-                        <l>
-                            <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ</foreign>, Pādacalanā,
+                    <q>
+                        <lg>
+                            <l>
+                                <foreign xml:lang="Sa-Lt" type="mantra">oṃ pādacalane svāhā&#160;|</foreign>
+                            </l>
+                        </lg>
+                        <lg>
+                            <l>
+                                <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ</foreign>, Pādacalanā,
                                 <foreign xml:lang="Sa-Ltn" type="mantra">svāhā</foreign>!</l>
-                    </lg>
+                        </lg>
+                    </q>
                     <milestone unit="chunk"/>
                     <p>This king of mantras, when fully mastered, will accomplish all endeavors
                         after the prescribed preliminary practice. When one is in danger of
@@ -814,16 +838,18 @@
                     </p>
                     <label>Fifteenth Mantra</label>
                     <milestone unit="chunk"/>
-                    <lg>
-                        <l>
-                            <foreign xml:lang="Sa-Ltn" type="mantra">oṃ piśācī parṇaśabari
+                    <q>
+                        <lg>
+                            <l>
+                                <foreign xml:lang="Sa-Ltn" type="mantra">oṃ piśācī parṇaśabari
                                 sarvopadravanāśani svāhā </foreign>|</l>
-                    </lg>
-                    <lg>
-                        <l>
-                            <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ</foreign>, demoness
+                        </lg>
+                        <lg>
+                            <l>
+                                <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ</foreign>, demoness
                             Parṇaśabarī! Remover of all misfortunes, <foreign xml:lang="Sa-Ltn" type="mantra">svāhā</foreign>!</l>
-                    </lg>
+                        </lg>
+                    </q>
                     <milestone unit="chunk"/>
                     <p>This great mantra removes all misfortunes that afflict bipeds and quadrupeds
                         and accomplishes all endeavors, even when it has not been fully mastered. </p>
@@ -831,44 +857,47 @@
                         recitation, meditation,<note place="end">Tib. omits “meditation.”</note> a
                         mantra knot, a drink of incanted water, or cleansing with incanted water
                         will remove all diseases. </p>
-                    <p>One should write the mantra with turmeric on birch bark and wear it on one’s
-                        arm or neck. Thus one will obtain success in business transactions<note place="end">Tib.: “disputes.”</note>. One will be cured even of the
+                    <p>One should write the mantra with turmeric on birchbark and wear it on one’s
+                        arm or neck. Thus one will obtain success in business transactions.<note place="end">Tib.: “disputes.”</note> One will be cured even of the
                         quartan fever and other recurring fevers. One will be rid of the danger of
                         rākṣasas, etc. One will be victorious in quarrels and disputes. One will
                         become invisible to tigers, alligators, mahoragas, thieves, etc. By reciting
                         it non-stop, one will be adored by everyone. </p>
                     <label>Sixteenth Mantra</label>
                     <milestone unit="chunk"/>
-                    <lg>
-                        <l>
+                    <q>
+                        <p>
                             <foreign xml:lang="Sa-Ltn" type="mantra">oṃ adya tṛtīyā amukasya cakṣuḥ
-                                stambhaya ṭhaḥ ṭhaḥ svāhā |</foreign>
-                        </l>
-                    </lg>
-                    <lg>
-                        <l>
+                                stambhaya ṭhaḥ ṭhaḥ svāhā&#160;|</foreign>
+                        </p>
+                    </q>
+                    <q>
+                        <p>
                             <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ</foreign>, now you are the
-                            third. Stabilize the vision of such-and-such a person! <foreign type="mantra" xml:lang="Sa-Ltn">Ṭhaḥ ṭhaḥ</foreign>! <foreign type="mantra" xml:lang="Sa-Ltn">Svāhā</foreign>!</l>
-                    </lg>
+                            third. Stabilize the vision of such-and-such a person! <foreign type="mantra" xml:lang="Sa-Ltn">Ṭhaḥ ṭhaḥ</foreign>! <foreign type="mantra" xml:lang="Sa-Ltn">Svāhā</foreign>!
+                    </p>
+                    </q>
                     <milestone unit="chunk"/>
                     <p>On whichever lunar day one’s sight deteriorates, the name of that day should
                         be written with chalk on a wall or a tablet. It should be enclosed three
-                        times with three ṭhaḥ syllables.<note place="end">The Devanāgarī letter
+                        times with three <foreign type="mantra" xml:lang="Sa-Ltn">ṭhaḥ</foreign> syllables.<note place="end">The Devanāgarī letter
                                 <foreign xml:lang="Sa-Ltn">ṭha</foreign> has the shape of a circle,
                             and it can therefore be drawn around objects or shapes.</note> The
                         visual problem will be cured. </p>
                     <label>Seventeenth Mantra</label>
                     <milestone unit="chunk"/>
-                    <lg>
-                        <l>
-                            <foreign xml:lang="Sa-Ltn" type="mantra">oṃ caṇḍamahāroṣaṇa hūṃ phaṭ
+                    <q>
+                        <lg>
+                            <l>
+                                <foreign xml:lang="Sa-Ltn" type="mantra">oṃ caṇḍamahāroṣaṇa hūṃ phaṭ
                             </foreign>|</l>
-                    </lg>
-                    <lg>
-                        <l>
-                            <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ</foreign> Caṇḍamahāroṣaṇa,
+                        </lg>
+                        <lg>
+                            <l>
+                                <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ</foreign> Caṇḍamahāroṣaṇa,
                                 <foreign type="mantra">hūṃ phaṭ</foreign>!</l>
-                    </lg>
+                        </lg>
+                    </q>
                     <milestone unit="chunk"/>
                     <p>This king of mantras, pronounced once, burns all evil. It affords protection
                         in every way. One will remove the danger of<note place="end">Tib.:
@@ -893,34 +922,36 @@
                         unwholesome, he will accomplish it all merely by reciting the mantra. </p>
                     <label>Eighteenth Mantra</label>
                     <milestone unit="chunk"/>
-                    <lg>
-                        <l>
+                    <q>
+                        <p>
                             <foreign xml:lang="Sa-Ltn" type="mantra">oṃ kāśe syanda kuśe syanda
                                 syanda tvaṃ śūnyaveśmani mama tvaṃ tathā syanda yathā syandasi
-                                vajriṇaḥ svāhā </foreign>|</l>
-                    </lg>
-                    <lg>
-                        <l>
+                                vajriṇaḥ svāhā </foreign>|
+                    </p>
+                    </q>
+                    <q>
+                        <p>
                             <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ</foreign>, flow into the
-                                <foreign xml:lang="Sa-Ltn">kāśa</foreign> grass, flow into the kuśa
-                            grass, flow into an empty house! Flow for me as you flow for the
-                            possessor of the vajra! <foreign xml:lang="Sa-Ltn" type="mantra">Svāhā</foreign>!</l>
-                    </lg>
+                            <foreign xml:lang="Sa-Ltn">kāśa</foreign> grass, flow into 
+                            the <foreign xml:lang="Sa-Ltn">kuśa</foreign> grass, flow into an empty house! 
+                            Flow for me as you flow for the possessor of the vajra! <foreign xml:lang="Sa-Ltn" type="mantra">Svāhā</foreign>!
+                    </p>
+                    </q>
                     <p>For conjunctivitis, relief will come after wiping the eyes.</p>
                     <label>Nineteenth Mantra</label>
                     <milestone unit="chunk"/>
-                    <lg>
-                        <l>
+                    <q>
+                        <p>
                             <foreign xml:lang="Sa-Ltn" type="mantra">oṃ jambhe mohe
-                                hṛdayahṛdayāvartani hūṃ phaṭ svāhā |</foreign>
-                        </l>
-                    </lg>
-                    <lg>
-                        <l>
+                                hṛdayahṛdayāvartani hūṃ phaṭ svāhā&#160;|</foreign>
+                        </p>
+                    </q>
+                    <q>
+                        <p>
                             <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ</foreign>, Jambhā, Mohā! You
-                            who make one heart turn toward another heart! <foreign xml:lang="Sa-Ltn" type="mantra">Hūṃ phaṭ</foreign>! <foreign type="mantra" xml:lang="Sa-Ltn">Svāhā!</foreign>
-                        </l>
-                    </lg>
+                            who make one heart turn toward another heart! <foreign xml:lang="Sa-Ltn" type="mantra">Hūṃ phaṭ</foreign>! <foreign type="mantra" xml:lang="Sa-Ltn">Svāhā</foreign>!
+                        </p>
+                    </q>
                     <milestone unit="chunk"/>
                     <p>By rinsing one’s face with water incanted seven times with this king of
                         mantras early in the morning before crows start to caw, one will be adored
@@ -938,18 +969,20 @@
                         tremble. </p>
                     <label>Twentieth Mantra</label>
                     <milestone unit="chunk"/>
-                    <lg>
-                        <l>
+                    <q>
+                        <p>
                             <foreign xml:lang="Sa-Ltn" type="mantra">oṃ stambhani stambhaya jambhani
                                 jambhaya mohani mohaya rakṣaṇi rakṣaya māṃ varade siddhalocane svāhā
-                            </foreign>|</l>
-                    </lg>
-                    <lg>
-                        <l>
+                            </foreign>|
+                    </p>
+                    </q>
+                    <q>
+                        <p>
                             <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ</foreign>, Stambhanī,
                             immobilize! Jambhanī, destroy! Mohanī, delude! Rakṣaṇī, protect me!
-                            Varadā, Siddhalocanā, <foreign xml:lang="Sa-Ltn" type="mantra">svāhā</foreign>!</l>
-                    </lg>
+                            Varadā, Siddhalocanā, <foreign xml:lang="Sa-Ltn" type="mantra">svāhā</foreign>!
+                    </p>
+                    </q>
                     <p>This heart mantra of Locanā will remove all fear.</p>
                     <trailer>This was the first chapter in the <title xml:lang="eng">Great Sovereign
                             Tantra of Siddhaikavīra</title>. {9}</trailer>
@@ -967,7 +1000,8 @@
                     </lg>
                     <milestone unit="chunk"/>
                     <lg>
-                        <l>Oṃ, homage to the god Vimalacandra! </l>
+                        <l>
+                            <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ</foreign>, homage to the god Vimalacandra! </l>
                     </lg>
                     <lg>
                         <l>The world is sustained by truth;</l>
@@ -983,7 +1017,7 @@
                         <l>It is the ocean of qualities.</l>
                         <l>By these words of truth</l>
                         <l>May you swiftly enter the mirror.<note place="end">We have a play on
-                                words here, as darpaṇa can mean “mirror” as well as be the name of
+                                words here, as <foreign type="term" xml:lang="Sa-Ltn">darpaṇa</foreign> can mean “mirror” as well as be the name of
                                 the mountain of Kubera. Both of these meanings are required for the
                                 context that follows. </note>
                             <ref cRef="F.6.b"/>
@@ -992,18 +1026,20 @@
                     <p>As here follows:</p>
                     <label>Twenty-First Mantra</label>
                     <milestone unit="chunk"/>
-                    <lg>
-                        <l>
+                    <q>
+                        <p>
                             <foreign xml:lang="Sa-Ltn" type="mantra">oṃ sara sara siri siri suru
                                 suru merumandarapratīkāśa āviśa āviśa kailāsakūṭaputrāya namaḥ svāhā
-                            </foreign>|</l>
-                    </lg>
-                    <lg>
-                        <l>
+                            </foreign>|
+                    </p>
+                    </q>
+                    <q>
+                        <p>
                             <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ</foreign>, run, run! Move,
                             move! Go, go! Become like Mount Meru, become! Homage to the
-                            Kailāsakūṭaputra! <foreign xml:lang="Sa-Ltn" type="mantra">Svāhā</foreign>!</l>
-                    </lg>
+                            Kailāsakūṭaputra! <foreign xml:lang="Sa-Ltn" type="mantra">Svāhā</foreign>!
+                    </p>
+                    </q>
                     <milestone unit="chunk"/>
                     <lg>
                         <l>“Whatever task I can think of,</l>
@@ -1020,30 +1056,32 @@
                         mirror and show it to a boy or girl who is well washed,<note place="end">According to Jamyang Khyentse Wangpo’s commentary, “well washed” means
                             “washed with water from the jar.” </note> dressed in very clean clothes,
                         anointed with white sandalwood paste and wearing a necklace of
-                        sweet-smelling flowers, and uncorrupted by “villagers’ dharma.<note place="end">“Villagers’ dharma” is a euphemism for carnal
-                            knowledge.</note>” Then the mirror will reveal without error what should
+                        sweet-smelling flowers, and uncorrupted by “villagers’ dharma.”<note place="end">“Villagers’ dharma” is a euphemism for carnal
+                            knowledge.</note> Then the mirror will reveal without error what should
                         be done as regards the intended task. </p>
                     <milestone unit="chunk"/>
                     <p>In the evening, one should wipe the top surface of the maṇḍala disc and make
-                        generous offerings to the god, lord Vimalacandra<note place="end">Tib.: “to
-                            the Blessed One and the god Vimalacandra.”</note>. Having made an
+                        generous offerings to the god, lord Vimalacandra.<note place="end">Tib.: “to
+                            the Blessed One and the god Vimalacandra.”</note> Having made an
                         offering 108 times, one should go to sleep without speaking. The beneficial
                         and harmful results of the task one has in mind will be revealed. To those
                         who recite the mantra continuously, the events taking place in the three
                         worlds will be revealed. </p>
                     <label>Twenty-Second Mantra</label>
                     <milestone unit="chunk"/>
-                    <lg>
-                        <l>
-                            <foreign xml:lang="Sa-Ltn" type="mantra">oṃ śravaṇapiśācini muṇḍe svāhā
+                    <q>
+                        <lg>
+                            <l>
+                                <foreign xml:lang="Sa-Ltn" type="mantra">oṃ śravaṇapiśācini muṇḍe svāhā
                             </foreign>|</l>
-                    </lg>
-                    <lg>
-                        <l>
-                            <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ</foreign>, Śravaṇapiśācī,
+                        </lg>
+                        <lg>
+                            <l>
+                                <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ</foreign>, Śravaṇapiśācī,
                             Muṇḍā, <foreign xml:lang="Sa-Ltn" type="mantra">svāhā</foreign>!
                             {10}</l>
-                    </lg>
+                        </lg>
+                    </q>
                     <milestone unit="chunk"/>
                     <p>If one stands under a belleric myrobalan tree or under a banyan tree and
                         silently recites the mantra 100,000 times, one will attain success. Muṇḍā,
@@ -1057,19 +1095,20 @@
                         not. </p>
                     <label>Twenty-Third Mantra</label>
                     <milestone unit="chunk"/>
-                    <lg>
-                        <l>
+                    <q>
+                        <p>
                             <foreign xml:lang="Sa-Ltn" type="mantra">oṃ namaḥ saptānāṃ
-                                samyaksaṃbuddhakoṭīnām | tadyathā | oṃ cale cule cunde mahāvidye
-                                satyavādini varade kathaya kathaya svāhā |</foreign>
-                        </l>
-                    </lg>
-                    <lg>
-                        <l>
+                                samyaksaṃbuddhakoṭīnām&#160;| tadyathā&#160;| oṃ cale cule cunde mahāvidye
+                                satyavādini varade kathaya kathaya svāhā&#160;|</foreign>
+                        </p>
+                    </q>
+                    <q>
+                        <p>
                             <foreign xml:lang="Sa-Ltn">Oṃ</foreign>, homage to the seven <foreign xml:lang="Sa-Ltn">koṭis</foreign> of perfectly awakened buddhas!
                             Just as here follows, <foreign xml:lang="Sa-Ltn">Oṃ</foreign>, Calā,
-                            Culā, Cundā, Mahāvidyā, Satyavādinī, Varadā, speak, speak! <foreign xml:lang="Sa-Ltn">Svāhā</foreign>!</l>
-                    </lg>
+                            Culā, Cundā, Mahāvidyā, Satyavādinī, Varadā, speak, speak! <foreign xml:lang="Sa-Ltn">Svāhā</foreign>!
+                    </p>
+                    </q>
                     <milestone unit="chunk"/>
                     <p>If one follows here the same procedure described for the previous mantra,
                         Calā will reveal things in a mirror, a conch, a candle, or a dish of water.
@@ -1078,17 +1117,19 @@
                         is not. </p>
                     <label>Twenty-Fourth Mantra</label>
                     <milestone unit="chunk"/>
-                    <lg>
-                        <l>
-                            <foreign xml:lang="Sa-Ltn" type="mantra">oṃ mucili svāhā</foreign> |
-                                <foreign xml:lang="Sa-Ltn" type="mantra">mohani svāhā</foreign> |
+                    <q>
+                        <lg>
+                            <l>
+                                <foreign xml:lang="Sa-Ltn" type="mantra">oṃ mucili svāhā</foreign>&#160;|
+                                <foreign xml:lang="Sa-Ltn" type="mantra">mohani svāhā</foreign>&#160;|
                                 <foreign xml:lang="Sa-Ltn" type="mantra">dantili svāhā</foreign>
-                            |</l>
-                    </lg>
-                    <lg>
-                        <l>
-                            <foreign xml:lang="Sa-Ltn">Oṃ</foreign>, Mucilī, <foreign xml:lang="Sa-Ltn">svāhā</foreign>! Mohanī, <foreign xml:lang="Sa-Ltn">svāhā</foreign>! Dantilī, <foreign xml:lang="Sa-Ltn">svāhā</foreign>! </l>
-                    </lg>
+                           &#160;|</l>
+                        </lg>
+                        <lg>
+                            <l>
+                                <foreign xml:lang="Sa-Ltn">Oṃ</foreign>, Mucilī, <foreign xml:lang="Sa-Ltn">svāhā</foreign>! Mohanī, <foreign xml:lang="Sa-Ltn">svāhā</foreign>! Dantilī, <foreign xml:lang="Sa-Ltn">svāhā</foreign>! </l>
+                        </lg>
+                    </q>
                     <milestone unit="chunk"/>
                     <p>This mantra<note place="end">Tib.: “secret mantra.”</note> can be mastered by
                         reciting it 10,000 times. <ref cRef="F.7.a"/> One should make generous
@@ -1099,16 +1140,18 @@
                         will not. </p>
                     <label>Twenty-Fifth Mantra</label>
                     <milestone unit="chunk"/>
-                    <lg>
-                        <l>
-                            <foreign xml:lang="Sa-Ltn" type="mantra">oṃ prajvala hūṃ phaṭ
-                                |</foreign>
-                        </l>
-                    </lg>
-                    <lg>
-                        <l>
-                            <foreign xml:lang="Sa-Ltn">Oṃ</foreign>, Prajvala! <foreign xml:lang="Sa-Ltn">Hūṃ, phaṭ</foreign>!</l>
-                    </lg>
+                    <q>
+                        <lg>
+                            <l>
+                                <foreign xml:lang="Sa-Ltn" type="mantra">oṃ prajvala hūṃ phaṭ
+                               &#160;|</foreign>
+                            </l>
+                        </lg>
+                        <lg>
+                            <l>
+                                <foreign xml:lang="Sa-Ltn">Oṃ</foreign>, Prajvala! <foreign xml:lang="Sa-Ltn">Hūṃ, phaṭ</foreign>!</l>
+                        </lg>
+                    </q>
                     <milestone unit="chunk"/>
                     <p>This mantra is the heart essence of Lord Lokanātha. One will attain success
                         by reciting it one million times. If one follows here the same ritual
@@ -1116,21 +1159,23 @@
                         is beneficial and what is not. </p>
                     <label>Twenty-Sixth Mantra</label>
                     <milestone unit="chunk"/>
-                    <lg>
-                        <l>
+                    <q>
+                        <p>
                             <foreign xml:lang="Sa-Ltn" type="mantra">oṃ namaḥ saptānāṃ buddhānām
-                                apratihataśāsanānām</foreign> | <foreign xml:lang="Sa-Ltn" type="mantra">tadyathā</foreign> | <foreign xml:lang="Sa-Ltn" type="mantra">oṃ kumārarūpeṇa darśaya darśaya ātmano vibhūtiṃ
+                                apratihataśāsanānām</foreign>&#160;| <foreign xml:lang="Sa-Ltn" type="mantra">tadyathā</foreign>&#160;| <foreign xml:lang="Sa-Ltn" type="mantra">oṃ kumārarūpeṇa darśaya darśaya ātmano vibhūtiṃ
                                 samudbhāvaya svapnaṃ nivedaya yathābhūtaṃ hūṃ hūṃ phaṭ phaṭ svāhā
-                            </foreign>| </l>
-                    </lg>
-                    <lg>
-                        <l>
+                            </foreign>| 
+                    </p>
+                    </q>
+                    <q>
+                        <p>
                             <foreign xml:lang="Sa-Ltn">Oṃ</foreign>, homage to the seven buddhas
                             whose teachings are inviolable! As here follows: <foreign xml:lang="Sa-Ltn">Oṃ</foreign>, show yourself in the form of the
                             Youthful One, show! Manifest your power! Send me a dream to reveal the
-                            way things are! <foreign xml:lang="Sa-Ltn">Hūṃ, hūṃ! Phaṭ, phaṭ!
-                                Svāhā!</foreign> {11} </l>
-                    </lg>
+                            way things are! <foreign xml:lang="Sa-Ltn">Hūṃ, hūṃ</foreign>! <foreign xml:lang="Sa-Ltn">Phaṭ, phaṭ</foreign>!
+                            <foreign xml:lang="Sa-Ltn">Svāhā</foreign>! {11} 
+                    </p>
+                    </q>
                     <milestone unit="chunk"/>
                     <p>One should make offerings, according to one’s ability, in front of a painting
                         or a statue of venerable Mañjuśrī<note place="end">Tib.: “venerable youthful
@@ -1139,21 +1184,23 @@
                         in a dream and show him to others, too. </p>
                     <label>Twenty-Seventh Mantra</label>
                     <milestone unit="chunk"/>
-                    <lg>
-                        <l>
-                            <foreign xml:lang="Sa-Ltn" type="mantra">oṃ karṇapiśāci karṇe me kathaya
+                    <q>
+                        <lg>
+                            <l>
+                                <foreign xml:lang="Sa-Ltn" type="mantra">oṃ karṇapiśāci karṇe me kathaya
                                 hūṃ phaṭ </foreign>|</l>
-                    </lg>
-                    <lg>
-                        <l>
-                            <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ</foreign>, Karṇapiśācī,
+                        </lg>
+                        <lg>
+                            <l>
+                                <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ</foreign>, Karṇapiśācī,
                             whisper into my ear! <foreign xml:lang="Sa-Ltn" type="mantra">Hūṃ
                                 phaṭ</foreign>!</l>
-                    </lg>
+                        </lg>
+                    </q>
                     <milestone unit="chunk"/>
                     <p>Beneath a tree inhabited by piśācas, one should observe silence and sit
                         absorbed in the samādhi of conquering the three worlds. Then, one should
-                        incant meat, fish<note place="end">The Tib. adds “human flesh.”</note>, and
+                        incant meat, fish,<note place="end">The Tib. adds “human flesh.”</note> and
                         black plum, and with them prepare a <foreign xml:lang="Sa-Ltn" type="term">bali</foreign>. One should recite the mantra in the three periods of
                         the day. On the first day Karṇapiśācī will give a sign. Later, she will
                         come, and one will attain success. From then on, whispering into one’s ear,
@@ -1161,34 +1208,37 @@
                         days, one will succeed even in killing Brahmā. </p>
                     <label>Twenty-Eighth Mantra</label>
                     <milestone unit="chunk"/>
-                    <lg>
-                        <l>
+                    <q>
+                        <p>
                             <foreign xml:lang="Sa-Ltn" type="mantra"> oṃ caturbhuja ṣaṇmukha
-                                vikṛtānana karṇapiśācīm ākarṣaya hūṃ phaṭ |</foreign>
-                        </l>
-                    </lg>
-                    <lg>
-                        <l>
+                                vikṛtānana karṇapiśācīm ākarṣaya hūṃ phaṭ&#160;|</foreign>
+                        </p>
+                    </q>
+                    <q>
+                        <p>
                             <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ</foreign>, the four-armed
                             and six-faced one! You with a contorted face! Please summon Karṇapiśācī!
-                                <foreign xml:lang="Sa-Ltn" type="mantra">Hūṃ phaṭ</foreign>!</l>
-                    </lg>
+                                <foreign xml:lang="Sa-Ltn" type="mantra">Hūṃ phaṭ</foreign>!
+                    </p>
+                    </q>
                     <p>One should recite [this mantra] in a charnel ground in front of a painting of
                         Yamāntaka. After twenty-one days<note place="end">Tib.: “one week.”</note>,
                         Karṇapiśācī will be in one’s control. </p>
                     <label>Twenty-Ninth Mantra</label>
                     <milestone unit="chunk"/>
-                    <lg>
-                        <l>
-                            <foreign xml:lang="Sa-Ltn" type="mantra">oṃ buddha curu curu mārge svāhā
-                                |</foreign>
-                        </l>
-                    </lg>
-                    <lg>
-                        <l>
-                            <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ</foreign>, Buddha! Curu,
+                    <q>
+                        <lg>
+                            <l>
+                                <foreign xml:lang="Sa-Ltn" type="mantra">oṃ buddha curu curu mārge svāhā
+                               &#160;|</foreign>
+                            </l>
+                        </lg>
+                        <lg>
+                            <l>
+                                <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ</foreign>, Buddha! Curu,
                             curu on the path! <foreign xml:lang="Sa-Ltn" type="mantra">Svāhā</foreign>!</l>
-                    </lg>
+                        </lg>
+                    </q>
                     <milestone unit="chunk"/>
                     <p>In a memorial containing his relics, or in front of the venerable Buddha, one
                         should recite the mantra 10,000 times as preliminary practice. Later, one
@@ -1201,39 +1251,44 @@
                     <p>If one is to die within six months, then in one’s dream one will not be able
                         to see one’s own head or those of others. Similarly, a boy or a girl whom
                         one sees in an incanted mirror with his or her head invisible will die
-                        within six months<note place="end">The translation is based on the Tibetan.
+                        within six months.<note place="end">The translation is based on the Tibetan.
                             The Sanskrit suggests that, rather than the head, one will not see the
-                            neck.</note>. </p>
+                            neck.</note>
+                    </p>
                     <p>One should make an unguent from malachite and the root of white <foreign xml:lang="Sa-Ltn" type="term">agastya</foreign> tree, incant it 108
                         times, and smear it on one’s eyes. One will distinctly see without heads all
                         those who are going to die within six months, whether humans or animals. </p>
                     <label>Thirtieth Mantra</label>
                     <milestone unit="chunk"/>
-                    <lg>
-                        <l>
-                            <foreign xml:lang="Sa-Ltn">oṃ svapnavilokini siddhalocane svapnaṃ me
-                                kathaya svāhā |</foreign>
-                        </l>
-                    </lg>
-                    <lg>
-                        <l>
-                            <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ</foreign>, Svapnavilokinī!
+                    <q>
+                        <lg>
+                            <l>
+                                <foreign xml:lang="Sa-Ltn">oṃ svapnavilokini siddhalocane svapnaṃ me
+                                kathaya svāhā&#160;|</foreign>
+                            </l>
+                        </lg>
+                        <lg>
+                            <l>
+                                <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ</foreign>, Svapnavilokinī!
                             Siddhalocanā! Interpret my dream for me! <foreign xml:lang="Sa-Ltn" type="mantra">Svāhā</foreign>! {12}</l>
-                    </lg>
+                        </lg>
+                    </q>
                     <p>This king of mantras works with all the methods previously described.</p>
                     <label>Thirty-First Mantra</label>
                     <milestone unit="chunk"/>
-                    <lg>
-                        <l>
-                            <foreign xml:lang="Sa-Ltn" type="mantra">oṃ aditi devadattāṃ me dehi
-                                dadāpaya svāhā |</foreign>
-                        </l>
-                    </lg>
-                    <lg>
-                        <l>
-                            <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ</foreign>, Aditi, give me
+                    <q>
+                        <lg>
+                            <l>
+                                <foreign xml:lang="Sa-Ltn" type="mantra">oṃ aditi devadattāṃ me dehi
+                                dadāpaya svāhā&#160;|</foreign>
+                            </l>
+                        </lg>
+                        <lg>
+                            <l>
+                                <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ</foreign>, Aditi, give me
                             such-and-such a girl! Please give! <foreign xml:lang="Sa-Ltn" type="mantra">Svāhā</foreign>!</l>
-                    </lg>
+                        </lg>
+                    </q>
                     <milestone unit="chunk"/>
                     <p>If one recites this mantra surrounded by water, one will be given the girl
                         one has in mind. </p>
@@ -1248,103 +1303,114 @@
                         with any type of flowers, one will obtain inexhaustible wealth. </p>
                     <label>Thirty-Second Mantra</label>
                     <milestone unit="chunk"/>
-                    <lg>
-                        <l>
-                            <foreign xml:lang="Sa-Ltn" type="mantra">oṃ jaye vijaye ajite aparājite
-                                svāhā</foreign> |</l>
-                    </lg>
-                    <lg>
-                        <l>
-                            <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ</foreign>, Jayā, Vijayā,
+                    <q>
+                        <lg>
+                            <l>
+                                <foreign xml:lang="Sa-Ltn" type="mantra">oṃ jaye vijaye ajite aparājite
+                                svāhā</foreign>&#160;|</l>
+                        </lg>
+                        <lg>
+                            <l>
+                                <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ</foreign>, Jayā, Vijayā,
                             Ajitā, Aparājitā, <foreign xml:lang="Sa-Ltn" type="mantra">svāhā</foreign>!</l>
-                    </lg>
+                        </lg>
+                    </q>
                     <p>Reciting this king of the heart mantras of the four sisters 400,000 times,
                         following the same procedures as described previously, will accomplish all
                         the rituals described previously. </p>
                     <label>Thirty-Third Mantra</label>
                     <milestone unit="chunk"/>
-                    <lg>
-                        <l>
-                            <foreign xml:lang="Sa-Ltn" type="mantra">oṃ megholkāya svāhā
+                    <q>
+                        <lg>
+                            <l>
+                                <foreign xml:lang="Sa-Ltn" type="mantra">oṃ megholkāya svāhā
                             </foreign>|</l>
-                    </lg>
-                    <lg>
-                        <l>
-                            <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ, svāhā</foreign> to
+                        </lg>
+                        <lg>
+                            <l>
+                                <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ, svāhā</foreign> to
                             Megholka!</l>
-                    </lg>
+                        </lg>
+                    </q>
                     <p>By offering a <foreign xml:lang="Sa-Ltn" type="term">homa</foreign> with
                         flowers of the <foreign xml:lang="Sa-Ltn" type="term">palāśa</foreign> tree
                         100,000 times, using, as an option, firewood from the same tree, one will
-                        obtain 100,000 pieces of gold.<ref cRef="F.8.a"/> One who wishes for a girl
+                        obtain 100,000 pieces of gold. <ref cRef="F.8.a"/> One who wishes for a girl
                         will soon obtain the one he desires. </p>
                     <label>Thirty-Fourth Mantra</label>
                     <milestone unit="chunk"/>
-                    <lg>
-                        <l>
+                    <q>
+                        <p>
                             <foreign xml:lang="Sa-Ltn" type="mantra">oṃ kamalavikāsini kamale
-                                mahālakṣmi rājyaṃ me dehi varade svāhā |</foreign>
-                        </l>
-                    </lg>
-                    <lg>
-                        <l>
+                                mahālakṣmi rājyaṃ me dehi varade svāhā&#160;|</foreign>
+                        </p>
+                    </q>
+                    <q>
+                        <p>
                             <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ</foreign>, Kamalavikāsinī,
-                            Kamalā, Mahālakṣmī, give me the kingdom! You who grant boons, <foreign xml:lang="Sa-Ltn" type="mantra">svāhā!</foreign>
-                        </l>
-                    </lg>
+                            Kamalā, Mahālakṣmī, give me the kingdom! You who grant boons, <foreign xml:lang="Sa-Ltn" type="mantra">svāhā</foreign>!
+                        </p>
+                    </q>
                     <milestone unit="chunk"/>
                     <p>This mantra is the essence of Mahālakṣmī. When recited continuously, it will
-                        bring enormous glory. By offering a homa of whatever flowers are available,
+                        bring enormous glory. By offering a <foreign type="term" xml:lang="Sa-Ltn">homa</foreign> of whatever flowers are available,
                         one will obtain great splendor and any girl one desires. By offering 100,000
                             <foreign xml:lang="Sa-Ltn" type="mantra">homas</foreign> of bdellium
                         pills the size of a kernel of a cotton tree, smeared with the three sweet
                         substances, or 100,000 <foreign xml:lang="Sa-Ltn" type="term">homas</foreign> of lotuses, one will obtain a kingdom. </p>
                     <label>Thirty-Fifth Mantra</label>
                     <milestone unit="chunk"/>
-                    <lg>
-                        <l>
+                    <q>
+                        <p>
                             <foreign xml:lang="Sa-Ltn" type="mantra">oṃ nandini varade kiṇi kiṇi
-                                khiṇi khiṇi śriyaṃ me dada vauṣaṭ </foreign> |</l>
-                    </lg>
-                    <lg>
-                        <l>
+                                khiṇi khiṇi śriyaṃ me dada vauṣaṭ </foreign>&#160;|
+                    </p>
+                    </q>
+                    <q>
+                        <p>
                             <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ</foreign>, Nandinī! You who
                             grant boons! <foreign xml:lang="Sa-Ltn" type="mantra">Kiṇi, kiṇi! Khiṇi,
-                                khiṇi</foreign>! Give me splendor! <foreign xml:lang="Sa-Ltn" type="mantra">Vauṣaṭ</foreign>!</l>
-                    </lg>
+                                khiṇi</foreign>! Give me splendor! <foreign xml:lang="Sa-Ltn" type="mantra">Vauṣaṭ</foreign>!
+                    </p>
+                    </q>
                     <p>This king of mantras is the heart essence of Nandinī. It accomplishes all the
                         previously described activities.<note place="end">Tib.: “This king of
-                            Nandinī mantras accomplishes all…”</note>
+                            Nandinī mantras accomplishes all…”</note> {13} 
                     </p>
                     <label>Thirty-Sixth Mantra</label>
                     <milestone unit="chunk"/>
-                    <lg>
-                        <l>
-                            <foreign xml:lang="Sa-Ltn" type="mantra">oṃ jambhe mohe svāhā</foreign>
-                            |</l>
-                    </lg>
-                    <lg>
-                        <l>{13} <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ</foreign>, Jambhā! Mohā!
+                    <q>
+                        <lg>
+                            <l>
+                                <foreign xml:lang="Sa-Ltn" type="mantra">oṃ jambhe mohe svāhā</foreign>
+                           &#160;|</l>
+                        </lg>
+                        <lg>
+                            <l>
+                                <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ</foreign>, Jambhā! Mohā!
                                 <foreign xml:lang="Sa-Ltn" type="mantra">Svāhā</foreign>!</l>
-                    </lg>
+                        </lg>
+                    </q>
                     <p>This king of mantras brings the fulfillment of wishes when one makes
                         offerings of oleander flowers to the venerable Tārā and recites the mantra
                         100,000 times for each syllable. </p>
                     <label>Thirty-Seventh Mantra</label>
                     <milestone unit="chunk"/>
-                    <lg>
-                        <l>
+                    <q>
+                        <p>
                             <foreign xml:lang="Sa-Ltn" type="mantra">oṃ vasudhāriṇi svāhā</foreign>
-                            | <foreign xml:lang="Sa-Ltn" type="mantra">oṃ śrīvasu svāhā</foreign> |
+                           &#160;| <foreign xml:lang="Sa-Ltn" type="mantra">oṃ śrīvasu svāhā</foreign>&#160;|
                                 <foreign xml:lang="Sa-Ltn" type="mantra">oṃ vasuśriye
-                                svāhā</foreign> | <foreign xml:lang="Sa-Ltn" type="mantra">oṃ
-                                vasumukhi svāhā | oṃ vasumatiśriye svāhā</foreign> |</l>
-                    </lg>
-                    <lg>
-                        <l>
+                                svāhā</foreign>&#160;| <foreign xml:lang="Sa-Ltn" type="mantra">oṃ
+                                vasumukhi svāhā&#160;| oṃ vasumatiśriye svāhā</foreign>&#160;|
+                    </p>
+                    </q>
+                    <q>
+                        <p>
                             <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ</foreign>, Vasudharā,
-                                <foreign xml:lang="Sa-Ltn" type="mantra">svāhā</foreign>! <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ</foreign>, Śrīvasu, <foreign xml:lang="Sa-Ltn" type="mantra">svāhā</foreign>! <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ</foreign>, Vasuśrī, <foreign xml:lang="Sa-Ltn" type="mantra">svāhā</foreign>! <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ</foreign>, Vasumukhī, <foreign xml:lang="Sa-Ltn" type="mantra">svāhā</foreign>! <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ</foreign>, Vasumatiśrī, <foreign xml:lang="Sa-Ltn" type="mantra">svāhā</foreign>!</l>
-                    </lg>
+                                <foreign xml:lang="Sa-Ltn" type="mantra">svāhā</foreign>! <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ</foreign>, Śrīvasu, <foreign xml:lang="Sa-Ltn" type="mantra">svāhā</foreign>! <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ</foreign>, Vasuśrī, <foreign xml:lang="Sa-Ltn" type="mantra">svāhā</foreign>! <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ</foreign>, Vasumukhī, <foreign xml:lang="Sa-Ltn" type="mantra">svāhā</foreign>! <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ</foreign>, Vasumatiśrī, <foreign xml:lang="Sa-Ltn" type="mantra">svāhā</foreign>!
+                    </p>
+                    </q>
                     <milestone unit="chunk"/>
                     <p>One should imagine oneself in the form of Jambhala, and visualize in one’s
                         heart, in the center of a moon disk, the goddess Vasudharā, who is of golden
@@ -1366,102 +1432,114 @@
                     </p>
                     <label>Thirty-Eighth Mantra</label>
                     <milestone unit="chunk"/>
-                    <lg>
-                        <l>
+                    <q>
+                        <p>
                             <foreign xml:lang="Sa-Ltn" type="mantra">oṃ vasudhāriṇi amukīṃ kanyāṃ me
-                                dehi dadāpaya svāhā</foreign> |</l>
-                    </lg>
-                    <lg>
-                        <l>
+                                dehi dadāpaya svāhā</foreign>&#160;|
+                    </p>
+                    </q>
+                    <q>
+                        <p>
                             <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ</foreign>, Vasudharā, give
-                            such-and-such girl to me! Cause her to be given to me! <foreign xml:lang="Sa-Ltn" type="mantra">Svāhā</foreign>!</l>
-                    </lg>
+                            such-and-such girl to me! Cause her to be given to me! <foreign xml:lang="Sa-Ltn" type="mantra">Svāhā</foreign>!
+                    </p>
+                    </q>
                     <milestone unit="chunk"/>
-                    <p>Observing one’s minor vows<note place="end">Tib. omits “observing one’s minor
-                            vows.”</note>, one should bathe and, while in the water, recite this
+                    <p>Observing one’s minor vows,<note place="end">Tib. omits “observing one’s minor
+                            vows.”</note> one should bathe and, while in the water, recite this
                         mantra 400,000 times. Then one will obtain the girl one desires. </p>
                     <p> At night, one should do a <foreign xml:lang="Sa-Ltn" type="term">homa</foreign> offering 100,000 times with the wood of a milk tree,
                         including [in the mantra] the name of a village. Then one will obtain that
                         village. </p>
                     <label>Thirty-Ninth Mantra</label>
                     <milestone unit="chunk"/>
-                    <lg>
-                        <l>
+                    <q>
+                        <p>
                             <foreign xml:lang="Sa-Ltn" type="mantra">oṃ vasudhāriṇi svāhā</foreign>
-                            | <foreign xml:lang="Sa-Ltn" type="mantra">oṃ candrakāntyai
-                                svāhā</foreign> | <foreign xml:lang="Sa-Ltn" type="mantra">oṃ
-                                dattāyai svāhā</foreign> | <foreign xml:lang="Sa-Ltn" type="mantra">oṃ vasudattāyai svāhā</foreign> | <foreign xml:lang="Sa-Ltn" type="mantra">oṃ āryāyai svāhā</foreign> | <foreign xml:lang="Sa-Ltn" type="mantra">oṃ subhadrāyai svāhā</foreign> |
+                           &#160;| <foreign xml:lang="Sa-Ltn" type="mantra">oṃ candrakāntyai
+                                svāhā</foreign>&#160;| <foreign xml:lang="Sa-Ltn" type="mantra">oṃ
+                                dattāyai svāhā</foreign>&#160;| <foreign xml:lang="Sa-Ltn" type="mantra">oṃ vasudattāyai svāhā</foreign>&#160;| <foreign xml:lang="Sa-Ltn" type="mantra">oṃ āryāyai svāhā</foreign>&#160;| <foreign xml:lang="Sa-Ltn" type="mantra">oṃ subhadrāyai svāhā</foreign>&#160;|
                                 <foreign xml:lang="Sa-Ltn" type="mantra">oṃ guptāyai svāhā</foreign>
-                            | <foreign xml:lang="Sa-Ltn" type="mantra">oṃ devyai svāhā</foreign> |
+                           &#160;| <foreign xml:lang="Sa-Ltn" type="mantra">oṃ devyai svāhā</foreign>&#160;|
                                 <foreign xml:lang="Sa-Ltn" type="mantra">oṃ sarasvatyai
-                                svāhā</foreign> | </l>
-                    </lg>
-                    <lg>
-                        <l>
+                                svāhā</foreign>&#160;| 
+                    </p>
+                    </q>
+                    <q>
+                        <p>
                             <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ</foreign> Vasudharā,
                                 <foreign xml:lang="Sa-Ltn" type="mantra">svāhā</foreign>! <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ</foreign>, <foreign xml:lang="Sa-Ltn" type="mantra">svāhā</foreign> to Candrakāntī!
                                 <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ</foreign>, <foreign xml:lang="Sa-Ltn" type="mantra">svāhā</foreign> to Dattā! <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ</foreign>, <foreign xml:lang="Sa-Ltn" type="mantra">svāhā</foreign> to Vasudattā!
                                 <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ</foreign>, <foreign xml:lang="Sa-Ltn" type="mantra">svāhā</foreign> to Āryā! <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ</foreign>, <foreign xml:lang="Sa-Ltn" type="mantra">svāhā</foreign> to Subhadrā!
-                                <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ</foreign>, <foreign xml:lang="Sa-Ltn" type="mantra">svāhā</foreign> to Guptā! <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ</foreign>, <foreign xml:lang="Sa-Ltn" type="mantra">svāhā</foreign> to Devī! <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ</foreign>, <foreign xml:lang="Sa-Ltn" type="mantra">svāhā</foreign> to Sarasvatī! </l>
-                    </lg>
+                                <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ</foreign>, <foreign xml:lang="Sa-Ltn" type="mantra">svāhā</foreign> to Guptā! <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ</foreign>, <foreign xml:lang="Sa-Ltn" type="mantra">svāhā</foreign> to Devī! <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ</foreign>, <foreign xml:lang="Sa-Ltn" type="mantra">svāhā</foreign> to Sarasvatī! 
+                    </p>
+                    </q>
                     <milestone unit="chunk"/>
                     <p>One should draw Vasudharā on a gold, silver, or copper leaf in the center of
                         an eight-petaled lotus. On its petals, starting from the east, one should
                         draw the great yakṣiṇīs, Candrakāntī, and so forth. One should then enclose
-                        it in two leaves and place it in between ghee, honey, and sugar<note place="end">According to the Tibetan, the ghee, honey, and sugar are
+                        it in two leaves and place it in between ghee, honey, and sugar.<note place="end">According to the Tibetan, the ghee, honey, and sugar are
                             inside the two leaves. The Sanskrit, however, seems to reflect the
                             standard way of placing the yantra between the three sweet
-                            things.</note>. By following the same procedures as previously
+                            things.</note> By following the same procedures as previously
                         described, one will accomplish the tasks previously described. {14} </p>
                     <label>Fortieth Mantra</label>
                     <milestone unit="chunk"/>
                     <lg>
                         <l>In the center:</l>
                     </lg>
-                    <lg>
-                        <l>
-                            <foreign xml:lang="Sa-Ltn" type="mantra">oṃ jambhalajalendrāya
-                                svāhā</foreign> |</l>
-                    </lg>
-                    <lg>
-                        <l>
-                            <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ, svāhā</foreign> to
+                    <q>
+                        <lg>
+                            <l>
+                                <foreign xml:lang="Sa-Ltn" type="mantra">oṃ jambhalajalendrāya
+                                svāhā</foreign>&#160;|</l>
+                        </lg>
+                        <lg>
+                            <l>
+                                <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ, svāhā</foreign> to
                             Jambhala, the lord of the waters!</l>
-                    </lg>
+                        </lg>
+                    </q>
+                    <milestone unit="chunk"/>
                     <lg>
                         <l>In the cardinal directions:</l>
                     </lg>
-                    <lg>
-                        <l>
+                    <q>
+                        <p>
                             <foreign xml:lang="Sa-Ltn" type="mantra">oṃ maṇibhadrāya svāhā</foreign>
-                            | <foreign xml:lang="Sa-Ltn" type="mantra">oṃ pūrṇabhadrāya
-                                svāhā</foreign> | <foreign xml:lang="Sa-Ltn" type="mantra">oṃ
-                                dhanadāya svāhā</foreign> | <foreign xml:lang="Sa-Ltn" type="mantra">oṃ vaiśravaṇāya svāhā</foreign> |</l>
-                    </lg>
-                    <lg>
-                        <l>
+                           &#160;| <foreign xml:lang="Sa-Ltn" type="mantra">oṃ pūrṇabhadrāya
+                                svāhā</foreign>&#160;| <foreign xml:lang="Sa-Ltn" type="mantra">oṃ
+                                dhanadāya svāhā</foreign>&#160;| <foreign xml:lang="Sa-Ltn" type="mantra">oṃ vaiśravaṇāya svāhā</foreign>&#160;|
+                    </p>
+                    </q>
+                    <q>
+                        <p>
                             <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ, svāhā</foreign> to
                             Maṇibhadra! <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ, svāhā</foreign>
                             to Pūrṇabhadra! <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ,
-                                svāhā</foreign> to Dhanada! <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ, svāhā</foreign> to Vaiśravaṇa!</l>
-                    </lg>
+                                svāhā</foreign> to Dhanada! <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ, svāhā</foreign> to Vaiśravaṇa!
+                    </p>
+                    </q>
+                    <milestone unit="chunk"/>
                     <lg>
                         <l>In the intermediate directions:</l>
                     </lg>
-                    <lg>
-                        <l>
-                            <foreign xml:lang="Sa-Ltn" type="mantra">oṃ kelimāline svāhā</foreign> |
+                    <q>
+                        <p>
+                            <foreign xml:lang="Sa-Ltn" type="mantra">oṃ kelimāline svāhā</foreign>&#160;|
                                 <foreign xml:lang="Sa-Ltn" type="mantra">oṃ vicitrakuṇḍaline
-                                svāhā</foreign> | <foreign xml:lang="Sa-Ltn" type="mantra">oṃ
-                                sukhendrāya svāhā</foreign> | <foreign xml:lang="Sa-Ltn" type="mantra">oṃ carendrāya svāhā</foreign> |</l>
-                    </lg>
-                    <lg>
-                        <l>
+                                svāhā</foreign>&#160;| <foreign xml:lang="Sa-Ltn" type="mantra">oṃ
+                                sukhendrāya svāhā</foreign>&#160;| <foreign xml:lang="Sa-Ltn" type="mantra">oṃ carendrāya svāhā</foreign>&#160;|
+                    </p>
+                    </q>
+                    <q>
+                        <p>
                             <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ, svāhā</foreign> to
                             Kelimālin! <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ, svāhā</foreign>
                             to Vicitrakuṇḍalin! <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ,
-                                svāhā</foreign> to Sukhendra! <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ, svāhā</foreign> to Carendra!</l>
-                    </lg>
+                                svāhā</foreign> to Sukhendra! <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ, svāhā</foreign> to Carendra!
+                    </p>
+                    </q>
                     <milestone unit="chunk"/>
                     <p>The lord is surrounded by the eight great kings<note place="end">Skt. omits
                             “kings.”</note> of the yakṣas, and accompanied by the goddess Vasudharā.
@@ -1479,29 +1557,32 @@
                             <ref cRef="F.9.a"/> One should join them together and wear<note place="end">Tib.: “serve.”</note> them. Then the lord will grant the
                         eight great siddhis, not to mention other siddhis. </p>
                     <trailer>This was the second chapter in the <title xml:lang="eng">Great
-                            Sovereign Tantra of Siddhaikavīra</title>.</trailer>
+                            Sovereign Tantra of Siddhaikavīra</title>. {15} </trailer>
                 </div>
                 <div type="chapter">
                     <head type="chapter"> Chapter 3</head>
                     <label>Forty-First Mantra</label>
                     <milestone unit="chunk"/>
-                    <lg>
-                        <l>
-                            <foreign xml:lang="Sa-Ltn" type="mantra">oṃ vajratīkṣṇa duḥkhaccheda
-                                prajñājñānamūrtaye</foreign> |</l>
-                    </lg>
-                    <lg>
-                        <l>
-                            <foreign xml:lang="Sa-Ltn" type="mantra">jñānakāya vāgīśvara arapacanāya
-                                te namaḥ</foreign> ||</l>
-                    </lg>
-                    <lg>
-                        <l>{15} <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ</foreign>, Vajratīkṣṇa!
+                    <q>
+                        <lg>
+                            <l>
+                                <foreign xml:lang="Sa-Ltn" type="mantra">oṃ vajratīkṣṇa duḥkhaccheda
+                                prajñājñānamūrtaye</foreign>&#160;|</l>
+                        </lg>
+                        <lg>
+                            <l>
+                                <foreign xml:lang="Sa-Ltn" type="mantra">jñānakāya vāgīśvara arapacanāya
+                                te namaḥ</foreign>&#160;||</l>
+                        </lg>
+                        <lg>
+                            <l>
+                                <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ</foreign>, Vajratīkṣṇa!
                             You who cut through suffering! </l>
-                        <l>The embodiment of wisdom and knowledge! </l>
-                        <l>The body of knowledge, Vāgīśvara— </l>
-                        <l>Homage to Arapacana!</l>
-                    </lg>
+                            <l>The embodiment of wisdom and knowledge! </l>
+                            <l>The body of knowledge, Vāgīśvara— </l>
+                            <l>Homage to Arapacana!</l>
+                        </lg>
+                    </q>
                     <milestone unit="chunk"/>
                     <p>One should visualize oneself in the form of Lord Mañjuvajra Siddhaikavīra,
                         white like the light of the autumn moon. In his left hand he is holding a
@@ -1517,7 +1598,7 @@
                         and remember everything one has heard. </p>
                     <milestone unit="chunk"/>
                     <p>If, early in the morning, over the period of one month, one drinks half a
-                        tola of sweet flag, incanted 108 times, with milk, oil, or ghee, one will
+                        <foreign type="term" xml:lang="Sa-Ltn">tola</foreign> of sweet flag, incanted 108 times, with milk, oil, or ghee, one will
                         cure dullness,<note place="end">Tib. omits “dullness.”</note> stammering, or
                         dumbness; one’s voice will become like that of a love-intoxicated cuckoo;
                         and one’s speech will be distinct and sweet. After six months of practice,
@@ -1526,15 +1607,17 @@
                         one has learned. </p>
                     <label>Forty-Second Mantra</label>
                     <milestone unit="chunk"/>
-                    <lg>
-                        <l>
-                            <foreign xml:lang="Sa-Ltn">oṃ vākyedaṃ namaḥ</foreign> |</l>
-                    </lg>
-                    <lg>
-                        <l>
-                            <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ</foreign>, Vākya! Homage to
+                    <q>
+                        <lg>
+                            <l>
+                                <foreign xml:lang="Sa-Ltn">oṃ vākyedaṃ namaḥ</foreign>&#160;|</l>
+                        </lg>
+                        <lg>
+                            <l>
+                                <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ</foreign>, Vākya! Homage to
                             you!</l>
-                    </lg>
+                        </lg>
+                    </q>
                     <milestone unit="chunk"/>
                     <p>This is the heart mantra of the venerable Vāgīśvara. One who is practicing
                         this mantra while absorbed in the samādhi described earlier can accomplish
@@ -1571,54 +1654,61 @@
                         together with ghee and sugar. One should recite the mantra while covering it
                         with one’s hand {16} and then eat it. Then one will live for five hundred
                         years. </p>
+                    <milestone unit="chunk"/>
                     <p>One should put some beans in one’s mouth and recite the mantra. If sprouts
-                        come forth<note place="end">Tib.: “if swallowed.”</note>, one will become
+                        come forth,<note place="end">Tib.: “if they are swallowed.”</note> one will become
                         eloquent, learned, skilled in writing, and able to remember all that one has
                         learned. </p>
                     <milestone unit="chunk"/>
                     <p>If one offers 100,000 <foreign xml:lang="Sa-Ltn" type="term">homas</foreign>
-                        of lotuses, the lord will clearly appear before oneself. With 100,000
+                        of lotuses, the lord will clearly appear before one. With 100,000
                             <foreign xml:lang="Sa-Ltn" type="term">homas</foreign> of bilva fruits,
                         one will obtain the kingship of the triple universe. If one offers
                             400,000<note place="end">Tib. omits “400,000.”</note>
                         <foreign xml:lang="Sa-Ltn" type="term">homas</foreign> of whatever kind of
                         flowers may be available, one will obtain mastery of speech. </p>
-                    <p> With 400,000 homa offerings of five types of grain smeared with ghee, one
+                    <milestone unit="chunk"/>
+                    <p> With 400,000 <foreign type="term" xml:lang="Sa-Ltn">homa</foreign> offerings of five types of grain smeared with ghee, one
                         will be able to summon a yakṣiṇī or a girl from the <foreign xml:lang="Sa-Ltn" type="term">pātāla</foreign>. In the same way, one
                         should offer five types of wood. </p>
+                    <milestone unit="chunk"/>
                     <p>Practiced continuously, the mantra will even lead to the state of awakening
                         in this very lifetime. </p>
                     <label>Forty-Third Mantra</label>
                     <milestone unit="chunk"/>
-                    <lg>
-                        <l>
-                            <foreign xml:lang="Sa-Ltn" type="mantra">oṃ hrīḥ hūṃ</foreign> |</l>
-                    </lg>
-                    <lg>
-                        <l>
-                            <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ hrīḥ hūṃ.</foreign>
-                        </l>
-                    </lg>
+                    <q>
+                        <lg>
+                            <l>
+                                <foreign xml:lang="Sa-Ltn" type="mantra">oṃ hrīḥ hūṃ</foreign>&#160;|</l>
+                        </lg>
+                        <lg>
+                            <l>
+                                <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ hrīḥ hūṃ.</foreign>
+                            </l>
+                        </lg>
+                    </q>
                     <p>This king of mantras will grant the same result.</p>
                     <label>Forty-Fourth Mantra</label>
                     <milestone unit="chunk"/>
-                    <lg>
-                        <l>
-                            <foreign xml:lang="Sa-Ltn" type="mantra">oṃ hrīḥ mahāmāyāṅge
-                                mahāsarasvatyai namaḥ</foreign> |</l>
-                    </lg>
-                    <lg>
-                        <l>
-                            <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ, hrīḥ</foreign>,
+                    <q>
+                        <lg>
+                            <l>
+                                <foreign xml:lang="Sa-Ltn" type="mantra">oṃ hrīḥ mahāmāyāṅge
+                                mahāsarasvatyai namaḥ</foreign>&#160;|</l>
+                        </lg>
+                        <lg>
+                            <l>
+                                <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ, hrīḥ</foreign>,
                             Mahāmāyāṅgā! Homage to Mahāsarasvatī! <ref cRef="F.10.a"/>
-                        </l>
-                    </lg>
+                            </l>
+                        </lg>
+                    </q>
                     <milestone unit="chunk"/>
                     <p>This heart mantra of the venerable, noble Tārā accomplishes all actions.
                         Reciting the mantra “<foreign xml:lang="Sa-Ltn">Oṃ</foreign>, all phenomena
-                        are pure by nature. I am pure by nature on both the outside and inside<note place="end">Skt.: <foreign xml:lang="Sa-Ltn">oṃ prakṛtipariśuddhāḥ
-                                sarvadharmāḥ prakṛtipariśuddho ‘haṃ sabāhyābhyantaram</foreign>
-                            |</note>,” one should meditate that everything animate and inanimate, as
+                        are pure by nature. I am pure by nature on both the outside and inside,”<note place="end">Skt.: <foreign xml:lang="Sa-Ltn">oṃ prakṛti­pari­śuddhāḥ
+                            sarva­dharmāḥ prakṛti­pari­śuddho ‘haṃ sabāhyābhyantaram</foreign>
+                           &#160;|</note> one should meditate that everything animate and inanimate, as
                         well as oneself, is pure by nature. One should visualize a white lotus seven
                         hands in diameter, on top of it a moon disk, and in the center of the moon
                         disk the goddess in all her splendor, one hand holding a lotus and the other
@@ -1628,7 +1718,7 @@
                         of the autumn moon, anointed with cream of white sandalwood, and beautifully
                         adorned with flowers.<note place="end">Skt. omits “anointed with cream of
                             white sandalwood, and beautifully adorned with flowers.”</note> She is
-                        dressed in white garments; pearl necklaces, white and so forth<note place="end">Tib. omits “white, and so forth.”</note>, gleam on her
+                        dressed in white garments; pearl necklaces, white and so forth,<note place="end">Tib. omits “white, and so forth.”</note> gleam on her
                         chest, and many jewels adorn her body. She illuminates the endless and
                         limitless world sphere with thousands of flashing light rays. She has the
                         form of a twelve-year-old girl, her body in all the fresh beauty of budding
@@ -1639,10 +1729,10 @@
                     <p>Then, in the area of one’s navel, in the center of a moon disc, one should
                         visualize a white syllable <foreign xml:lang="Sa-Ltn">oṃ</foreign>. Now one
                         should recite the mantra, visualizing its complete garland as the nature of
-                        speech emerging from the syllable oṃ in an unbroken stream<note place="end">Tib. omits “in an unbroken stream.”</note>. The follower of Mantra,
+                        speech emerging from the syllable <foreign type="mantra" xml:lang="Sa-Ltn">oṃ</foreign> in an unbroken stream.<note place="end">Tib. omits “in an unbroken stream.”</note> The follower of Mantra,
                         with his mind wholly focused on this practice and his body disciplined,
-                        sitting silently in the center of a sun disc the color of red lotus<note place="end">Instead of “in the center of a sun disc of the color of red
-                            lotus,” the Tibetan has “in the navel of the goddess.”</note>, will
+                        sitting silently in the center of a sun disc the color of red lotus,<note place="end">Instead of “in the center of a sun disc of the color of red
+                            lotus,” the Tibetan has “in the navel of the goddess.”</note> will
                         obtain the speech of Sarasvatī within one month. Within three months he will
                         succeed even in the slaying of Brahmā. Within six months, he will become
                         equal to Sarasvatī. {17} </p>
@@ -1686,7 +1776,7 @@
                         <l>
                             <foreign xml:lang="Sa-Ltn">Pathyā, nāgara,</foreign> and <foreign xml:lang="Sa-Ltn">dīpaka,</foreign>
                         </l>
-                        <l>Together with costus, kaṇa, and cumin.</l>
+                        <l>Together with costus, <foreign type="term" xml:lang="Sa-Ltn">kaṇa</foreign>, and cumin.</l>
                     </lg>
                     <milestone unit="chunk"/>
                     <lg>
@@ -1718,40 +1808,44 @@
                     </lg>
                     <label>Forty-Fifth Mantra</label>
                     <milestone unit="chunk"/>
-                    <lg>
-                        <l>
-                            <foreign xml:lang="Sa-Ltn" type="mantra">oṃ vāgvādini vācaṃ me niyaccha
-                                sarasvati mahāśvete svāhā</foreign> |</l>
-                    </lg>
-                    <lg>
-                        <l>
-                            <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ</foreign>, Vāgvādinī, grant
+                    <q>
+                        <lg>
+                            <l>
+                                <foreign xml:lang="Sa-Ltn" type="mantra">oṃ vāgvādini vācaṃ me niyaccha
+                                sarasvati mahāśvete svāhā</foreign>&#160;|</l>
+                        </lg>
+                        <lg>
+                            <l>
+                                <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ</foreign>, Vāgvādinī, grant
                             me the gift of speech! Sarasvatī! Mahāśvetā! <foreign xml:lang="Sa-Ltn" type="mantra">Svāhā</foreign>!</l>
-                    </lg>
+                        </lg>
+                    </q>
                     <p>This heart mantra of the Great White Goddess born from a lotus<note place="end">The translation “born from a lotus” is based on the Tibetan
                             and on the emended Sanskrit reading (<foreign xml:lang="Sa-Ltn">°āmbujāyāḥ to °āmbujajāyāḥ</foreign>).</note> accomplishes all the
                         tasks described previously.</p>
                     <label>Forty-Sixth Mantra</label>
                     <milestone unit="chunk"/>
-                    <lg>
-                        <l>
-                            <foreign xml:lang="Sa-Ltn" type="mantra">oṃ arkamālini kiṇi kiṇi khiṇi
-                                khiṇi svāhā</foreign> |</l>
-                    </lg>
-                    <lg>
-                        <l>
-                            <foreign xml:lang="Sa-Ltn">Oṃ</foreign>, Arkamālinī! <foreign xml:lang="Sa-Ltn" type="mantra">Kiṇi kiṇi</foreign>! <foreign type="mantra" xml:lang="Sa-Ltn">Khiṇi khiṇi</foreign>! <foreign type="mantra" xml:lang="Sa-Ltn">Svāhā</foreign>! </l>
-                    </lg>
+                    <q>
+                        <lg>
+                            <l>
+                                <foreign xml:lang="Sa-Ltn" type="mantra">oṃ arkamālini kiṇi kiṇi khiṇi
+                                khiṇi svāhā</foreign>&#160;|</l>
+                        </lg>
+                        <lg>
+                            <l>
+                                <foreign xml:lang="Sa-Ltn">Oṃ</foreign>, Arkamālinī! <foreign xml:lang="Sa-Ltn" type="mantra">Kiṇi kiṇi</foreign>! <foreign type="mantra" xml:lang="Sa-Ltn">Khiṇi khiṇi</foreign>! <foreign type="mantra" xml:lang="Sa-Ltn">Svāhā</foreign>! </l>
+                        </lg>
+                    </q>
                     <milestone unit="chunk"/>
                     <p>One should visualize oneself as the youthful lord Mañjuvajra Siddhaikavīra.
                         He is free from the afflictions, holds a book that embodies all
-                            statements<note place="end">Skt. omits “that embodies all
-                            statements.”</note>, and brandishes the sword of wisdom in his right
+                            statements,<note place="end">Skt. omits “that embodies all
+                            statements.”</note> and brandishes the sword of wisdom in his right
                         hand. In front of him, one should visualize the sunlight-garlanded
                         Mahāsarasvatī; behind him, Mahāśrī; to his right, Keśinī; and to his left,
                         Upakeśinī. One should visualize them as white like the autumn moon and
-                        adorned with every ornament<note place="end">Tib. omits “adorned with every
-                            ornament.”</note>. While resting in this visualization one should first
+                        adorned with every ornament.<note place="end">Tib. omits “adorned with every
+                            ornament.”</note> While resting in this visualization one should first
                         make offerings to the best of one’s ability {18} and then recite this mantra
                         400,000 times following the procedures of the preliminary practice as
                         already described. <ref cRef="F.11.a"/> Then, one should incant one <foreign xml:lang="Sa-Ltn">pala</foreign> of Sarasvatī’s ghee or pennywort ghee.
@@ -1766,7 +1860,8 @@
                         <l>With the juice of pennywort and milk.</l>
                         <l>One should add to it </l>
                         <l>The following herbs and powders<note place="end">Tib. omits the sentence
-                                “One should add… powders</note>: </l>
+                                “One should add… powders:</note>
+                        </l>
                     </lg>
                     <milestone unit="chunk"/>
                     <lg>
@@ -1806,16 +1901,18 @@
                     </lg>
                     <label>Forty-Seventh Mantra</label>
                     <milestone unit="chunk"/>
-                    <lg>
-                        <l>
-                            <foreign xml:lang="Sa-Ltn">oṃ anantajñānaśriye mañjuśriye
-                                namaḥ</foreign> |</l>
-                    </lg>
-                    <lg>
-                        <l>
-                            <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ</foreign>, homage to
+                    <q>
+                        <lg>
+                            <l>
+                                <foreign xml:lang="Sa-Ltn">oṃ anantajñānaśriye mañjuśriye
+                                namaḥ</foreign>&#160;|</l>
+                        </lg>
+                        <lg>
+                            <l>
+                                <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ</foreign>, homage to
                             Mañjuśrī who has the infinite splendor of knowledge!</l>
-                    </lg>
+                        </lg>
+                    </q>
                     <milestone unit="chunk"/>
                     <p>One should visualize oneself in the form of Vāgīśvara, surrounded by the four
                         goddesses as described before, and recite the mantra according to the
@@ -1823,24 +1920,26 @@
                         already mentioned. </p>
                     <label>Forty-Eighth Mantra</label>
                     <milestone unit="chunk"/>
-                    <lg>
-                        <l>
-                            <foreign xml:lang="Sa-Ltn" type="mantra">oṃ arapacana dhīḥ
-                                svāhā</foreign> |</l>
-                    </lg>
-                    <lg>
-                        <l>
-                            <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ</foreign>, Arapacana,
+                    <q>
+                        <lg>
+                            <l>
+                                <foreign xml:lang="Sa-Ltn" type="mantra">oṃ arapacana dhīḥ
+                                svāhā</foreign>&#160;|</l>
+                        </lg>
+                        <lg>
+                            <l>
+                                <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ</foreign>, Arapacana,
                                 <foreign xml:lang="Sa-Ltn" type="mantra">dhīḥ</foreign>! <foreign xml:lang="Sa-Ltn" type="mantra">Svāhā</foreign>!</l>
-                    </lg>
+                        </lg>
+                    </q>
                     <milestone unit="chunk"/>
                     <p>In an isolated place, one should draw a maṇḍala and make offerings to the
                         blessed Vāgīśvara and to one’s precious guru. Then, one should sit on a
                         comfortable seat and arouse the mind set upon awakening. Afterward, one
                         should recite three times the mantra “<foreign xml:lang="Sa-Ltn">Oṃ</foreign>, all phenomena are pure by nature; I am pure by
-                            nature<note place="end">Skt.: <foreign xml:lang="Sa-Ltn">oṁ
-                                svabhāvaśuddhāḥ sarvadharmāḥ svabhāvaśuddho ’ham</foreign>
-                        |</note>,” and, considering oneself and everything else to be naturally
+                            nature,”<note place="end">Skt.: <foreign xml:lang="Sa-Ltn">oṁ
+                                svabhāva­śuddhāḥ sarvadharmāḥ svabhāva­śuddho ’ham</foreign>
+                       &#160;|</note> and, considering oneself and everything else to be naturally
                         pure, bring emptiness directly to mind. {19} One should then visualize
                         oneself, instantaneously arisen, upon a white lotus and a moon disk; one is
                         white in color, holding a book and a sword. <ref cRef="F.11.b"/> On the
@@ -1848,43 +1947,47 @@
                         Each of them is white and holds a red lotus. In front is Jālinīprabha,<note place="end">The Tibetan reflects the reading “Sūryaprabha,” which is
                             another name for Jālinīprabha.</note> of white color, astride<note place="end">Tib. omits “astride.”</note> a sun disk and holding a blue
                         lotus. Behind, one should visualize Candraprabha, astride<note place="end">Tib. omits “astride.”</note> a moon disk and holding a blue lotus.
-                        Then, in one’s heart, one should visualize the syllable <emph>a</emph>,
+                        Then, in one’s heart, one should visualize the syllable <foreign xml:lang="Sa-Ltn">a</foreign>,
                         radiating blazing streams of light, which is then transformed into an
                         eight-spoked wheel, extremely ornate as it is the nature of the complete
                         range of speech. One should vizualize the wheel clearly and consider that it
                         is rapidly revolving. Practicing in this way, one will come to know all the
                         treatises clearly within six months as regards both their meaning and
                         composition, even if one has never heard them before. After one year, one
-                        will become equal to Vāgīśvara. This was the method of the wheel of
-                        Arapacana. </p>
+                        will become equal to Vāgīśvara. This was the method of <emph>the wheel of
+                        Arapacana</emph>. </p>
                     <label>Forty-Ninth Mantra</label>
                     <milestone unit="chunk"/>
-                    <lg>
-                        <l>
-                            <foreign xml:lang="Sa-Ltn">oṃ vāgīśvara muḥ</foreign> |</l>
-                    </lg>
-                    <lg>
-                        <l>
-                            <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ</foreign>, Vāgīśvara,
+                    <q>
+                        <lg>
+                            <l>
+                                <foreign xml:lang="Sa-Ltn">oṃ vāgīśvara muḥ</foreign>&#160;|</l>
+                        </lg>
+                        <lg>
+                            <l>
+                                <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ</foreign>, Vāgīśvara,
                                 <foreign xml:lang="Sa-Ltn" type="mantra">muḥ</foreign>
-                        </l>
-                    </lg>
+                            </l>
+                        </lg>
+                    </q>
                     <milestone unit="chunk"/>
                     <p>All the results mentioned previously will come to the person who recites this
-                        mantra. One should visualize, in the center of a circle, the syllable muḥ
-                        surrounded by a garland of flames. This is called the <foreign xml:lang="Sa-Ltn" type="term">circle of wisdom procedure</foreign>. </p>
+                        mantra. One should visualize, in the center of a circle, the syllable <foreign type="mantra" xml:lang="Sa-Ltn">muḥ</foreign>
+                        surrounded by a garland of flames. This is called the <emph>circle of wisdom procedure</emph>. </p>
                     <label>Fiftieth Mantra</label>
                     <milestone unit="chunk"/>
-                    <lg>
-                        <l>
-                            <foreign xml:lang="Sa-Ltn" type="mantra">oṃ dharmadhātuvāgīśvara muḥ
-                                svāhā</foreign> |</l>
-                    </lg>
-                    <lg>
-                        <l>
-                            <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ</foreign>, Vāgīśvara of the
+                    <q>
+                        <lg>
+                            <l>
+                                <foreign xml:lang="Sa-Ltn" type="mantra">oṃ dharmadhātuvāgīśvara muḥ
+                                svāhā</foreign>&#160;|</l>
+                        </lg>
+                        <lg>
+                            <l>
+                                <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ</foreign>, Vāgīśvara of the
                             sphere of phenomena, <foreign xml:lang="Sa-Ltn" type="mantra">muḥ</foreign>! <foreign xml:lang="Sa-Ltn" type="mantra">Svāhā</foreign>!</l>
-                    </lg>
+                        </lg>
+                    </q>
                     <milestone unit="chunk"/>
                     <p>In the same order as just described, one should imagine oneself as having the
                         nature of the five deities. Then, one should visualize a sixteen-spoked
@@ -1893,17 +1996,19 @@
                         results previously mentioned. </p>
                     <label>Fifty-First Mantra</label>
                     <milestone unit="chunk"/>
-                    <lg>
-                        <l>
-                            <foreign xml:lang="Sa-Ltn" type="mantra">oṃ vajratīkṣṇa varada muḥ
-                                svāhā</foreign> |</l>
-                    </lg>
-                    <lg>
-                        <l>
-                            <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ</foreign>, Vajratīkṣṇa, the
+                    <q>
+                        <lg>
+                            <l>
+                                <foreign xml:lang="Sa-Ltn" type="mantra">oṃ vajratīkṣṇa varada muḥ
+                                svāhā</foreign>&#160;|</l>
+                        </lg>
+                        <lg>
+                            <l>
+                                <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ</foreign>, Vajratīkṣṇa, the
                             boon giver, <foreign xml:lang="Sa-Ltn" type="mantra">muḥ</foreign>!
                                 <foreign xml:lang="Sa-Ltn" type="mantra">Svāhā</foreign>!</l>
-                    </lg>
+                        </lg>
+                    </q>
                     <milestone unit="chunk"/>
                     <p>One should visualize oneself as the syllable <foreign xml:lang="Sa-Ltn" type="term">muḥ</foreign>. Then, as it transforms, one instantaneously
                         becomes Vāgīśvara, the sole hero, who, like a blazing fire, illuminates the
@@ -1915,26 +2020,28 @@
                         previously described. <ref cRef="F.12.a"/>
                     </p>
                     <trailer>This was the third chapter in the <title xml:lang="eng">Great Sovereign
-                            Tantra of Siddhaikavīra</title>.</trailer>
+                            Tantra of Siddhaikavīra</title>. {20} </trailer>
                 </div>
                 <div type="chapter">
                     <head type="chapter">Chapter 4</head>
                     <label>Fifty-Second Mantra</label>
                     <milestone unit="chunk"/>
-                    <lg>
-                        <l>
+                    <q>
+                        <p>
                             <foreign xml:lang="Sa-Ltn" type="mantra">oṃ lavaṇāmbho ’si tīkṣṇo ’si
                                 udagro ’si bhayṃkara </foreign>| <foreign xml:lang="Sa-Ltn" type="mantra">amukasya daha gātrāṇi daha māṃsāni daha tvacam nakhāny
-                                api daha asthīni asthibhyo majjakaṃ daha</foreign> | <foreign xml:lang="Sa-Ltn" type="mantra">lavaṇaṃ chindati lavaṇaṃ bhindati
-                                lavaṇaṃ pacati</foreign> | <foreign xml:lang="Sa-Ltn" type="mantra">kṣoṇitalavaṇe hriyamāṇe kuto nidrā kuto ratiḥ | yadi vasati
-                                yojanaśate nadīnāṃ ca śatāntare | nagare lohaprākāre
-                                kṛṣṇasarpakṛtākule</foreign> | <foreign xml:lang="Sa-Ltn" type="mantra">tatraiva vaśam ānīhi lavaṇabandhapuraskṛta</foreign> |
+                                api daha asthīni asthibhyo majjakaṃ daha</foreign>&#160;| <foreign xml:lang="Sa-Ltn" type="mantra">lavaṇaṃ chindati lavaṇaṃ bhindati
+                                lavaṇaṃ pacati</foreign>&#160;| <foreign xml:lang="Sa-Ltn" type="mantra">kṣoṇitalavaṇe hriyamāṇe kuto nidrā kuto ratiḥ&#160;| yadi vasati
+                                yojanaśate nadīnāṃ ca śatāntare&#160;| nagare lohaprākāre
+                                kṛṣṇasarpakṛtākule</foreign>&#160;| <foreign xml:lang="Sa-Ltn" type="mantra">tatraiva vaśam ānīhi lavaṇabandhapuraskṛta</foreign>&#160;|
                                 <foreign xml:lang="Sa-Ltn" type="mantra">oṃ ciṭi ciṭi vikloli amukaṃ
-                                sadhanaparivāram eva samānaya svāhā</foreign> | </l>
-                    </lg>
+                                sadhanaparivāram eva samānaya svāhā</foreign>&#160;| 
+                    </p>
+                    </q>
                     <milestone unit="chunk"/>
-                    <lg>
-                        <l>{20} <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ</foreign>, Lavaṇāmbha!
+                    <q>
+                        <p>
+                            <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ</foreign>, Lavaṇāmbha!
                             You are fierce! You are vast! O terrifying one! Burn the limbs of
                             such-and-such! Burn his flesh! Burn his skin! Burn even his nails! Burn
                             his bones and the marrow in his bones! He cuts the salt, breaks the
@@ -1942,10 +2049,10 @@
                             how could one sleep, how could one find pleasure? If such-and-such
                             dwells a hundred leagues away, behind a hundred rivers, in a city
                             surrounded by iron walls and protected by cobras—at that very place,
-                            enthrall that person, having first bound the salt. <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ, ciṭi, ciṭi</foreign>!
-                                <foreign xml:lang="Sa-Ltn" type="mantra">Vikloli</foreign>! Please
-                            bring here such-and-such a person! S<foreign xml:lang="Sa-Ltn" type="mantra">vāhā</foreign>! </l>
-                    </lg>
+                            enthrall that person, having first bound the salt. <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ, ciṭi, ciṭi</foreign>! <foreign xml:lang="Sa-Ltn" type="mantra">Vikloli</foreign>! Please bring here
+                        such-and-such a person! <foreign xml:lang="Sa-Ltn" type="mantra">Svāhā</foreign>! 
+                    </p>
+                    </q>
                     <milestone unit="chunk"/>
                     <p>As a preliminary practice, one should perform 10,000 recitations before
                         commencing the sādhana practice. Here, one should visualize oneself as the
@@ -1970,16 +2077,16 @@
                         enthralled simply by drinking it. </p>
                     <label>Fifty-Third Mantra</label>
                     <milestone unit="chunk"/>
-                    <lg>
-                        <l>
+                    <q>
+                        <p>
                             <foreign xml:lang="Sa-Ltn" type="mantra">oṃ lavaṇāmbho ’si tikṣṇo ’si
                                 udagro ’si hṛdayaṃgama amukasya hṛdayaṃ pītaṃ nāsti loke cikitsakaḥ
                                 oṃ ciṭi ciṭi vikloli vikloli mahāvikloli mahāvikloli amukaṃ me vaśam
-                                ānaya svāhā | </foreign>
-                        </l>
-                    </lg>
-                    <lg>
-                        <l>
+                                ānaya svāhā&#160;| </foreign>
+                        </p>
+                    </q>
+                    <q>
+                        <p>
                             <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ</foreign>, Lavaṇāmbha! You
                             are fierce! You are vast! You touch the heart! The heart of
                             such-and-such a person is drunk. There is no physician in the world for
@@ -1987,28 +2094,31 @@
                                 <foreign xml:lang="Sa-Ltn" type="mantra">Vikloli, vikloli</foreign>!
                                 <foreign xml:lang="Sa-Ltn" type="mantra">Mahāvikloli,
                                 mahāvikloli</foreign>! Please enthrall such-and-such a person for
-                            me! Svāhā! </l>
-                    </lg>
+                            me! <foreign type="mantra" xml:lang="Sa-Ltn">Svāhā</foreign>! 
+                    </p>
+                    </q>
                     <milestone unit="chunk"/>
                     <p>Having completed the procedure of the preliminary practice as before, one
                         should drink three handfuls of incanted water with salt in the three periods
                         of the day. Whoever’s name one includes, that person will become enthralled. </p>
                     <p>One should mix equal amounts of salt and black mustard seed and offer them in
-                        a homa offering. Whoever’s name is used in the offering, that person will
+                        a <foreign type="term" xml:lang="Sa-Ltn">homa</foreign> offering. Whoever’s name is used in the offering, that person will
                         become enthralled. <ref cRef="F.12.b"/>
                     </p>
                     <label>Fifty-Fourth Mantra</label>
                     <milestone unit="chunk"/>
-                    <lg>
-                        <l>
-                            <foreign xml:lang="Sa-Ltn" type="mantra">oṃ kurukulle svāhā</foreign>
-                            |</l>
-                    </lg>
-                    <lg>
-                        <l>
-                            <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ, svāhā</foreign> to
+                    <q>
+                        <lg>
+                            <l>
+                                <foreign xml:lang="Sa-Ltn" type="mantra">oṃ kurukulle svāhā</foreign>
+                           &#160;|</l>
+                        </lg>
+                        <lg>
+                            <l>
+                                <foreign xml:lang="Sa-Ltn" type="mantra">Oṃ, svāhā</foreign> to
                             Kurukullā! {21}</l>
-                    </lg>
+                        </lg>
+                    </q>
                     <milestone unit="chunk"/>
                     <p>This is the heart mantra of the venerable noble Tārā. Its invincible power in
                         the activity of enthralling the three worlds is known far and wide. </p>
@@ -2019,14 +2129,14 @@
                     <milestone unit="chunk"/>
                     <p>By censing oneself with a pleasant-smelling incense, one will be adored by
                         everyone. If one offers a <foreign xml:lang="Sa-Ltn" type="term">homa</foreign> of red flowers, the person whose name one uses in the
-                        homa will become enthralled. If one incants food and drink, whoever it is
+                        <foreign type="term" xml:lang="Sa-Ltn">homa</foreign> will become enthralled. If one incants food and drink, whoever it is
                         given to will become enthralled. To enthrall an important person, one should
                         offer white mustard seeds in the fire. Later, on an auspicious lunar day,
                         during an auspicious asterism, etc., one should make offerings to her, the
                         Blessed One. Then one should draw a circle with sixteen divisions in the
-                        form of a lotus with petals. One should draw it on birch bark or cloth using
+                        form of a lotus with petals. One should draw it on birchbark or cloth using
                         saffron, bovine orpiment, resin, etc. In the center of the circle, one
-                        should write both the name of the target and that of the practitioner.<note place="end">only mentions the name of the target.</note> On the petals,
+                        should write both the name of the target and that of the practitioner.<note place="end">Tib. only mentions the name of the target.</note> On the petals,
                         one should write the four syllables <foreign xml:lang="Sa-Ltn">ku ru ku
                             llā</foreign> in combination with the target’s name only.<note place="end">Skt. omits “only.”</note> On the outside, one should
                         surround this with a threefold circle of <foreign xml:lang="Sa-Ltn">oṃ</foreign> syllables using a red cord and insert the drawing into the
@@ -2036,7 +2146,7 @@
                         woman, one should pierce the feet with a copper needle and heat them. The
                         target will become enthralled. </p>
                     <milestone unit="chunk"/>
-                    <p>One should visualize the wind maṇḍala arisen from the syllable yaṃ. Above it,
+                    <p>One should visualize the wind maṇḍala arisen from the syllable <foreign type="term" xml:lang="Sa-Ltn">yaṃ</foreign>. Above it,
                         one should visualize the target with disheveled hair, naked, and with a
                         noose tied around his neck. One should pull him by the chest with a hook and
                         draw him by means of the mantra which has the force of the wind. As he is
@@ -2062,19 +2172,21 @@
                         with this lampblack, one will be adored by everyone. </p>
                     <label>Fifty-Fifth Mantra</label>
                     <milestone unit="chunk"/>
-                    <lg>
-                        <l>
+                    <q>
+                        <p>
                             <foreign xml:lang="Sa-Ltn" type="mantra">amale vimale kuṅkume samayena
-                                baddho ‘si</foreign> | <foreign xml:lang="Sa-Ltn" type="mantra">bindūn bindūn icchayā devo varṣati vidyotayati garjati
-                                garjati</foreign> | <foreign xml:lang="Sa-Ltn" type="mantra">vismayamahārāja samāyita vardhayita hūṃ</foreign> | <foreign xml:lang="Sa-Ltn" type="mantra">devebhyo manuṣyebhyo gandarvebhyo
-                                śikhigrahadeva ānandasya grahaṇāyāgamanāyākramaṇāya<note place="end">
-                                    <foreign xml:lang="Sa-Ltn">Grahaṇāyāgamanāyākramaṇāya</foreign>
-                                    is a conjectured reading. In the manuscripts we have <foreign xml:lang="Sa-Ltn">grahaṇīyāgamanāyākramaṇīya</foreign>.</note> juhomīha
-                                svāhā</foreign> | </l>
-                    </lg>
+                                baddho ‘si</foreign>&#160;| <foreign xml:lang="Sa-Ltn" type="mantra">bindūn bindūn icchayā devo varṣati vidyotayati garjati
+                                garjati</foreign>&#160;| <foreign xml:lang="Sa-Ltn" type="mantra">vismayamahārāja samāyita vardhayita hūṃ</foreign>&#160;| <foreign xml:lang="Sa-Ltn" type="mantra">devebhyo manuṣyebhyo gandarvebhyo
+                                    śikhigrahadeva ānandasya grahaṇāyāgama­nāyākramaṇāya<note place="end">
+                                    <foreign xml:lang="Sa-Ltn">Grahaṇāyāgama­nāyākramaṇāya</foreign>
+                                        is a conjectured reading. In the manuscripts we have <foreign xml:lang="Sa-Ltn">grahaṇīyāgama­nāyākramaṇīya</foreign>.</note> juhomīha
+                                svāhā</foreign>&#160;| 
+                    </p>
+                    </q>
                     <milestone unit="chunk"/>
-                    <lg>
-                        <l>In the pure and stainless saffron, you are bound by your pledge. The god
+                    <q>
+                        <p>
+                        In the pure and stainless saffron, you are bound by your pledge. The god
                             rains raindrops, raindrops, as he pleases. He sends lightning and
                             thunder. O amazing great king! May he bring prosperity and growth!
                                 <foreign xml:lang="Sa-Ltn" type="mantra">Hūṁ</foreign>! {22} O god
@@ -2085,8 +2197,9 @@
                                 seizing (i.e., eclipsing), coming, and traversing of heavenly
                                 bodies, but here he is meant to apply this function to the
                                 “movements” of happiness. The grammar, however, is not very clear. </note>
-                            <foreign xml:lang="Sa-Ltn" type="mantra">svāhā</foreign>! </l>
-                    </lg>
+                            <foreign xml:lang="Sa-Ltn" type="mantra">svāhā</foreign>! 
+                    </p>
+                    </q>
                     <milestone unit="chunk"/>
                     <p>With this king of mantras one should perform the preliminary ritual. Then, in
                         the center of a house yard, one should smear cow dung and delineate the
@@ -2104,7 +2217,6 @@
                             Sanskrit could be interpreted as, “When they see things accomplished,
                             skillful ones should feel respect.” </note>
                     </p>
-                    <milestone unit="chunk"/>
                     <trailer>This was the fourth chapter in the <title xml:lang="eng">Great
                             Sovereign Tantra of Siddhaikavīra</title>.</trailer>
                 </div>
@@ -2112,9 +2224,12 @@
                     <milestone unit="chunk"/>
                     <p>Here ends the <title xml:lang="eng">Great Sovereign Tantra of
                             Siddhaikavīra</title>.</p>
-                    <label>Tibetan Colophon</label>
-                    <p>Translated by the great Indian preceptor Dīpaṃkara Śrījñāna and the
-                        translator monk Géwai Lodrö, and finalized by the monk Tsultrim Gyalwa. </p>
+                    <div type="section">
+                        <head>Tibetan Colophon</head>
+                        <p>Translated by the great Indian preceptor Dīpaṃkara Śrījñāna and the
+                            translator monk Géwai Lodrö, and finalized by the monk Tsultrim Gyalwa.
+                        </p>
+                    </div>
                 </div>
             </div>
         </body>
@@ -2127,7 +2242,7 @@
                 <div type="section">
                     <bibl>
                         <title xml:lang="Bo-Ltn">dpa’ bo gcig pu grub pa zhes bya ba’i rgyud kyi
-                            rgyal po chen po</title> (<title xml:lang="Sa-Ltn">Siddhaikavīramahātantrarāja</title>). Toh 544, Degé Kangyur vol. 89
+                            rgyal po chen po</title> (<title xml:lang="Sa-Ltn">Siddhaika­vīra­mahā­tantra­rāja</title>). Toh 544, Degé Kangyur vol. 89
                         (rgyud ’bum, pa), folios 1b–13a. </bibl>
                     <bibl>
                         <title xml:lang="Bo-Ltn">dpa’ bo gcig pu grub pa zhes bya ba’i rgyud kyi
@@ -2141,7 +2256,7 @@
                     <bibl>Otsuka, Nobuo (Mikkyo Seiten Kyekyūkai), ed. “Siddhaikavīratantra.” In
                             <title xml:lang="jpn">Taisho Daigaku Sogo-Bukkyo-Kenkyujo-Kiyo</title>,
                         vol. 15, pp (1)–(18). Tokyo: Taisho University Press, 1995. </bibl>
-                    <bibl>Pandey, Janardan, ed. <title xml:lang="Sa-Ltn">Siddhaikavīramahātantram</title>. Rare Buddhist Texts Series, no. 20.
+                    <bibl>Pandey, Janardan, ed. <title xml:lang="Sa-Ltn">Siddhaikavīra­mahā­tantram</title>. Rare Buddhist Texts Series, no. 20.
                         Sarnath: Central Institute for Higher Tibetan Studies, 1998. </bibl>
                     <bibl>Khyentse, Jamyang — Wangpo (’jam dbyangs mkhyen brtse’i dbang po). “sna
                         tshogs pa’i las rab tu ’byung ba ’jam dpal dpa’ bo gcig pu grub pa’i rgyud
@@ -2151,6 +2266,8 @@
                         folios 1.a–39.a (pp 1–77). Edited by Jamyang Khyentse Wangpo and Loter
                         Wangpo (blo gter dbang po). Dehra Dun: G. Loday, N. Gyaltsen and N. Lungtok,
                         1970. </bibl>
+                    <bibl>Dharmachakra Translation Committee (tr.). <title xml:lang="eng">The Practice Manual of Kurukullā</title> (Toh 437). 84000: Translating the Words of the Buddha, 2011-2016. (http://read.84000.co/#UT22084-081-006/).</bibl>
+                    <bibl>Dharmachakra Translation Committee (tr.). <title xml:lang="eng">The Tantra of Caṇḍamahāroṣaṇa</title> (Toh 431). 84000: Translating the Words of the Buddha, 2016. (http://read.84000.co/#UT22084-080-015/).</bibl>
                 </div>
             </div>
             <div type="glossary">
@@ -2169,7 +2286,7 @@
                             <term xml:lang="Bo-Ltn">sa </term>
                             <term xml:lang="Sa-Ltn">bhūmi</term>
                             <term type="definition">Level of the realization of a bodhisattva.
-                                Typically there are ten bhūmis, or sometimes thirteen.</term>
+                                Typically there are ten bhūmis, sometimes thirteen.</term>
                         </gloss>
                     </item>
                     <item>
@@ -2211,7 +2328,7 @@
                             <term xml:lang="Bo-Ltn">sbyin sreg </term>
                             <term xml:lang="Sa-Ltn">homa</term>
                             <term type="definition">Ritual oblation offered into the fire. Unlike
-                                bali, homa in a tantric ritual is a repetitive act performed a
+                                <foreign type="term" xml:lang="Sa-Ltn">bali</foreign>, <foreign type="term" xml:lang="Sa-Ltn">homa</foreign> in a tantric ritual is a repetitive act performed a
                                 prescribed number of times.</term>
                         </gloss>
                     </item>
@@ -2245,7 +2362,7 @@
                             <term xml:id="UT22084-089-001-te11">circle of Indra</term>
                             <term xml:lang="Bo-Ltn">dbang chen gyi dkyil ’khor </term>
                             <term xml:lang="Sa-Ltn">mahendramaṇḍala</term>
-                            <term type="definition">Rainbow.</term>
+                            <term type="definition">A rainbow.</term>
                         </gloss>
                     </item>
                     <item>
@@ -2277,7 +2394,7 @@
                         <gloss>
                             <term xml:id="UT22084-089-001-te15">pātāla</term>
                             <term xml:lang="Sa-Ltn">pātāla</term>
-                            <term type="definition">One of the seven subterranean paradises, the
+                            <term type="definition">One of the seven subterranean realms, the
                                 abode of nāgas.</term>
                         </gloss>
                     </item>
@@ -2356,7 +2473,7 @@
                             <term xml:id="UT22084-089-001-te24">chaff homa</term>
                             <term xml:lang="Bo-Ltn">phub ma’i sbyin sreg </term>
                             <term xml:lang="Sa-Ltn">tuṣahoma</term>
-                            <term type="definition">Type of homa where chaff fire is used or chaff
+                            <term type="definition">Type of <foreign type="term" xml:lang="Sa-Ltn">homa</foreign> where chaff fire is used or chaff
                                 is offered. Sometimes mixed with clarified butter.</term>
                         </gloss>
                     </item>
@@ -2408,16 +2525,16 @@
                             <term xml:lang="Bo-Ltn">dngos grub chen po brgyad </term>
                             <term xml:lang="Sa-Ltn">aṣṭamahāsiddhi</term>
                             <term type="definition">Eight “ordinary” accomplishments attained
-                                through practice: (1) eye medicine (<foreign type="term" xml:lang="Sa-Ltn">añjana</foreign>, <foreign type="term" xml:lang="Bo-Ltn">mig sman</foreign>); (2) swift-footedness
+                                through practice: (1)&#160;eye medicine (<foreign type="term" xml:lang="Sa-Ltn">añjana</foreign>, <foreign type="term" xml:lang="Bo-Ltn">mig sman</foreign>); (2)&#160;swift-footedness
                                     (<foreign type="term" xml:lang="Sa-Ltn">jaṅghākara</foreign>,
                                     <foreign type="term" xml:lang="Bo-Ltn">rkang mgyogs</foreign>);
-                                (3) magic sword (<foreign type="term" xml:lang="Sa-Ltn">khaḍga</foreign>, <foreign type="term" xml:lang="Bo-Ltn">ral
-                                    gri</foreign>); (4) travel beneath the earth (<foreign type="term" xml:lang="Sa-Ltn">pātāla</foreign>, <foreign type="term" xml:lang="Bo-Ltn">sa ’og spyod</foreign>); (5)
-                                medicinal pills (<foreign type="term" xml:lang="Sa-Ltn">gulikā</foreign>, <foreign type="term" xml:lang="Bo-Ltn">ril
-                                    bu</foreign>); (6) travel in the sky (<foreign type="term" xml:lang="Sa-Ltn">khecara</foreign>, <foreign type="term" xml:lang="Bo-Ltn">mkha’ spyod</foreign>); (7) invisibility
+                                (3)&#160;magic sword (<foreign type="term" xml:lang="Sa-Ltn">khaḍga</foreign>, <foreign type="term" xml:lang="Bo-Ltn">ral
+                                    gri</foreign>); (4)&#160;travel beneath the earth (<foreign type="term" xml:lang="Sa-Ltn">pātāla</foreign>, <foreign type="term" xml:lang="Bo-Ltn">sa ’og spyod</foreign>); 
+                                (5)&#160;medicinal pills (<foreign type="term" xml:lang="Sa-Ltn">gulikā</foreign>, <foreign type="term" xml:lang="Bo-Ltn">ril
+                                    bu</foreign>); (6)&#160;travel in the sky (<foreign type="term" xml:lang="Sa-Ltn">khecara</foreign>, <foreign type="term" xml:lang="Bo-Ltn">mkha’ spyod</foreign>); (7)&#160;invisibility
                                     (<foreign type="term" xml:lang="Sa-Ltn">antardhāna</foreign>,
                                     <foreign type="term" xml:lang="Bo-Ltn">mi snang ba</foreign>);
-                                and (8) elixir (<foreign type="term" xml:lang="Sa-Ltn">rasāyana</foreign>, <foreign type="term" xml:lang="Bo-Ltn">bcud
+                                and (8)&#160;elixir (<foreign type="term" xml:lang="Sa-Ltn">rasāyana</foreign>, <foreign type="term" xml:lang="Bo-Ltn">bcud
                                     len</foreign>). (From Jamyang Khyentse Wangpo’s
                                 commentary).</term>
                         </gloss>
@@ -2493,7 +2610,7 @@
                     <item>
                         <gloss>
                             <term xml:id="UT22084-089-001-pe10">Lokanātha</term>
-                            <term xml:lang="Bo-Ltn">jig rten mgon po </term>
+                            <term xml:lang="Bo-Ltn">’jig rten mgon po </term>
                             <term xml:lang="Sa-Ltn">Lokanātha</term>
                             <term type="definition">“Lord of the World,” an epithet of
                                 Avalokiteśvara.</term>
@@ -2505,7 +2622,7 @@
                             <term xml:lang="Bo-Ltn">khro gnyer can </term>
                             <term xml:lang="Sa-Ltn">Bhṛkuṭī</term>
                             <term type="definition">Along with Tārā, a female deity visualized in
-                                the sādhana Lavaṇāmbha.</term>
+                                the sādhana of Lavaṇāmbha.</term>
                         </gloss>
                     </item>
                     <item>
@@ -2855,14 +2972,14 @@
                     <item>
                         <gloss>
                             <term xml:id="UT22084-089-001-pe55">Mañjuśrī</term>
-                            <term xml:lang="Bo-Ltn">jam dpal </term>
+                            <term xml:lang="Bo-Ltn">’jam dpal </term>
                             <term xml:lang="Sa-Ltn">Mañjuśrī</term>
                         </gloss>
                     </item>
                     <item>
                         <gloss>
                             <term xml:id="UT22084-089-001-pe56">Mañjuvajra</term>
-                            <term xml:lang="Bo-Ltn">jam pa’i rdo rje </term>
+                            <term xml:lang="Bo-Ltn">’jam pa’i rdo rje </term>
                             <term xml:lang="Sa-Ltn">Mañjuvajra</term>
                             <term type="definition">Emanation of Mañjuśrī; the deity delivering the
                                 SEV.</term>

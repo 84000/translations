@@ -1,6 +1,4 @@
-<!-- Reviewed and edited by John, placed in TEI folder 22 July 2016 -->
-<!--from tei (production) folder 2016_08_15 -->
-<?xml-model href="oxygen:/Exist$84000-AWS/db/84000/schema/84000-ODD.rnc" type="application/relax-ng-compact-syntax"?>
+<!-- Reviewed and edited by John, placed in TEI folder 22 July 2016 --><?xml-model href="../../../schema/84000-ODD.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -27,7 +25,12 @@
                 <publisher>
                     <name>84000: Translating the Words of the Buddha</name> is a global non-profit
                     initiative that aims to translate all of the Buddha’s words into modern
-                    languages, and to make them available to everyone.</publisher>
+                    languages, and to make them available to everyone.
+                <lb/>
+                    <lb/>
+                    <name>Warning:</name> Readers are reminded that according to Vajrayāna Buddhist tradition there are restrictions and commitments concerning tantra. Practitioners who are not sure if they should read this translation are advised to consult the authorities of their lineage. The responsibility for reading this text or sharing it with others who may or may not fulfill the requirements lies in the hands of readers.
+                    <lb/>‌‌
+                </publisher>
                 <availability>
                     <licence>
                         <graphic url="http://i.creativecommons.org/l/by-nc-nd/2.0/88x31.png"/>
@@ -98,10 +101,9 @@
             <div type="acknowledgment">
                 <head type="acknowledgment"> Acknowledgments</head>
                 <milestone unit="chunk"/>
-                <p>Translated by the Dharmachakra Translation Committee.</p>
-                <p>The principal translator for this text was James Gentry, who also wrote the
-                    introduction. Andreas Doctor later edited the translation and compared it with
-                    the original Tibetan.</p>
+                <p>Translated by the Dharmachakra Translation Committee. The principal translator for 
+                    this text was James Gentry, who also wrote the introduction. Andreas Doctor edited 
+                    the translation and compared it with the original Tibetan.</p>
                 <p>The Dharmachakra Translation Committee would like to thank Chökyi Nyima Rinpoche
                     for suggesting this tantra for translation, and Khenpo Sangyay Gyatso for his
                     generous assistance with the resolution of several difficult passages.</p>

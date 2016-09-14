@@ -1,5 +1,4 @@
 <!--Checked and edited by John, placed in TEI folder 3 August 2016 -->
-<!--from tei (production) folder 2016_08_15 -->
 <?xml-model href="oxygen:/Exist$84000-AWS/db/84000/schema/84000-ODD.rnc" type="application/relax-ng-compact-syntax"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
@@ -26,7 +25,12 @@
                 <publisher>
                     <name>84000: Translating the Words of the Buddha</name> is a global non-profit
                     initiative that aims to translate all of the Buddha’s words into modern
-                    languages, and to make them available to everyone. </publisher>
+                    languages, and to make them available to everyone.
+                    <lb/>
+                    <lb/>
+                    <name>Warning:</name> Readers are reminded that according to Vajrayāna Buddhist tradition there are restrictions and commitments concerning tantra. Practitioners who are not sure if they should read this translation are advised to consult the authorities of their lineage. The responsibility for reading this text or sharing it with others who may or may not fulfill the requirements lies in the hands of readers.
+                    <lb/>‌‌
+                </publisher>
                 <availability>
                     <licence>
                         <graphic url="http://i.creativecommons.org/l/by-nc-nd/2.0/88x31.png"/>
